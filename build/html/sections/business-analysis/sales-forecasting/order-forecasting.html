@@ -1,0 +1,510 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Cigarette Sales Forecasting and Order Prediction &#8212; jnapolitano.io 0 documentation</title>
+    
+  <link href="../../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script type="text/javascript" src="../../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="../sales-reporting/sales-reporting.html" />
+    <link rel="prev" title="Retail Sales Forecasting" href="retail-sales-forecasting.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">jnapolitano.io 0 documentation</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p class="caption">
+ <span class="caption-text">
+  Contents:
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/resume.html">
+   Resume
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../political-analysis/political_analysis.html">
+   Political Analysis
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../political-analysis/sup-court/supreme-court.html">
+     United States Supreme Court
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/sup-court/sup-court-meta.html">
+       US Supreme Court MetaData Graph
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/sup-court/tensorflow.html">
+       US Supreme Court Voting Behavior TensorFlow Predictions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/sup-court/thesis.html">
+       An Analysis of Case law in the Masterpiece Cake Case and a Behavioral Prediction of the Outcome
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../political-analysis/turkish-kurdish/turkish-kurdish.html">
+     Turkish Kurdish Conflict
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+    <label for="toctree-checkbox-3">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/turkish-kurdish/introduction.html">
+       1. Introduction
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/turkish-kurdish/event_query_procedure.html">
+       2. Event Query Procedure
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/turkish-kurdish/database_schema.html">
+       3. Database Schema
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/turkish-kurdish/analysis.html">
+       4. Analysis
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/turkish-kurdish/pdf.html">
+       5. PDF
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/turkish-kurdish/data.html">
+       6. Data
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../political-analysis/international-law/international-law.html">
+     International Human Rights Law
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+    <label for="toctree-checkbox-4">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/international-law/human-rights-law.html">
+       International Human Rights Law Framework
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../political-analysis/int-economics/int-economics.html">
+     International Economics
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../political-analysis/int-economics/evolution-of-ngos.html">
+       Intro
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../business_analysis.html">
+   Business Analysis &amp; Sales Forecasting
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../graph-analysis/graph-analysis.html">
+     Graph Analysis
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+    <label for="toctree-checkbox-7">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../graph-analysis/real-estate-analysis.html">
+       Real Estate Analysis Engine
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="retail-sales-forecasting.html">
+     Retail Sales Forecasting
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Cigarette Sales Forecasting and Order Prediction
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../sales-reporting/cli-program.html">
+     Sales Reporting CLI Program
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../ml-ai/ml_ai.html">
+   ML and AI
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../database-design/database_design.html">
+   Database Design
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../api/api.html">
+   API Development
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../../_sources/sections/business-analysis/sales-forecasting/order-forecasting.rst.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.rst</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#description">
+   Description
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-to-improve">
+   How to Improve
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#links">
+   Links
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code">
+   Code
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="cigarette-sales-forecasting-and-order-prediction">
+<h1>Cigarette Sales Forecasting and Order Prediction<a class="headerlink" href="#cigarette-sales-forecasting-and-order-prediction" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>I wrote this program as a project to help a midsized retail company forecast their cigarette sales.</p></li>
+<li><p>It works by pulling data from a SQL server into dataframes.</p></li>
+<li><p>I then calculate the weekly average sales volume for each cigarrette brand accross 58 retail locactions.</p></li>
+<li><p>If the total number of cartons sold of a brand per week is greater than the minimum inventory value for that brand than the program would produce an order output.</p></li>
+<li><p>The data was then exported to an excel spreadhseet that could be distributed to each store manager.</p></li>
+</ul>
+</div>
+<div class="section" id="how-to-improve">
+<h2>How to Improve<a class="headerlink" href="#how-to-improve" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>I discovered that the true number of items inventory was often less than the predicted amount according to average sales data.</p></li>
+<li><p>When comparing averages to invoices some items appeared to be sold at volumes much greater than reported in sales reports.</p></li>
+<li><p>For this report to accurately model the flow of reatila commerce it must account for the average number of items “lost” in transport and those that “dissapear” from the shelves.</p></li>
+</ul>
+</div>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/justin-napolitano/Cigarette-Forecasting-and-Ordering">GitHub</a></p></li>
+</ul>
+</div>
+<div class="section" id="code">
+<h2>Code<a class="headerlink" href="#code" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#cigarette_sales_order_form.py</span>
+<span class="c1">#Justin Napolitano</span>
+<span class="c1">#05/08/2020</span>
+
+<span class="c1">#Reads data from CSV into dataframe</span>
+<span class="c1">#Converts numbers into readable data</span>
+<span class="c1">#Exports requested data to Excel Spreadsheet</span>
+<span class="c1">#If a product requires ordering it will appear on the spreadsheet with the barcode</span>
+
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="c1">#Setting Cwd</span>
+<span class="n">cwd</span> <span class="o">=</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)))</span>
+
+<span class="c1">#Reading Data in dataframe</span>
+<span class="c1">#Manipulating dataframe to prep for analysis</span>
+
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">cwd</span> <span class="o">+</span> <span class="s1">&#39;/CigSales.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;timestamp&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Date</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">timestamp</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Total Cartons Sold&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Quantity Sold&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Sell Unit Quantity&#39;</span><span class="p">]</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;week number&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">timestamp</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">week</span>
+
+<span class="c1">#Creating a second data frame with the following indexes</span>
+<span class="n">df2</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s1">&#39;week number&#39;</span><span class="p">,</span><span class="s1">&#39;Store&#39;</span><span class="p">,</span><span class="s1">&#39;Cigarette Name&#39;</span><span class="p">,</span><span class="s1">&#39;Cigarette UPC&#39;</span><span class="p">,</span> <span class="s1">&#39;Item Number&#39;</span><span class="p">,</span> <span class="s1">&#39;Sell Unit Quantity&#39;</span><span class="p">])</span>
+<span class="n">df2</span> <span class="o">=</span> <span class="n">df2</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;week number&quot;</span><span class="p">,</span> <span class="s1">&#39;Store&#39;</span><span class="p">,</span> <span class="s1">&#39;Cigarette Name&#39;</span><span class="p">,</span> <span class="s2">&quot;Cigarette UPC&quot;</span><span class="p">,</span><span class="s2">&quot;Item Number&quot;</span><span class="p">,</span> <span class="s2">&quot;Sell Unit Quantity&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+
+<span class="c1">#df3 = df2.groupby([&quot;week number&quot;, &quot;Cigarette Name&quot;,&quot;Cigarette UPC&quot;,&quot;Item Number&quot;, &quot;Store&quot;]).sum()</span>
+
+<span class="n">df2</span><span class="p">[</span><span class="s2">&quot;Total Cartons Sold&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df2</span><span class="p">[</span><span class="s2">&quot;Total Cartons Sold&quot;</span><span class="p">]</span> <span class="o">/</span><span class="mi">10</span>
+
+<span class="c1">#Joining a weekly average dataframe to the main dataframe</span>
+<span class="n">weekly_average</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+<span class="n">weekly_average</span><span class="p">[</span><span class="s2">&quot;Average Cartons Sold Weekly&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df2</span><span class="p">[</span><span class="s2">&quot;Total Cartons Sold&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Cigarette Name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="n">df2</span> <span class="o">=</span> <span class="n">df2</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">weekly_average</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">&quot;Cigarette Name&quot;</span><span class="p">)</span>
+<span class="n">df2</span> <span class="o">=</span> <span class="n">df2</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;week number&#39;</span><span class="p">],</span> <span class="n">ascending</span> <span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+
+
+<span class="c1">#Adding the Order collumn to frame</span>
+<span class="n">df2</span><span class="p">[</span><span class="s2">&quot;Order&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span>
+
+
+
+<span class="c1">#Ccomparing average to total carton sales</span>
+<span class="c1">#df2[&#39;Order&#39;] = np.where((df2[&#39;Average Cartons Sold Weekly&#39;] &gt;= df2[&#39;Total Cartons Sold&#39;] )</span>
+<span class="c1">#                    , True, False)</span>
+
+<span class="n">df2</span><span class="p">[</span><span class="s1">&#39;Order&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">((</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;Average Cartons Sold Weekly&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">df2</span><span class="p">[</span><span class="s1">&#39;Total Cartons Sold&#39;</span><span class="p">])</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="s2">&quot;Total Cartons Sold&quot;</span><span class="p">]</span> <span class="o">&gt;=</span><span class="mi">1</span><span class="p">)</span>
+                    <span class="p">,</span> <span class="bp">True</span><span class="p">,</span> <span class="bp">False</span><span class="p">)</span>
+
+<span class="c1">#df2[&#39;Order&#39;] = np.where(df2[&#39;Average Cartons Sold Weekly&#39;] &gt;= df2[&#39;Total Cartons Sold&#39;] ) #and np.where(df2[&quot;Total Cartons Sold&quot;]&gt;=1)</span>
+
+<span class="c1">#Creating DataFrame to display.  Only one week of data at a time</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">df2</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df2</span><span class="o">.</span><span class="n">index</span><span class="p">))</span> <span class="p">:</span>
+    <span class="k">if</span> <span class="n">df2</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">x</span><span class="p">:</span>
+        <span class="n">max_i</span> <span class="o">=</span> <span class="n">i</span>
+
+
+<span class="n">df3</span> <span class="o">=</span> <span class="n">df2</span><span class="p">[:</span><span class="n">max_i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+<span class="n">df3</span> <span class="o">=</span> <span class="n">df3</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Cigarette Name&#39;</span><span class="p">],</span> <span class="n">ascending</span> <span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="c1">#exporting to excel</span>
+<span class="n">df3</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">cwd</span> <span class="o">+</span> <span class="s2">&quot;/order_form.csv&quot;</span><span class="p">)</span>
+<span class="n">df2</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">cwd</span> <span class="o">+</span> <span class="s2">&quot;/all_data.csv&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="retail-sales-forecasting.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Retail Sales Forecasting</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="../sales-reporting/sales-reporting.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">&lt;no title&gt;</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Justin Napolitano<br/>
+        
+            &copy; Copyright 2022, Justin Napolitano.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
