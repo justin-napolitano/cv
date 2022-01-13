@@ -19,14 +19,15 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'jnapolitano.io'
+project = 'Justin Napolitano'
 copyright = '2022, Justin Napolitano'
 author = 'Justin Napolitano'
 
+html_title = 'Justin Napolitano'
 # The short X.Y version
-version = ''
+#version = ''
 # The full version, including alpha/beta/rc tags
-release = '0'
+#release = '1'
 
 
 # -- General configuration ---------------------------------------------------

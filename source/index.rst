@@ -3,6 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
+.. _genindex:
+
+
 Curricula Vitae
 ==========================================
 
@@ -15,7 +19,7 @@ Curricula Vitae
    sections/business-analysis/business_analysis
    sections/ml-ai/ml_ai
    sections/database-design/database_design
-   sections/api/api
+   sections/py-libs/py-libs
 
 
 
@@ -23,5 +27,4 @@ Indices and Tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
