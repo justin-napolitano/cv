@@ -15,6 +15,7 @@ Turkish Kurdish Conflict
 
 .. toctree::
     :maxdepth: 3
+    :numbered:
 
     introduction
     event_query_procedure

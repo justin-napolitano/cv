@@ -21,7 +21,6 @@ Political Analysis
 .. toctree::
    :maxdepth: 3
    :caption: Contents:
-   :numbered:
    
    sup-court/supreme-court.rst
    turkish-kurdish/turkish-kurdish
