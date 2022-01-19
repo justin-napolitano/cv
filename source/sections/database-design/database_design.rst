@@ -20,7 +20,7 @@ Database Design
 .. toctree::
    :maxdepth: 3
    :caption: Contents:
-   :numbered:
+
    
    /sections/database-design/sup-court-meta
    /sections/database-design/turkish-kurdish/turkish-kurdish

@@ -21,7 +21,6 @@ Python Library Development
 .. toctree::
    :maxdepth: 3
    :caption: Contents:
-   :numbered:
    
    /sections/py-libs/janus
    /sections/py-libs/neo4j
