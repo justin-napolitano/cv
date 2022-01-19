@@ -10,7 +10,7 @@ Python Library Development
 
 .. topic:: Overview
 
-    This Section introduces the background of the Kurdish-Turkish Conflict and describes the intent of the research. 
+    blah blah blah pylibs
 
 
     :Date: |today|
