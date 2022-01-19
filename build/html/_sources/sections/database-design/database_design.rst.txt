@@ -20,9 +20,10 @@ Database Design
 .. toctree::
    :maxdepth: 3
    :caption: Contents:
+   :numbered:
    
-   /sections/political-analysis/sup-court/sup-court-meta
-   /sections/political-analysis/turkish-kurdish/turkish-kurdish
-   /sections/political-analysis/international-law/human-rights-law
-   /sections/py-libs/janus
-   /sections/py-libs/neo4j
+   /sections/database-design/sup-court-meta
+   /sections/database-design/turkish-kurdish/turkish-kurdish
+   /sections/database-design/human-rights-law/human-rights-law
+   /sections/database-design/janus
+   /sections/database-design/neo4j

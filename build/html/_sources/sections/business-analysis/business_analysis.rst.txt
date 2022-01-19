@@ -20,6 +20,7 @@ Business Analysis & Sales Forecasting
 .. toctree::
    :maxdepth: 3
    :caption: Contents:
+   :numbered:
    
    graph-analysis/graph-analysis
    sales-forecasting/sales-forecasting

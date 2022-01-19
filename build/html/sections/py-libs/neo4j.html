@@ -1,12 +1,11 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Neo4j Python Library &#8212; Justin Napolitano</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2. Neo4j Python Library &#8212; Justin Napolitano</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet" />
   <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -23,21 +22,19 @@
       
 
     
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     
   <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
 
-    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../_static/language_data.js"></script>
-    <script type="text/javascript" src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Python Library Development" href="py-libs.html" />
-    <link rel="prev" title="Janus Graph Python Library" href="janus.html" />
+    <link rel="prev" title="1. Janus Graph Python Library" href="janus.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -66,20 +63,15 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p class="caption">
+        <p class="caption" role="heading">
  <span class="caption-text">
   Contents:
  </span>
 </p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../resume/resume.html">
    Resume
-  </a>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../political-analysis/political_analysis.html">
-   Political Analysis
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -87,36 +79,46 @@
    </i>
   </label>
   <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../resume/education.html">
+     1. Education
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../resume/work-history.html">
+     2. Work History
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../resume/technical-skills.html">
+     3. Technical Skillset
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../resume/spoken-languages.html">
+     4. Spoken Languages
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../resume/references.html">
+     5. References
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../political-analysis/political_analysis.html">
+   Political Analysis
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="../political-analysis/sup-court/supreme-court.html">
-     United States Supreme Court
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-    <label for="toctree-checkbox-2">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/sup-court/sup-court-meta.html">
-       US Supreme Court MetaData Graph
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/sup-court/tensorflow.html">
-       US Supreme Court Voting Behavior TensorFlow Predictions
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/sup-court/thesis.html">
-       An Analysis of Case law in the Masterpiece Cake Case and a Behavioral Prediction of the Outcome
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../political-analysis/turkish-kurdish/turkish-kurdish.html">
-     Turkish Kurdish Conflict
+     1. United States Supreme Court
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
     <label for="toctree-checkbox-3">
@@ -125,40 +127,25 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/introduction.html">
-       1. Introduction
+      <a class="reference internal" href="../political-analysis/sup-court/sup-court-meta.html">
+       1.1. US Supreme Court MetaData Graph
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/event_query_procedure.html">
-       2. Event Query Procedure
+      <a class="reference internal" href="../political-analysis/sup-court/tensorflow.html">
+       1.2. US Supreme Court Voting Behavior TensorFlow Predictions
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/database_schema.html">
-       3. Database Schema
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/analysis.html">
-       4. Analysis
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/pdf.html">
-       5. PDF
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/data.html">
-       6. Data
+      <a class="reference internal" href="../political-analysis/sup-court/thesis.html">
+       1.3. An Analysis of Case law in the Masterpiece Cake Case and a Behavioral Prediction of the Outcome
       </a>
      </li>
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../political-analysis/international-law/international-law.html">
-     International Human Rights Law
+    <a class="reference internal" href="../political-analysis/turkish-kurdish/turkish-kurdish.html">
+     2. Turkish Kurdish Conflict
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
     <label for="toctree-checkbox-4">
@@ -167,15 +154,40 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/international-law/human-rights-law.html">
-       International Human Rights Law Framework
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/introduction.html">
+       2.1. Introduction
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/event_query_procedure.html">
+       2.2. Event Query Procedure
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/database_schema.html">
+       2.3. Database Schema
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/analysis.html">
+       2.4. Analysis
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/pdf.html">
+       2.5. PDF
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/data.html">
+       2.6. Data
       </a>
      </li>
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../political-analysis/int-economics/int-economics.html">
-     International Economics
+    <a class="reference internal" href="../political-analysis/international-law/international-law.html">
+     3. International Human Rights Law
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
     <label for="toctree-checkbox-5">
@@ -184,8 +196,25 @@
     </label>
     <ul>
      <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/international-law/human-rights-law.html">
+       3.1. International Human Rights Law Framework
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../political-analysis/int-economics/int-economics.html">
+     4. International Economics
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
       <a class="reference internal" href="../political-analysis/int-economics/evolution-of-ngos.html">
-       The Evolution of International Organizations
+       4.1. The Evolution of International Organizations
       </a>
      </li>
     </ul>
@@ -196,32 +225,15 @@
   <a class="reference internal" href="../business-analysis/business_analysis.html">
    Business Analysis &amp; Sales Forecasting
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-  <label for="toctree-checkbox-6">
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="../business-analysis/graph-analysis/graph-analysis.html">
-     Graph Analysis
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
-    <label for="toctree-checkbox-7">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../business-analysis/graph-analysis/real-estate-analysis.html">
-       Real Estate Analysis Engine
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../business-analysis/sales-forecasting/sales-forecasting.html">
-     Sales Forecasting
+     1. Graph Analysis
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
     <label for="toctree-checkbox-8">
@@ -230,20 +242,15 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../business-analysis/sales-forecasting/retail-sales-forecasting.html">
-       Retail Sales Forecasting
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../business-analysis/sales-forecasting/order-forecasting.html">
-       Cigarette Sales Forecasting and Order Prediction
+      <a class="reference internal" href="../business-analysis/graph-analysis/real-estate-analysis.html">
+       1.1. Real Estate Analysis Engine
       </a>
      </li>
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../business-analysis/sales-reporting/sales-reporting.html">
-     Sales Reporting
+    <a class="reference internal" href="../business-analysis/sales-forecasting/sales-forecasting.html">
+     2. Sales Forecasting
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
     <label for="toctree-checkbox-9">
@@ -252,8 +259,30 @@
     </label>
     <ul>
      <li class="toctree-l3">
+      <a class="reference internal" href="../business-analysis/sales-forecasting/retail-sales-forecasting.html">
+       2.1. Retail Sales Forecasting
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../business-analysis/sales-forecasting/order-forecasting.html">
+       2.2. Cigarette Sales Forecasting and Order Prediction
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../business-analysis/sales-reporting/sales-reporting.html">
+     3. Sales Reporting
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+    <label for="toctree-checkbox-10">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
       <a class="reference internal" href="../business-analysis/sales-reporting/cli-program.html">
-       Sales Reporting CLI Program
+       3.1. Sales Reporting CLI Program
       </a>
      </li>
     </ul>
@@ -264,94 +293,94 @@
   <a class="reference internal" href="../ml-ai/ml_ai.html">
    Machine Learning and AI
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
-  <label for="toctree-checkbox-10">
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../ml-ai/tensorflow.html">
-     US Supreme Court Voting Behavior TensorFlow Predictions
+     1. US Supreme Court Voting Behavior TensorFlow Predictions
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../ml-ai/gender-recognition.html">
-     Gender Recognition with TensorFlow
+     2. Gender Recognition with TensorFlow
     </a>
    </li>
   </ul>
  </li>
- <li class="toctree-l1 current active has-children">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../database-design/database_design.html">
    Database Design
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
-  <label for="toctree-checkbox-11">
+  <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+  <label for="toctree-checkbox-12">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
+  <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../political-analysis/sup-court/sup-court-meta.html">
-     US Supreme Court MetaData Graph
+    <a class="reference internal" href="../database-design/sup-court-meta.html">
+     1. US Supreme Court MetaData Graph
     </a>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../political-analysis/turkish-kurdish/turkish-kurdish.html">
-     Turkish Kurdish Conflict
+    <a class="reference internal" href="../database-design/turkish-kurdish/turkish-kurdish.html">
+     2. Turkish Kurdish Conflict
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
-    <label for="toctree-checkbox-12">
+    <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+    <label for="toctree-checkbox-13">
      <i class="fas fa-chevron-down">
      </i>
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/introduction.html">
-       1. Introduction
+      <a class="reference internal" href="../database-design/turkish-kurdish/introduction.html">
+       2.1. Introduction
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/event_query_procedure.html">
-       2. Event Query Procedure
+      <a class="reference internal" href="../database-design/turkish-kurdish/event_query_procedure.html">
+       2.2. Event Query Procedure
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/database_schema.html">
-       3. Database Schema
+      <a class="reference internal" href="../database-design/turkish-kurdish/database_schema.html">
+       2.3. Database Schema
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/analysis.html">
-       4. Analysis
+      <a class="reference internal" href="../database-design/turkish-kurdish/analysis.html">
+       2.4. Analysis
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/pdf.html">
-       5. PDF
+      <a class="reference internal" href="../database-design/turkish-kurdish/pdf.html">
+       2.5. PDF
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../political-analysis/turkish-kurdish/data.html">
-       6. Data
+      <a class="reference internal" href="../database-design/turkish-kurdish/data.html">
+       2.6. Data
       </a>
      </li>
     </ul>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../political-analysis/international-law/human-rights-law.html">
-     International Human Rights Law Framework
+    <a class="reference internal" href="../database-design/human-rights-law/human-rights-law.html">
+     3. International Human Rights Law Framework
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="janus.html">
-     Janus Graph Python Library
+    <a class="reference internal" href="../database-design/janus.html">
+     4. Janus Graph Python Library
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     Neo4j Python Library
+   <li class="toctree-l2">
+    <a class="reference internal" href="../database-design/neo4j.html">
+     5. Neo4j Python Library
     </a>
    </li>
   </ul>
@@ -360,20 +389,20 @@
   <a class="reference internal" href="py-libs.html">
    Python Library Development
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
-  <label for="toctree-checkbox-13">
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+  <label for="toctree-checkbox-14">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="janus.html">
-     Janus Graph Python Library
+     1. Janus Graph Python Library
     </a>
    </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     Neo4j Python Library
+     2. Neo4j Python Library
     </a>
    </li>
   </ul>
@@ -451,32 +480,32 @@
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#description">
-   Description
+   2.1. Description
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#links">
-   Links
+   2.2. Links
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#csv-to-neo-application">
-     Csv to Neo Application
+     2.2.1. Csv to Neo Application
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#native-neo-application">
-     Native Neo Application
+     2.2.2. Native Neo Application
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#neo4j-classes">
-     Neo4j Classes
+     2.2.3. Neo4j Classes
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#neo-nodes">
-     Neo nodes
+     2.2.4. Neo nodes
     </a>
    </li>
   </ul>
@@ -493,9 +522,9 @@
               <div>
                 
   <div class="section" id="neo4j-python-library">
-<h1>Neo4j Python Library<a class="headerlink" href="#neo4j-python-library" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">2. </span>Neo4j Python Library<a class="headerlink" href="#neo4j-python-library" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="description">
-<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.1. </span>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>A collection of common classes that represent nodes in a neo4j graph database.</p></li>
 <li><p>A developer may simply call defined classes that instantiate a structure that can be easily appended to a native neo4j transaction call.</p></li>
@@ -504,29 +533,29 @@
 </ul>
 </div>
 <div class="section" id="links">
-<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.2. </span>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/justin-napolitano/neo4jAPI">GitHub</a></p></li>
 </ul>
 <div class="section" id="csv-to-neo-application">
-<h3>Csv to Neo Application<a class="headerlink" href="#csv-to-neo-application" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">2.2.1. </span>Csv to Neo Application<a class="headerlink" href="#csv-to-neo-application" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#realtor_graph.py</span>
 
 
 <span class="c1">#from neo4j_connect_2 import NeoSandboxApp</span>
 <span class="c1">#import neo4j_connect_2 as neo</span>
-<span class="kn">import</span> <span class="nn">GoogleServices</span> <span class="kn">as</span> <span class="nn">google</span>
+<span class="kn">import</span> <span class="nn">GoogleServices</span> <span class="k">as</span> <span class="nn">google</span>
 <span class="kn">from</span> <span class="nn">pyspark.sql</span> <span class="kn">import</span> <span class="n">SparkSession</span>
 <span class="kn">from</span> <span class="nn">pyspark.sql.functions</span> <span class="kn">import</span> <span class="n">struct</span>
 <span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
 <span class="kn">from</span> <span class="nn">neomodel</span> <span class="kn">import</span> <span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">StructuredNode</span><span class="p">,</span> <span class="n">StringProperty</span><span class="p">,</span> <span class="n">IntegerProperty</span><span class="p">,</span>
     <span class="n">UniqueIdProperty</span><span class="p">,</span> <span class="n">RelationshipTo</span><span class="p">,</span> <span class="n">BooleanProperty</span><span class="p">,</span> <span class="n">EmailProperty</span><span class="p">,</span> <span class="n">Relationship</span><span class="p">,</span><span class="n">db</span><span class="p">)</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="c1">#import NeoNodes as nn</span>
 <span class="kn">import</span> <span class="nn">GoogleServices</span>
 <span class="kn">import</span> <span class="nn">neo4jClasses</span>
-<span class="kn">import</span> <span class="nn">sparkAPI</span> <span class="kn">as</span> <span class="nn">spark</span>
-<span class="kn">import</span> <span class="nn">neoModelAPI</span> <span class="kn">as</span> <span class="nn">neo</span>
+<span class="kn">import</span> <span class="nn">sparkAPI</span> <span class="k">as</span> <span class="nn">spark</span>
+<span class="kn">import</span> <span class="nn">neoModelAPI</span> <span class="k">as</span> <span class="nn">neo</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="c1">#from neoModelAPI import NeoNodes as nn</span>
 
@@ -602,7 +631,7 @@
         <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">sep</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">cwd</span><span class="p">,</span><span class="n">path</span><span class="p">])</span>
 
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span><span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-            <span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+            <span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 
         <span class="k">return</span> <span class="n">path</span>
 
@@ -625,7 +654,7 @@
 
     <span class="k">def</span> <span class="nf">return_unique_country_df</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">df</span><span class="p">):</span>
         <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;country_name&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-        <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">difference</span><span class="p">([</span><span class="s1">&#39;country_node&#39;</span><span class="p">,</span><span class="s1">&#39;state_node&#39;</span><span class="p">,</span><span class="s1">&#39;country_name&#39;</span><span class="p">,</span> <span class="s1">&#39;country_code&#39;</span><span class="p">,</span><span class="s1">&#39;state_name&#39;</span><span class="p">]),</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+        <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">difference</span><span class="p">([</span><span class="s1">&#39;country_node&#39;</span><span class="p">,</span><span class="s1">&#39;state_node&#39;</span><span class="p">,</span><span class="s1">&#39;country_name&#39;</span><span class="p">,</span> <span class="s1">&#39;country_code&#39;</span><span class="p">,</span><span class="s1">&#39;state_name&#39;</span><span class="p">]),</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
         <span class="c1">#pprint(df)</span>
         <span class="k">return</span> <span class="n">df</span>
 
@@ -636,7 +665,7 @@
 
     <span class="k">def</span> <span class="nf">return_unique_state_df</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">df</span><span class="p">):</span>
         <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;state_name&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-        <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">difference</span><span class="p">([</span><span class="s1">&#39;state_node&#39;</span><span class="p">,</span><span class="s1">&#39;country_node&#39;</span><span class="p">,</span><span class="s1">&#39;country_code&#39;</span><span class="p">,</span><span class="s1">&#39;state_name&#39;</span><span class="p">,</span><span class="s1">&#39;country_name&#39;</span><span class="p">,</span><span class="s1">&#39;state_code&#39;</span><span class="p">]),</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+        <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">difference</span><span class="p">([</span><span class="s1">&#39;state_node&#39;</span><span class="p">,</span><span class="s1">&#39;country_node&#39;</span><span class="p">,</span><span class="s1">&#39;country_code&#39;</span><span class="p">,</span><span class="s1">&#39;state_name&#39;</span><span class="p">,</span><span class="s1">&#39;country_name&#39;</span><span class="p">,</span><span class="s1">&#39;state_code&#39;</span><span class="p">]),</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
         <span class="c1">#pprint(df)</span>
 
         <span class="k">return</span> <span class="n">df</span>
@@ -691,8 +720,8 @@
         <span class="n">grouped</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">by</span> <span class="o">=</span> <span class="s2">&quot;state_name&quot;</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">load_data_to_pandas_df</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">file_path</span> <span class="o">=</span> <span class="s2">&quot;/Users/justinnapolitano/Dropbox/python/Projects/webscraping/realtorGraph/uscities.csv&quot;</span><span class="p">):</span>
-        <span class="k">with</span> <span class="nb">open</span> <span class="p">(</span><span class="n">file_path</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
-            <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span>
+        <span class="k">with</span> <span class="nb">open</span> <span class="p">(</span><span class="n">file_path</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">df</span>
 
     <span class="k">def</span> <span class="nf">nodify_city_column</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -725,7 +754,7 @@
         <span class="c1">#self.df[&#39;state_nodes&#39;] = self.df.apply(lambda x: neo.create_state_node(name = x.state_name, code = x.state) if x not in states_dict else states_dict[x], axis=1)</span>
 
     <span class="k">def</span> <span class="nf">nodify_url_column</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;url_node&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;realtor_url&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">neo</span><span class="o">.</span><span class="n">neoAPI</span><span class="o">.</span><span class="n">create_url_node</span><span class="p">(</span><span class="n">url</span> <span class="o">=</span> <span class="n">x</span><span class="p">,</span> <span class="n">searched</span><span class="o">=</span> <span class="bp">False</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;url_node&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;realtor_url&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">neo</span><span class="o">.</span><span class="n">neoAPI</span><span class="o">.</span><span class="n">create_url_node</span><span class="p">(</span><span class="n">url</span> <span class="o">=</span> <span class="n">x</span><span class="p">,</span> <span class="n">searched</span><span class="o">=</span> <span class="kc">False</span><span class="p">))</span>
 
 
 
@@ -733,12 +762,12 @@
 
 
 <span class="k">def</span> <span class="nf">instantiate_google_API</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Instantiating all google apis&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Instantiating all google apis&quot;</span><span class="p">)</span>
     <span class="n">google_apis</span> <span class="o">=</span> <span class="n">GoogleServices</span><span class="o">.</span><span class="n">GoogleAPI</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">google_apis</span>
 
 <span class="k">def</span> <span class="nf">instantiate_spark_API</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Instantiating the Spark API&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Instantiating the Spark API&quot;</span><span class="p">)</span>
     <span class="n">sparkAPI</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">SparkAPI</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">sparkAPI</span>
 
@@ -761,7 +790,7 @@
 <span class="k">def</span> <span class="nf">load_data_to_spark_df</span><span class="p">(</span><span class="n">sparkAPI</span><span class="p">):</span>
     <span class="n">file_path</span> <span class="o">=</span> <span class="s2">&quot;/Users/justinnapolitano/Dropbox/python/Projects/webscraping/realtorGraph/uscities.csv&quot;</span>
     <span class="n">df</span> <span class="o">=</span> <span class="n">sparkAPI</span><span class="o">.</span><span class="n">load_spark_data_from_csv</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
-    <span class="n">df</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">truncate</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+    <span class="n">df</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">df</span>
 
 <span class="k">def</span> <span class="nf">prepare_df_for_upload</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
@@ -772,7 +801,7 @@
 
     <span class="c1">#df 2 = df.withColumn(&quot;state_nodedf.select(struct(&#39;age&#39;, &#39;name&#39;).alias(&quot;struct&quot;)).collect()</span>
     <span class="c1">#NeoNodes.StateNode(df.state_name, df.state))</span>
-    <span class="n">df2</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="n">truncate</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+    <span class="n">df2</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
     <span class="c1">#df3.show(4,truncate=False)</span>
 
 
@@ -842,7 +871,7 @@
 </div>
 </div>
 <div class="section" id="native-neo-application">
-<h3>Native Neo Application<a class="headerlink" href="#native-neo-application" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">2.2.2. </span>Native Neo Application<a class="headerlink" href="#native-neo-application" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">neo4j</span> <span class="kn">import</span> <span class="n">GraphDatabase</span><span class="p">,</span><span class="n">basic_auth</span>
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">from</span> <span class="nn">neo4j.exceptions</span> <span class="kn">import</span> <span class="n">ServiceUnavailable</span>
@@ -857,10 +886,10 @@
 
     <span class="k">def</span> <span class="nf">run_test_query</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">limit</span> <span class="o">=</span> <span class="mi">10</span>
-        <span class="n">cypher_query</span> <span class="o">=</span> <span class="n">f</span><span class="s1">&#39;&#39;&#39;</span>
+        <span class="n">cypher_query</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;&#39;&#39;</span>
 <span class="s1">        MATCH (n)</span>
 <span class="s1">        RETURN COUNT(n) AS count</span>
-<span class="s1">        LIMIT {limit}</span>
+<span class="s1">        LIMIT </span><span class="si">{</span><span class="n">limit</span><span class="si">}</span><span class="s1"></span>
 <span class="s1">        &#39;&#39;&#39;</span>
 
 
@@ -886,8 +915,8 @@
 
         <span class="c1"># To learn more about the Cypher syntax, see https://neo4j.com/docs/cypher-manual/current/</span>
         <span class="c1"># The Reference Card is also a good resource for keywords https://neo4j.com/docs/cypher-refcard/current/</span>
-        <span class="n">match_statement</span> <span class="o">=</span> <span class="p">(</span><span class="n">f</span><span class="s2">&quot;MATCH (n:{id_label_obj.label}) where (id(n) = {id_label_obj.id} )&quot;</span><span class="p">)</span>
-        <span class="n">set_statement</span> <span class="o">=</span> <span class="p">(</span><span class="n">f</span><span class="s2">&quot;SET n.{property} =  {value}&quot;</span><span class="p">)</span>
+        <span class="n">match_statement</span> <span class="o">=</span> <span class="p">(</span><span class="sa">f</span><span class="s2">&quot;MATCH (n:</span><span class="si">{</span><span class="n">id_label_obj</span><span class="o">.</span><span class="n">label</span><span class="si">}</span><span class="s2">) where (id(n) = </span><span class="si">{</span><span class="n">id_label_obj</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2"> )&quot;</span><span class="p">)</span>
+        <span class="n">set_statement</span> <span class="o">=</span> <span class="p">(</span><span class="sa">f</span><span class="s2">&quot;SET n.</span><span class="si">{</span><span class="nb">property</span><span class="si">}</span><span class="s2"> =  </span><span class="si">{</span><span class="n">value</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
         <span class="n">query</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">match_statement</span><span class="p">,</span><span class="n">set_statement</span><span class="p">])</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="c1">#print(query)</span>
@@ -896,7 +925,7 @@
             <span class="k">return</span> <span class="n">result</span>
         <span class="c1"># Capture any errors along with the query and data for traceabilityx</span>
         <span class="k">except</span> <span class="n">ServiceUnavailable</span> <span class="k">as</span> <span class="n">exception</span><span class="p">:</span>
-            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;{query} raised an error: </span><span class="se">\n</span><span class="s2"> {exception}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{query}</span><span class="s2"> raised an error: </span><span class="se">\n</span><span class="s2"> </span><span class="si">{exception}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
                 <span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">,</span> <span class="n">exception</span><span class="o">=</span><span class="n">exception</span><span class="p">))</span>
             <span class="k">raise</span>
 
@@ -913,8 +942,8 @@
 
         <span class="c1"># To learn more about the Cypher syntax, see https://neo4j.com/docs/cypher-manual/current/</span>
         <span class="c1"># The Reference Card is also a good resource for keywords https://neo4j.com/docs/cypher-refcard/current/</span>
-        <span class="n">match_and_return</span> <span class="o">=</span> <span class="p">(</span><span class="n">f</span><span class="s2">&quot;MATCH (n1:{id_label_obj_1.label}) where id(n1) = {id_label_obj_1.id} MATCH (n2:{id_label_obj_2.label}) where id(n2) = {id_label_obj_2.id}&quot;</span><span class="p">)</span>
-        <span class="n">query</span> <span class="o">=</span> <span class="p">(</span><span class="n">f</span><span class="s2">&quot;{match_and_return} CREATE (n1)-[ {relationship_struct} ]-&gt;(n2) return {relationship_type}&quot;</span><span class="p">)</span>
+        <span class="n">match_and_return</span> <span class="o">=</span> <span class="p">(</span><span class="sa">f</span><span class="s2">&quot;MATCH (n1:</span><span class="si">{</span><span class="n">id_label_obj_1</span><span class="o">.</span><span class="n">label</span><span class="si">}</span><span class="s2">) where id(n1) = </span><span class="si">{</span><span class="n">id_label_obj_1</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2"> MATCH (n2:</span><span class="si">{</span><span class="n">id_label_obj_2</span><span class="o">.</span><span class="n">label</span><span class="si">}</span><span class="s2">) where id(n2) = </span><span class="si">{</span><span class="n">id_label_obj_2</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">query</span> <span class="o">=</span> <span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">match_and_return</span><span class="si">}</span><span class="s2"> CREATE (n1)-[ </span><span class="si">{</span><span class="n">relationship_struct</span><span class="si">}</span><span class="s2"> ]-&gt;(n2) return </span><span class="si">{</span><span class="n">relationship_type</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
         <span class="c1">#query_2 = (&quot;MATCH (n1:$id_label_obj_1.label) where id(n1) = $id_label_obj_1.id MATCH (n2:$id_label_obj_2.label) where id(n2) = $id_label_obj_2.id RETURN n1,n2 CREATE (n1)-[$relationship_struct]-&gt;(n2))&quot;)</span>
         <span class="c1">#print(relationship_part)</span>
         <span class="c1">#query = (f&quot;MATCH (n1{node_1_struct}) Match (n2{node_2_struct}) return n1,n2&quot;)</span>
@@ -926,7 +955,7 @@
             <span class="k">return</span> <span class="n">result</span>
         <span class="c1"># Capture any errors along with the query and data for traceabilityx</span>
         <span class="k">except</span> <span class="n">ServiceUnavailable</span> <span class="k">as</span> <span class="n">exception</span><span class="p">:</span>
-            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;{query} raised an error: </span><span class="se">\n</span><span class="s2"> {exception}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{query}</span><span class="s2"> raised an error: </span><span class="se">\n</span><span class="s2"> </span><span class="si">{exception}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
                 <span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">,</span> <span class="n">exception</span><span class="o">=</span><span class="n">exception</span><span class="p">))</span>
             <span class="k">raise</span>
 
@@ -935,7 +964,7 @@
 
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">session</span><span class="p">()</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
             <span class="c1"># Write transactions allow the driver to handle retries and transient errors</span>
-            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
             <span class="n">result</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">write_transaction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_match_and_return_search_url</span><span class="p">,</span> <span class="n">search_string</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">result</span>
 
@@ -952,15 +981,15 @@
 
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">session</span><span class="p">()</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
             <span class="c1"># Write transactions allow the driver to handle retries and transient errors</span>
-            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
             <span class="n">result</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">write_transaction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_create_relationship</span><span class="p">,</span> <span class="n">node_1</span><span class="p">,</span> <span class="n">node_2</span><span class="p">,</span> <span class="n">relationship_struct</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">result</span>
 
     <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">_create_relationship</span><span class="p">(</span><span class="n">tx</span><span class="p">,</span><span class="n">node_1</span><span class="p">,</span><span class="n">node_2</span><span class="p">,</span> <span class="n">relationship_struct</span><span class="p">):</span>
         <span class="n">query</span> <span class="o">=</span> <span class="p">(</span>
-            <span class="n">f</span><span class="s2">&quot;CREATE ({node_struct})</span><span class="se">\</span>
-<span class="s2">            return apoc.convert.toJson({node_label}) as output&quot;</span>
+            <span class="sa">f</span><span class="s2">&quot;CREATE (</span><span class="si">{</span><span class="n">node_struct</span><span class="si">}</span><span class="s2">)</span><span class="se">\</span>
+<span class="s2">            return apoc.convert.toJson(</span><span class="si">{</span><span class="n">node_label</span><span class="si">}</span><span class="s2">) as output&quot;</span>
             <span class="p">)</span>
         <span class="c1">#print(query)</span>
         <span class="n">result</span> <span class="o">=</span> <span class="n">tx</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
@@ -970,15 +999,15 @@
     <span class="k">def</span> <span class="nf">add_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">node_struct</span><span class="p">,</span><span class="n">node_label</span><span class="p">):</span>
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">session</span><span class="p">()</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
             <span class="c1"># Write transactions allow the driver to handle retries and transient errors</span>
-            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
             <span class="n">result</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">write_transaction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_add_node</span><span class="p">,</span> <span class="n">node_struct</span><span class="p">,</span><span class="n">node_label</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">result</span>
 
     <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">_add_node</span><span class="p">(</span><span class="n">tx</span><span class="p">,</span><span class="n">node_struct</span><span class="p">,</span><span class="n">node_label</span><span class="p">):</span>
         <span class="n">query</span> <span class="o">=</span> <span class="p">(</span>
-            <span class="n">f</span><span class="s2">&quot;CREATE ({node_struct})</span><span class="se">\</span>
-<span class="s2">            return apoc.convert.toJson({node_label}) as output&quot;</span>
+            <span class="sa">f</span><span class="s2">&quot;CREATE (</span><span class="si">{</span><span class="n">node_struct</span><span class="si">}</span><span class="s2">)</span><span class="se">\</span>
+<span class="s2">            return apoc.convert.toJson(</span><span class="si">{</span><span class="n">node_label</span><span class="si">}</span><span class="s2">) as output&quot;</span>
             <span class="p">)</span>
         <span class="c1">#print(query)</span>
         <span class="k">try</span><span class="p">:</span>
@@ -986,7 +1015,7 @@
             <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="n">record</span> <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">result</span><span class="p">]</span>
             <span class="k">return</span> <span class="n">result</span>
         <span class="k">except</span><span class="p">:</span>
-            <span class="k">return</span> <span class="bp">False</span>
+            <span class="k">return</span> <span class="kc">False</span>
 
     <span class="k">def</span> <span class="nf">return_to_process_stack_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node_property_struct</span><span class="p">,</span> <span class="n">limit</span> <span class="o">=</span> <span class="mi">1</span><span class="p">):</span>
         <span class="n">common_label</span> <span class="o">=</span> <span class="n">node_property_struct</span><span class="o">.</span><span class="n">common_label</span>
@@ -996,7 +1025,7 @@
 
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">session</span><span class="p">()</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
             <span class="c1"># Write transactions allow the driver to handle retries and transient errors</span>
-                <span class="k">print</span><span class="p">(</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
                 <span class="n">result</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">read_transaction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_match_and_return_node</span><span class="p">,</span> <span class="n">node_property_struct</span><span class="p">,</span><span class="n">common_label</span><span class="p">,</span><span class="n">limit</span><span class="p">)</span>
                 <span class="c1">#print(result)</span>
             <span class="c1">#print(result)</span>
@@ -1005,11 +1034,11 @@
     <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">_match_and_return_node</span><span class="p">(</span><span class="n">tx</span><span class="p">,</span><span class="n">node_property_struct</span><span class="p">,</span> <span class="n">common_label</span><span class="p">,</span> <span class="n">limit</span><span class="p">):</span>
         <span class="n">query</span> <span class="o">=</span> <span class="p">(</span>
-            <span class="n">f</span><span class="s2">&quot;MATCH ({node_property_struct}) with apoc.convert.toJson({common_label}) as output RETURN output limit {limit}&quot;</span>
+            <span class="sa">f</span><span class="s2">&quot;MATCH (</span><span class="si">{</span><span class="n">node_property_struct</span><span class="si">}</span><span class="s2">) with apoc.convert.toJson(</span><span class="si">{</span><span class="n">common_label</span><span class="si">}</span><span class="s2">) as output RETURN output limit </span><span class="si">{</span><span class="n">limit</span><span class="si">}</span><span class="s2">&quot;</span>
         <span class="p">)</span>
         <span class="c1">#print(query)</span>
         <span class="n">result</span> <span class="o">=</span> <span class="n">tx</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
-        <span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 
         <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="n">record</span> <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">result</span><span class="p">]</span>
@@ -1019,7 +1048,7 @@
             <span class="k">return</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
         <span class="k">except</span> <span class="n">ServiceUnavailable</span> <span class="k">as</span> <span class="n">exception</span><span class="p">:</span>
-            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;{query} raised an error: </span><span class="se">\n</span><span class="s2"> {exception}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{query}</span><span class="s2"> raised an error: </span><span class="se">\n</span><span class="s2"> </span><span class="si">{exception}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
                 <span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">,</span> <span class="n">exception</span><span class="o">=</span><span class="n">exception</span><span class="p">))</span>
             <span class="k">raise</span>
 
@@ -1028,7 +1057,7 @@
 
             <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">session</span><span class="p">()</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
             <span class="c1"># Write transactions allow the driver to handle retries and transient errors</span>
-                <span class="k">print</span><span class="p">(</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
                 <span class="n">result</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">read_transaction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_match_and_return_related_node</span><span class="p">,</span> <span class="n">node_1</span><span class="p">,</span> <span class="n">relation_to</span><span class="p">,</span> <span class="n">node_2</span><span class="p">,</span> <span class="n">limit</span><span class="p">)</span>
                 <span class="c1">#print(result)</span>
             <span class="c1">#print(result)</span>
@@ -1037,11 +1066,11 @@
     <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">_match_and_return_related_node</span><span class="p">(</span><span class="n">tx</span><span class="p">,</span><span class="n">node_1</span><span class="p">,</span><span class="n">relation_to</span><span class="p">,</span><span class="n">node_2</span><span class="p">,</span><span class="n">limit</span><span class="p">):</span>
         <span class="n">query</span> <span class="o">=</span> <span class="p">(</span>
-            <span class="n">f</span><span class="s2">&quot;MATCH (n: {node_1})-[r: {relation_to} ]-&gt;(search_node: {node_2}) with apoc.convert.toJson(search_node) as output RETURN output limit {limit}&quot;</span>
+            <span class="sa">f</span><span class="s2">&quot;MATCH (n: </span><span class="si">{</span><span class="n">node_1</span><span class="si">}</span><span class="s2">)-[r: </span><span class="si">{</span><span class="n">relation_to</span><span class="si">}</span><span class="s2"> ]-&gt;(search_node: </span><span class="si">{</span><span class="n">node_2</span><span class="si">}</span><span class="s2">) with apoc.convert.toJson(search_node) as output RETURN output limit </span><span class="si">{</span><span class="n">limit</span><span class="si">}</span><span class="s2">&quot;</span>
         <span class="p">)</span>
         <span class="c1">#print(query)</span>
         <span class="n">result</span> <span class="o">=</span> <span class="n">tx</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
-        <span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 
         <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="n">record</span> <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">result</span><span class="p">]</span>
@@ -1051,7 +1080,7 @@
             <span class="k">return</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
         <span class="k">except</span> <span class="n">ServiceUnavailable</span> <span class="k">as</span> <span class="n">exception</span><span class="p">:</span>
-            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;{query} raised an error: </span><span class="se">\n</span><span class="s2"> {exception}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{query}</span><span class="s2"> raised an error: </span><span class="se">\n</span><span class="s2"> </span><span class="si">{exception}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
                 <span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">,</span> <span class="n">exception</span><span class="o">=</span><span class="n">exception</span><span class="p">))</span>
             <span class="k">raise</span>
 
@@ -1062,7 +1091,7 @@
             <span class="n">result</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">write_transaction</span><span class="p">(</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">_create_and_return_friendship</span><span class="p">,</span> <span class="n">person1_name</span><span class="p">,</span> <span class="n">person2_name</span><span class="p">)</span>
             <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
-                <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Created friendship between: {p1}, {p2}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">p1</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;p1&#39;</span><span class="p">],</span> <span class="n">p2</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;p2&#39;</span><span class="p">]))</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Created friendship between: </span><span class="si">{p1}</span><span class="s2">, </span><span class="si">{p2}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">p1</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;p1&#39;</span><span class="p">],</span> <span class="n">p2</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;p2&#39;</span><span class="p">]))</span>
 
     <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">_create_and_return_friendship</span><span class="p">(</span><span class="n">tx</span><span class="p">,</span> <span class="n">person1_name</span><span class="p">,</span> <span class="n">person2_name</span><span class="p">):</span>
@@ -1080,7 +1109,7 @@
                     <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">result</span><span class="p">]</span>
         <span class="c1"># Capture any errors along with the query and data for traceability</span>
         <span class="k">except</span> <span class="n">ServiceUnavailable</span> <span class="k">as</span> <span class="n">exception</span><span class="p">:</span>
-            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;{query} raised an error: </span><span class="se">\n</span><span class="s2"> {exception}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{query}</span><span class="s2"> raised an error: </span><span class="se">\n</span><span class="s2"> </span><span class="si">{exception}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
                 <span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">,</span> <span class="n">exception</span><span class="o">=</span><span class="n">exception</span><span class="p">))</span>
             <span class="k">raise</span>
 
@@ -1088,7 +1117,7 @@
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">session</span><span class="p">()</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
             <span class="n">result</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">read_transaction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_find_and_return_person</span><span class="p">,</span> <span class="n">person_name</span><span class="p">)</span>
             <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
-                <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Found person: {row}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">row</span><span class="o">=</span><span class="n">row</span><span class="p">))</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Found person: </span><span class="si">{row}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">row</span><span class="o">=</span><span class="n">row</span><span class="p">))</span>
 
     <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">_find_and_return_person</span><span class="p">(</span><span class="n">tx</span><span class="p">,</span> <span class="n">person_name</span><span class="p">):</span>
@@ -1121,7 +1150,7 @@
             <span class="n">result</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">write_transaction</span><span class="p">(</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">_create_and_return_friendship</span><span class="p">,</span> <span class="n">person1_name</span><span class="p">,</span> <span class="n">person2_name</span><span class="p">)</span>
             <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
-                <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Created friendship between: {p1}, {p2}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">p1</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;p1&#39;</span><span class="p">],</span> <span class="n">p2</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;p2&#39;</span><span class="p">]))</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Created friendship between: </span><span class="si">{p1}</span><span class="s2">, </span><span class="si">{p2}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">p1</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;p1&#39;</span><span class="p">],</span> <span class="n">p2</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;p2&#39;</span><span class="p">]))</span>
 
     <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">_create_and_return_friendship</span><span class="p">(</span><span class="n">tx</span><span class="p">,</span> <span class="n">person1_name</span><span class="p">,</span> <span class="n">person2_name</span><span class="p">):</span>
@@ -1139,7 +1168,7 @@
                     <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">result</span><span class="p">]</span>
         <span class="c1"># Capture any errors along with the query and data for traceability</span>
         <span class="k">except</span> <span class="n">ServiceUnavailable</span> <span class="k">as</span> <span class="n">exception</span><span class="p">:</span>
-            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;{query} raised an error: </span><span class="se">\n</span><span class="s2"> {exception}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{query}</span><span class="s2"> raised an error: </span><span class="se">\n</span><span class="s2"> </span><span class="si">{exception}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
                 <span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">,</span> <span class="n">exception</span><span class="o">=</span><span class="n">exception</span><span class="p">))</span>
             <span class="k">raise</span>
 
@@ -1147,7 +1176,7 @@
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">session</span><span class="p">()</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
             <span class="n">result</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">read_transaction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_find_and_return_person</span><span class="p">,</span> <span class="n">person_name</span><span class="p">)</span>
             <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
-                <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Found person: {row}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">row</span><span class="o">=</span><span class="n">row</span><span class="p">))</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Found person: </span><span class="si">{row}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">row</span><span class="o">=</span><span class="n">row</span><span class="p">))</span>
 
     <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">_find_and_return_person</span><span class="p">(</span><span class="n">tx</span><span class="p">,</span> <span class="n">person_name</span><span class="p">):</span>
@@ -1160,17 +1189,17 @@
         <span class="k">return</span> <span class="p">[</span><span class="n">row</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">result</span><span class="p">]</span>
 
 
-    <span class="k">def</span> <span class="nf">query</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query</span><span class="p">,</span> <span class="n">parameters</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">db</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
-        <span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">__driver</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">,</span> <span class="s2">&quot;Driver not initialized!&quot;</span>
-        <span class="n">session</span> <span class="o">=</span> <span class="bp">None</span>
-        <span class="n">response</span> <span class="o">=</span> <span class="bp">None</span>
+    <span class="k">def</span> <span class="nf">query</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query</span><span class="p">,</span> <span class="n">parameters</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">db</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">__driver</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">&quot;Driver not initialized!&quot;</span>
+        <span class="n">session</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="k">try</span><span class="p">:</span>
-            <span class="n">session</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__driver</span><span class="o">.</span><span class="n">session</span><span class="p">(</span><span class="n">database</span><span class="o">=</span><span class="n">db</span><span class="p">)</span> <span class="k">if</span> <span class="n">db</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">__driver</span><span class="o">.</span><span class="n">session</span><span class="p">()</span>
+            <span class="n">session</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__driver</span><span class="o">.</span><span class="n">session</span><span class="p">(</span><span class="n">database</span><span class="o">=</span><span class="n">db</span><span class="p">)</span> <span class="k">if</span> <span class="n">db</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">__driver</span><span class="o">.</span><span class="n">session</span><span class="p">()</span>
             <span class="n">response</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">session</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">query</span><span class="p">,</span> <span class="n">parameters</span><span class="p">))</span>
         <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Query failed:&quot;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Query failed:&quot;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
         <span class="k">finally</span><span class="p">:</span>
-            <span class="k">if</span> <span class="n">session</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">session</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
                 <span class="n">session</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
         <span class="k">return</span> <span class="n">response</span>
 
@@ -1184,12 +1213,12 @@
     <span class="c1">#app.create_friendship(&quot;Alice&quot;, &quot;David&quot;)</span>
     <span class="c1">#app.find_person(&quot;Alice&quot;)</span>
     <span class="n">neo_app</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;all good!&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;all good!&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="neo4j-classes">
-<h3>Neo4j Classes<a class="headerlink" href="#neo4j-classes" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">2.2.3. </span>Neo4j Classes<a class="headerlink" href="#neo4j-classes" title="Permalink to this headline">¶</a></h3>
 <p>Connection Driver Sessions</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">neo4j</span> <span class="kn">import</span> <span class="n">GraphDatabase</span><span class="p">,</span><span class="n">basic_auth</span>
 <span class="kn">import</span> <span class="nn">logging</span>
@@ -1224,17 +1253,17 @@
 
     <span class="k">def</span> <span class="nf">run_test_query</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">limit</span> <span class="o">=</span> <span class="mi">10</span>
-        <span class="n">cypher_query</span> <span class="o">=</span> <span class="n">f</span><span class="s1">&#39;&#39;&#39;</span>
+        <span class="n">cypher_query</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;&#39;&#39;</span>
 <span class="s1">        MATCH (n)</span>
 <span class="s1">        RETURN COUNT(n) AS count</span>
-<span class="s1">        LIMIT {limit}</span>
+<span class="s1">        LIMIT </span><span class="si">{</span><span class="n">limit</span><span class="si">}</span><span class="s1"></span>
 <span class="s1">        &#39;&#39;&#39;</span>
 
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">session</span><span class="p">(</span><span class="n">database</span><span class="o">=</span><span class="s2">&quot;neo4j&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
             <span class="n">results</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">read_transaction</span><span class="p">(</span>
                 <span class="k">lambda</span> <span class="n">tx</span><span class="p">:</span> <span class="n">tx</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cypher_query</span><span class="p">)</span><span class="o">.</span><span class="n">data</span><span class="p">())</span>
             <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
-                <span class="k">print</span><span class="p">(</span><span class="n">record</span><span class="p">[</span><span class="s1">&#39;count&#39;</span><span class="p">])</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">record</span><span class="p">[</span><span class="s1">&#39;count&#39;</span><span class="p">])</span>
 
 
     <span class="k">def</span> <span class="nf">instantiate_neo_sandbox_app</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -1251,40 +1280,40 @@
 </div>
 </div>
 <div class="section" id="neo-nodes">
-<h3>Neo nodes<a class="headerlink" href="#neo-nodes" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">2.2.4. </span>Neo nodes<a class="headerlink" href="#neo-nodes" title="Permalink to this headline">¶</a></h3>
 <p>Easy node creation and implementation.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">neomodel</span> <span class="kn">import</span> <span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">StructuredNode</span><span class="p">,</span> <span class="n">StringProperty</span><span class="p">,</span> <span class="n">IntegerProperty</span><span class="p">,</span>
 <span class="n">UniqueIdProperty</span><span class="p">,</span> <span class="n">RelationshipTo</span><span class="p">,</span> <span class="n">BooleanProperty</span><span class="p">,</span> <span class="n">EmailProperty</span><span class="p">,</span> <span class="n">Relationship</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">City</span><span class="p">(</span><span class="n">StructuredNode</span><span class="p">):</span>
     <span class="n">uid</span> <span class="o">=</span> <span class="n">UniqueIdProperty</span><span class="p">()</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
     <span class="n">state</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="s1">&#39;State&#39;</span><span class="p">,</span> <span class="s1">&#39;OF&#39;</span><span class="p">)</span>
     <span class="n">country</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="s1">&#39;Country&#39;</span><span class="p">,</span> <span class="s1">&#39;OF&#39;</span><span class="p">)</span>
 
 
 <span class="k">class</span> <span class="nc">Country</span><span class="p">(</span><span class="n">StructuredNode</span><span class="p">):</span>
     <span class="n">uid</span> <span class="o">=</span> <span class="n">UniqueIdProperty</span><span class="p">()</span>
-    <span class="n">code</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">code</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
     <span class="n">state</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="s1">&#39;State&#39;</span><span class="p">,</span> <span class="s1">&#39;OF&#39;</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">State</span><span class="p">(</span><span class="n">StructuredNode</span><span class="p">):</span>
     <span class="n">uid</span> <span class="o">=</span> <span class="n">UniqueIdProperty</span><span class="p">()</span>
-    <span class="n">code</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">code</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 
 <span class="k">class</span> <span class="nc">URL</span><span class="p">(</span><span class="n">StructuredNode</span><span class="p">):</span>
     <span class="n">uid</span> <span class="o">=</span> <span class="n">UniqueIdProperty</span><span class="p">()</span>
-    <span class="n">url</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-    <span class="n">searched</span> <span class="o">=</span> <span class="n">BooleanProperty</span><span class="p">(</span><span class="n">unique_index</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span> <span class="n">required</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">unique_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">searched</span> <span class="o">=</span> <span class="n">BooleanProperty</span><span class="p">(</span><span class="n">unique_index</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">required</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
     <span class="n">state</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="s1">&#39;State&#39;</span><span class="p">,</span> <span class="s1">&#39;OF&#39;</span><span class="p">)</span>
     <span class="n">city</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="s1">&#39;City&#39;</span><span class="p">,</span> <span class="s1">&#39;OF&#39;</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">Person</span><span class="p">(</span><span class="n">StructuredNode</span><span class="p">):</span>
     <span class="n">uid</span> <span class="o">=</span> <span class="n">UniqueIdProperty</span><span class="p">()</span>
-    <span class="n">full_name</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">required</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+    <span class="n">full_name</span> <span class="o">=</span> <span class="n">StringProperty</span><span class="p">(</span><span class="n">required</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
     <span class="n">email</span> <span class="o">=</span> <span class="n">EmailProperty</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -1307,19 +1336,10 @@
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Janus Graph Python Library</p>
+                <p class="prevnext-title"><span class="section-number">1. </span>Janus Graph Python Library</p>
             </div>
         </a>
     </div>
-     <div id="next">
-        <a class="right-next" href="py-libs.html" title="next page">
-            <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Python Library Development</p>
-            </div>
-            <i class="prevnext-label fas fa-angle-right"></i>
-        </a>
-     </div>
 
 </div>
         

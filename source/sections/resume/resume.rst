@@ -20,6 +20,7 @@ Resume
 .. toctree::
    :maxdepth: 3
    :caption: Resume:
+   :numbered:
    
    education
    work-history

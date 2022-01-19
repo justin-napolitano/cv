@@ -19,6 +19,7 @@ Machine Learning and AI
 .. toctree::
    :maxdepth: 3
    :caption: Contents:
+   :numbered:
    
    tensorflow
    gender-recognition
