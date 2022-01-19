@@ -1,0 +1,1274 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4. Janus Graph Python Library &#8212; Justin Napolitano</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="5. Neo4j Python Library" href="neo4j.html" />
+    <link rel="prev" title="3. International Human Rights Law Framework" href="human-rights-law/human-rights-law.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Justin Napolitano</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p class="caption" role="heading">
+ <span class="caption-text">
+  Contents:
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../resume/resume.html">
+   Resume
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../resume/education.html">
+     1. Education
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../resume/work-history.html">
+     2. Work History
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../resume/technical-skills.html">
+     3. Technical Skillset
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../resume/spoken-languages.html">
+     4. Spoken Languages
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../resume/references.html">
+     5. References
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../political-analysis/political_analysis.html">
+   Political Analysis
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../political-analysis/sup-court/supreme-court.html">
+     1. United States Supreme Court
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+    <label for="toctree-checkbox-3">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/sup-court/sup-court-meta.html">
+       1.1. US Supreme Court MetaData Graph
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/sup-court/tensorflow.html">
+       1.2. US Supreme Court Voting Behavior TensorFlow Predictions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/sup-court/thesis.html">
+       1.3. An Analysis of Case law in the Masterpiece Cake Case and a Behavioral Prediction of the Outcome
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../political-analysis/turkish-kurdish/turkish-kurdish.html">
+     2. Turkish Kurdish Conflict
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+    <label for="toctree-checkbox-4">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/introduction.html">
+       2.1. Introduction
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/event_query_procedure.html">
+       2.2. Event Query Procedure
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/database_schema.html">
+       2.3. Database Schema
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/analysis.html">
+       2.4. Analysis
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/pdf.html">
+       2.5. PDF
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/turkish-kurdish/data.html">
+       2.6. Data
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../political-analysis/international-law/international-law.html">
+     3. International Human Rights Law
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/international-law/human-rights-law.html">
+       3.1. International Human Rights Law Framework
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../political-analysis/int-economics/int-economics.html">
+     4. International Economics
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../political-analysis/int-economics/evolution-of-ngos.html">
+       4.1. The Evolution of International Organizations
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../business-analysis/business_analysis.html">
+   Business Analysis &amp; Sales Forecasting
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../business-analysis/graph-analysis/graph-analysis.html">
+     1. Graph Analysis
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+    <label for="toctree-checkbox-8">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../business-analysis/graph-analysis/real-estate-analysis.html">
+       1.1. Real Estate Analysis Engine
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../business-analysis/sales-forecasting/sales-forecasting.html">
+     2. Sales Forecasting
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+    <label for="toctree-checkbox-9">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../business-analysis/sales-forecasting/retail-sales-forecasting.html">
+       2.1. Retail Sales Forecasting
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../business-analysis/sales-forecasting/order-forecasting.html">
+       2.2. Cigarette Sales Forecasting and Order Prediction
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../business-analysis/sales-reporting/sales-reporting.html">
+     3. Sales Reporting
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+    <label for="toctree-checkbox-10">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../business-analysis/sales-reporting/cli-program.html">
+       3.1. Sales Reporting CLI Program
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../ml-ai/ml_ai.html">
+   Machine Learning and AI
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ml-ai/tensorflow.html">
+     1. US Supreme Court Voting Behavior TensorFlow Predictions
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ml-ai/gender-recognition.html">
+     2. Gender Recognition with TensorFlow
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="database_design.html">
+   Database Design
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+  <label for="toctree-checkbox-12">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="sup-court-meta.html">
+     1. US Supreme Court MetaData Graph
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="turkish-kurdish/turkish-kurdish.html">
+     2. Turkish Kurdish Conflict
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+    <label for="toctree-checkbox-13">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="turkish-kurdish/introduction.html">
+       2.1. Introduction
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="turkish-kurdish/event_query_procedure.html">
+       2.2. Event Query Procedure
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="turkish-kurdish/database_schema.html">
+       2.3. Database Schema
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="turkish-kurdish/analysis.html">
+       2.4. Analysis
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="turkish-kurdish/pdf.html">
+       2.5. PDF
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="turkish-kurdish/data.html">
+       2.6. Data
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="human-rights-law/human-rights-law.html">
+     3. International Human Rights Law Framework
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     4. Janus Graph Python Library
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="neo4j.html">
+     5. Neo4j Python Library
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../py-libs/py-libs.html">
+   Python Library Development
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+  <label for="toctree-checkbox-14">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../py-libs/janus.html">
+     1. Janus Graph Python Library
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../py-libs/neo4j.html">
+     2. Neo4j Python Library
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/sections/database-design/janus.rst.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.rst</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#summary">
+   4.1. Summary
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#links">
+   4.2. Links
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gremlin-connect">
+   4.3. Gremlin Connect
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#query">
+   4.4. Query
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#submit-transaction">
+   4.5. Submit transaction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#add-root">
+   4.6. Add Root
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#add-children-to-root">
+   4.7. Add Children to Root
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#add-sprouted-property">
+   4.8. Add Sprouted Property
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#clear-graph">
+   4.9. Clear Graph
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#zip-code-db-runner-application">
+   4.10. Zip Code DB Runner Application
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="janus-graph-python-library">
+<h1><span class="section-number">4. </span>Janus Graph Python Library<a class="headerlink" href="#janus-graph-python-library" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="summary">
+<h2><span class="section-number">4.1. </span>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>An extension of the python-gremlin library. The API is designed to work well with pandas DataFrames.</p></li>
+<li><p>The collection of functions are written to permit an asynchronous df.apply() across n threads to mimic transaction functionality of spark df’s without the overhead of running a local Spark cluster.</p></li>
+<li><p>Runner applications are also included that create example city and zip code graphs</p></li>
+</ul>
+</div>
+<div class="section" id="links">
+<h2><span class="section-number">4.2. </span>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/justin-napolitano/JanusGraphAPI">GitHub</a></p>
+</div>
+<div class="section" id="gremlin-connect">
+<h2><span class="section-number">4.3. </span>Gremlin Connect<a class="headerlink" href="#gremlin-connect" title="Permalink to this headline">¶</a></h2>
+<p>Connects to the stack.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">gremlin_python</span> <span class="kn">import</span> <span class="n">statics</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.anonymous_traversal</span> <span class="kn">import</span> <span class="n">traversal</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.graph_traversal</span> <span class="kn">import</span> <span class="n">__</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.strategies</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.driver.driver_remote_connection</span> <span class="kn">import</span> <span class="n">DriverRemoteConnection</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">T</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Order</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Cardinality</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Column</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Direction</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Operator</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">P</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Pop</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Scope</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Barrier</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Bindings</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">WithOptions</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.driver</span> <span class="kn">import</span> <span class="n">client</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.graph_traversal</span> <span class="kn">import</span> <span class="n">select</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.graph_traversal</span> <span class="kn">import</span> <span class="nb">property</span>
+
+
+
+
+
+<span class="k">class</span> <span class="nc">GremlinConnection</span><span class="p">:</span>
+
+    <span class="k">def</span> <span class="nf">inject_vertex_properties</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span><span class="n">properties</span><span class="p">,</span><span class="n">label</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">vertex</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">inject</span><span class="p">(</span><span class="n">properties</span><span class="p">)</span><span class="o">.</span><span class="n">unfold</span><span class="p">()</span><span class="o">.</span><span class="n">as_</span><span class="p">(</span><span class="s1">&#39;properties&#39;</span><span class="p">)</span>\
+            <span class="o">.</span><span class="n">addV</span><span class="p">(</span><span class="n">label</span><span class="p">)</span><span class="o">.</span><span class="n">as_</span><span class="p">(</span><span class="s1">&#39;vertex&#39;</span><span class="p">)</span>\
+            <span class="o">.</span><span class="n">sideEffect</span><span class="p">(</span>
+                <span class="n">select</span><span class="p">(</span><span class="s1">&#39;properties&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">unfold</span><span class="p">()</span><span class="o">.</span><span class="n">as_</span><span class="p">(</span><span class="s1">&#39;kv&#39;</span><span class="p">)</span>
+                <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;vertex&#39;</span><span class="p">)</span>
+                <span class="o">.</span><span class="n">property</span><span class="p">(</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;kv&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">by</span><span class="p">(</span><span class="n">Column</span><span class="o">.</span><span class="n">keys</span><span class="p">),</span> <span class="n">select</span><span class="p">(</span><span class="s1">&#39;kv&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">by</span><span class="p">(</span><span class="n">Column</span><span class="o">.</span><span class="n">values</span><span class="p">)))</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">e</span>
+        <span class="k">return</span> <span class="n">vertex</span>
+
+    <span class="k">def</span> <span class="nf">gtx_inject_vertex_properties</span><span class="p">(</span><span class="n">gtx</span><span class="p">,</span><span class="n">properties</span><span class="p">,</span><span class="n">label</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">vertex</span> <span class="o">=</span> <span class="n">gtx</span><span class="o">.</span><span class="n">inject</span><span class="p">(</span><span class="n">properties</span><span class="p">)</span><span class="o">.</span><span class="n">unfold</span><span class="p">()</span><span class="o">.</span><span class="n">as_</span><span class="p">(</span><span class="s1">&#39;properties&#39;</span><span class="p">)</span>\
+            <span class="o">.</span><span class="n">addV</span><span class="p">(</span><span class="n">label</span><span class="p">)</span><span class="o">.</span><span class="n">as_</span><span class="p">(</span><span class="s1">&#39;vertex&#39;</span><span class="p">)</span>\
+            <span class="o">.</span><span class="n">sideEffect</span><span class="p">(</span>
+                <span class="n">select</span><span class="p">(</span><span class="s1">&#39;properties&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">unfold</span><span class="p">()</span><span class="o">.</span><span class="n">as_</span><span class="p">(</span><span class="s1">&#39;kv&#39;</span><span class="p">)</span>
+                <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;vertex&#39;</span><span class="p">)</span>
+                <span class="o">.</span><span class="n">property</span><span class="p">(</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;kv&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">by</span><span class="p">(</span><span class="n">Column</span><span class="o">.</span><span class="n">keys</span><span class="p">),</span> <span class="n">select</span><span class="p">(</span><span class="s1">&#39;kv&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">by</span><span class="p">(</span><span class="n">Column</span><span class="o">.</span><span class="n">values</span><span class="p">)))</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">e</span>
+        <span class="k">return</span> <span class="n">vertex</span>
+
+
+    <span class="k">def</span> <span class="nf">connection_driver</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">):</span>
+        <span class="n">connection_driver</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">_connection_driver</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">connection_driver</span>
+
+
+    <span class="k">def</span> <span class="nf">_connection_driver</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">):</span>
+        <span class="n">connect_string</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;ws://</span><span class="si">{</span><span class="n">host</span><span class="si">}</span><span class="s1">:</span><span class="si">{</span><span class="n">port</span><span class="si">}</span><span class="s1">/gremlin&#39;</span>
+
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">connection_driver</span> <span class="o">=</span> <span class="n">DriverRemoteConnection</span><span class="p">(</span><span class="n">connect_string</span><span class="p">,</span> <span class="s1">&#39;g&#39;</span><span class="p">)</span>
+
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">e</span>
+
+        <span class="k">return</span> <span class="n">connection_driver</span>
+
+    <span class="k">def</span> <span class="nf">add_vertex_traversal</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">properties</span><span class="p">):</span>
+
+        <span class="c1">#This is not commited!!! call next() on what is returned to right to the graph</span>
+        <span class="n">vertex</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">addV</span><span class="p">(</span><span class="n">label</span><span class="p">)</span><span class="o">.</span><span class="n">property</span><span class="p">(</span><span class="n">properties</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">vertex</span>
+
+    <span class="k">def</span> <span class="nf">client_connection</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">):</span>
+        <span class="n">client</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">_client_connection</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">client</span>
+
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_client_connection</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">):</span>
+        <span class="n">connect_string</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;ws://</span><span class="si">{</span><span class="n">host</span><span class="si">}</span><span class="s1">:</span><span class="si">{</span><span class="n">port</span><span class="si">}</span><span class="s1">/gremlin&#39;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">client_</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Client</span><span class="p">(</span><span class="s1">&#39;ws://localhost:8182/gremlin&#39;</span><span class="p">,</span> <span class="s1">&#39;g&#39;</span><span class="p">)</span>
+            <span class="c1"># The connection should be closed on shut down to close open connections with connection.close()</span>
+            <span class="c1">#g = traversal().withRemote(connection)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">e</span>
+
+        <span class="k">return</span> <span class="n">client_</span>
+
+    <span class="k">def</span> <span class="nf">traversal_connection</span><span class="p">(</span><span class="n">connection</span><span class="p">):</span>
+
+        <span class="n">gremlin</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">_traversal_connection</span><span class="p">(</span><span class="n">connection</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">gremlin</span>
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_traversal_connection</span><span class="p">(</span><span class="n">connection</span><span class="p">):</span>
+        <span class="c1">#connect_string = f&#39;ws://{host}:{port}/gremlin&#39;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1">#connection = DriverRemoteConnection(connect_string, &#39;g&#39;)</span>
+            <span class="c1"># The connection should be closed on shut down to close open connections with connection.close()</span>
+            <span class="n">g</span> <span class="o">=</span> <span class="n">traversal</span><span class="p">()</span><span class="o">.</span><span class="n">withRemote</span><span class="p">(</span><span class="n">connection</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">e</span>
+
+        <span class="k">return</span> <span class="n">g</span>
+        <span class="c1"># Reuse &#39;g&#39; across the application</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="query">
+<h2><span class="section-number">4.4. </span>Query<a class="headerlink" href="#query" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">GremlinConnect</span> <span class="kn">import</span> <span class="n">GremlinConnection</span>
+<span class="kn">from</span> <span class="nn">PandasFunctions</span> <span class="kn">import</span> <span class="n">PandasFunctions</span> <span class="k">as</span> <span class="n">PF</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="kn">import</span> <span class="nn">json</span>
+
+
+<span class="k">def</span> <span class="nf">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Calling Gremlin Connect &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="n">gremlin_traversal</span><span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">traversal_connection</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Lived  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">gremlin_traversal</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_connection_driver</span><span class="p">():</span>
+    <span class="n">host</span><span class="o">=</span> <span class="s1">&#39;192.168.1.195&#39;</span>
+    <span class="n">port</span> <span class="o">=</span> <span class="s1">&#39;8182&#39;</span>
+    <span class="n">driver</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">connection_driver</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Alive  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">driver</span>
+
+
+<span class="k">def</span> <span class="nf">query_graph_by_property_value</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span><span class="nb">property</span><span class="p">,</span><span class="n">value</span><span class="p">):</span>
+    <span class="n">orlando_zip_codes</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">()</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="nb">property</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span><span class="o">.</span><span class="n">toList</span><span class="p">()</span>
+    <span class="n">pprint</span><span class="p">(</span><span class="n">orlando_zip_codes</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">get_list_of_all_vertex</span><span class="p">(</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="n">vertex_list</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">()</span><span class="o">.</span><span class="n">toList</span><span class="p">()</span>
+    <span class="c1">#pprint(vertex_list)</span>
+    <span class="k">return</span> <span class="n">vertex_list</span>
+
+<span class="k">def</span> <span class="nf">get_list_of_all_vertex_by_label</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span><span class="n">label</span><span class="p">):</span>
+    <span class="n">vertex_list</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">()</span><span class="o">.</span><span class="n">hasLabel</span><span class="p">(</span><span class="n">label</span><span class="p">)</span><span class="o">.</span><span class="n">toList</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">vertex_list</span>
+    <span class="c1">#pprint(vertex_list)</span>
+
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">connection_driver</span> <span class="o">=</span> <span class="n">get_janus_graph_connection_driver</span><span class="p">()</span>
+    <span class="n">traversal</span> <span class="o">=</span> <span class="n">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="c1">#query_graph_by_property_value(traversal = traversal, property = &#39;State&#39;, value= &quot;FL&quot;)</span>
+    <span class="c1">#et_list_of_all_vertex(traversal)</span>
+    <span class="n">get_list_of_all_vertex_by_label</span><span class="p">(</span><span class="n">traversal</span><span class="o">=</span><span class="n">traversal</span><span class="p">,</span><span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;city&#39;</span><span class="p">)</span>
+    <span class="n">connection_driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="submit-transaction">
+<h2><span class="section-number">4.5. </span>Submit transaction<a class="headerlink" href="#submit-transaction" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#Application.python</span>
+
+<span class="kn">from</span> <span class="nn">GremlinConnect</span> <span class="kn">import</span> <span class="n">GremlinConnection</span>
+<span class="kn">from</span> <span class="nn">PandasFunctions</span> <span class="kn">import</span> <span class="n">PandasFunctions</span> <span class="k">as</span> <span class="n">PF</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">gremlin_python</span> <span class="kn">import</span> <span class="n">statics</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.anonymous_traversal</span> <span class="kn">import</span> <span class="n">traversal</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.graph_traversal</span> <span class="kn">import</span> <span class="n">__</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.strategies</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.driver.driver_remote_connection</span> <span class="kn">import</span> <span class="n">DriverRemoteConnection</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">T</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Order</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Cardinality</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Column</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Direction</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Operator</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">P</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Pop</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Scope</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Barrier</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Bindings</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">WithOptions</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.driver</span> <span class="kn">import</span> <span class="n">client</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.graph_traversal</span> <span class="kn">import</span> <span class="n">select</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.graph_traversal</span> <span class="kn">import</span> <span class="nb">property</span>
+
+
+<span class="k">def</span> <span class="nf">connect_to_janus_server</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Calling Gremlin Connect &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="n">host</span><span class="o">=</span> <span class="s1">&#39;192.168.1.195&#39;</span>
+    <span class="n">port</span> <span class="o">=</span> <span class="s1">&#39;8182&#39;</span>
+    <span class="n">Gremlin</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">client_connection</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Lived  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">Gremlin</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Calling Gremlin Connect &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="n">gremlin_traversal</span><span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">traversal_connection</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Lived  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">gremlin_traversal</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_connection_driver</span><span class="p">():</span>
+    <span class="n">host</span><span class="o">=</span> <span class="s1">&#39;192.168.1.195&#39;</span>
+    <span class="n">port</span> <span class="o">=</span> <span class="s1">&#39;8182&#39;</span>
+    <span class="n">driver</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">connection_driver</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Alive  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">driver</span>
+
+
+<span class="k">def</span> <span class="nf">add_vertex</span><span class="p">(</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="n">vertex</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">addV</span><span class="p">(</span><span class="s1">&#39;person&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">property</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;chris&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">vertex</span><span class="p">)</span>
+    <span class="c1">#name = traversal.V().name.toList()</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">toList</span><span class="p">()</span>
+    <span class="c1">##g.V().name.toList()</span>
+    <span class="k">return</span> <span class="n">name</span>
+
+<span class="k">def</span> <span class="nf">add_vertex_traversal</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">properties</span><span class="p">):</span>
+    <span class="n">vertex_traversal</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">add_vertex_traversal</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">properties</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">vertex_traversal</span>
+
+<span class="k">def</span> <span class="nf">add_zip_code_vertex</span><span class="p">(</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="n">label</span> <span class="o">=</span> <span class="s2">&quot;zip_code&quot;</span>
+
+    <span class="n">properties</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;zip_code&quot;</span><span class="p">:</span> <span class="mi">800</span><span class="p">,</span>
+    <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s1">&#39;standard&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;primary_city&quot;</span><span class="p">:</span> <span class="s1">&#39;example&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;state&quot;</span><span class="p">:</span> <span class="s1">&#39;hickerton&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;county&quot;</span><span class="p">:</span><span class="s1">&#39;bitch town&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;timezone&#39;</span><span class="p">:</span> <span class="s1">&#39;middle_of_nowhere&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;area_codes&#39;</span><span class="p">:</span><span class="mi">333</span><span class="p">,</span>
+    <span class="s1">&#39;world_region&#39;</span><span class="p">:</span> <span class="s1">&#39;USA FUCK YEAH&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;country&quot;</span><span class="p">:</span> <span class="s1">&#39;USA USA USA&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;latitude&#39;</span><span class="p">:</span> <span class="s1">&#39;up your&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;longitude&#39;</span><span class="p">:</span> <span class="s1">&#39;your butt&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;population_2015&#39;</span><span class="p">:</span> <span class="mi">69</span>
+    <span class="p">}</span>
+    <span class="n">vertex</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">addV</span><span class="p">(</span><span class="n">label</span><span class="p">)</span><span class="o">.</span><span class="n">property</span><span class="p">(</span><span class="n">properties</span><span class="p">)</span>
+    <span class="n">vertex</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">vertex</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">vertex</span>
+
+
+<span class="k">def</span> <span class="nf">get_value_map</span><span class="p">(</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="n">value_map</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">()</span><span class="o">.</span><span class="n">valueMap</span><span class="p">()</span><span class="o">.</span><span class="n">toList</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">value_map</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">load_zip_code_df</span><span class="p">():</span>
+    <span class="n">zip_code_df</span> <span class="o">=</span> <span class="n">PF</span><span class="o">.</span><span class="n">Load</span><span class="o">.</span><span class="n">csv_to_df</span><span class="p">(</span><span class="s1">&#39;zip_code_db.csv&#39;</span><span class="p">)</span>
+    <span class="c1">#pprint(zip_code_df)</span>
+    <span class="k">return</span> <span class="n">zip_code_df</span>
+
+<span class="k">def</span> <span class="nf">create_traversal_df</span><span class="p">(</span><span class="n">zip_code_df</span><span class="p">,</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="c1">#zip_code_df[&#39;traversal&#39;] = zip_code_df.apply(lambda x: print(x[&#39;vertice_property&#39;]), axis = 1) inject_vertex_properties(traversal,properties,label):</span>
+    <span class="n">zip_code_df</span><span class="p">[</span><span class="s1">&#39;traversal&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">zip_code_df</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">inject_vertex_properties</span><span class="p">(</span><span class="n">traversal</span> <span class="o">=</span> <span class="n">traversal</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;zip&#39;</span><span class="p">,</span> <span class="n">properties</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;vertice_property&#39;</span><span class="p">]),</span><span class="n">axis</span><span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="c1">#pprint(zip_code_df)</span>
+    <span class="k">return</span> <span class="n">zip_code_df</span>
+
+<span class="k">def</span> <span class="nf">submit_traversal</span><span class="p">(</span><span class="n">traversal_df</span><span class="p">):</span>
+    <span class="c1">#pprint(traversal_df[&#39;traversal&#39;])</span>
+    <span class="n">traversal_df</span><span class="p">[</span><span class="s1">&#39;vertex_submission&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">traversal_df</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;traversal&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">next</span><span class="p">(),</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">traversal_df</span>
+
+<span class="k">def</span> <span class="nf">close_connection</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">):</span>
+    <span class="n">connection_driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">inject_vertex_properties</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span><span class="n">properties</span><span class="p">,</span><span class="n">label</span><span class="p">):</span>
+    <span class="n">vertex</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">inject_vertex_properties</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span><span class="n">properties</span><span class="p">,</span><span class="n">label</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">vertex</span>
+<span class="k">def</span> <span class="nf">transaction_injection_vertex_properties</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span> <span class="n">zip_code_df</span><span class="p">):</span>
+    <span class="n">zip_code_df</span><span class="p">[</span><span class="s1">&#39;traversal&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">zip_code_df</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">inject_vertex_properties</span><span class="p">(</span><span class="n">traversal</span> <span class="o">=</span> <span class="n">traversal</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;zip&#39;</span><span class="p">,</span> <span class="n">properties</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;vertice_property&#39;</span><span class="p">]),</span><span class="n">axis</span><span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="c1">#pprint(zip_code_df)</span>
+    <span class="k">return</span> <span class="n">zip_code_df</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">zip_code_df</span> <span class="o">=</span> <span class="n">load_zip_code_df</span><span class="p">()</span>
+    <span class="c1">#test = json.loads(zip_code_df[&#39;vertice_property&#39;][0])</span>
+    <span class="c1">#pprint(test)</span>
+    <span class="n">connection_driver</span> <span class="o">=</span> <span class="n">get_janus_graph_connection_driver</span><span class="p">()</span>
+    <span class="n">traversal</span> <span class="o">=</span> <span class="n">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="c1">#vertex = inject_vertex_properties(traversal,test,&#39;zip_code&#39;)</span>
+    <span class="c1">#pprint(vertex)</span>
+    <span class="c1">#pprint(traversal)</span>
+    <span class="c1">#vertex_traversal_test = add_vertex_traversal(traversal= traversal, label=&#39;zip&#39;, properties = test)</span>
+    <span class="c1">#vertex_traversal_test = transaction_injection_vertex_properties(traversal= traversal, zip_code_df= zip_code_df)</span>
+    <span class="c1">#pprint(vertex_traversal_test)</span>
+    <span class="c1">#vertex = add_zip_code_vertex(traversal)</span>
+    <span class="c1">#vertex.next()</span>
+    <span class="c1">#pprint(vertex)</span>
+
+    <span class="c1">#pprint(zip_code_df)</span>
+    <span class="c1">#connection_driver = get_janus_graph_connection_driver()</span>
+
+    <span class="c1">#traversal = get_janus_graph_traversal(connection_driver)</span>
+
+    <span class="n">traversal_df</span> <span class="o">=</span> <span class="n">create_traversal_df</span><span class="p">(</span><span class="n">zip_code_df</span><span class="o">=</span><span class="n">zip_code_df</span><span class="p">,</span> <span class="n">traversal</span><span class="o">=</span><span class="n">traversal</span><span class="p">)</span>
+    <span class="n">pprint</span><span class="p">(</span><span class="n">traversal_df</span><span class="p">)</span>
+    <span class="c1">#pprint(traversal_df[&#39;traversal&#39;][0])</span>
+    <span class="c1">#pprint(traversal_df[&#39;traversal&#39;][1].next())</span>
+    <span class="c1">#pprint(traversal_df[&#39;traversal&#39;][1].next())</span>
+    <span class="n">submit_df</span> <span class="o">=</span> <span class="n">submit_traversal</span><span class="p">(</span><span class="n">traversal_df</span><span class="p">)</span>
+    <span class="n">pprint</span><span class="p">(</span><span class="n">submit_df</span><span class="p">)</span>
+    <span class="c1">#pprint(submit_df)</span>
+    <span class="c1">#pprint(traversal_df)</span>
+
+
+    <span class="c1">#print(traversal)</span>
+    <span class="c1">#vertex_added = add_zip_code_vertex(traversal)</span>
+    <span class="c1">#vertex_added = add_vertex(traversal)</span>
+    <span class="c1">#print(vertex_added)</span>
+    <span class="c1">#get_value_map(traversal)</span>
+    <span class="c1">#closed_connection = close_connection(connection_driver)</span>
+    <span class="c1">#mgmt = Gremlin.graph.openManagement()</span>
+    <span class="c1">#mgmt.printSchema()</span>
+    <span class="n">connection_driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="add-root">
+<h2><span class="section-number">4.6. </span>Add Root<a class="headerlink" href="#add-root" title="Permalink to this headline">¶</a></h2>
+<p>Adds a root property to the graph.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#add_is_root_property.py</span>
+
+<span class="kn">from</span> <span class="nn">Query</span> <span class="kn">import</span> <span class="n">get_list_of_all_vertex_by_label</span> <span class="k">as</span> <span class="n">get_vertex</span>
+<span class="kn">from</span> <span class="nn">GremlinConnect</span> <span class="kn">import</span> <span class="n">GremlinConnection</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="kn">import</span> <span class="nn">json</span>
+
+<span class="k">def</span> <span class="nf">get_list</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span> <span class="n">label</span><span class="p">):</span>
+    <span class="n">vertex_list</span> <span class="o">=</span> <span class="n">get_vertex</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">vertex_list</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Calling Gremlin Connect &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="n">gremlin_traversal</span><span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">traversal_connection</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Lived  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">gremlin_traversal</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_connection_driver</span><span class="p">():</span>
+    <span class="n">host</span><span class="o">=</span> <span class="s1">&#39;192.168.1.195&#39;</span>
+    <span class="n">port</span> <span class="o">=</span> <span class="s1">&#39;8182&#39;</span>
+    <span class="n">driver</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">connection_driver</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Alive  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">driver</span>
+
+<span class="k">def</span> <span class="nf">add_is_root_property</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span><span class="nb">list</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">vertex</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">:</span>
+        <span class="n">submission</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">(</span><span class="n">vertex</span><span class="o">.</span><span class="n">id</span><span class="p">)</span><span class="o">.</span><span class="n">property</span><span class="p">(</span><span class="s2">&quot;is_root&quot;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">iterate</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;1 done&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;done&#39;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">connection_driver</span> <span class="o">=</span> <span class="n">get_janus_graph_connection_driver</span><span class="p">()</span>
+    <span class="n">traversal</span> <span class="o">=</span> <span class="n">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="nb">list</span> <span class="o">=</span> <span class="n">get_list</span><span class="p">(</span><span class="n">traversal</span> <span class="o">=</span> <span class="n">traversal</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;city&#39;</span><span class="p">)</span>
+    <span class="n">add_is_root_property</span><span class="p">(</span><span class="n">traversal</span><span class="o">=</span><span class="n">traversal</span><span class="p">,</span> <span class="nb">list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">)</span>
+    <span class="n">connection_driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="add-children-to-root">
+<h2><span class="section-number">4.7. </span>Add Children to Root<a class="headerlink" href="#add-children-to-root" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#AddChildrenToRoot</span>
+
+<span class="kn">from</span> <span class="nn">GremlinConnect</span> <span class="kn">import</span> <span class="n">GremlinConnection</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+
+<span class="k">def</span> <span class="nf">return_arbitrary_root_object</span><span class="p">(</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="n">arbitrary_root</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">()</span><span class="o">.</span><span class="n">hasLabel</span><span class="p">(</span><span class="s1">&#39;zip&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">elementMap</span><span class="p">()</span><span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+    <span class="n">pprint</span><span class="p">(</span><span class="n">arbitrary_root</span><span class="p">)</span>
+
+    <span class="c1">#arbitrary_root = traversal.V().hasLabel(&#39;city&#39;,&#39;state&#39;).has(&#39;is_root&#39;, True).has(&#39;sprouted&#39;, False).limit(1).next()</span>
+    <span class="k">return</span> <span class="n">arbitrary_root</span>
+    <span class="c1">#</span>
+    <span class="c1">#</span>
+    <span class="c1">#pprint(arbitrary_root)</span>
+
+<span class="k">def</span> <span class="nf">return_arbitrary_root_element_map</span><span class="p">(</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="n">arbitrary_root</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">()</span><span class="o">.</span><span class="n">hasLabel</span><span class="p">(</span><span class="s1">&#39;city&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="s1">&#39;is_root&#39;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="s1">&#39;sprouted&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">arbitrary_root</span>
+    <span class="c1">#</span>
+    <span class="c1">#</span>
+    <span class="c1">#pprint(arbitrary_root)</span>
+<span class="k">def</span> <span class="nf">find_children_urls</span><span class="p">(</span><span class="n">root_url</span><span class="p">):</span>
+        <span class="n">root_url</span> <span class="o">=</span> <span class="n">root_url</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;&#39;&quot;</span> <span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">Realtor_Url_Data</span><span class="p">(</span><span class="n">root_url</span><span class="p">)</span>
+        <span class="c1">#pprint(data.url_list)</span>
+        <span class="k">return</span> <span class="n">data</span><span class="o">.</span><span class="n">url_list</span>
+
+
+<span class="k">def</span> <span class="nf">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Calling Gremlin Connect &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="n">gremlin_traversal</span><span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">traversal_connection</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Lived  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">gremlin_traversal</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_connection_driver</span><span class="p">():</span>
+    <span class="n">host</span><span class="o">=</span> <span class="s1">&#39;192.168.1.195&#39;</span>
+    <span class="n">port</span> <span class="o">=</span> <span class="s1">&#39;8182&#39;</span>
+    <span class="n">driver</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">connection_driver</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Alive  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">driver</span>
+
+
+
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">connection_driver</span> <span class="o">=</span> <span class="n">get_janus_graph_connection_driver</span><span class="p">()</span>
+    <span class="n">traversal</span> <span class="o">=</span> <span class="n">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="n">arbitrary_root</span> <span class="o">=</span> <span class="n">return_arbitrary_root_object</span><span class="p">(</span><span class="n">traversal</span><span class="p">)</span>
+    <span class="c1">#pprint(arbitrary_root)</span>
+    <span class="c1">#pprint(dir(arbitrary_root))</span>
+    <span class="c1">#root_url = arbitrary_root_url</span>
+
+    <span class="n">connection_driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="add-sprouted-property">
+<h2><span class="section-number">4.8. </span>Add Sprouted Property<a class="headerlink" href="#add-sprouted-property" title="Permalink to this headline">¶</a></h2>
+<p>Adds a utility isSprouted property to root nodes</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#add_is_root_property.py</span>
+
+<span class="kn">from</span> <span class="nn">Query</span> <span class="kn">import</span> <span class="n">get_list_of_all_vertex_by_label</span> <span class="k">as</span> <span class="n">get_vertex</span>
+<span class="kn">from</span> <span class="nn">GremlinConnect</span> <span class="kn">import</span> <span class="n">GremlinConnection</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">PandasFunctions</span> <span class="k">as</span> <span class="nn">PF</span>
+
+<span class="k">def</span> <span class="nf">get_list</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span> <span class="n">label</span><span class="p">):</span>
+    <span class="n">vertex_list</span> <span class="o">=</span> <span class="n">get_vertex</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">vertex_list</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Calling Gremlin Connect &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="n">gremlin_traversal</span><span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">traversal_connection</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Lived  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">gremlin_traversal</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_connection_driver</span><span class="p">():</span>
+    <span class="n">host</span><span class="o">=</span> <span class="s1">&#39;192.168.1.195&#39;</span>
+    <span class="n">port</span> <span class="o">=</span> <span class="s1">&#39;8182&#39;</span>
+    <span class="n">driver</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">connection_driver</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Alive  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">driver</span>
+
+<span class="k">def</span> <span class="nf">add_sprouted_property</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span><span class="nb">list</span><span class="p">):</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">PF</span><span class="o">.</span><span class="n">PandasFunctions</span><span class="o">.</span><span class="n">Load</span><span class="o">.</span><span class="n">create_empty_df</span><span class="p">()</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;vertices&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;traversals&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;vertices&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">id</span><span class="p">)</span><span class="o">.</span><span class="n">property</span><span class="p">(</span><span class="s1">&#39;sprouted&#39;</span><span class="p">,</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iterate</span><span class="p">(),</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;done&#39;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">connection_driver</span> <span class="o">=</span> <span class="n">get_janus_graph_connection_driver</span><span class="p">()</span>
+    <span class="n">traversal</span> <span class="o">=</span> <span class="n">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="nb">list</span> <span class="o">=</span> <span class="n">get_list</span><span class="p">(</span><span class="n">traversal</span> <span class="o">=</span> <span class="n">traversal</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;city&#39;</span><span class="p">)</span>
+    <span class="n">add_sprouted_property</span><span class="p">(</span><span class="n">traversal</span><span class="o">=</span><span class="n">traversal</span><span class="p">,</span> <span class="nb">list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">)</span>
+    <span class="n">connection_driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="clear-graph">
+<h2><span class="section-number">4.9. </span>Clear Graph<a class="headerlink" href="#clear-graph" title="Permalink to this headline">¶</a></h2>
+<p>Clears the Graph</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">GremlinConnect</span> <span class="kn">import</span> <span class="n">GremlinConnection</span>
+<span class="kn">from</span> <span class="nn">PandasFunctions</span> <span class="kn">import</span> <span class="n">PandasFunctions</span> <span class="k">as</span> <span class="n">PF</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="kn">import</span> <span class="nn">json</span>
+
+
+<span class="k">def</span> <span class="nf">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Calling Gremlin Connect &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="n">gremlin_traversal</span><span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">traversal_connection</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Lived  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">gremlin_traversal</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_connection_driver</span><span class="p">():</span>
+    <span class="n">host</span><span class="o">=</span> <span class="s1">&#39;192.168.1.195&#39;</span>
+    <span class="n">port</span> <span class="o">=</span> <span class="s1">&#39;8182&#39;</span>
+    <span class="n">driver</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">connection_driver</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Alive  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">driver</span>
+
+
+<span class="k">def</span> <span class="nf">delete_all_vertex</span><span class="p">(</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">()</span><span class="o">.</span><span class="n">drop</span><span class="p">()</span><span class="o">.</span><span class="n">iterate</span><span class="p">()</span>
+
+
+
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">connection_driver</span> <span class="o">=</span> <span class="n">get_janus_graph_connection_driver</span><span class="p">()</span>
+    <span class="n">traversal</span> <span class="o">=</span> <span class="n">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="n">delete_all_vertex</span><span class="p">(</span><span class="n">traversal</span><span class="o">=</span><span class="n">traversal</span><span class="p">)</span>
+    <span class="n">connection_driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="zip-code-db-runner-application">
+<h2><span class="section-number">4.10. </span>Zip Code DB Runner Application<a class="headerlink" href="#zip-code-db-runner-application" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#Application.python</span>
+
+<span class="kn">from</span> <span class="nn">GremlinConnect</span> <span class="kn">import</span> <span class="n">GremlinConnection</span>
+<span class="kn">from</span> <span class="nn">PandasFunctions</span> <span class="kn">import</span> <span class="n">PandasFunctions</span> <span class="k">as</span> <span class="n">PF</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">gremlin_python</span> <span class="kn">import</span> <span class="n">statics</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.anonymous_traversal</span> <span class="kn">import</span> <span class="n">traversal</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.graph_traversal</span> <span class="kn">import</span> <span class="n">__</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.strategies</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.driver.driver_remote_connection</span> <span class="kn">import</span> <span class="n">DriverRemoteConnection</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">T</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Order</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Cardinality</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Column</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Direction</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Operator</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">P</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Pop</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Scope</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Barrier</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">Bindings</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.traversal</span> <span class="kn">import</span> <span class="n">WithOptions</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.driver</span> <span class="kn">import</span> <span class="n">client</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.graph_traversal</span> <span class="kn">import</span> <span class="n">select</span>
+<span class="kn">from</span> <span class="nn">gremlin_python.process.graph_traversal</span> <span class="kn">import</span> <span class="nb">property</span>
+
+
+<span class="k">def</span> <span class="nf">connect_to_janus_server</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Calling Gremlin Connect &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="n">host</span><span class="o">=</span> <span class="s1">&#39;192.168.1.195&#39;</span>
+    <span class="n">port</span> <span class="o">=</span> <span class="s1">&#39;8182&#39;</span>
+    <span class="n">Gremlin</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">client_connection</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Lived  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">Gremlin</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Calling Gremlin Connect &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="n">gremlin_traversal</span><span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">traversal_connection</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Lived  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">gremlin_traversal</span>
+
+<span class="k">def</span> <span class="nf">get_janus_graph_connection_driver</span><span class="p">():</span>
+    <span class="n">host</span><span class="o">=</span> <span class="s1">&#39;192.168.1.195&#39;</span>
+    <span class="n">port</span> <span class="o">=</span> <span class="s1">&#39;8182&#39;</span>
+    <span class="n">driver</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">connection_driver</span><span class="p">(</span><span class="n">host</span><span class="p">,</span><span class="n">port</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&amp;&amp;&amp; Gremlin is Alive  &amp;&amp;&amp; &quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">driver</span>
+
+
+<span class="k">def</span> <span class="nf">add_vertex</span><span class="p">(</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="n">vertex</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">addV</span><span class="p">(</span><span class="s1">&#39;person&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">property</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;chris&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">vertex</span><span class="p">)</span>
+    <span class="c1">#name = traversal.V().name.toList()</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">toList</span><span class="p">()</span>
+    <span class="c1">##g.V().name.toList()</span>
+    <span class="k">return</span> <span class="n">name</span>
+
+<span class="k">def</span> <span class="nf">add_vertex_traversal</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">properties</span><span class="p">):</span>
+    <span class="n">vertex_traversal</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">add_vertex_traversal</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">properties</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">vertex_traversal</span>
+
+<span class="k">def</span> <span class="nf">add_zip_code_vertex</span><span class="p">(</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="n">label</span> <span class="o">=</span> <span class="s2">&quot;zip_code&quot;</span>
+
+    <span class="n">properties</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;zip_code&quot;</span><span class="p">:</span> <span class="mi">800</span><span class="p">,</span>
+    <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s1">&#39;standard&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;primary_city&quot;</span><span class="p">:</span> <span class="s1">&#39;example&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;state&quot;</span><span class="p">:</span> <span class="s1">&#39;hickerton&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;county&quot;</span><span class="p">:</span><span class="s1">&#39;bitch town&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;timezone&#39;</span><span class="p">:</span> <span class="s1">&#39;middle_of_nowhere&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;area_codes&#39;</span><span class="p">:</span><span class="mi">333</span><span class="p">,</span>
+    <span class="s1">&#39;world_region&#39;</span><span class="p">:</span> <span class="s1">&#39;USA FUCK YEAH&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;country&quot;</span><span class="p">:</span> <span class="s1">&#39;USA USA USA&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;latitude&#39;</span><span class="p">:</span> <span class="s1">&#39;up your&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;longitude&#39;</span><span class="p">:</span> <span class="s1">&#39;your butt&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;population_2015&#39;</span><span class="p">:</span> <span class="mi">69</span>
+    <span class="p">}</span>
+    <span class="n">vertex</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">addV</span><span class="p">(</span><span class="n">label</span><span class="p">)</span><span class="o">.</span><span class="n">property</span><span class="p">(</span><span class="n">properties</span><span class="p">)</span>
+    <span class="n">vertex</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">vertex</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">vertex</span>
+
+
+<span class="k">def</span> <span class="nf">get_value_map</span><span class="p">(</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="n">value_map</span> <span class="o">=</span> <span class="n">traversal</span><span class="o">.</span><span class="n">V</span><span class="p">()</span><span class="o">.</span><span class="n">valueMap</span><span class="p">()</span><span class="o">.</span><span class="n">toList</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">value_map</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">load_zip_code_df</span><span class="p">():</span>
+    <span class="n">zip_code_df</span> <span class="o">=</span> <span class="n">PF</span><span class="o">.</span><span class="n">Load</span><span class="o">.</span><span class="n">csv_to_df</span><span class="p">(</span><span class="s1">&#39;zip_code_db.csv&#39;</span><span class="p">)</span>
+    <span class="c1">#pprint(zip_code_df)</span>
+    <span class="k">return</span> <span class="n">zip_code_df</span>
+
+<span class="k">def</span> <span class="nf">create_traversal_df</span><span class="p">(</span><span class="n">zip_code_df</span><span class="p">,</span><span class="n">traversal</span><span class="p">):</span>
+    <span class="c1">#zip_code_df[&#39;traversal&#39;] = zip_code_df.apply(lambda x: print(x[&#39;vertice_property&#39;]), axis = 1) inject_vertex_properties(traversal,properties,label):</span>
+    <span class="n">zip_code_df</span><span class="p">[</span><span class="s1">&#39;traversal&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">zip_code_df</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">inject_vertex_properties</span><span class="p">(</span><span class="n">traversal</span> <span class="o">=</span> <span class="n">traversal</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;zip.&#39;</span><span class="p">,</span> <span class="n">properties</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;vertice_property&#39;</span><span class="p">])),</span><span class="n">axis</span><span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="c1">#pprint(zip_code_df)</span>
+    <span class="k">return</span> <span class="n">zip_code_df</span>
+
+<span class="k">def</span> <span class="nf">submit_traversal</span><span class="p">(</span><span class="n">traversal_df</span><span class="p">):</span>
+    <span class="c1">#pprint(traversal_df[&#39;traversal&#39;])</span>
+    <span class="n">traversal_df</span><span class="p">[</span><span class="s1">&#39;vertex_submission&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">traversal_df</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;traversal&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iterate</span><span class="p">(),</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">traversal_df</span>
+
+<span class="k">def</span> <span class="nf">close_connection</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">):</span>
+    <span class="n">connection_driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">inject_vertex_properties</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span><span class="n">properties</span><span class="p">,</span><span class="n">label</span><span class="p">):</span>
+    <span class="n">vertex</span> <span class="o">=</span> <span class="n">GremlinConnection</span><span class="o">.</span><span class="n">inject_vertex_properties</span><span class="p">(</span><span class="n">traversal</span><span class="p">,</span><span class="n">properties</span><span class="p">,</span><span class="n">label</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">vertex</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">zip_code_df</span> <span class="o">=</span> <span class="n">load_zip_code_df</span><span class="p">()</span>
+    <span class="n">connection_driver</span> <span class="o">=</span> <span class="n">get_janus_graph_connection_driver</span><span class="p">()</span>
+    <span class="n">traversal</span> <span class="o">=</span> <span class="n">get_janus_graph_traversal</span><span class="p">(</span><span class="n">connection_driver</span><span class="p">)</span>
+    <span class="n">traversal_df</span> <span class="o">=</span> <span class="n">create_traversal_df</span><span class="p">(</span><span class="n">zip_code_df</span><span class="o">=</span><span class="n">zip_code_df</span><span class="p">,</span> <span class="n">traversal</span><span class="o">=</span><span class="n">traversal</span><span class="p">)</span>
+    <span class="n">pprint</span><span class="p">(</span><span class="n">traversal_df</span><span class="p">)</span>
+    <span class="n">submit_df</span> <span class="o">=</span> <span class="n">submit_traversal</span><span class="p">(</span><span class="n">traversal_df</span><span class="p">)</span>
+    <span class="n">pprint</span><span class="p">(</span><span class="n">submit_df</span><span class="p">)</span>
+    <span class="n">connection_driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="human-rights-law/human-rights-law.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title"><span class="section-number">3. </span>International Human Rights Law Framework</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="neo4j.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title"><span class="section-number">5. </span>Neo4j Python Library</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Justin Napolitano<br/>
+        
+            &copy; Copyright 2022, Justin Napolitano.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
