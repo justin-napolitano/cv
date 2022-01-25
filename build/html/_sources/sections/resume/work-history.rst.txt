@@ -1,93 +1,110 @@
-.. _work-history:
+.. _work_history:
 
 ************
 Work History
 ************
 
-BTJN, Llc
+
+.. _LLC:
+
+BTJN, LLC
 =========
+
+.. _founder:
 
 Founder and Lead Programmer
 ----------------------------
 
-I founded this company to complete contract work.  Below are my notable projects.  
- 
+.. topic:: Overview
 
+    I founded this company to complete contract work.
+
+    Below are my notable projects. 
 
 Data Stream Management Application
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* I wrote python scripts that manipulated the Google Sheets API to make a makeshift CRM application for a marketing firm.
+* I managed write an application that autonomously streamed, filtered, transformed and uploaded an average of 10,000 leads per week.
 
 
-Google Sheets API
-^^^^^^^^^^^^^^^^^
+Google Sheets and Drive Library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* To streamline my work flow in the data stream management application I saved common functions into a class that could be employed across a number of workflows.
+* I currently use it whenever I need to upload or download data from google sheets or create files in the google drive.  
 
-Neo4j API
-^^^^^^^^^^^
+Neo4j Realtor Graph
+^^^^^^^^^^^^^^^^^^^^^
+* With the data collected from the Data Stream Management Application I designed a graph of my leads to pinpoint high quality leads.
+* I initially wrote the scripts in python to use a Neo4j backend.  I discovered that the published library was lacking.  I therefore extended it slightly to achieve my use case. The link is here....
 
+JanusGraph Realtor Graph
+^^^^^^^^^^^^^^^^^^^^^^^^^
+* Due to licensing limitations with Neo4j I pivotted to JanusGraph to build a realtor graph.
+* I collected the functions I used to build the graph into a class that can be viewed here.....
 
-JanusGraph API
-^^^^^^^^^^^^^^^^
 
 CRM Database and Python Management Scripting
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. DANGER::
-    These are dead links
-    make sure you link them Justin Napolitano!!!
+* I was contracted by a public health company that required a CRM application to sell consultations to organizations at the height of the Covid pandemic. 
+* They had initially requested a SQL backend which I accomplished with an Azure deployed SQL server.
+* My employers later requested a transition to an excel based implementation due to cost concerns.  
+* I then wrote Python scripts that integrated and filtered data from user created excel spreadsheets.  
 
 
+
+.. _university_work:
 
 The University of Central Florida 
 =================================
 
-.. DANGER::
-    These are dead links
-    make sure you link them Justin Napolitano!!!
+:ref:`The Turkish Kurdish Event Database <turkish_kurdish>`
+------------------------------------------------------------
 
-The Turkish Kurdish Event Database
-----------------------------------
+.. topic:: Overview
 
-* An event database of the human right's violations that occured in Anatolia during the ongoing conflict between the Kurdish People and the Turkish Govenment. 
-* The data was presented at the Hague in Switzerland for peer review prior to publishing in the Peace Science Journal. 
-* My responsibilities are included below. 
-  
+    The Turkish Kurdish Event Database is a catalogue of the human rights abuses, terrorist activity, and military operations that have taken place in Anatolia since the beginning of the Kurdish Conflict in 1984.
+
+    The finished project was presented at the Hague at the Peace Science Conference.  
+
+    My role in the project is documented below:
+
+
+:ref:`Experimental Design and Research Coordination <event_query_procedure>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* I created the research methodology that enabled a team of research assistants to code data points.
+* I ensured that the data collection, aggregation, and integration procedures met standards defined in the literature to retain rigor for analysis.
+* I developed the training tools and manuals for research assitants.
+
+:ref:`Database Designer <Database Schema>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* I designed a third normal database to maintain logical consistancy and variable independence of data points.
+* I refined the data to easily be recoded into a graph database.
+* I maintained the NoSQL database with Python scripts that automated the data integration procedures for a team of 5 data coders.
+
+:ref:`Lead Analyst <data_page>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* I wrote Python Scripts to export data from the database into Pandas Dataframes in order to perform analysis.
+* I used mathplotlib to chart results. 
+* I summarized the results into accompanying papers and presentations that were later presented among peers at the Peace Science Conference in Switzerland. 
+
 Project Manager
 ^^^^^^^^^^^^^^^
-* I reported directly to Dr. Demet Mousseau.
 * I led a team of 5 research assistants.
-* I trained the team of research assistants to code a large dataset according to the research methedology I designed.
-* I designed the research methodology to ensure rigorous coding of the data. 
-* I compiled the international law pertaining to Human Rights into a framework that can be used by other research teams.
+* I trained the team of research assistants to code a large event dataset according to the standards of the research methodology.
 
 Author
 ^^^^^^^^
 * I wrote an accompanying paper that analyzed the findings from the dataset.
   
-Lead Analyst
-^^^^^^^^^^^^
-* I compiled the data into a single NOSQL database
-* I wrote Python Scripts to export data from the database into Pandas Dataframes in order to perform analysis.
-* I used mathplotlib chart my data
-* I summarized the results into accompanying papers and presentations that were later presented among peers at the Peace Science Conference in Switzerland. 
+.. _emotional_dec_making: 
 
-Research Design
-^^^^^^^^^^^^^^^^^
-* I created the methodology that enabled a team of research assistants to code data points
-* I ensured that the data collection, aggregation, and coding procedures met standards defined in the literature to retain rigor for analysis.
-* I developed the training tools and manuals for research assitants.
-
-Database Designer
-^^^^^^^^^^^^^^^^^
-* I designed a third normal database to maintain logical consistancy and variable independence.
-* I refined the data to easily be recoded into a graph database.
-* I maintained the NoSQL database with Python scripts that automated the data integration procedures for a team of 5 data coders.
-
-
-.. DANGER::
-    These are dead links
-    make sure you link them Justin Napolitano!!!
-
-Emotional Decision Making
+Emotional Decision Making 
 ----------------------------------
+.. topic:: Overview
+
+    Emotional Decision is a paper written by Dr. Tom Dolan of the University of Central Florida. 
+
+    My role in the project is documented below.  
 
 Data Coding 
 ^^^^^^^^^^^^

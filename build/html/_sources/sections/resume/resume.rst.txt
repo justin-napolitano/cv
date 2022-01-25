@@ -18,12 +18,17 @@ Resume
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    :caption: Resume:
    
    education
    work-history
-   technical-skills
+   program-languages
+   python-libraries
+   cloud-services
+   databases
+   apis
+   web-design
    spoken-languages
    references
 

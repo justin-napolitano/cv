@@ -4,25 +4,39 @@
 Education
 *********
 
+.. _university_ed:
 
 The University of Central Florida
 ==================================
 
 
+.. _poly_sci_major:
+
 Political Science
 -----------------
 
-I studies Political Science as my major.  
+.. topic:: Overview
+
+    My major at the University of Central Florida was Political Science.  
+    
+    I studied empirical methods of analysis for observational and demographic data. 
+
 
 My focuses included:
-    * US Supreme Court Jurisprudence
-    * Behavioral-Statistical Analysis of Supreme Court Voting Behavior
-    * International Relations Theory and Analysis
-    * Analysis of Socio-Political Structures in Anatolia.
-  
+    * :ref:`US Supreme Court Jurisprudence. <masterpiece>`
+    * :ref:`Behavioral-Statistical Analysis of Supreme Court Voting Behavior. <masterpiece>`
+    * :ref:`International Relations Theory and Analysis. <evolution_of_ngo_paper>`
+    * :ref:`Analysis of Socio-Political Structures in Anatolia. <turkish_kurdish>`
+
+.. _statistics_master:
+
 Statistics
 -----------
-I studied statistics and computational statistics at the graduate level to supplement my research work.
+
+.. topic:: Overview
+
+    Following graduation I studied computational statistics at the master's level to supplement my work as a research lead.  
+
 
 Notable Coursework:
     * Experimental Design in SAS
