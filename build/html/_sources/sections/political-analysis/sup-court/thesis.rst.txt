@@ -1,3 +1,5 @@
+.. _masterpiece: 
+
 An Analysis of Case law in the Masterpiece Cake Case and a Behavioral Prediction of the Outcome
 ================================================================================================
 

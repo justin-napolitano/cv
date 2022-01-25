@@ -5,14 +5,16 @@
 Programming Languages
 =====================
 
+.. _C:
+
 C
 -----------
-* My first computer language acquired at University.
 * I have written a programs that dynamically allocate memory and point to data in memory to create most of the common data structures.
 
 .. DANGER::
     Link to your projects Justin Napolitano!
 
+.. _Python:
 Python
 --------
 * My primary language that I use to manipulate and analyze data.
@@ -24,13 +26,17 @@ Python
 .. DANGER::
     Link to your projects Justin Napolitano!
 
+.. _SAS: 
+
 SAS
 ----
 
 * I was required to learn the syntax for this language while taking Experimental Design and Analysis in SAS.
 * I can write programs that are capable of the achieveing most use cases. 
 * I do not have any ML experience with SAS.
-  
+
+.. _SQL:
+
 SQL
 ----
 * I designed a CRM database for a small business that made use of a Microsoft Sql Server deployed in the Azure Cloud.
@@ -40,6 +46,8 @@ SQL
 .. DANGER::
     Link to your projects Justin Napolitano!
 
+.. _Scala:
+
 Scala
 -------
 
@@ -48,7 +56,8 @@ Scala
 .. DANGER::
     Link to your projects Justin Napolitano!
 
-RST
+.. _ReST:
+ReST
 -------
 
 
@@ -57,6 +66,7 @@ RST
 .. DANGER::
     Link to your projects Justin Napolitano!
 
+.. _Markdown:
 
 Markdown
 ---------
@@ -65,5 +75,6 @@ Markdown
 .. DANGER::
     Link to your projects Justin Napolitano!
 
-* Jupyter Books and websites
-* Joplin Notebooks    
+* Jupyter books and websites.
+* Joplin Notebooks.
+* Sphinx Sites.

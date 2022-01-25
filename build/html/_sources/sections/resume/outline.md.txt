@@ -1,32 +1,32 @@
 
 # Outline
 
-# Education
+# {ref}`Education <education>`
 
-* The University of Central Florida
-    *  Political Science
-    *  Statistics
+* {ref}`The University of Central Florida <university_ed>`
+    *  {ref}`Political Science <poly_sci_major>`
+    *  {ref}`Statistics <statistics_master>`
 
-# Work History
+# {ref}`Work History <work_history>`
 
-* BTJN, Llc
-    * Founder and Lead Programmer
+* {ref}`BTJN, LLC <LLC>`
+    * {ref}`Founder and Lead Programmer <founder>`
 
-* The University of Central Florida
-    * The Turkish Kurdish Event Database
-    * Emotional Decision Making in Warfare
+* {ref}`The University of Central Florida <university_work>`
+    * {ref}`The Turkish Kurdish Event Database <turkish_kurdish>`
+    * {ref}`Emotional Decision Making in Parliament <emotional_dec_making>`
 
-# Programming Languages
+# {ref}`Programming Languages <programming_languages>`
 
-* C
-* Python
-* SAS
-* SQL
-* Scala
-* RST
-* Markdown
+* {ref}`C <C>`
+* {ref}`Python <Python>`
+* {ref}`SAS <SAS>`
+* {ref}`SQL <SQL>`
+* {ref}`Scala <Scala>`
+* {ref}`ReST <Rest>`
+* {ref}`Markdown <Markdown>`
     * MyST
-* ReST
+* {ref}`ReST <Rest>`
 
 # Python Libraries
 

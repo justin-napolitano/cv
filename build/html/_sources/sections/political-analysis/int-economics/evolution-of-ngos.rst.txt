@@ -1,3 +1,5 @@
+.. _evolution_of_ngo_paper:
+
 ************************************************
 The Evolution of International Organizations
 ************************************************
