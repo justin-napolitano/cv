@@ -12,7 +12,7 @@ The University of Central Florida
 Political Science
 -----------------
 
-I studies Political Science as my major.  
+My major at the University of Central Florida was Political Science.  I studied primarily empirical methods of analysis for observational and demographic data.
 
 My focuses included:
     * US Supreme Court Jurisprudence
@@ -22,7 +22,7 @@ My focuses included:
   
 Statistics
 -----------
-I studied statistics and computational statistics at the graduate level to supplement my research work.
+I studied statistics and computational statistics at the graduate level to supplement my research endeavors.
 
 Notable Coursework:
     * Experimental Design in SAS

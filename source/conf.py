@@ -16,6 +16,10 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import os
+#from pathlib import Path
+from urllib import request
+
 
 # -- Project information -----------------------------------------------------
 
@@ -40,6 +44,14 @@ html_title = 'Justin Napolitano'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'ablog',
+    'myst_nb',
+    'sphinx_copybutton',
+    'sphinx_design',
+    'sphinx_thebe',
+    'sphinx_togglebutton',
+    'sphinxcontrib.bibtex',
+    'sphinxext.opengraph',
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
@@ -51,6 +63,34 @@ extensions = [
     'sphinx.ext.githubpages',
 ]
 
+
+nitpick_ignore = [
+    ("py:class", "docutils.nodes.document"),
+    ("py:class", "docutils.parsers.rst.directives.body.Sidebar"),
+]
+
+suppress_warnings = ["myst.domains", "ref.ref"]
+
+numfig = True
+
+
+myst_enable_extensions = [
+    "dollarmath",
+    # "amsmath",
+    "deflist",
+    # "html_admonition",
+    # "html_image",
+    "colon_fence",
+    # "smartquotes",
+    # "replacements",
+    # "linkify",
+    # "substitution",
+]
+
+thebe_config = {
+    "repository_url": "https://github.com/binder-examples/jupyter-stacks-datascience",
+    "repository_branch": "master",
+}
 
 # External Toc config options
 external_toc_path = "_toc.yml"  # optional, default: _toc.yml
@@ -95,6 +135,7 @@ pygments_style = None
 # a list of builtin themes.
 #
 html_theme = 'sphinx_book_theme'
+html_use_index = True
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -117,11 +158,70 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
+html_sidebars = {
+    "blog/*": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "postcard.html",
+        "recentposts.html",
+        "tagcloud.html",
+        "categories.html",
+        "archives.html",
+        "sbt-sidebar-nav.html",
+        "sbt-sidebar-footer.html",
+    ]
+}
+
+html_theme_options = {
+    "theme_dev_mode": True,
+    #"path_to_docs": "docs",
+    "repository_url": "https://github.com/justin-napolitano/cv",
+    # "repository_branch": "gh-pages",  # For testing
+    "launch_buttons": {
+        "binderhub_url": "https://mybinder.org",
+        # "jupyterhub_url": "https://datahub.berkeley.edu",  # For testing
+        "colab_url": "https://colab.research.google.com/",
+        "deepnote_url": "https://deepnote.com/",
+        "notebook_interface": "jupyterlab",
+        "thebe": True,
+    },
+    "use_edit_page_button": False,
+    "use_issues_button": False,
+    "use_repository_button": True,
+    "use_download_button": True,
+    "logo_only": False,
+    "show_toc_level": 2,
+    # For testing
+    # "use_fullscreen_button": False,
+    # "home_page_in_toc": True,
+    # "single_page": True,
+    # "extra_footer": "<a href='https://google.com'>Test</a>",  # DEPRECATED KEY
+    # "extra_navbar": "<a href='https://google.com'>Test</a>",
+    # "show_navbar_depth": 2,
+
+}
+
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'jnapolitanoiodoc'
+
+
+# -- ABlog config -------------------------------------------------
+blog_path = "blog"
+blog_post_pattern = "blog/*.md"
+blog_baseurl = "https://sphinx-book-theme.readthedocs.io"
+fontawesome_included = True
+post_auto_image = 1
+post_auto_excerpt = 2
+execution_show_tb = "READTHEDOCS" in os.environ
+bibtex_bibfiles = ["references.bib"]
+# To test that style looks good with common bibtex config
+bibtex_reference_style = "author_year"
+bibtex_default_style = "plain"
+
+
 
 
 # -- Options for LaTeX output ------------------------------------------------

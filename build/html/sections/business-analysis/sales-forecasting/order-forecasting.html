@@ -5,6 +5,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Cigarette Sales Forecasting and Order Prediction" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="sections/business-analysis/sales-forecasting/order-forecasting.html" />
+  <meta property="og:description" content="Description: I wrote this program as a project to help a midsized retail company forecast their cigarette sales., It works by pulling data from a SQL server into dataframes., I then calculate the w..." />
+  
     <title>Cigarette Sales Forecasting and Order Prediction &#8212; Justin Napolitano</title>
     
   <link href="../../../_static/css/theme.css" rel="stylesheet" />
@@ -24,6 +29,11 @@
     
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
     
   <link rel="preload" as="script" href="../../../_static/js/index.1c5a1a01449ed65a7b51.js">
 
@@ -31,14 +41,56 @@
     <script src="../../../_static/jquery.js"></script>
     <script src="../../../_static/underscore.js"></script>
     <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../../_static/design-tabs.js"></script>
     <script src="../../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
+    </script>
+    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
-    <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Sales Reporting" href="../sales-reporting/sales-reporting.html" />
-    <link rel="prev" title="Retail Sales Forecasting" href="retail-sales-forecasting.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
-    
+     
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../../blog/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
@@ -66,13 +118,70 @@
     <div class="bd-toc-item active">
         <p class="caption" role="heading">
  <span class="caption-text">
-  Contents:
+  Resume
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/outline.html">
+   Outline
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/education.html">
+   Education
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/work-history.html">
+   Work History
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/program-languages.html">
+   Programming Languages
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/spoken-languages.html">
+   Spoken Languages
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/cloud-services.html">
+   Cloud Services
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/python-libraries.html">
+   Python Libraries
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/databases.html">
+   Databases
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/apis.html">
+   API’s
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../resume/web-design.html">
+   Web Design
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Political Analysis
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../resume/resume.html">
-   Resume
+  <a class="reference internal" href="../../political-analysis/sup-court/supreme-court.html">
+   United States Supreme Court
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -81,35 +190,25 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../resume/education.html">
-     Education
+    <a class="reference internal" href="../../political-analysis/sup-court/sup-court-meta.html">
+     US Supreme Court MetaData Graph
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../resume/work-history.html">
-     Work History
+    <a class="reference internal" href="../../political-analysis/sup-court/tensorflow.html">
+     US Supreme Court Voting Behavior TensorFlow Predictions
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../resume/technical-skills.html">
-     Technical Skillset
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../resume/spoken-languages.html">
-     Spoken Languages
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../resume/references.html">
-     References
+    <a class="reference internal" href="../../political-analysis/sup-court/thesis.html">
+     An Analysis of Case law in the Masterpiece Cake Case and a Behavioral Prediction of the Outcome
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../political-analysis/political_analysis.html">
-   Political Analysis
+  <a class="reference internal" href="../../political-analysis/turkish-kurdish/turkish-kurdish.html">
+   Turkish Kurdish Conflict
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
   <label for="toctree-checkbox-2">
@@ -117,293 +216,68 @@
    </i>
   </label>
   <ul>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../political-analysis/sup-court/supreme-court.html">
-     United States Supreme Court
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-    <label for="toctree-checkbox-3">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/sup-court/sup-court-meta.html">
-       US Supreme Court MetaData Graph
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/sup-court/tensorflow.html">
-       US Supreme Court Voting Behavior TensorFlow Predictions
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/sup-court/thesis.html">
-       An Analysis of Case law in the Masterpiece Cake Case and a Behavioral Prediction of the Outcome
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../political-analysis/turkish-kurdish/turkish-kurdish.html">
-     Turkish Kurdish Conflict
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-    <label for="toctree-checkbox-4">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/turkish-kurdish/introduction.html">
-       Introduction
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/turkish-kurdish/event_query_procedure.html">
-       Event Query Procedure
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/turkish-kurdish/database_schema.html">
-       Database Schema
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/turkish-kurdish/analysis.html">
-       Analysis
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/turkish-kurdish/pdf.html">
-       PDF
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/turkish-kurdish/data.html">
-       Data
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../political-analysis/international-law/international-law.html">
-     International Human Rights Law
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-    <label for="toctree-checkbox-5">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/international-law/human-rights-law.html">
-       International Human Rights Law Framework
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../political-analysis/int-economics/int-economics.html">
-     International Economics
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-    <label for="toctree-checkbox-6">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../political-analysis/int-economics/evolution-of-ngos.html">
-       The Evolution of International Organizations
-      </a>
-     </li>
-    </ul>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 current active has-children">
-  <a class="reference internal" href="../business_analysis.html">
-   Business Analysis &amp; Sales Forecasting
-  </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
-  <label for="toctree-checkbox-7">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul class="current">
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../graph-analysis/graph-analysis.html">
-     Graph Analysis
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
-    <label for="toctree-checkbox-8">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../graph-analysis/real-estate-analysis.html">
-       Real Estate Analysis Engine
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2 current active has-children">
-    <a class="reference internal" href="sales-forecasting.html">
-     Sales Forecasting
-    </a>
-    <input checked="" class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
-    <label for="toctree-checkbox-9">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul class="current">
-     <li class="toctree-l3">
-      <a class="reference internal" href="retail-sales-forecasting.html">
-       Retail Sales Forecasting
-      </a>
-     </li>
-     <li class="toctree-l3 current active">
-      <a class="current reference internal" href="#">
-       Cigarette Sales Forecasting and Order Prediction
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../sales-reporting/sales-reporting.html">
-     Sales Reporting
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
-    <label for="toctree-checkbox-10">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../sales-reporting/cli-program.html">
-       Sales Reporting CLI Program
-      </a>
-     </li>
-    </ul>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../ml-ai/ml_ai.html">
-   Machine Learning and AI
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
-  <label for="toctree-checkbox-11">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../ml-ai/tensorflow.html">
-     US Supreme Court Voting Behavior TensorFlow Predictions
+    <a class="reference internal" href="../../political-analysis/turkish-kurdish/introduction.html">
+     Introduction
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../ml-ai/gender-recognition.html">
-     Gender Recognition with TensorFlow
+    <a class="reference internal" href="../../political-analysis/turkish-kurdish/event_query_procedure.html">
+     Event Query Procedure
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../political-analysis/turkish-kurdish/database_schema.html">
+     Database Schema
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../political-analysis/turkish-kurdish/analysis.html">
+     Analysis
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../political-analysis/turkish-kurdish/pdf.html">
+     PDF
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../political-analysis/turkish-kurdish/data.html">
+     Data
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../database-design/database_design.html">
-   Database Design
+  <a class="reference internal" href="../../political-analysis/international-law/international-law.html">
+   International Human Rights Law
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
-  <label for="toctree-checkbox-12">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../database-design/sup-court-meta.html">
-     US Supreme Court MetaData Graph
-    </a>
-   </li>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../database-design/turkish-kurdish/turkish-kurdish.html">
-     Turkish Kurdish Conflict
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
-    <label for="toctree-checkbox-13">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../database-design/turkish-kurdish/introduction.html">
-       1. Introduction
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../database-design/turkish-kurdish/event_query_procedure.html">
-       2. Event Query Procedure
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../database-design/turkish-kurdish/database_schema.html">
-       3. Database Schema
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../database-design/turkish-kurdish/analysis.html">
-       4. Analysis
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../database-design/turkish-kurdish/pdf.html">
-       5. PDF
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../../database-design/turkish-kurdish/data.html">
-       6. Data
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../database-design/human-rights-law/human-rights-law.html">
+    <a class="reference internal" href="../../political-analysis/international-law/human-rights-law.html">
      International Human Rights Law Framework
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../database-design/janus.html">
-     Janus Graph Python Library
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../database-design/neo4j.html">
-     Neo4j Python Library
-    </a>
-   </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../py-libs/py-libs.html">
-   Python Library Development
+  <a class="reference internal" href="../../political-analysis/int-economics/int-economics.html">
+   International Economics
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
-  <label for="toctree-checkbox-14">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../py-libs/janus.html">
-     Janus Graph Python Library
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../py-libs/neo4j.html">
-     Neo4j Python Library
+    <a class="reference internal" href="../../political-analysis/int-economics/evolution-of-ngos.html">
+     The Evolution of International Organizations
     </a>
    </li>
   </ul>
@@ -460,6 +334,19 @@
 
             <!-- Source interaction buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/justin-napolitano/cv"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
             <!-- Full screen (wrap in <a> to have style consistency -->
 
 <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
@@ -509,8 +396,7 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
         
               <div>
-                
-  <div class="section" id="cigarette-sales-forecasting-and-order-prediction">
+                 <div class="section" id="cigarette-sales-forecasting-and-order-prediction">
 <h1>Cigarette Sales Forecasting and Order Prediction<a class="headerlink" href="#cigarette-sales-forecasting-and-order-prediction" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
@@ -611,6 +497,28 @@
 </div>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./sections/business-analysis/sales-forecasting"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+<div class="section">
+   
+</div>
 
               </div>
               
@@ -621,24 +529,6 @@
 
 <div class='prev-next-bottom'>
     
-    <div id="prev">
-        <a class="left-prev" href="retail-sales-forecasting.html" title="previous page">
-            <i class="prevnext-label fas fa-angle-left"></i>
-            <div class="prevnext-info">
-                <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Retail Sales Forecasting</p>
-            </div>
-        </a>
-    </div>
-     <div id="next">
-        <a class="right-next" href="../sales-reporting/sales-reporting.html" title="next page">
-            <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Sales Reporting</p>
-            </div>
-            <i class="prevnext-label fas fa-angle-right"></i>
-        </a>
-     </div>
 
 </div>
         

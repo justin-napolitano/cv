@@ -1,9 +1,6 @@
 .. _technical-skilset:
 
-*******************
-Technical Skillset
-*******************
-
+.. index:: Resume
 
 Programming Languages
 =====================
@@ -86,7 +83,7 @@ StatsModels
 ------------
 
 
-Markdown Languages
+RST and Markdown
 ==================
 
 RST
@@ -128,8 +125,8 @@ Linux/Gnu
 Cloud Services
 ==============
 
-Google
--------
+Google Cloud
+--------------
 
 * I deploy Ubuntu Servers to process data streams and analytics jobs.  
 

@@ -4,9 +4,6 @@
    contain the root `toctree` directive.
 
 
-.. _genindex:
-
-
 Curricula Vitae
 ==========================================
 
