@@ -15,6 +15,7 @@ C
     Link to your projects Justin Napolitano!
 
 .. _Python:
+
 Python
 --------
 * My primary language that I use to manipulate and analyze data.
@@ -57,6 +58,7 @@ Scala
     Link to your projects Justin Napolitano!
 
 .. _ReST:
+
 ReST
 -------
 

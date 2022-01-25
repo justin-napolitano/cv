@@ -1,13 +1,13 @@
 
 # Outline
 
-# {ref}`Education <education>`
+## {ref}`Education <education>`
 
 * {ref}`The University of Central Florida <university_ed>`
     *  {ref}`Political Science <poly_sci_major>`
     *  {ref}`Statistics <statistics_master>`
 
-# {ref}`Work History <work_history>`
+## {ref}`Work History <work_history>`
 
 * {ref}`BTJN, LLC <LLC>`
     * {ref}`Founder and Lead Programmer <founder>`
@@ -16,7 +16,7 @@
     * {ref}`The Turkish Kurdish Event Database <turkish_kurdish>`
     * {ref}`Emotional Decision Making in Parliament <emotional_dec_making>`
 
-# {ref}`Programming Languages <programming_languages>`
+## {ref}`Programming Languages <programming_languages>`
 
 * {ref}`C <C>`
 * {ref}`Python <Python>`
@@ -28,79 +28,82 @@
     * MyST
 * {ref}`ReST <Rest>`
 
-# Python Libraries
+## {ref}`Python Libraries <python_libraries>`
 
-* TensorFlow
-* Pandas
-* Selenium
-* BeautifulSoup4
-* Pytorch
-* Numpy
-* Keras
-* SciKitLearn
-* MatPlotLib
-* StatsModels
+* {ref}`TensorFlow <tensorflow>`
+* {ref}`Pandas <pandas>`
+* {ref}`Selenium <selenium>`
+* {ref}`BeautifulSoup4 <bs4>`
+* {ref}`Pytorch <pytorch>`
+* {ref}`Numpy <numpy>`
+* {ref}`Keras <keras>`
+* {ref}`SciKitLearn <scikitlearn>`
+* {ref}`MatPlotLib <matplotlib>`
+* {ref}`StatsModels <statmodels>`
 
-# Cloud Services
+## {ref}`Cloud Services <cloud_services>`
 
-* Google Cloud
-* Azure Cloud
+* {ref}`Google Cloud <google_cloud>`
+* {ref}`Azure Cloud <azure_cloud>`
 
-# Databases
+## {ref}`Databases <databases_resume>`
 
-* Microsoft SQL Server
-* JanusGraph
-* Neo4j
-* MongoDb
-* MySql
+* {ref}`Microsoft SQL Server <mic_sql_database_resume>`
+* {ref}`JanusGraph <janusgraph_database_resume>`
+* {ref}`Neo4j <neo4j_database_resume>`
+* {ref}`MongoDb <mongodb_database_resume>`
+* {ref}`MySql <mysql_database_resume>`
 
-# API’s
+## {ref}`API’s <apis>`
 
-* JanusGraph and Gremlin
-* Neo4j
-* Google Drive
-* Google Sheets
-* Flask
+* {ref}`JanusGraph and Gremlin <janus_graph_lib>`
+* {ref}`Neo4j <neo4j_lib>`
+* {ref}`Google Drive <google_drive_lib>`
+* {ref}`Google Sheets <google_sheets_lib>`
+* {ref}`Flask <flask_lib>`
 
-# Web Design
+## Web Design
 
 * WordPress
 * Sphinx
 
-# Spoken Languages
+## {ref}`Spoken Languages <spoken_languages>`
 
-* French
-    * Business Level Reading Proficiency
-    * Business Level Listening Proficiency
-    * Intermediate Level Speaking Proficiency
+* {ref}`French <french_lang>`
+    * {ref}`Business Level Reading Proficiency <french_reading>`
+    * {ref}`Business Level Listening Proficiency <french_listening>`
+    * {ref}`Intermediate Level Speaking Proficiency <french_speaking>`
 
-* Spanish
-    * Business Level Reading Proficiency
-    * Intermediate Level Listening Proficiency
-    * Intermediate level Speaking Proficiency
+* {ref}`Spanish <spanish_lang>`
+    * {ref}`Business Level Reading Proficiency <spanish_reading>`
+    * {ref}`Intermediate Level Listening Proficiency <spanish_listening>`
+    * {ref}`Intermediate level Speaking Proficiency <spanish_speaking>`
 
-* Cantonese Chinese
-    * Beginnner Level Reading Proficiency
-    * Beginner Level Listening Proficiency
-    * Beginner Level Speaking Proficiency
+* {ref}`Cantonese Chinese <cantonese_lang>`
+    * {ref}`Beginnner Level Reading Proficiency <cantonese_reading>`
+    * {ref}`Beginner Level Listening Proficiency <cantonese_listening>`
+    * {ref}`Beginner Level Speaking Proficiency <cantonese_speaking>`
 
-* Mandarin Chinese
-    * Beginnner Level Reading Proficiency
-    * Beginner Level Listening Proficiency
-    * Beginner Level Speaking Proficiency
+* {ref}`Mandarin Chinese <mandarin_lang>`
+    * {ref}`Beginnner Level Reading Proficiency <mandarin_reading>`
+    * {ref}`Beginner Level Listening Proficiency <mandarin_listening>`
+    * {ref}`Beginner Level Speaking Proficiency <mandarin_speaking>`
 
-* Modern Standard Arabic
-    * Beginnner Level Reading Proficiency
-    * Beginner Level Listening Proficiency
-    * Beginner Level Speaking Proficiency
+* {ref}`Modern Standard Arabic <arabic_lang>`
+    * {ref}`Beginnner Level Reading Proficiency <arabic_reading>`
+    * {ref}`Beginner Level Listening Proficiency <arabic_listening>`
+    * {ref}`Beginner Level Speaking Proficiency <arabic_speaking>`
 
-* Sranan Tongo
-    * Beginner Level Reading Proficiency
-    * Intermediate to Advanced Level Listening Proficiency
-    * Intermediate to Advanced Level Speaking Proficiency
+* {ref}`Sranan Tongo <sranan_lang>`
+    * {ref}`Beginner Level Reading Proficiency <sranan_reading>`
+    * {ref}`Intermediate to Advanced Level Listening Proficiency <sranan_listening>`
+    * {ref}`Intermediate to Advanced Level Speaking Proficiency <sranan_speaking>`
 
-* References
-    * Dr. Drew Lanier
-    * Dr. Stephen Keubler
-    * Dr. Tom Dolan
-    * Dr. Demet Mousseau
+## {ref}`References <references>`  
+
+```{todo} Link to their personal sites
+```
+* Dr. Drew Lanier
+* Dr. Stephen Keubler
+* Dr. Tom Dolan
+* Dr. Demet Mousseau

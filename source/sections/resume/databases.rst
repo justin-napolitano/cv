@@ -1,9 +1,11 @@
-.. _databases:
+.. _databases_resume:
 
 .. index:: Databases, Resume
 
 Databases
 =========
+
+.. _mic_sql_database_resume:
 
 Microsoft Sql Server
 --------------------
@@ -15,6 +17,8 @@ Microsoft Sql Server
 .. DANGER::
     Link to your projects Justin Napolitano!
 
+
+.. _janusgraph_database_resume:
 
 JanusGraph
 ----------
@@ -28,6 +32,8 @@ JanusGraph
 .. DANGER::
     Link to your projects Justin Napolitano!
 
+.. _neo4j_database_resume:
+
 Neo4j
 ------
 
@@ -37,9 +43,13 @@ Neo4j
 .. DANGER::
     Link to your projects Justin Napolitano!
 
+.. _mongodb_database_resume:
+
 MongoDb
 ---------
 * I've deployed MongoDb's locally when working with JSON output.
+
+.. _mysql_database_resume:
 
 MySql
 ------
