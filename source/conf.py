@@ -108,7 +108,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
 
 # The master toctree document.
 master_doc = 'index'
@@ -123,7 +123,14 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = [
+    "posts/*/.ipynb_checkpoints/*",
+    ".github/*",
+    ".history",
+    "github_submodule/*",
+    "LICENSE.md",
+    "README.md",
+    ]
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = None
@@ -159,7 +166,7 @@ html_static_path = ['_static']
 # html_sidebars = {}
 
 html_sidebars = {
-    "blog/*": [
+    "sections/blog/posts/*": [
         "sidebar-logo.html",
         "search-field.html",
         "postcard.html",
@@ -173,17 +180,18 @@ html_sidebars = {
 }
 
 html_theme_options = {
+    "home_page_in_toc": True,
     "theme_dev_mode": True,
-    #"path_to_docs": "docs",
+    "path_to_docs": "source",
     "repository_url": "https://github.com/justin-napolitano/cv",
     # "repository_branch": "gh-pages",  # For testing
     "launch_buttons": {
-        "binderhub_url": "https://mybinder.org",
+        #"binderhub_url": "https://mybinder.org",
         # "jupyterhub_url": "https://datahub.berkeley.edu",  # For testing
-        "colab_url": "https://colab.research.google.com/",
-        "deepnote_url": "https://deepnote.com/",
+        #"colab_url": "https://colab.research.google.com/",
+        #"deepnote_url": "https://deepnote.com/",
         "notebook_interface": "jupyterlab",
-        "thebe": True,
+        #"thebe": True,
     },
     "use_edit_page_button": False,
     "use_issues_button": False,
@@ -198,6 +206,7 @@ html_theme_options = {
     # "extra_footer": "<a href='https://google.com'>Test</a>",  # DEPRECATED KEY
     # "extra_navbar": "<a href='https://google.com'>Test</a>",
     # "show_navbar_depth": 2,
+    "show_toc_level": 2,
 
 }
 
@@ -205,13 +214,13 @@ html_theme_options = {
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'jnapolitanoiodoc'
+htmlhelp_basename = 'jnapolitano.io'
 
 
 # -- ABlog config -------------------------------------------------
-blog_path = "blog"
-blog_post_pattern = "blog/*.md"
-blog_baseurl = "https://sphinx-book-theme.readthedocs.io"
+blog_path = "sections/blog/posts"
+blog_post_pattern = ["sections/blog/*.md", "sections/blog/posts/*.md", "sections/blog/posts/*.rst"]
+blog_baseurl = "cv.jnapolitano.io"
 fontawesome_included = True
 post_auto_image = 1
 post_auto_excerpt = 2

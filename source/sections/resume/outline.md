@@ -28,6 +28,41 @@
     * MyST
 * {ref}`ReST <Rest>`
 
+
+## {ref}`Spoken Languages <spoken_languages>`
+
+* {ref}`French <french_lang>`
+    * {ref}`Business Level Reading Proficiency <french_reading>`
+    * {ref}`Business Level Listening Proficiency <french_listening>`
+    * {ref}`Intermediate Level Speaking Proficiency <french_speaking>`
+
+* {ref}`Spanish <spanish_lang>`
+    * {ref}`Business Level Reading Proficiency <spanish_reading>`
+    * {ref}`Intermediate Level Listening Proficiency <spanish_listening>`
+    * {ref}`Intermediate level Speaking Proficiency <spanish_speaking>`
+
+* {ref}`Cantonese Chinese <cantonese_lang>`
+    * {ref}`Beginnner Level Reading Proficiency <cantonese_reading>`
+    * {ref}`Beginner Level Listening Proficiency <cantonese_listening>`
+    * {ref}`Beginner Level Speaking Proficiency <cantonese_speaking>`
+
+* {ref}`Mandarin Chinese <mandarin_lang>`
+    * {ref}`Beginnner Level Reading Proficiency <mandarin_reading>`
+    * {ref}`Beginner Level Listening Proficiency <mandarin_listening>`
+    * {ref}`Beginner Level Speaking Proficiency <mandarin_speaking>`
+
+* {ref}`Modern Standard Arabic <arabic_lang>`
+    * {ref}`Beginnner Level Reading Proficiency <arabic_reading>`
+    * {ref}`Beginner Level Listening Proficiency <arabic_listening>`
+    * {ref}`Beginner Level Speaking Proficiency <arabic_speaking>`
+
+* {ref}`Sranan Tongo <sranan_lang>`
+    * {ref}`Beginner Level Reading Proficiency <sranan_reading>`
+    * {ref}`Intermediate to Advanced Level Listening Proficiency <sranan_listening>`
+    * {ref}`Intermediate to Advanced Level Speaking Proficiency <sranan_speaking>`
+
+    
+
 ## {ref}`Python Libraries <python_libraries>`
 
 * {ref}`TensorFlow <tensorflow>`
@@ -66,38 +101,6 @@
 
 * WordPress
 * Sphinx
-
-## {ref}`Spoken Languages <spoken_languages>`
-
-* {ref}`French <french_lang>`
-    * {ref}`Business Level Reading Proficiency <french_reading>`
-    * {ref}`Business Level Listening Proficiency <french_listening>`
-    * {ref}`Intermediate Level Speaking Proficiency <french_speaking>`
-
-* {ref}`Spanish <spanish_lang>`
-    * {ref}`Business Level Reading Proficiency <spanish_reading>`
-    * {ref}`Intermediate Level Listening Proficiency <spanish_listening>`
-    * {ref}`Intermediate level Speaking Proficiency <spanish_speaking>`
-
-* {ref}`Cantonese Chinese <cantonese_lang>`
-    * {ref}`Beginnner Level Reading Proficiency <cantonese_reading>`
-    * {ref}`Beginner Level Listening Proficiency <cantonese_listening>`
-    * {ref}`Beginner Level Speaking Proficiency <cantonese_speaking>`
-
-* {ref}`Mandarin Chinese <mandarin_lang>`
-    * {ref}`Beginnner Level Reading Proficiency <mandarin_reading>`
-    * {ref}`Beginner Level Listening Proficiency <mandarin_listening>`
-    * {ref}`Beginner Level Speaking Proficiency <mandarin_speaking>`
-
-* {ref}`Modern Standard Arabic <arabic_lang>`
-    * {ref}`Beginnner Level Reading Proficiency <arabic_reading>`
-    * {ref}`Beginner Level Listening Proficiency <arabic_listening>`
-    * {ref}`Beginner Level Speaking Proficiency <arabic_speaking>`
-
-* {ref}`Sranan Tongo <sranan_lang>`
-    * {ref}`Beginner Level Reading Proficiency <sranan_reading>`
-    * {ref}`Intermediate to Advanced Level Listening Proficiency <sranan_listening>`
-    * {ref}`Intermediate to Advanced Level Speaking Proficiency <sranan_speaking>`
 
 ## {ref}`References <references>`  
 

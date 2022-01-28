@@ -22,6 +22,7 @@ sections/resume/python-libraries
 sections/resume/databases
 sections/resume/apis
 sections/resume/web-design
+sections/resume/references
 ```
 
 
@@ -29,7 +30,7 @@ sections/resume/web-design
 # Political Analysis
 
 :::{admonition} Introduction
-This section is a collection of my political analysis projects.
+The Political Analysis sections is a collection of projects that I primaily completed as a research professional at the University of Central Florida.
 :::
 
 ```{toctree}
@@ -45,7 +46,10 @@ sections/political-analysis/int-economics/int-economics.rst
 # Business Analysis
 
 ```{admonition} Introduction
-This section is a collection of my business analysis projects.
+The Business Analysis section includes professional projects that I completed as a private contractor.  I also include personal projects that were completed to learn new skill sets.  
+```
+
+```{todo} Add the econometric projects and the completed graph projects!!!
 ```
 
 ```{toctree}
@@ -61,8 +65,12 @@ sections/business-analysis/sales-reporting/sales-reporting.rst
 # ML and AI
 
 ```{admonition} Introduction
-This section is a collection of my ML and AI projects.
+ML and Ai projects were completed as personal projects to learn the TensorFlow and Kera libraries.  
 ```
+
+```{todo}Add the text recognition projects!!
+```
+
 
 ```{toctree}
 :caption: ML and AI
@@ -75,7 +83,10 @@ sections/ml-ai/gender-recognition.rst
 # Database Design
 
 ```{admonition} Introduction
-This section is a collection of my Database Design Projects.
+This section is a collection of my Database Design Projects. 
+```
+
+```{todo}Include the update janusgraph.  Also include a working implementation of scripts for mongodb.
 ```
 
 ```{toctree}
@@ -88,19 +99,40 @@ sections/database-design/human-rights-law/human-rights-law.rst
 sections/database-design/turkish-kurdish/turkish-kurdish.rst
 ```
 
-# Python Libraries
+# Python
 
-```{admonition} Introduction
-This section is a collection of my Database Design Projects.
+```{admonition} Python
+This section is a collection of my Python Projects.
 ```
 
 ```{todo} Add the drive and sheets libraries to this.  Also add a description of your work with all of the other libraries and link 
 ```
 
 ```{toctree}
-:caption: Python Libraries
+:caption: Python Projects
 :maxdepth: 2
-sections/py-libs/janus.rst
-sections/py-libs/neo4j.rst
+sections/python/py-libs/index.rst
 ```
 
+# Blog 
+
+```{admonition} Blog
+The blog section is a collection of my journali entries.  It details and references my work.  It also includes personal projects.  
+```
+
+
+```{toctree}
+:caption: Blog
+sections/blog/posts
+```
+
+# Index
+
+```{admonition} Index
+The index is a searchable index of everything on this site.  
+```
+
+```{toctree}
+:caption: Index
+genindex.rst
+```
