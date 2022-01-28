@@ -1,5 +1,5 @@
 
-.. _metadatagraph:
+.. _metadatagraph_database:
 
 US Supreme Court MetaData Graph
 ===================================
