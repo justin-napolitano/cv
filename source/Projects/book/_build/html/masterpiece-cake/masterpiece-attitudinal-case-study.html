@@ -1,0 +1,1582 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attitudinal Model Case Study &#8212; Supreme Court Voting Behavior</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Findings" href="masterpiece-findings.html" />
+    <link rel="prev" title="Legal Model Case Study" href="masterpiece-case-study.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Supreme Court Voting Behavior</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Supreme Court Voting Behavior
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Introduction
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro2.html">
+   Supreme Court Voting Behavior
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  The Legal Model
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../legal-model/legal-intro.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../legal-model/jurists-legal.html">
+   Jurists and the Legal Model
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../legal-model/theorists-legal.html">
+   Theorists and the Legal Model
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../legal-model/limits-legal.html">
+   Limitations of the Legal Model
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  The Attitudinal Model
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../attitudinal-model/intro-attitude.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../attitudinal-model/political-science-predictive.html">
+   Political Science Can be A Predictive and Explanatory Science
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../attitudinal-model/justices-create.html">
+   Justices Create the Law
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../attitudinal-model/structural-systems-permit.html">
+   Structural Systems Permit Judicial Independence
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../attitudinal-model/electroral-pressure-liberates.html">
+     Freedom from Electoral Pressures Liberates Justices from Public Opinion
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../attitudinal-model/presidential-influence-cannot.html">
+     The President Can Not Influence The Court
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../attitudinal-model/superior-court-sovereign.html">
+     The Superior Court is a Sovereign Court
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../attitudinal-model/cert-will.html">
+     Certiorari Is an Example of Political Will
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../attitudinal-model/justices-create-ideological.html">
+   Justices Create Law According to their Ideological Preferences
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../attitudinal-model/attitudinal-limits.html">
+   Limitations of the Attitudinal Model
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Bibliography
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../bibliography/bibliography-full.html">
+   Bibliography
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bibliography/articles.html">
+     Articles
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bibliography/books.html">
+     Books
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bibliography/cases.html">
+     Cases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bibliography/constitution.html">
+     Constitution of the United States of America
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bibliography/gov-bills.html">
+     Government Bills
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Papers
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="masterpiece-abstract.html">
+   Masterpiece Cake v. Colorado Civil Rights Commision
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="masterpiece-intro.html">
+     Introduction
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="masterpiece-hypothesis.html">
+     Hypothesis
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="masterpiece-experimental-design.html">
+     Experimental Design
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="masterpiece-case-study.html">
+     Legal Model Case Study
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Attitudinal Model Case Study
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="masterpiece-findings.html">
+     Findings
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../ml/ml-abstract.html">
+   Machine Learning Analysis of US Supreme Court Voting Behavior
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ml/ml-intro.html">
+     Introduction
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ml/ml-case-centric.html">
+     Case Centric Code
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ml/ml-justice-centric.html">
+     Justice Centric Code
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ml/ml-results.html">
+     Machine Learning Results
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../metadata-graph/graph-abstract.html">
+   Metadata Graph of the Corpus of The United States Supreme Court
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../metadata-graph/graph-intro.html">
+     Intro
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../metadata-graph/graph-code.html">
+     Graph Code
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  External Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../resources/supreme-court-database.html">
+   Supeme Court Database
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../resources/jupyter-book.html">
+   Jupyter Book
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../resources/sphinx.html">
+   Sphinx
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/masterpiece-cake/masterpiece-attitudinal-case-study.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/justin-napolitano/Supreme-Court-Voting-Behavior"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/justin-napolitano/Supreme-Court-Voting-Behavior/issues/new?title=Issue%20on%20page%20%2Fmasterpiece-cake/masterpiece-attitudinal-case-study.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#methodology">
+   Methodology
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ideological-score-by-justice">
+     Ideological Score by Justice
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ideological-score-by-justice-first-ammendment">
+     Ideological Score by Justice First Ammendment
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ideological-score-by-justice-by-individual-issue-area">
+     Ideological Score by Justice by Individual Issue Area
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#expected-results">
+   Expected Results
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#justice-vote-according-to-general-ideological-score">
+     Justice Vote According to General Ideological Score
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#justice-votes-by-first-amendment">
+     Justice Votes by First Amendment
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#justice-votes-by-issue-area">
+     Justice Votes by Issue Area
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prediction-summary">
+   Prediction Summary
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="attitudinal-model-case-study">
+<span id="attitudinal-case-study"></span><h1>Attitudinal Model Case Study<a class="headerlink" href="#attitudinal-model-case-study" title="Permalink to this headline">¶</a></h1>
+<p>Write an intro.  Facts, text,</p>
+<div class="section" id="methodology">
+<h2>Methodology<a class="headerlink" href="#methodology" title="Permalink to this headline">¶</a></h2>
+<p>To build a model that takes into account the subjective attitudes of the Supreme Court Justices. I use the Washington University Law Database (Spaeth, Epstein, et al. 2017) that takes into account the individual decisions of each justice in order to determine their ideological value across time.   I then test these values against the facts, including attitudinal objects, and attitudinal situations, of Masterpiece Cake LTD. v. Colorado Civil Rights Commission (2018)</p>
+<div class="section" id="ideological-score-by-justice">
+<h3>Ideological Score by Justice<a class="headerlink" href="#ideological-score-by-justice" title="Permalink to this headline">¶</a></h3>
+<p>To determine a justice’s ideological score I test their votes across time to determine whether they vote conservatively or liberally.  A simple mean value between one and two is then generated.  The closer to one a justice votes the more conservative.  Alternatively, the closer to two the value, the more liberal.  The results for the individual justices are included in
+the chart below.</p>
+<table class="colwidths-given table" id="id1">
+<caption><span class="caption-number">Table 1 </span><span class="caption-text">Ideological Score by Justice Figure 1.0</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Justice</p></th>
+<th class="head"><p>Mean</p></th>
+<th class="head"><p>N</p></th>
+<th class="head"><p>Std. Deviation</p></th>
+<th class="head"><p>Variance</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AMKennedy</p></td>
+<td><p>1.42</p></td>
+<td><p>2668</p></td>
+<td><p>0.493</p></td>
+<td><p>0.243</p></td>
+</tr>
+<tr class="row-odd"><td><p>CThomas</p></td>
+<td><p>1.32</p></td>
+<td><p>2179</p></td>
+<td><p>0.468</p></td>
+<td><p>0.219</p></td>
+</tr>
+<tr class="row-even"><td><p>RBGinsburg</p></td>
+<td><p>1.6</p></td>
+<td><p>1964</p></td>
+<td><p>0.491</p></td>
+<td><p>0.241</p></td>
+</tr>
+<tr class="row-odd"><td><p>SGBreyer</p></td>
+<td><p>1.56</p></td>
+<td><p>1848</p></td>
+<td><p>0.496</p></td>
+<td><p>0.246</p></td>
+</tr>
+<tr class="row-even"><td><p>JGRoberts</p></td>
+<td><p>1.42</p></td>
+<td><p>913</p></td>
+<td><p>0.493</p></td>
+<td><p>0.243</p></td>
+</tr>
+<tr class="row-odd"><td><p>SAAlito</p></td>
+<td><p>1.36</p></td>
+<td><p>874</p></td>
+<td><p>0.481</p></td>
+<td><p>0.232</p></td>
+</tr>
+<tr class="row-even"><td><p>SSotomayor</p></td>
+<td><p>1.62</p></td>
+<td><p>600</p></td>
+<td><p>0.487</p></td>
+<td><p>0.237</p></td>
+</tr>
+<tr class="row-odd"><td><p>EKagan</p></td>
+<td><p>1.59</p></td>
+<td><p>486</p></td>
+<td><p>0.492</p></td>
+<td><p>0.242</p></td>
+</tr>
+<tr class="row-even"><td><p>NMGorsuch</p></td>
+<td><p>1.18</p></td>
+<td><p>17</p></td>
+<td><p>0.393</p></td>
+<td><p>0.154</p></td>
+</tr>
+<tr class="row-odd"><td><p>Total</p></td>
+<td><p>1.47</p></td>
+<td><p>11549</p></td>
+<td><p>0.499</p></td>
+<td><p>0.249</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ideological-score-by-justice-first-ammendment">
+<h3>Ideological Score by Justice First Ammendment<a class="headerlink" href="#ideological-score-by-justice-first-ammendment" title="Permalink to this headline">¶</a></h3>
+<p>Similarly, I derive ideological values according to voting patterns relating to first amendment cases.  The results are printed in the following chart.</p>
+<table class="colwidths-given table" id="id2">
+<caption><span class="caption-number">Table 2 </span><span class="caption-text">Ideological Score by Justice by First Ammendment Figure 1.1</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Justice</p></th>
+<th class="head"><p>issue area of case (coarse)</p></th>
+<th class="head"><p>Mean</p></th>
+<th class="head"><p>N</p></th>
+<th class="head"><p>Std. Deviation</p></th>
+<th class="head"><p>Variance</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AMKennedy</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.47</p></td>
+<td><p>167</p></td>
+<td><p>0.5</p></td>
+<td><p>0.25</p></td>
+</tr>
+<tr class="row-odd"><td><p>CThomas</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.33</p></td>
+<td><p>127</p></td>
+<td><p>0.472</p></td>
+<td><p>0.223</p></td>
+</tr>
+<tr class="row-even"><td><p>RBGinsburg</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.68</p></td>
+<td><p>112</p></td>
+<td><p>0.469</p></td>
+<td><p>0.22</p></td>
+</tr>
+<tr class="row-odd"><td><p>SGBreyer</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.55</p></td>
+<td><p>108</p></td>
+<td><p>0.5</p></td>
+<td><p>0.25</p></td>
+</tr>
+<tr class="row-even"><td><p>JGRoberts</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.51</p></td>
+<td><p>47</p></td>
+<td><p>0.505</p></td>
+<td><p>0.255</p></td>
+</tr>
+<tr class="row-odd"><td><p>SAAlito</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.42</p></td>
+<td><p>43</p></td>
+<td><p>0.499</p></td>
+<td><p>0.249</p></td>
+</tr>
+<tr class="row-even"><td><p>SSotomayor</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.67</p></td>
+<td><p>33</p></td>
+<td><p>0.479</p></td>
+<td><p>0.229</p></td>
+</tr>
+<tr class="row-odd"><td><p>EKagan</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.67</p></td>
+<td><p>27</p></td>
+<td><p>0.48</p></td>
+<td><p>0.231</p></td>
+</tr>
+<tr class="row-even"><td><p>NMGorsuch</p></td>
+<td><p>First Amendment</p></td>
+<td><p>2</p></td>
+<td><p>1</p></td>
+<td><p>.</p></td>
+<td><p>.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Total</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.51</p></td>
+<td><p>665</p></td>
+<td><p>0.5</p></td>
+<td><p>0.25</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ideological-score-by-justice-by-individual-issue-area">
+<h3>Ideological Score by Justice by Individual Issue Area<a class="headerlink" href="#ideological-score-by-justice-by-individual-issue-area" title="Permalink to this headline">¶</a></h3>
+<p>Finally, ideological scores are derived by issue area.  For the purpose of this discussion this is equivalent to an evaluation of the individual attitude-situations as they relate to the facts of the case.  The results are below:</p>
+<table class="colwidths-given table" id="id3">
+<caption><span class="caption-number">Table 3 </span><span class="caption-text">Ideological Score by Justice by Issue Area Figure 1.2</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Justice</p></th>
+<th class="head"><p>issue area of case (coarse)</p></th>
+<th class="head"><p>Issue Area Of Case (Fine)</p></th>
+<th class="head"><p>Mean</p></th>
+<th class="head"><p>N</p></th>
+<th class="head"><p>Std. Deviation</p></th>
+<th class="head"><p>Variance</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AMKennedy</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.71</p></td>
+<td><p>14</p></td>
+<td><p>0.469</p></td>
+<td><p>0.22</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.23</p></td>
+<td><p>13</p></td>
+<td><p>0.439</p></td>
+<td><p>0.192</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.48</p></td>
+<td><p>27</p></td>
+<td><p>0.509</p></td>
+<td><p>0.259</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Total</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.71</p></td>
+<td><p>14</p></td>
+<td><p>0.469</p></td>
+<td><p>0.22</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.23</p></td>
+<td><p>13</p></td>
+<td><p>0.439</p></td>
+<td><p>0.192</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.48</p></td>
+<td><p>27</p></td>
+<td><p>0.509</p></td>
+<td><p>0.259</p></td>
+</tr>
+<tr class="row-even"><td><p>CThomas</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.91</p></td>
+<td><p>11</p></td>
+<td><p>0.302</p></td>
+<td><p>0.091</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.1</p></td>
+<td><p>10</p></td>
+<td><p>0.316</p></td>
+<td><p>0.1</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.52</p></td>
+<td><p>21</p></td>
+<td><p>0.512</p></td>
+<td><p>0.262</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Total</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.91</p></td>
+<td><p>11</p></td>
+<td><p>0.302</p></td>
+<td><p>0.091</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.1</p></td>
+<td><p>10</p></td>
+<td><p>0.316</p></td>
+<td><p>0.1</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.52</p></td>
+<td><p>21</p></td>
+<td><p>0.512</p></td>
+<td><p>0.262</p></td>
+</tr>
+<tr class="row-even"><td><p>RBGinsburg</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.56</p></td>
+<td><p>9</p></td>
+<td><p>0.527</p></td>
+<td><p>0.278</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.78</p></td>
+<td><p>18</p></td>
+<td><p>0.428</p></td>
+<td><p>0.183</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Total</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.56</p></td>
+<td><p>9</p></td>
+<td><p>0.527</p></td>
+<td><p>0.278</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.78</p></td>
+<td><p>18</p></td>
+<td><p>0.428</p></td>
+<td><p>0.183</p></td>
+</tr>
+<tr class="row-even"><td><p>SGBreyer</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.78</p></td>
+<td><p>9</p></td>
+<td><p>0.441</p></td>
+<td><p>0.194</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.67</p></td>
+<td><p>9</p></td>
+<td><p>0.5</p></td>
+<td><p>0.25</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.72</p></td>
+<td><p>18</p></td>
+<td><p>0.461</p></td>
+<td><p>0.212</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Total</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.78</p></td>
+<td><p>9</p></td>
+<td><p>0.441</p></td>
+<td><p>0.194</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.67</p></td>
+<td><p>9</p></td>
+<td><p>0.5</p></td>
+<td><p>0.25</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.72</p></td>
+<td><p>18</p></td>
+<td><p>0.461</p></td>
+<td><p>0.212</p></td>
+</tr>
+<tr class="row-even"><td><p>JGRoberts</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>7</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.78</p></td>
+<td><p>9</p></td>
+<td><p>0.441</p></td>
+<td><p>0.194</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Total</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>7</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.78</p></td>
+<td><p>9</p></td>
+<td><p>0.441</p></td>
+<td><p>0.194</p></td>
+</tr>
+<tr class="row-even"><td><p>SAAlito</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>6</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.75</p></td>
+<td><p>8</p></td>
+<td><p>0.463</p></td>
+<td><p>0.214</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Total</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>6</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.75</p></td>
+<td><p>8</p></td>
+<td><p>0.463</p></td>
+<td><p>0.214</p></td>
+</tr>
+<tr class="row-even"><td><p>SSotomayor</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.5</p></td>
+<td><p>6</p></td>
+<td><p>0.548</p></td>
+<td><p>0.3</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.63</p></td>
+<td><p>8</p></td>
+<td><p>0.518</p></td>
+<td><p>0.268</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Total</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.5</p></td>
+<td><p>6</p></td>
+<td><p>0.548</p></td>
+<td><p>0.3</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.63</p></td>
+<td><p>8</p></td>
+<td><p>0.518</p></td>
+<td><p>0.268</p></td>
+</tr>
+<tr class="row-even"><td><p>EKagan</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.8</p></td>
+<td><p>5</p></td>
+<td><p>0.447</p></td>
+<td><p>0.2</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>1</p></td>
+<td><p>.</p></td>
+<td><p>.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.83</p></td>
+<td><p>6</p></td>
+<td><p>0.408</p></td>
+<td><p>0.167</p></td>
+</tr>
+<tr class="row-odd"><td><p>NMGorsuch</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>1</p></td>
+<td><p>.</p></td>
+<td><p>.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>2</p></td>
+<td><p>1</p></td>
+<td><p>.</p></td>
+<td><p>.</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Total</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>1</p></td>
+<td><p>.</p></td>
+<td><p>.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>2</p></td>
+<td><p>1</p></td>
+<td><p>.</p></td>
+<td><p>.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Total</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.78</p></td>
+<td><p>68</p></td>
+<td><p>0.418</p></td>
+<td><p>0.174</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.46</p></td>
+<td><p>48</p></td>
+<td><p>0.504</p></td>
+<td><p>0.254</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.65</p></td>
+<td><p>116</p></td>
+<td><p>0.48</p></td>
+<td><p>0.231</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>Total</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.78</p></td>
+<td><p>68</p></td>
+<td><p>0.418</p></td>
+<td><p>0.174</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.46</p></td>
+<td><p>48</p></td>
+<td><p>0.504</p></td>
+<td><p>0.254</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.65</p></td>
+<td><p>116</p></td>
+<td><p>0.48</p></td>
+<td><p>0.231</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="expected-results">
+<h2>Expected Results<a class="headerlink" href="#expected-results" title="Permalink to this headline">¶</a></h2>
+<p>In an attempt to replicate the results of Masterpiece Cakeshop Ltd. v. Chicago Civil Rights Commission (2018) I will simply consult the three ideological values above.  If a justice scores below a 1.5 in any area, then they will be expected to vote conservatively.  Conversely if a score above 1.5 is observed the justice is expected to vote liberally.</p>
+<p>In context, A liberal vote will found in favor of the Mr. Charlie Craig and his partner, Mr. Dave Mullins.  The following variables describe liberal voting preferences as they relate to the case.  Pro-civil liberties or civil rights, pro-neutrality in establishment clause cases, pro-underdog, anti-owner, anti-business, pro-government, pro-exercise of judicial action, and pro-judicial activism. A conservative vote is in favor of Mr. Philips, the Colorado baker. Conservatism in context is described as opposite the above liberal values.</p>
+<div class="section" id="justice-vote-according-to-general-ideological-score">
+<h3>Justice Vote According to General Ideological Score<a class="headerlink" href="#justice-vote-according-to-general-ideological-score" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given table" id="id4">
+<caption><span class="caption-number">Table 4 </span><span class="caption-text">Justice Vote by General Ideological Score Figure 4</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Justice</p></th>
+<th class="head"><p>Score</p></th>
+<th class="head"><p>Vote</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AMKennedy</p></td>
+<td><p>1.42</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CThomas</p></td>
+<td><p>1.32</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-even"><td><p>RBGinsburg</p></td>
+<td><p>1.6</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td><p>SGBreyer</p></td>
+<td><p>1.56</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td><p>JGRoberts</p></td>
+<td><p>1.42</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-odd"><td><p>SAAlito</p></td>
+<td><p>1.36</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-even"><td><p>SSotomayor</p></td>
+<td><p>1.62</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td><p>EKagan</p></td>
+<td><p>1.59</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td><p>NMGorsuch</p></td>
+<td><p>1.18</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Total</p></td>
+<td><p>1.47</p></td>
+<td><p>Cons.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="justice-votes-by-first-amendment">
+<h3>Justice Votes by First Amendment<a class="headerlink" href="#justice-votes-by-first-amendment" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given table" id="id5">
+<caption><span class="caption-number">Table 5 </span><span class="caption-text">Justice Vote by Amendment Figure 5</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Justice</p></th>
+<th class="head"><p>issue area of case (coarse)</p></th>
+<th class="head"><p>Score</p></th>
+<th class="head"><p>Vote</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AMKennedy</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.47</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CThomas</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.33</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-even"><td><p>RBGinsburg</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.68</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td><p>SGBreyer</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.55</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td><p>JGRoberts</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.51</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td><p>SAAlito</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.42</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-even"><td><p>SSotomayor</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.67</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td><p>EKagan</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.67</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td><p>NMGorsuch</p></td>
+<td><p>First Amendment</p></td>
+<td><p>2</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Total</p></td>
+<td><p>First Amendment</p></td>
+<td><p>1.51</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>Total</p></td>
+<td><p>1.51</p></td>
+<td><p>Lib.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="justice-votes-by-issue-area">
+<h3>Justice Votes by Issue Area<a class="headerlink" href="#justice-votes-by-issue-area" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given table" id="id6">
+<caption><span class="caption-number">Table 6 </span><span class="caption-text">Justice Vote by Issue Area Figure 6</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Justice Identification Number</p></th>
+<th class="head"><p>Issue Area Of Case (Coarse)</p></th>
+<th class="head"><p>Issue Area Of Case (Fine)</p></th>
+<th class="head"><p>Score</p></th>
+<th class="head"><p>Vote</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Amkennedy</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.71</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.23</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.48</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cthomas</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.91</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.1</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.52</p></td>
+<td><p>Lib</p></td>
+</tr>
+<tr class="row-even"><td><p>Rbginsburg</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.56</p></td>
+<td><p>Lib</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>Lib</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.78</p></td>
+<td><p>Lib</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sgbreyer</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.78</p></td>
+<td><p>Lib</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.67</p></td>
+<td><p>Lib</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.72</p></td>
+<td><p>Lib</p></td>
+</tr>
+<tr class="row-even"><td><p>Jgroberts</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>Lib</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.78</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Saalito</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.75</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td><p>Ssotomayor</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.5</p></td>
+<td><p>Lib/Con</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.63</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ekagan</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.8</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.83</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td><p>Nmgorsuch</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>2</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>2</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-even"><td><p>Total</p></td>
+<td><p>First Amendment</p></td>
+<td><p>Free Exercise Of Religion</p></td>
+<td><p>1.78</p></td>
+<td><p>Lib.</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>Establishment Of Religion</p></td>
+<td><p>1.46</p></td>
+<td><p>Cons.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Total</p></td>
+<td><p>1.65</p></td>
+<td><p>Lib.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="prediction-summary">
+<h2>Prediction Summary<a class="headerlink" href="#prediction-summary" title="Permalink to this headline">¶</a></h2>
+<p>The general ideological value scores predict a 5-4 split along the usual lines (figure 5 include a ref).  The conservative majority coalition consists of Justices, Kennedy, Thomas, Roberts, Alito, and Gorsuch.  The liberal minority is of Justices Ginsberg, Breyer, Sotomayor, and Kagan.</p>
+<p>The ideological scores by the first amendment issue area, predicts a very different outcome.  For instance, a 7-2 liberal majority is expected.  Kennedy, is expected to vote with the conservative coalition, along with Gorsuch.  The Liberal majority consists of, Thomas, Ginsberg, Breyer, Roberts, Alito, Sotomayor, and Kagan.</p>
+<p>Testing again for individual issue areas, the results seem spurious.  When controlling for just the establishment clause, there is a 5-4 majority conservative coalition comprised of Justices Kennedy, Thomas, Roberts, Alito and Gorsuch.  The minority coalition consists of Justices, Ginsberg, Breyer, Sotomayor, Kagan.  However, when controlling for Free Exercise, a 9-0 liberal majority is the expected outcome.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./masterpiece-cake"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="masterpiece-case-study.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Legal Model Case Study</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="masterpiece-findings.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Findings</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Justin Napolitano<br/>
+        
+            &copy; Copyright 2021, court-behavior.io.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

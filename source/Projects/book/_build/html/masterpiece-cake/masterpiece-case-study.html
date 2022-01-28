@@ -1,0 +1,890 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Model Case Study &#8212; Supreme Court Voting Behavior</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Attitudinal Model Case Study" href="masterpiece-attitudinal-case-study.html" />
+    <link rel="prev" title="Experimental Design" href="masterpiece-experimental-design.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Supreme Court Voting Behavior</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Supreme Court Voting Behavior
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Introduction
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro2.html">
+   Supreme Court Voting Behavior
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  The Legal Model
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../legal-model/legal-intro.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../legal-model/jurists-legal.html">
+   Jurists and the Legal Model
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../legal-model/theorists-legal.html">
+   Theorists and the Legal Model
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../legal-model/limits-legal.html">
+   Limitations of the Legal Model
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  The Attitudinal Model
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../attitudinal-model/intro-attitude.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../attitudinal-model/political-science-predictive.html">
+   Political Science Can be A Predictive and Explanatory Science
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../attitudinal-model/justices-create.html">
+   Justices Create the Law
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../attitudinal-model/structural-systems-permit.html">
+   Structural Systems Permit Judicial Independence
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../attitudinal-model/electroral-pressure-liberates.html">
+     Freedom from Electoral Pressures Liberates Justices from Public Opinion
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../attitudinal-model/presidential-influence-cannot.html">
+     The President Can Not Influence The Court
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../attitudinal-model/superior-court-sovereign.html">
+     The Superior Court is a Sovereign Court
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../attitudinal-model/cert-will.html">
+     Certiorari Is an Example of Political Will
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../attitudinal-model/justices-create-ideological.html">
+   Justices Create Law According to their Ideological Preferences
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../attitudinal-model/attitudinal-limits.html">
+   Limitations of the Attitudinal Model
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Bibliography
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../bibliography/bibliography-full.html">
+   Bibliography
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bibliography/articles.html">
+     Articles
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bibliography/books.html">
+     Books
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bibliography/cases.html">
+     Cases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bibliography/constitution.html">
+     Constitution of the United States of America
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bibliography/gov-bills.html">
+     Government Bills
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Papers
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="masterpiece-abstract.html">
+   Masterpiece Cake v. Colorado Civil Rights Commision
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="masterpiece-intro.html">
+     Introduction
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="masterpiece-hypothesis.html">
+     Hypothesis
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="masterpiece-experimental-design.html">
+     Experimental Design
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Legal Model Case Study
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="masterpiece-attitudinal-case-study.html">
+     Attitudinal Model Case Study
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="masterpiece-findings.html">
+     Findings
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../ml/ml-abstract.html">
+   Machine Learning Analysis of US Supreme Court Voting Behavior
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ml/ml-intro.html">
+     Introduction
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ml/ml-case-centric.html">
+     Case Centric Code
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ml/ml-justice-centric.html">
+     Justice Centric Code
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ml/ml-results.html">
+     Machine Learning Results
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../metadata-graph/graph-abstract.html">
+   Metadata Graph of the Corpus of The United States Supreme Court
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../metadata-graph/graph-intro.html">
+     Intro
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../metadata-graph/graph-code.html">
+     Graph Code
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  External Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../resources/supreme-court-database.html">
+   Supeme Court Database
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../resources/jupyter-book.html">
+   Jupyter Book
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../resources/sphinx.html">
+   Sphinx
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/masterpiece-cake/masterpiece-case-study.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/justin-napolitano/Supreme-Court-Voting-Behavior"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/justin-napolitano/Supreme-Court-Voting-Behavior/issues/new?title=Issue%20on%20page%20%2Fmasterpiece-cake/masterpiece-case-study.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-facts-of-the-case">
+   The Facts of the Case
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-pertinent-text">
+   The Pertinent Text
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-first-ammendment">
+     The First Ammendment
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#colorado-state-law-title-24-article-34-part-6-section-601-604-2016">
+     Colorado State Law Title 24, Article 34, Part 6, Section 601-604 2016
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#standing">
+     Standing
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id5">
+       The First Ammendment
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#colorado-state-law">
+       Colorado State Law
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#legislative-intent">
+   Legislative Intent
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id7">
+     The First Ammendment
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#freedom-of-speech">
+     Freedom of Speech
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#establishment-and-free-exercise-clauses">
+     Establishment and Free Exercise Clauses
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#precedent">
+   Precedent
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#analysis-of-case-law">
+     Analysis of Case Law
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#establishment-of-clause">
+     Establishment of Clause
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#free-exercise">
+     Free Exercise
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#reynolds-v-united-states-1879">
+       Reynolds v. United States 1879
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#employment-division-v-smith-1990">
+       Employment Division v. Smith 1990
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hobby-lobby-inc-v-burwell-2014">
+       Hobby Lobby, Inc v. Burwell 2014
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#free-exercise-mr-so-and-so-s-claim">
+       Free Exercise Mr. So and So’s Claim
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#privacy">
+     Privacy
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#griswold-v-connecticut-1965">
+       Griswold v. Connecticut 1965
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#loving-v-virginia-1967">
+       Loving v. Virginia 1967
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lawrence-v-texas-2003">
+       Lawrence v. Texas 2003
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#obergefell-v-hodges-2015">
+       Obergefell v. Hodges 2015
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#privacy-and-mr-so-and-so-s-claim">
+       Privacy and Mr. So and So’s Claim
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#freedom-to-contract">
+     Freedom to Contract
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#katzenbach-v-mcclung-1964">
+       Katzenbach v. McClung 1964
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#heart-of-atlanta-motel-inc-v-united-states-1964">
+       Heart of Atlanta Motel, Inc, v. United States 1964
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#freedom-to-contract-and-mr-so-and-so-s-claim">
+       Freedom to Contract and Mr. So and So’s claim
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="legal-model-case-study">
+<span id="legal-case-study"></span><h1>Legal Model Case Study<a class="headerlink" href="#legal-model-case-study" title="Permalink to this headline">¶</a></h1>
+<p>Write an intro.  Facts, text,</p>
+<div class="section" id="the-facts-of-the-case">
+<h2>The Facts of the Case<a class="headerlink" href="#the-facts-of-the-case" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Under Construction.</p>
+<p>Expand this section.  Create subsection for the facts and reference.</p>
+</div>
+<p>The facts of the case in this instance are pulled directly from the syllabus of the Supreme Court Opinion <span id="id1">[<a class="reference internal" href="../bibliography/cases.html#id2">Kennedy and of the United States, 2018</a>]</span>:</p>
+<blockquote class="epigraph">
+<div><p>Masterpiece Cakeshop, Ltd., is a Colorado bakery owned and operated by Jack Phillips, an expert baker and devout Christian. In 2012, he told a same-sex couple that he would not create a cake for their wedding celebration because of his religious opposition to same-sex marriages—marriages that Colorado did not then recognize—but that he would sell them other baked goods, e.g., birthday cakes. The couple filed a charge with the Colorado Civil Rights Commission (Commission) pursuant to the Colorado Anti-Discrimination Act (CADA), which prohibits, as relevant here, discrimination based on sexual orientation in a “place of business engaged in any sales to the public and any place offering services … to the public.” Under CADA’s administrative review system, the Colorado Civil Rights Division first found probable cause for a violation and referred the case to the Commission. The Commission then referred the case for a formal hearing before a state Administrative Law Judge (ALJ), who ruled in the couple’s favor. In so doing, the ALJ rejected Phillips’ First Amendment claims: that requiring him to create a cake for a same-sex wedding would violate his right to free speech by compelling him to exercise his artistic talents to express a message with which he disagreed and would violate his right to the free exercise of religion.</p>
+</div></blockquote>
+</div>
+<div class="section" id="the-pertinent-text">
+<h2>The Pertinent Text<a class="headerlink" href="#the-pertinent-text" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Under Construction.</p>
+<p>Expand this section.  Ensure that the argument is well structured.  Remove the hyperbolic language.  Support with evidence.  Include introduction</p>
+</div>
+<p>The first step of the test is to test Mr. Phillips claims against pertinent text of the controlling statutory and constitutional provisions.  Therefore, the relevant texts relating to the free speech claims are:</p>
+<ol class="simple">
+<li><p>The First Amendment of the Constitution <a class="footnote-reference brackets" href="#const" id="id2">1</a></p></li>
+<li><p>The Colorado Public Accommodation law {cite}:<code class="docutils literal notranslate"><span class="pre">crs-title24-art-34-part-6-section</span> <span class="pre">601-604-2016</span></code>.</p></li>
+</ol>
+<p>These will be tested against the claim that the Colorado Law unduly burdens Mr. Phillips by abridging his free exercise of religion, as well as his freedom of speech.  <a class="footnote-reference brackets" href="#expand" id="id3">2</a></p>
+<div class="section" id="the-first-ammendment">
+<h3>The First Ammendment<a class="headerlink" href="#the-first-ammendment" title="Permalink to this headline">¶</a></h3>
+<p>I begin with the First Amendment <a class="footnote-reference brackets" href="#const" id="id4">1</a>.  Due to its brevity, I include the entire text:</p>
+<blockquote class="epigraph">
+<div><p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances. (U.S. Const. amend I)</p>
+</div></blockquote>
+</div>
+<div class="section" id="colorado-state-law-title-24-article-34-part-6-section-601-604-2016">
+<h3>Colorado State Law Title 24, Article 34, Part 6, Section 601-604 2016<a class="headerlink" href="#colorado-state-law-title-24-article-34-part-6-section-601-604-2016" title="Permalink to this headline">¶</a></h3>
+<p>The pertinent clause of the Colorado State Law in question reads:</p>
+<blockquote class="epigraph">
+<div><p>It is a discriminatory practice and unlawful for a person, directly or indirectly, to refuse, withhold from, or deny to an individual or a group, because of disability, race, creed, color, sex, sexual orientation, marital status, national origin, or ancestry, the full and equal enjoyment of the goods, services, facilities, privileges, advantages, or accommodations of a place of public accommodation (Colorado Revised Statute, Title 24, Article 34, Part 6, Section 601-604 2016).</p>
+</div></blockquote>
+</div>
+<div class="section" id="standing">
+<h3>Standing<a class="headerlink" href="#standing" title="Permalink to this headline">¶</a></h3>
+<p>Based simply on textual grounds, Mr. Phillips’ free exercise, and freedom of speech claims are completely unfounded.  The first amendment as written does not protect the individual resident of an individual state from undue abridgements of personal religious and speech freedoms.  If we adopt the standard of incorporation as written into the precedent the first amendment still does not seem to support the claims.1  Speech, if understood according to Webster, is “communication or expression of thoughts in spoken words (Webster’s New World 2016).” The action of making a cake, cannot be in any way considered speech by this definition. speech.  Symbolic speech, whatever that means, is not written into the Constitution.</p>
+<div class="section" id="id5">
+<h4>The First Ammendment<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<p>At first reading, Mr. Phillips claim <a class="footnote-reference brackets" href="#claim" id="id6">3</a> does not seem to be legitimate.  If in fact the Colorado Law abridges religious freedoms, or individual speech in any way the amendment reads that “Congress shall make no law”.  At least when reading the text of the First Amendment as plainly as possible it does not apply directly to the case at hand. As a matter of fact, it does not apply to state in any capacity. The difficulty however, is that the Court has incorporated into the common law this amendment.  Therefore, it considered applicable to the states, and thus operable upon the residents of the individual states.  Forgoing this truth, we also run into a few textual problems.  For instance, how is it that speech is defined? Or exactly what constitutes a prohibition of the free exercise of religion?  These questions may only be answer by consulting precedent.</p>
+</div>
+<div class="section" id="colorado-state-law">
+<h4>Colorado State Law<a class="headerlink" href="#colorado-state-law" title="Permalink to this headline">¶</a></h4>
+<p>Contrary to Mr. Phillips’ claim the law does not seem to unduly burden any religious freedoms, nor speech in general.  Rather, it is a generally applicable law, that extends protections in places of public accommodation to people according to sexual-orientation.  Reading this in contrast to the First Amendment, there are no direct violations.</p>
+</div>
+</div>
+</div>
+<div class="section" id="legislative-intent">
+<h2>Legislative Intent<a class="headerlink" href="#legislative-intent" title="Permalink to this headline">¶</a></h2>
+<p>If the Court relied entirely on the textual evidence to judge, it is apparent that the case would not have been heard by the bench. However, this is obviously not the case.  As such, Legislative Intent must also be considered in this analysis.  This section will attempt to discover the intent behind the First Amendment in order to judge Mr. Philips’ claims against original intent.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>I am simply copying and pasting from the original document.  This section will need to be restructured and citations must be added to the bibliography and ref documents.</p>
+</div>
+<div class="section" id="id7">
+<h3>The First Ammendment<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>The First Amendment along with the remaining nine were first introduced to the floor of Congress in 1789 to address the concern that specific individual liberties could be eroded by the powers of the national congress. According to James Madison, in order to limit the power of the legislature.  The case being that it is the most powerful branch, and therefore most likely to be abused (Lloyd 1789).  At the behest of the representatives of the individual states, as well as their ratification committees, the National Congress in order to ratify the Constitution agreed to ratify a Bill of Rights.</p>
+<p>Each individual clause of the amendment is important to the discussion.  For the purpose of this paper, I will discuss the legislative history of the Establishment and Free Exercise Clauses, as well as the Freedom of Speech Clauses.  Then a short discussion on the drafting process of the entire amendment will be had.</p>
+</div>
+<div class="section" id="freedom-of-speech">
+<h3>Freedom of Speech<a class="headerlink" href="#freedom-of-speech" title="Permalink to this headline">¶</a></h3>
+<p>The ideological and textual foundations for the free speech clauses come from English heritage.  For instance, the English Bill of Rights, drafted in 1689, states “that the freedome of speech and debates or proceedings in Parlyament ought not to be impeached or questioned in any court or place out of Parlyament (1 Will. And Mar. Sess. 2, c. 2.)”</p>
+<p>The individual states in their constitutions drafted protection for at least the “freedom of the press.” <a class="footnote-reference brackets" href="#laws" id="id8">4</a>  The state of Pennsylvania in their 1790 Constitution states that:</p>
+<blockquote class="epigraph">
+<div><p>The printing presses shall be free to every person who undertakes to examine the proceedings of the legislature, or any branch of government: And no law shall ever be made to restrain the right thereof.  The Free communication of the thoughts and opinions is one of the invaluable rights of man; and every citizen may freely speak, write and print on any subject, being responsible for the abuse of that liberty.  (Dallas 1791, xxxiv)</p>
+</div></blockquote>
+<p>Evident here is the strong common law and statutory practice of protection of the rights of the individual to publish material no matter the content, however, there does not seem to be a protection for symbolic expressions of speech such as the production of a cake.</p>
+<p>The state ratification committees offer the best insight into the matter of free speech, as it meant to those most concerned with protecting that right.  The Honorable James Lincoln, of South Carolina puts the point most succinctly:</p>
+<blockquote class="epigraph">
+<div><p>Why in this Constitution, is a total silence with regard to the liberty of the press?  Was it forgotten? Impossible!  Then it must have been purposely omitted…. The Liberty of the press was the tyrants scourge — it was the true friend and firmest supporter of civil liberty; therefore, why pass it by in silence?… Pray, sir, what security have we for a republican form of government, when it depends on the mere will and pleasure of a few men, who, with an army, navy, and rich treasury at their back, may change and alter it as they please?  It may be said they will be sworn.  Sir, the king of Great Britain, at his coronation, swore to govern his subjects with justice and mercy.  We were then his subjects, and continued so for a long time after.  He would be glad to know how he observed his oath.  If, then, the king of Great Britain forswore himself, what security have we that a future President and four or five senators — like himself — will think more solemnly of so sacred an obligation than he did?   (Elliot 1888, 314-316)</p>
+</div></blockquote>
+<p>The most obvious concern is the failure of the Constitution to draft specific protections to secure the individual states from the type of tyranny experienced under the English Crown.  So too is a bit of realism present.  How is it that men, men of high rank, can be expected to uphold their oaths to govern with regard to the people?  When it is likely that men that acquire power will in many cases do the utmost to retain that power.  It is difficult to make the argument that these men had much of a consideration for individual speech, or any form of symbolic speech <a class="footnote-reference brackets" href="#symbolic-speech" id="id9">5</a></p>
+<p>The Congressional accounts support the same basic idea.  James Madison proposed to the House, that the “people shall not be deprived or abridged of their right to speak, to write, or to publish their sentiments; and the freedom of the press, as one of the great bulwarks of liberty, shall be inviolable (Lloyd 1789).  Roger Sherman, also put to the floor, that “people have certain natural rights which are retained by them when they enter into society. Such are the rights… of Speaking, writing and publishing their Sentiments with decency and freedom (Lloyd 1789).”   There is no apparent concern for symbolic forms of speech.  Rather, the idea is that someone may privately write and say what he so wishes, and publish that material if one so chooses.</p>
+<p>The overarching intent of the Free Speech clause, appears to be an intent to forbid the federal government from restricting access to free presses.  The concern is almost exclusively focused on published material, and the fact that a free press enables the people of a nation to challenge the acts of government.  To restrict this right, in the eyes of some members of the congress, and the state ratification committees, was to in effect establish a tyrannical government.  The English Bill of Rights, State Constitutions, and the accounts of the State Ratification Committees all support this.</p>
+<p>The conditional clauses within the state constitutions also point to the fact, that speech was not to be construed to enable a person to act in a way that is harmful to the public welfare.  State laws passed in order to improve the well being of the general public could not be abrogated by individuals claiming a free speech exemption.  In reference to Mr. Phillips’ claims an original intent lens, at best guess <a class="footnote-reference brackets" href="#impossible" id="id10">6</a>, would not support an individual protection from state public accommodation laws on free speech grounds.</p>
+</div>
+<div class="section" id="establishment-and-free-exercise-clauses">
+<h3>Establishment and Free Exercise Clauses<a class="headerlink" href="#establishment-and-free-exercise-clauses" title="Permalink to this headline">¶</a></h3>
+<p>Again, the English heritage of founders of the United States is relevant to the discussion.  The English Bill of Rights reads, “that the commission for erecting the late courts of commissioners of ecclesiastical causes and all other commissions and courts of like nature are illegal and pernicious (1 Will. and Mary. Sess. 2, c. 2).” <a class="footnote-reference brackets" href="#william-and-mary" id="id11">7</a></p>
+<p>Also, certain State constitutions prohibit religious tests necessary to hold office, as well as the imposition of any religious belief upon inhabitants.  Georgia’s in particular, “All persons whatever shall have the free exercise of their religion; provided it be not repugnant to the peace and safety of the State; and shall not, unless by consent, support any teacher, or teachers, except those of their own profession…. No clergyman, of any denomination, shall be allowed a seat in the legislature (Watkins and Watkins 1800, 15-16).” Also, important is the state of New York’s 1777 constitution which states, “that the free Exercise and Enjoyment of religious Profession and Worship, without Discrimination or Preference, shall forever hereafter be allowed within this state to all Mankind.” Noticeable is the conditional clause, citing: Provided, that the Liberty and Conscience hereby granted, shall not be so construed, as to excuse Acts of Licentiousness, or justify Practices inconsistent with the Peace or Safety of this State (The State of New York 1789, 13).” A number of other states follow in like fashion. <a class="footnote-reference brackets" href="#laws2" id="id12">8</a></p>
+<p>An intent to separate civil and political life is also apparent at the first congress.  For instance, at first drafting what became the establishment clause read, “The civil rights of none shall be abridged on account of religious belief or worship, nor shall any national religion be established, nor shall the full and equal rights of conscience be in any manner, or any pretext infringed (Lloyd 1789).”  A later draft also read, “Congress shall make no law establishing articles of faith or a mode of worship, or prohibiting the free exercise of religion, or abridging the freedom of speech, or the press, or the right of the people peaceable to assemble, and petition to the Government for the redress of grievances (Lloyd 1789).”</p>
+<p>Together, these provide little evidence into the intention of the legislators present at the first congress.  The first draft, quite different from the final, implies a respect for both the free exercise of religion, and for free exercise of action according to the dictate of conscience.  As a summary of Mr. Samuel Huntington’s concern reads, “he hoped therefore the amendment would be made in such a way as to secure the rights of conscience, and a free exercise of the rights of religion, but not to patronize those who profess no religion at all (Lloyd 1789).” Thus, concern for both religious exercise, as well as non-religious seems to be equally supported by at least Mr. Huntington.  Governor Randolph of Virginia puts this same convention more forwardly in stating that, “a mutual toleration, and a persuasion that no man has the right to impose his opinion on other” is his intent behind the ratification of what became the first amendment (Elliot 1888).</p>
+<p>However, the next draft removes this consideration, and limits the wording to include only protections for the free-exercise of religion.  Freedom of consciousness, whatever that they may mean is dropped.  A series of other drafts may be considered, as may conflicting pamphlets but the pressing reality is that the members of the first congress, as well as the state ratification committees, and the general public at large, all had different concerns.  Who is considered to be authoritative on this matter is dependent upon the values of the individual reader.  Therefore, there cannot be one legislative intent, but instead a diversity of intents that converged about a single piece of legislation.</p>
+<p>If one were to guess, which is the best that can be done on the matter, the intent behind the establishment clause was to protect the individual states from usurpation of powers by the federal government of powers historically held by the states.  The protections for religion, speech, assembly, and redress, grant to the states special protections in order to further weaken the federal government.  There is not a unanimous application of these rights to all individual inhabitants within the United States.    No, instead, a blanket restriction was imposed upon the federal government, in order to allow the states to manage these affairs as they saw fit.  If a justice were to consult this original intention, Mr. Philips’ claims would be superfluous, as the amendment would not be binding on the state of Colorado.</p>
+</div>
+</div>
+<div class="section" id="precedent">
+<h2>Precedent<a class="headerlink" href="#precedent" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="analysis-of-case-law">
+<h3>Analysis of Case Law<a class="headerlink" href="#analysis-of-case-law" title="Permalink to this headline">¶</a></h3>
+<p>To test Mr. Phillips’ claim to a freedom of speech, and a free exercise exemption, this section of the paper will analyze the doctrines created by the Supreme Court in regard to Privacy, Establishment, Free Exercise, and the Freedom of Contract.</p>
+</div>
+<div class="section" id="establishment-of-clause">
+<h3>Establishment of Clause<a class="headerlink" href="#establishment-of-clause" title="Permalink to this headline">¶</a></h3>
+<p>Lemon v. Kurtzman is the authority which the court recognizes as the standard by which to test laws for Establishment Clause violations.  The “Lemon Test” states three rules.  “First, the statute must have a secular legislative purpose; second, its principal or primary effect must be one that neither advances nor inhibits religion; Finally, the statute must not foster an excessive government entanglement with religion (Lemon v. Kurtzman, 1971) “In order to determine whether the government entanglement with religious is excessive, we must examine the character and purpose of the institutions that benefitted, the nature of the aid the state provides, and the resulting relationship between the government and the religious authority (Lemon v. Kurtzman, 1971).”  The Colorado state law in question, does not in any way violate these provisions.</p>
+<p>For example, it may not be construed to have any other purpose than a secular one.  Secondly, the primary effect does not inhibit nor advance religion.  The primary purpose only protects individuals from discrimination in place of public accommodation.  Third, the law does not entangle the government, federal or state, with religion.  In effect, the government, no matter the degree of separation, is not entangled with any church, mosque, or any other form of religion.</p>
+</div>
+<div class="section" id="free-exercise">
+<h3>Free Exercise<a class="headerlink" href="#free-exercise" title="Permalink to this headline">¶</a></h3>
+<p>The Free Exercise claim is not as easily defeated.  A number of cases must be reviewed in order to conclude whether the Colorado law is in violation of this clause (U.S. Const. amend. I cl.1)</p>
+<div class="section" id="reynolds-v-united-states-1879">
+<h4>Reynolds v. United States 1879<a class="headerlink" href="#reynolds-v-united-states-1879" title="Permalink to this headline">¶</a></h4>
+<p>The first case under consideration is Reynolds v. United States (1879), in which laws prohibiting bigamy were brought under scrutiny when challenged by members of the Church of Latter Day Saints.  To challenge the conviction, which was considered, as it is at present antithetical to publically accepted morality the Court argued that “laws are made for the government of actions, and while they cannot interfere with mere religious belief and opinions, they may with practices (Reynolds v. United States, 1879)” in order to promote the general welfare of the people.  To permit otherwise “would be to make the professed doctrines of religious belief superior to the law of the land, and in effect to permit every citizen to become a law unto himself (Reynolds v. United States, 1879).”</p>
+</div>
+<div class="section" id="employment-division-v-smith-1990">
+<h4>Employment Division v. Smith 1990<a class="headerlink" href="#employment-division-v-smith-1990" title="Permalink to this headline">¶</a></h4>
+<p>This position is reiterated in Employment Div. v. Smith (1990) in which the court deliberated on the validity of a Seattle State law’s prohibition on providing unemployment benefits to individuals found to have used schedule I substance despite a claim to a religious exemption.  The appellant sought to reverse the verdict of Reynolds.  The Court did not budge.  To force the state to violate its own laws at the behest of an individual claiming religious exemptions for specific practices in effect does put the government behind the promotion of the claimant’s religious beliefs.  In fact, “it is a permissible reading of U.S Const. Amend. I to say that if prohibiting the exercise or religion is not the object of a law, but merely the incidental effect of a generally applicable and otherwise valid provision, the First Amendment has not been offended (Employment Div. v. Smith, 1990).”</p>
+</div>
+<div class="section" id="hobby-lobby-inc-v-burwell-2014">
+<h4>Hobby Lobby, Inc v. Burwell 2014<a class="headerlink" href="#hobby-lobby-inc-v-burwell-2014" title="Permalink to this headline">¶</a></h4>
+<p>The court shifted however in Hobby Lobby, Inc v. Burwell which the Supreme Court violated the spirit of previous decisions in response to Congress’ passage of the Religious Land Use and Institutionalized Persons Act, the RLUIPA. Which is “in an obvious effort to effect a complete separation from First Amendment case law (Hobby Lobby, Inc v. Burwell, 2014).” The Court did not strike the law as they had done City of Boerne v. Flores (1997).  Instead they validated it despite the fact “the powers of the legislature are defined and limited; and that those limits may not be mistaken (City of Boerne v. Flores, 1997).”  Unlike the consensus in Employment Div. v. Smith (1990), that a rule of general applicability may supersede one’s free exercise rights, the court found in favor of the corporate entity Hobby Lobby’s stance that the imposition of fines as punishment for not providing contraceptive coverage to female employees is not the “least restrictive means of furthering” a government interest.</p>
+</div>
+<div class="section" id="free-exercise-mr-so-and-so-s-claim">
+<h4>Free Exercise Mr. So and So’s Claim<a class="headerlink" href="#free-exercise-mr-so-and-so-s-claim" title="Permalink to this headline">¶</a></h4>
+<p>Considering the current claim, is it that the Colorado Law unduly inhibits the free exercise of religious belief?  No, it does not in any way.  By way of Lemon v. Kurtzman (1971), Reynolds v. United States (1879), and Employment Div. v. Smith (1990), the Colorado Public Accommodation law passes the test of general applicability.  However, the only precedent which may challenge its constitutionality is Hobby Lobby, Inc v. Burwell (2014).  Nonetheless, the Colorado Law may be considered the least restrictive means to further the public accommodation protections according to sexual-orientation.  To accomplish the same ends in any way less restrictive would require the law to be struck from the books.</p>
+</div>
+</div>
+<div class="section" id="privacy">
+<h3>Privacy<a class="headerlink" href="#privacy" title="Permalink to this headline">¶</a></h3>
+<p>The right to marriage, well the right for same-sex couples to marry is a right founded in the doctrine of privacy and supported by the Fourteenth Amendment.  Obergefell v. Hodges (2015) the ruling which enabled same-sex couples to marry is the culmination of a development of a doctrine which proposes that institutions understood to be fundamental to ordered liberty ought not to be excessively regulated by the Congress (Palko v. Connecticut, 1937).   A string of cases in which the Court came to adopt the position that consenting adults of nontraditional relationships ought to receive the same protections under the law as those of traditional relationships rationalize the ruling. <a class="footnote-reference brackets" href="#tradition" id="id13">9</a></p>
+<div class="section" id="griswold-v-connecticut-1965">
+<h4>Griswold v. Connecticut 1965<a class="headerlink" href="#griswold-v-connecticut-1965" title="Permalink to this headline">¶</a></h4>
+<p>In Griswold v. Connecticut (1965) it was found that a consenting couple may receive counseling from a planned parenthood representative with regard to birth control.  The right of that couple to act according to their discretion is fundamental to the institution of marriage.  The court could not find a rational government interest to infringe upon that sacred barrier.</p>
+</div>
+<div class="section" id="loving-v-virginia-1967">
+<h4>Loving v. Virginia 1967<a class="headerlink" href="#loving-v-virginia-1967" title="Permalink to this headline">¶</a></h4>
+<p>Accordingly, the Court ruled in Loving v. Virginia (1967) that the rights afforded to white couples and black couples, could not be excluded from couples of mixed races.  Marriage is a fundamental right.  Therefore, it cannot be awarded only to select classes. Rather it is a right afforded to each individual of the United States.  The Fourteenth Amendment ensures that all people are afforded equal protection under the law.  To violate this principle is to violate the constitution.</p>
+</div>
+<div class="section" id="lawrence-v-texas-2003">
+<h4>Lawrence v. Texas 2003<a class="headerlink" href="#lawrence-v-texas-2003" title="Permalink to this headline">¶</a></h4>
+<p>Lawrence v. Texas (2003) applied this principle to same sex couples.  It was found that sodomy laws in general restrict the ability for male same-sex couples to fully realize intimacy.  The laws unduly affected a single class of individuals without reason except to eliminate a socially unaccepted behavior from the private lives of two consenting adults.  The court could find no basis for the ban apart from undue bias directed at same-sex couples.</p>
+</div>
+<div class="section" id="obergefell-v-hodges-2015">
+<h4>Obergefell v. Hodges 2015<a class="headerlink" href="#obergefell-v-hodges-2015" title="Permalink to this headline">¶</a></h4>
+<p>The ultimate realization of the privacy protections and Fourteenth Amendment jurisprudence is found in Obergefell v. Hodges (2015) The court here found that “the right to marry is a fundamental right inherent in the liberty of the person (Obergefell v. Hodges, 2015).”  To disallow a same sex couples the right to marriage “denies individual dignity and autonomy (Obergefell v. Hodges, 2015).” to a subclass of citizens without rational basis.  In Obergefell v. Hodges (2015) “under the Due Process and Equal Protections Clauses of the Fourteenth Amendment couples of the same-sex may not be deprived” of their right to marry and to share the same privileges of same-sex couples.</p>
+</div>
+<div class="section" id="privacy-and-mr-so-and-so-s-claim">
+<h4>Privacy and Mr. So and So’s Claim<a class="headerlink" href="#privacy-and-mr-so-and-so-s-claim" title="Permalink to this headline">¶</a></h4>
+<p>According then to the Privacy doctrine, and namely Obergefell v. Hodges the right for gay couples to marry is fundamental.  They must then receive the same privileges and protections of all other married couples.  Without even the Colorado Law in place, I would argue that the Privacy Doctrine in of itself protects gay couples from the type of discrimination experienced by Mr. Charlie Craig and Mr. Dave Mullins.  The sanctity of the institution of marriage no matter those whom enter into it is fundamental to the idea of liberty in this country. To violate that sanctity when two gay men marry is to violate the holding of Obergefell and more heinously the dignity of two individuals.</p>
+</div>
+</div>
+<div class="section" id="freedom-to-contract">
+<h3>Freedom to Contract<a class="headerlink" href="#freedom-to-contract" title="Permalink to this headline">¶</a></h3>
+<p>There may be a case for the individual right to bargain for the terms of one’s contracts free from the regulation of the government, but the court has already spoken on this matter.  “The power… to restrict freedom of contract may be exercised in the public interest (West Coast Hotel Co. v. Parrish, 1937) Also, the authority of the government to regulate products that affect interstate commerce has been affirmed in United States v. Darby (1941). The real question here is whether a state government may regulate services in places of public accommodation?</p>
+<p>The answer is a resounding yes. The Federal government for instance may do so when commerce is affected.  The two most important cases for the purpose of this paper are Katzenbach v. McClung (1964) and Heart of Atlanta Motel, Inc. v. United States (379 U.S. 241, 1964). These cases both rest on the validity of Title II of the Civil Rights Act of 1964 which states “all Persons shall be entitled to the full and equal enjoyment of the goods, services, facilities, privileges, advantages, and accommodations of any place of public accommodation.”  Public accommodation is defined as “any inn, hotel, motel, or other establishment which provides lodging to transient guests.  Any Restaurant, cafeteria, lunchroom, lunch counter, soda fountain, or other facility principally engaged in selling food for consumption on the premises. (42 U.S.C. S 2000a(a), 42 U.S.C. S 2000a(b)).</p>
+<div class="section" id="katzenbach-v-mcclung-1964">
+<h4>Katzenbach v. McClung 1964<a class="headerlink" href="#katzenbach-v-mcclung-1964" title="Permalink to this headline">¶</a></h4>
+<p>In Katzenbach v. McClung (1964) the Court recognized “that discrimination in restaurants has a direct and highly restrictive effect upon interstate travel… This results because discriminatory practices prevent Negroes from buying prepared food… except in isolated and unkempt restaurants and under unsatisfactory and often unpleasant conditions (Katzenbach v. McClung, 1964).”  The outcome of which is the treatment of Blacks as second-class citizens not deserving the standards of decency enjoyed by their White peers. As the Congress enjoys “the power to make all laws which shall be necessary and proper for carrying into execution” it’s Commercial and Spending powers, Congress may regulate “those activities intrastate which so affect interstate commerce… to the attainment of a legitimate end (Katzenbach v. McClung, 1964).”</p>
+</div>
+<div class="section" id="heart-of-atlanta-motel-inc-v-united-states-1964">
+<h4>Heart of Atlanta Motel, Inc, v. United States 1964<a class="headerlink" href="#heart-of-atlanta-motel-inc-v-united-states-1964" title="Permalink to this headline">¶</a></h4>
+<p>Heart of Atlanta Motel, Inc. v. United States (1964) reiterates the opinion of Katzenbach v. McClung (1964), but further specifies when the Congress may in fact regulate commercial services.  “The only questions are (1) whether Congress had a rational basis for finding that racial discrimination… affected commerce, and (2) if it had such a basis, whether the means it selected to eliminate that evil reasonable and appropriate (Heart of Atlanta Motel, Inc. v. United States, 1964).”  In the case of the segregation of hotels the Congress is well within its bounds to manage the way in which proprietors treat their customers, in order to avoid the evil of segregation.  It is not a stretch to apply the same principles to support the right of a state’s legislature to ensure that no discrimination occurs on the basis of sexual-orientation.</p>
+</div>
+<div class="section" id="freedom-to-contract-and-mr-so-and-so-s-claim">
+<h4>Freedom to Contract and Mr. So and So’s claim<a class="headerlink" href="#freedom-to-contract-and-mr-so-and-so-s-claim" title="Permalink to this headline">¶</a></h4>
+<p>In the case of the individual states, their police powers alone allow them to enforce public accommodation laws by way of the 10th amendment.  The barometer in the case of Masterpiece Cake (2018)  is whether the Colorado law protects the welfare, safety, and health of the public at large.  Obviously, a state law which purports to protect the general welfare, and safety of all people can be said to meet this standard.</p>
+<hr class="footnotes docutils" />
+<dl class="footnote brackets">
+<dt class="label" id="const"><span class="brackets">1</span><span class="fn-backref">(<a href="#id2">1</a>,<a href="#id4">2</a>)</span></dt>
+<dd><p>Include reference to constitutional ammendment and clause</p>
+</dd>
+<dt class="label" id="expand"><span class="brackets"><a class="fn-backref" href="#id3">2</a></span></dt>
+<dd><p>This sentence doesn’t really mean anything.  Expand upon it.</p>
+</dd>
+<dt class="label" id="claim"><span class="brackets"><a class="fn-backref" href="#id6">3</a></span></dt>
+<dd><p>reference his claim</p>
+</dd>
+<dt class="label" id="laws"><span class="brackets"><a class="fn-backref" href="#id8">4</a></span></dt>
+<dd><p>Georgia Laws, p 16; Massachusetts Perpetual laws, p. 7; New Hampshire Laws, pp. 26, 27; North Carolina Laws, p. 275.</p>
+</dd>
+<dt class="label" id="symbolic-speech"><span class="brackets"><a class="fn-backref" href="#id9">5</a></span></dt>
+<dd><p>An argument could be made that language is inherently symbolic speech, but references to contemporary works must be support the argument.   The intent behind the amendment does not seem to apply to the public exhibition of painting and sculpture.</p>
+</dd>
+<dt class="label" id="impossible"><span class="brackets"><a class="fn-backref" href="#id10">6</a></span></dt>
+<dd><p>Again, it is impossible to actually determine original intent.</p>
+</dd>
+<dt class="label" id="william-and-mary"><span class="brackets"><a class="fn-backref" href="#id11">7</a></span></dt>
+<dd><p>This clause importantly was written in response to the Catholic persecution of English Protestants under the reign of King James.  Under William and Mary, following the Glorious Revolution, the English Bill of Rights limited the discretion of the monarch, and secured the prevalence of the Parliament.</p>
+</dd>
+<dt class="label" id="laws2"><span class="brackets"><a class="fn-backref" href="#id12">8</a></span></dt>
+<dd><p>North Carolina Laws, p. 280; Massachusetts Perpetual Laws, pp. 5-6, New Hampshire Laws, p. 23;  South Carolina Laws, App., p. 41; Virginia Religious Freedom Act, pp. 7.</p>
+</dd>
+<dt class="label" id="tradition"><span class="brackets"><a class="fn-backref" href="#id13">9</a></span></dt>
+<dd><p>Traditional is to be understood as a heterosexual relationship of members of the same race.  Nontraditional is to be anything that differs from that idea.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./masterpiece-cake"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="masterpiece-experimental-design.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Experimental Design</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="masterpiece-attitudinal-case-study.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Attitudinal Model Case Study</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Justin Napolitano<br/>
+        
+            &copy; Copyright 2021, court-behavior.io.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
