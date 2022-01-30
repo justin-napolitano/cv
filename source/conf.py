@@ -13,13 +13,16 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 # import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-
+import sys
 import os
 #from pathlib import Path
 from urllib import request
 
+sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('../source/Projects/project-sup-court-meta-data-graph/active_code_base'))
+sys.path.insert(0, os.path.abspath('../source/Projects/project-sup-court-meta-data-graph/output_rst'))
+sys.path.insert(0, os.path.abspath('../source/Projects/project-sup-court-meta-data-graph/output_rst'))
+#sys.path.insert(0, os.path.abspath('/Users/jnapolitano/Dropbox/python/venvs/nlp/lib/python3.8/site-packages'))
 
 # -- Project information -----------------------------------------------------
 
@@ -61,8 +64,21 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.coverage',
+    'sphinx.ext.autosectionlabel',
+    'autoapi.extension'
 ]
+# Document Python Code
 
+#AUTOAPI CONFIG
+autoapi_type = 'python'
+autoapi_dirs = ['../source']
+autoapi_generate_api_docs = True
+autoapi_keep_files = True
+
+#Make Section headers refs
+autosectionlabel_prefix_document = True
 
 nitpick_ignore = [
     ("py:class", "docutils.nodes.document"),
@@ -225,10 +241,15 @@ fontawesome_included = True
 post_auto_image = 1
 post_auto_excerpt = 2
 execution_show_tb = "READTHEDOCS" in os.environ
-bibtex_bibfiles = ["references.bib"]
+
+
+
+# Bibtex Config
+#----------------------------#
+bibtex_bibfiles = ["references/articles.bib","references/references.bib", "references/bills.bib", "references/books.bib","references/cases.bib", "references/constitution.bib"]
 # To test that style looks good with common bibtex config
 bibtex_reference_style = "author_year"
-bibtex_default_style = "plain"
+bibtex_default_style = "alpha"
 
 
 
