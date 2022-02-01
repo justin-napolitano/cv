@@ -22,4 +22,4 @@ Module Documentation
     :caption: Spark Modules Documentation
     :maxdepth: 4
 
-    /autoapi/rest_server/index
+    /autoapi/sparkAPI/index
