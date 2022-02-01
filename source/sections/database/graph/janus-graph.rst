@@ -10,6 +10,6 @@ Janus Graph Stack
 
 .. toctree::
    :maxdepth: 4
-   :caption: JanusGraph:
+   :caption: JanusGraph
    
-    /autoapi/Application/index
+   /autoapi/Application/index

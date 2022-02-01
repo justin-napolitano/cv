@@ -12,4 +12,4 @@ Networkx
    :maxdepth: 4
    :caption: Networkx:
    
-    /autoapi/lok_scraper_1/index
+   /autoapi/lok_scraper_1/index

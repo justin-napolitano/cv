@@ -22,7 +22,7 @@ SEP = os.sep
 CWD = os.getcwd()
 
 # Access token
-TOKEN = '<insert your token here>
+TOKEN = '<insert your token here>'
 
 LOCALFILE = 'test.txt'
 BACKUPPATH = '/DropboxApplications/JanusGraph/realtor_data/test.txt' # Keep the forward slash before destination filename
