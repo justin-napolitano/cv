@@ -24,7 +24,6 @@ Module Documentation
 
     
     /autoapi/GremlinConnect/index.rst
-    /autoapi/Application/index.rst
     /autoapi/AddChildrenToRoot/index.rst
     /autoapi/AddIsRootProperty/index.rst
     /autoapi/AddSproutedProperty/index.rst
