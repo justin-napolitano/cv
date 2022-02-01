@@ -52,8 +52,8 @@ sections/python-modules/pandas-functions/index
 sections/python-modules/project-neo4j/index.rst
 sections/python-modules/project-janus/index.rst
 sections/python-modules/project-google-service/index.rst
-sections/python-modules/project-google-service/index.rst
 sections/python-modules/project-flask-modules/index.rst
+sections/python-modules/project-spark-api/index.rst
 ```
 
 # Blog 
@@ -79,5 +79,8 @@ You will find the references here.
 :caption: Reference
 :maxdepth: 2
 sections/bibliography/bibliography_rst.rst
+autoapi/index.rst
 genindex.rst
+{ref}`modindex`_
+{ref}`genindex`_
 ```

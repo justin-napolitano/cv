@@ -52,6 +52,11 @@ Module Contents
 
    
 
+.. py:data:: autoapi_add_toctree_entry
+   :annotation: = False
+
+   
+
 .. py:data:: autosectionlabel_prefix_document
    :annotation: = True
 

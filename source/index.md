@@ -81,6 +81,5 @@ You will find the references here.
 sections/bibliography/bibliography_rst.rst
 autoapi/index.rst
 genindex.rst
-{ref}`modindex`_
-{ref}`genindex`_
+modindex.rst
 ```
