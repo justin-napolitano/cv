@@ -18,15 +18,15 @@ This page contains auto-generated API reference documentation [#f1]_.
    /autoapi/AddChildrenToRoot/index
    /autoapi/CleareGraph/index
    /autoapi/Application/index
-   /autoapi/PrepareCityDB/index
-   /autoapi/PrepareZipCodeDB/index
    /autoapi/AddSproutedProperty/index
    /autoapi/TSubmit/index
    /autoapi/GremlinConnect/index
-   /autoapi/prepare_zipcode_db/index
    /autoapi/SupremeCourtPredictionsCase/index
    /autoapi/SupremeCourtPredictionsJustice/index
    /autoapi/report_tool/index
+   /autoapi/PrepareCityDB/index
+   /autoapi/PrepareZipCodeDB/index
+   /autoapi/prepare_zipcode_db/index
    /autoapi/upload_csv_to_neo/index
    /autoapi/csv_to_neo/index
    /autoapi/neo_native_apy/index

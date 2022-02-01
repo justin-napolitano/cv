@@ -16,8 +16,6 @@ Links
 `GitHub <https://github.com/justin-napolitano/JanusGraphAPI>`_
 
 
-Module Documentation
----------------------
 
 .. toctree:: 
     :caption: JanusGraph Modules
