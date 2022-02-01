@@ -83,3 +83,5 @@ autoapi/index.rst
 genindex.rst
 modindex.rst
 ```
+
+{ref}`modindex`
