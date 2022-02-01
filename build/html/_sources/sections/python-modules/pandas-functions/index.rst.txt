@@ -15,6 +15,9 @@ Links
 * `GitHub <https://github.com/justin-napolitano/PandasAPI>`_
 
 
+Module Documentation
+---------------------
+
 
 .. toctree::
     :caption: Pandas Functions

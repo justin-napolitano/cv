@@ -28,7 +28,7 @@ Module Documentation
     /autoapi/AddChildrenToRoot/index.rst
     /autoapi/AddIsRootProperty/index.rst
     /autoapi/AddSproutedProperty/index.rst
-    /autoapi/Tsubmit/index.rst
+    /autoapi/TSubmit/index.rst
     /autoapi/Query/index.rst
     /autoapi/CleareGraph/index.rst
 

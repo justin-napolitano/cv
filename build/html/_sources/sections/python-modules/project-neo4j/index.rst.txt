@@ -16,6 +16,8 @@ Links
 * `GitHub <https://github.com/justin-napolitano/neo4jAPI>`_
 
 
+Module Documentation
+---------------------
 
 .. toctree::
     :caption: Neo4jModules
