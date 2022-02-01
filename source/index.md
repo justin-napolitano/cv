@@ -33,6 +33,7 @@ Business analysis section.. Blah blah blah.  I want you to reword this whole thi
 :maxdepth: 2
 
 sections/business-analysis/cli-program/index.md
+sections/business-analysis/forecasting/index.md
 ```
 
 
@@ -50,19 +51,6 @@ The blog section is a collection of my journali entries.  It details and referen
 sections/blog/posts
 ```
 
-# Index
-
-```{admonition} Index
-The index is a searchable index of everything on this site.  
-```
-
-```{toctree}
-:maxdepth: 2
-:caption: Index
-genindex.rst
-```
-
-
 # Reference
 
 ```{admonition} References
@@ -70,7 +58,8 @@ You will find the references here.
 ```
 
 ```{toctree}
-:caption: Bibliography
+:caption: Reference
 :maxdepth: 2
 sections/bibliography/bibliography_rst.rst
+genindex.rst
 ```

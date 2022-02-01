@@ -1,0 +1,678 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cigarette_sales_order_form &#8212; Justin Napolitano</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+     
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../sections/blog/posts/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Justin Napolitano</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../index.html">
+   Curricula Vitae
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Political Analysis
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../sections/political-analysis/sup-court/index.html">
+   United States Supreme Court
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../projects/project-sup-court-meta-data-graph/index.html">
+     MetaData Graph
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../autoapi/lok_scraper_1/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         lok_scraper_1
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../autoapi/loc_scraper_test/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         loc_scraper_test
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../projects/project-supcourt-tensorflow/index.html">
+     TensorFlow Voting Behavior Predictions
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+    <label for="toctree-checkbox-3">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../projects/project-supcourt-tensorflow/training-features.html">
+       Training Features
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../autoapi/SupremeCourtPredictionsCase/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         SupremeCourtPredictionsCase
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../autoapi/SupremeCourtPredictionsJustice/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         SupremeCourtPredictionsJustice
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../projects/project-supcourt-legalmodel/legal-model.html">
+     Analysis of the Legal Model of Jurisprudence
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../projects/project-supcourt-attitudinal-model/attitudinal-model.html">
+     Analysis of the Attitudinal Model of Jurisprudence
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../projects/project-supcourt-masterpiececake/masterpiece-cake.html">
+     Analysis of Masterpiece Cake
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../sections/political-analysis/international-systems/index.html">
+   International Systems Research
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../projects/project-evolution-of-ngos/index.html">
+     The Evolution of International Organizations
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../sections/political-analysis/terrorism-conflict/index.html">
+   Terrorism and Conflict
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../projects/project-turkish-kurdish/index.html">
+     Turkish Kurdish Conflict Database
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../projects/project-turkish-kurdish/introduction.html">
+       1. Introduction
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../projects/project-turkish-kurdish/event_query_procedure.html">
+       2. Event Query Procedure
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../projects/project-turkish-kurdish/database_schema.html">
+       3. Schema Definitions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../projects/project-turkish-kurdish/reference_tables.html">
+       4. Reference Tables
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../projects/project-turkish-kurdish/analysis.html">
+       5. Analysis
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../projects/project-turkish-kurdish/pdf.html">
+       6. PDF
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../projects/project-turkish-kurdish/data.html">
+       7. Data
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../sections/political-analysis/international-law/index.html">
+   International Law
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../projects/project-human-rights-law/index.html">
+     International Human Rights Law Framework
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Business Analysis
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../sections/business-analysis/cli-program/index.html">
+   SQL
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../projects/project-cli-program/index.html">
+     Sales Reporting CLI Program
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+    <label for="toctree-checkbox-9">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../autoapi/report_tool/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         report_tool
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../sections/business-analysis/forecasting/index.html">
+   Sales Analysis and Forecasting
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../projects/project-order-forecasting/index.html">
+     Cigarette Sales Forecasting and Order Prediction
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+    <label for="toctree-checkbox-11">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../autoapi/cigarette_sales_order_form/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         cigarette_sales_order_form
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../projects/project-retail-sales-forecasting/index.html">
+     Retail Sales Forecasting
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+    <label for="toctree-checkbox-12">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../projects/project-retail-sales-forecasting/SalesForcasting.html">
+       Retail Sales Analysis Jupyter Notebook
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Blog
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../sections/blog/posts.html">
+   Posts
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Reference
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../sections/bibliography/bibliography_rst.html">
+   Bibliography
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../genindex.html">
+   Index
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../autoapi/index.html">
+   API Reference
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+  <label for="toctree-checkbox-13">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../autoapi/conf/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       conf
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../autoapi/lok_scraper_1/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       lok_scraper_1
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../autoapi/loc_scraper_test/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       loc_scraper_test
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../autoapi/cigarette_sales_order_form/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       cigarette_sales_order_form
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../autoapi/SupremeCourtPredictionsCase/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       SupremeCourtPredictionsCase
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../autoapi/SupremeCourtPredictionsJustice/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       SupremeCourtPredictionsJustice
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../autoapi/report_tool/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       report_tool
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/justin-napolitano/cv"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                 <h1>Source code for cigarette_sales_order_form</h1><div class="highlight"><pre>
+<span></span><span class="c1">#cigarette_sales_order_form.py</span>
+<span class="c1">#Justin Napolitano</span>
+<span class="c1">#05/08/2020</span>
+
+<span class="c1">#Reads data from CSV into dataframe</span>
+<span class="c1">#Converts numbers into readable data</span>
+<span class="c1">#Exports requested data to Excel Spreadsheet</span>
+<span class="c1">#If a product requires ordering it will appear on the spreadsheet with the barcode</span>
+
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="c1">#Setting Cwd</span>
+<div class="viewcode-block" id="cwd"><a class="viewcode-back" href="../autoapi/cigarette_sales_order_form/index.html#cigarette_sales_order_form.cwd">[docs]</a><span class="n">cwd</span> <span class="o">=</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)))</span></div>
+
+<span class="c1">#Reading Data in dataframe</span>
+<span class="c1">#Manipulating dataframe to prep for analysis</span>
+
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<div class="viewcode-block" id="df"><a class="viewcode-back" href="../autoapi/cigarette_sales_order_form/index.html#cigarette_sales_order_form.df">[docs]</a><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">cwd</span> <span class="o">+</span> <span class="s1">&#39;/CigSales.csv&#39;</span><span class="p">)</span></div>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;timestamp&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Date</span><span class="p">)</span>
+<div class="viewcode-block" id="index"><a class="viewcode-back" href="../autoapi/cigarette_sales_order_form/index.html#cigarette_sales_order_form.index">[docs]</a><span class="n">df</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">timestamp</span></div>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Total Cartons Sold&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Quantity Sold&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Sell Unit Quantity&#39;</span><span class="p">]</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;week number&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">timestamp</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">week</span>
+
+<span class="c1">#Creating a second data frame with the following indexes</span>
+<span class="n">df2</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s1">&#39;week number&#39;</span><span class="p">,</span><span class="s1">&#39;Store&#39;</span><span class="p">,</span><span class="s1">&#39;Cigarette Name&#39;</span><span class="p">,</span><span class="s1">&#39;Cigarette UPC&#39;</span><span class="p">,</span> <span class="s1">&#39;Item Number&#39;</span><span class="p">,</span> <span class="s1">&#39;Sell Unit Quantity&#39;</span><span class="p">])</span>
+<span class="n">df2</span> <span class="o">=</span> <span class="n">df2</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;week number&quot;</span><span class="p">,</span> <span class="s1">&#39;Store&#39;</span><span class="p">,</span> <span class="s1">&#39;Cigarette Name&#39;</span><span class="p">,</span> <span class="s2">&quot;Cigarette UPC&quot;</span><span class="p">,</span><span class="s2">&quot;Item Number&quot;</span><span class="p">,</span> <span class="s2">&quot;Sell Unit Quantity&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+
+<span class="c1">#df3 = df2.groupby([&quot;week number&quot;, &quot;Cigarette Name&quot;,&quot;Cigarette UPC&quot;,&quot;Item Number&quot;, &quot;Store&quot;]).sum()</span>
+
+<span class="n">df2</span><span class="p">[</span><span class="s2">&quot;Total Cartons Sold&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df2</span><span class="p">[</span><span class="s2">&quot;Total Cartons Sold&quot;</span><span class="p">]</span> <span class="o">/</span><span class="mi">10</span>
+
+<span class="c1">#Joining a weekly average dataframe to the main dataframe</span>
+<div class="viewcode-block" id="weekly_average"><a class="viewcode-back" href="../autoapi/cigarette_sales_order_form/index.html#cigarette_sales_order_form.weekly_average">[docs]</a><span class="n">weekly_average</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span></div>
+<span class="n">weekly_average</span><span class="p">[</span><span class="s2">&quot;Average Cartons Sold Weekly&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df2</span><span class="p">[</span><span class="s2">&quot;Total Cartons Sold&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Cigarette Name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="n">df2</span> <span class="o">=</span> <span class="n">df2</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">weekly_average</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">&quot;Cigarette Name&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="df2"><a class="viewcode-back" href="../autoapi/cigarette_sales_order_form/index.html#cigarette_sales_order_form.df2">[docs]</a><span class="n">df2</span> <span class="o">=</span> <span class="n">df2</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;week number&#39;</span><span class="p">],</span> <span class="n">ascending</span> <span class="o">=</span><span class="kc">False</span><span class="p">)</span></div>
+
+
+<span class="c1">#Adding the Order collumn to frame</span>
+<span class="n">df2</span><span class="p">[</span><span class="s2">&quot;Order&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+
+
+
+<span class="c1">#Ccomparing average to total carton sales</span>
+<span class="c1">#df2[&#39;Order&#39;] = np.where((df2[&#39;Average Cartons Sold Weekly&#39;] &gt;= df2[&#39;Total Cartons Sold&#39;] )</span>
+<span class="c1">#                    , True, False)</span>
+
+<span class="n">df2</span><span class="p">[</span><span class="s1">&#39;Order&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">((</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;Average Cartons Sold Weekly&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">df2</span><span class="p">[</span><span class="s1">&#39;Total Cartons Sold&#39;</span><span class="p">])</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="s2">&quot;Total Cartons Sold&quot;</span><span class="p">]</span> <span class="o">&gt;=</span><span class="mi">1</span><span class="p">)</span>
+                    <span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+
+<span class="c1">#df2[&#39;Order&#39;] = np.where(df2[&#39;Average Cartons Sold Weekly&#39;] &gt;= df2[&#39;Total Cartons Sold&#39;] ) #and np.where(df2[&quot;Total Cartons Sold&quot;]&gt;=1)                  </span>
+
+<span class="c1">#Creating DataFrame to display.  Only one week of data at a time</span>
+<div class="viewcode-block" id="x"><a class="viewcode-back" href="../autoapi/cigarette_sales_order_form/index.html#cigarette_sales_order_form.x">[docs]</a><span class="n">x</span> <span class="o">=</span> <span class="n">df2</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span></div>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df2</span><span class="o">.</span><span class="n">index</span><span class="p">))</span> <span class="p">:</span>
+    <span class="k">if</span> <span class="n">df2</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">x</span><span class="p">:</span>
+<div class="viewcode-block" id="max_i"><a class="viewcode-back" href="../autoapi/cigarette_sales_order_form/index.html#cigarette_sales_order_form.max_i">[docs]</a>        <span class="n">max_i</span> <span class="o">=</span> <span class="n">i</span> </div>
+
+
+<span class="n">df3</span> <span class="o">=</span> <span class="n">df2</span><span class="p">[:</span><span class="n">max_i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+<div class="viewcode-block" id="df3"><a class="viewcode-back" href="../autoapi/cigarette_sales_order_form/index.html#cigarette_sales_order_form.df3">[docs]</a><span class="n">df3</span> <span class="o">=</span> <span class="n">df3</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Cigarette Name&#39;</span><span class="p">],</span> <span class="n">ascending</span> <span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
+
+<span class="c1">#exporting to excel</span>
+<span class="n">df3</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">cwd</span> <span class="o">+</span> <span class="s2">&quot;/order_form.csv&quot;</span><span class="p">)</span>
+<span class="n">df2</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">cwd</span> <span class="o">+</span> <span class="s2">&quot;/all_data.csv&quot;</span><span class="p">)</span>
+
+</pre></div>
+<div class="section">
+   
+</div>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Justin Napolitano<br/>
+        
+            &copy; Copyright 2022, Justin Napolitano.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

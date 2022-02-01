@@ -9,6 +9,7 @@ This page contains auto-generated API reference documentation [#f1]_.
    /autoapi/conf/index
    /autoapi/lok_scraper_1/index
    /autoapi/loc_scraper_test/index
+   /autoapi/cigarette_sales_order_form/index
    /autoapi/SupremeCourtPredictionsCase/index
    /autoapi/SupremeCourtPredictionsJustice/index
    /autoapi/report_tool/index
