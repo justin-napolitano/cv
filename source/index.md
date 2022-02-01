@@ -24,7 +24,7 @@ sections/political-analysis/international-law/index.md
 # Business Analysis
 
 :::{admonition} Business Analysis
-Business analysis section.. Blah blah blah.  I want you to reword this whole thing this is just a space holder.  
+Business analysis section.. Blah blah blah.  this is just a space holder.  
 :::
 
 
@@ -37,6 +37,20 @@ sections/business-analysis/forecasting/index.md
 ```
 
 
+# Python Modules
+
+:::{admonition} Python Modules
+Python Modules section.. Blah blah blah. this is just a space holder.  
+:::
+
+
+```{toctree}
+:caption: Python Modules
+:maxdepth: 2
+
+sections/python-modules/pandas-functions/index
+sections/python-modules/project-neo4j/neo4j.rst
+```
 
 # Blog 
 
