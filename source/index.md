@@ -53,7 +53,7 @@ sections/python-modules/project-neo4j/index.rst
 sections/python-modules/project-janus/index.rst
 sections/python-modules/project-google-service/index.rst
 sections/python-modules/project-google-service/index.rst
-
+sections/python-modules/project-flask-modules/index.rst
 ```
 
 # Blog 
