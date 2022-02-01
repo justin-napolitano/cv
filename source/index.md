@@ -79,5 +79,8 @@ You will find the references here.
 :caption: Reference
 :maxdepth: 2
 sections/bibliography/bibliography_rst.rst
+autoapi/index.rst
 genindex.rst
+{ref}`modindex`_
+{ref}`genindex`_
 ```
