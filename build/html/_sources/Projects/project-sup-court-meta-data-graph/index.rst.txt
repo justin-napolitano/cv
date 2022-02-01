@@ -32,8 +32,8 @@ Module Documentation
    :maxdepth: 2
 
 
-   /autoapi/loc_scraper_1/index.rst
-   /autoapi/testing_conf/index.rst
+   /autoapi/lok_scraper_1/index.rst
+   /autoapi/loc_scraper_test/index.rst
 
 
 

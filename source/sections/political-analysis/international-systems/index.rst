@@ -16,7 +16,7 @@ International Systems Research
    :maxdepth: 2
    :caption: International Systems:
 
-   /Projects/project-evolution-of-ngos/index.rst
+   /projects/project-evolution-of-ngos/index.rst
  
 
 

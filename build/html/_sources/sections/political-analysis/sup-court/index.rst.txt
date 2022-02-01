@@ -17,8 +17,8 @@ United States Supreme Court
    :maxdepth: 2
    :caption: Python Projects:
    
-   /Projects/project-sup-court-meta-data-graph/index.rst
-   /Projects/project-supcourt-tensorflow/index.rst
+   /projects/project-sup-court-meta-data-graph/index.rst
+   /projects/project-supcourt-tensorflow/index.rst
  
         
 
@@ -26,9 +26,9 @@ United States Supreme Court
    :maxdepth: 2
    :caption: Papers:
 
-   /Projects/project-supcourt-legalmodel/legal-model.md
-   /Projects/project-supcourt-attitudinal-model/attitudinal-model.md
-   /Projects/project-supcourt-masterpiececake/masterpiece-cake.md
+   /projects/project-supcourt-legalmodel/legal-model.md
+   /projects/project-supcourt-attitudinal-model/attitudinal-model.md
+   /projects/project-supcourt-masterpiececake/masterpiece-cake.md
 
 
 
