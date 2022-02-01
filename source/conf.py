@@ -76,6 +76,7 @@ autoapi_type = 'python'
 autoapi_dirs = ['../source']
 autoapi_generate_api_docs = True
 autoapi_keep_files = True
+autoapi_add_toctree_entry = False
 
 #Make Section headers refs
 autosectionlabel_prefix_document = True
