@@ -12,4 +12,4 @@ Neo4j Stack
    :maxdepth: 2
    :caption: Neo4j:
    
-    /autoapi/upload_csv_to_neo/index
+   /autoapi/upload_csv_to_neo/index

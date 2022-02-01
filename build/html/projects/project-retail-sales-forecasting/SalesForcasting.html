@@ -614,6 +614,88 @@
 </ul>
 <p class="caption" role="heading">
  <span class="caption-text">
+  Database Development
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../sections/database/graph/index.html">
+   Graph Databases
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" type="checkbox"/>
+  <label for="toctree-checkbox-19">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../sections/database/graph/janus-graph.html">
+     Janus Graph Stack
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" type="checkbox"/>
+    <label for="toctree-checkbox-20">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../autoapi/Application/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         Application
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../sections/database/graph/neo.html">
+     Neo4j Stack
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" type="checkbox"/>
+    <label for="toctree-checkbox-21">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../autoapi/upload_csv_to_neo/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         upload_csv_to_neo
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../sections/database/graph/networkx.html">
+     Networkx
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" type="checkbox"/>
+    <label for="toctree-checkbox-22">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../autoapi/lok_scraper_1/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         lok_scraper_1
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
   Journal
  </span>
 </p>
@@ -1174,17 +1256,17 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_61631/4124950064.py:7: SettingWithCopyWarning: 
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_61868/4124950064.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg[&#39;moving_avg_forecast&#39;][0] = allData[&#39;sales&#39;][0].copy()
-/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_61631/4124950064.py:8: SettingWithCopyWarning: 
+/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_61868/4124950064.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg[&#39;moving_avg_forecast&#39;][1] = allData[&#39;sales&#39;][1].copy()
-/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_61631/4124950064.py:9: SettingWithCopyWarning: 
+/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_61868/4124950064.py:9: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -1676,18 +1758,19 @@ At iterate    0    f=  2.66232D+00    |proj g|=  6.54170D-02
 At iterate    5    f=  2.58627D+00    |proj g|=  2.26160D-02
 
 At iterate   10    f=  2.57546D+00    |proj g|=  7.34175D-03
-
-At iterate   15    f=  2.56850D+00    |proj g|=  4.46710D-02
-
-At iterate   20    f=  2.56359D+00    |proj g|=  5.60203D-03
 </pre></div>
 </div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span> This problem is unconstrained.
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   25    f=  2.56037D+00    |proj g|=  6.74341D-02
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   15    f=  2.56850D+00    |proj g|=  4.46710D-02
 
-At iterate   30    f=  2.55763D+00    |proj g|=  3.09889D-03
+At iterate   20    f=  2.56359D+00    |proj g|=  5.60203D-03
+
+At iterate   25    f=  2.56037D+00    |proj g|=  6.74341D-02
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   30    f=  2.55763D+00    |proj g|=  3.09889D-03
 
 At iterate   35    f=  2.55685D+00    |proj g|=  5.02555D-03
 
@@ -1721,7 +1804,7 @@ STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
   warnings.warn(&quot;Maximum Likelihood optimization failed to &quot;
 </pre></div>
 </div>
-<img alt="../../_images/SalesForcasting_14_5.png" src="../../_images/SalesForcasting_14_5.png" />
+<img alt="../../_images/SalesForcasting_14_6.png" src="../../_images/SalesForcasting_14_6.png" />
 </div>
 </div>
 <div class="cell docutils container">
