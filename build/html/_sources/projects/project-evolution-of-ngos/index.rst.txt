@@ -1,12 +1,12 @@
 .. _evolution_of_ngo_paper:
 
 ************************************************
-The Evolution of International Organizations
+The Evolution of the GATT to the WTO
 ************************************************
 
 .. todo:: 
 
-    Make the bibliography interactive.  Jupyter Books tools make it easy. Sphinx's one drawback is that it is not very user friendly when it comes to biblios
+    Make the bibliography interactive.  Jupyter Books tools make it easy. Sphinx's one drawback is that it is not very user friendly when it comes to biblios. Divide the paper into parts. 
 
 Intro
 ======

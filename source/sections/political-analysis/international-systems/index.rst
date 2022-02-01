@@ -1,9 +1,9 @@
 **************************************
-International Systems Research
+Instutitional Research
 **************************************
 
 
-.. topic:: International Systems Research
+.. topic:: Institutional Resarch
 
    This section covers my research of International Systems
 
@@ -14,7 +14,7 @@ International Systems Research
 
 .. toctree::
    :maxdepth: 2
-   :caption: International Systems:
+   :caption: World Trade Orgnaization:
 
    /projects/project-evolution-of-ngos/index.rst
  
