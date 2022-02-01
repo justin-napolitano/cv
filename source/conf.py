@@ -114,8 +114,6 @@ external_toc_path = "_toc.yml"  # optional, default: _toc.yml
 external_toc_exclude_missing = False  # optional, default: False
 
 intersphinx_mapping = {
-    'Supreme Court Voting Behavior': ('https://court-behavior.io/', None),
-    'tkad': ('https://justin-napolitano.github.io/turkish-kurdish-conflict/html', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 # Add any paths that contain templates here, relative to this directory.

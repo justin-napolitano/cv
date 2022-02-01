@@ -80,6 +80,8 @@ You will find the references here.
 :maxdepth: 2
 sections/bibliography/bibliography_rst.rst
 autoapi/index.rst
+py-modindex.rst
 genindex.rst
-modindex.rst
 ```
+# test
+{ref}`py-modindex`
