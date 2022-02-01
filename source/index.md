@@ -56,15 +56,15 @@ sections/python-modules/project-flask-modules/index.rst
 sections/python-modules/project-spark-api/index.rst
 ```
 
-# Blog 
+# Journal 
 
-```{admonition} Blog
-The blog section is a collection of my journali entries.  It details and references my work.  It also includes personal projects.  
+```{admonition} Journal
+The blog section is a collection of my journal entries.  It details and references my work.  It also includes personal projects.  
 ```
 
 
 ```{toctree}
-:caption: Blog
+:caption: Journal
 :maxdepth: 2
 sections/blog/posts
 ```
