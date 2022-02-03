@@ -13,3 +13,5 @@ Neo4j Stack
    :caption: Neo4j:
    
    /autoapi/upload_csv_to_neo/index
+   /autoapi/graph_crawler/index
+   /autoapi/realtor_graph/index

@@ -668,6 +668,24 @@
        </code>
       </a>
      </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../autoapi/graph_crawler/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         graph_crawler
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../autoapi/realtor_graph/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         realtor_graph
+        </span>
+       </code>
+      </a>
+     </li>
     </ul>
    </li>
    <li class="toctree-l2 has-children">
@@ -1256,17 +1274,17 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_61868/4124950064.py:7: SettingWithCopyWarning: 
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_62256/4124950064.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg[&#39;moving_avg_forecast&#39;][0] = allData[&#39;sales&#39;][0].copy()
-/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_61868/4124950064.py:8: SettingWithCopyWarning: 
+/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_62256/4124950064.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg[&#39;moving_avg_forecast&#39;][1] = allData[&#39;sales&#39;][1].copy()
-/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_61868/4124950064.py:9: SettingWithCopyWarning: 
+/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_62256/4124950064.py:9: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -1744,6 +1762,9 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </div>
 </div>
 <div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span> This problem is unconstrained.
+</pre></div>
+</div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>RUNNING THE L-BFGS-B CODE
 
            * * *
@@ -1758,19 +1779,15 @@ At iterate    0    f=  2.66232D+00    |proj g|=  6.54170D-02
 At iterate    5    f=  2.58627D+00    |proj g|=  2.26160D-02
 
 At iterate   10    f=  2.57546D+00    |proj g|=  7.34175D-03
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span> This problem is unconstrained.
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   15    f=  2.56850D+00    |proj g|=  4.46710D-02
+
+At iterate   15    f=  2.56850D+00    |proj g|=  4.46710D-02
 
 At iterate   20    f=  2.56359D+00    |proj g|=  5.60203D-03
-
-At iterate   25    f=  2.56037D+00    |proj g|=  6.74341D-02
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   30    f=  2.55763D+00    |proj g|=  3.09889D-03
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   25    f=  2.56037D+00    |proj g|=  6.74341D-02
+
+At iterate   30    f=  2.55763D+00    |proj g|=  3.09889D-03
 
 At iterate   35    f=  2.55685D+00    |proj g|=  5.02555D-03
 
@@ -1804,7 +1821,7 @@ STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
   warnings.warn(&quot;Maximum Likelihood optimization failed to &quot;
 </pre></div>
 </div>
-<img alt="../../_images/SalesForcasting_14_6.png" src="../../_images/SalesForcasting_14_6.png" />
+<img alt="../../_images/SalesForcasting_14_5.png" src="../../_images/SalesForcasting_14_5.png" />
 </div>
 </div>
 <div class="cell docutils container">
