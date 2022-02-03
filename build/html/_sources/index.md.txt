@@ -54,6 +54,7 @@ sections/python-modules/project-janus/index.rst
 sections/python-modules/project-google-service/index.rst
 sections/python-modules/project-flask-modules/index.rst
 sections/python-modules/project-spark-api/index.rst
+sections/python-modules/dropbox/index.rst
 ```
 
 # Database Development
@@ -107,6 +108,7 @@ You will find the references here.
 :caption: Reference
 :maxdepth: 2
 sections/bibliography/bibliography_rst.rst
+sections/indices/python_index.rst
 py-modindex.rst
 genindex.rst
 ```

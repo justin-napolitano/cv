@@ -54,6 +54,7 @@ sections/python-modules/project-janus/index.rst
 sections/python-modules/project-google-service/index.rst
 sections/python-modules/project-flask-modules/index.rst
 sections/python-modules/project-spark-api/index.rst
+sections/python-modules/dropbox/index.rst
 ```
 
 # Database Development
