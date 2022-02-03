@@ -26,5 +26,6 @@ Module Documentation
     /autoapi/neo_native_apy/index.rst
     /autoapi/neoModelAPI/index.rst
     /autoapi/NeoNodes/index.rst
+    /autoapi/neo4jClasses/index.rst
     
 

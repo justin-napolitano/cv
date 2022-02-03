@@ -79,7 +79,8 @@ sections/database/graph/index.rst
 :caption: Data Integration
 :maxdepth: 2
 
-sections/data-integration/index.rst
+sections/data-integration/csv-json/index.rst
+
 ```
 
 
