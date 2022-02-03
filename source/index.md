@@ -69,6 +69,20 @@ sections/python-modules/project-spark-api/index.rst
 sections/database/graph/index.rst
 ```
 
+# Data Integration
+
+:::{admonition} Data Integration
+ Blah blah blah. this is just a space holder.  
+:::
+
+```{toctree}
+:caption: Data Integration
+:maxdepth: 2
+
+sections/data-integration/index.rst
+```
+
+
 # Journal 
 
 ```{admonition} Journal
