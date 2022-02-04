@@ -2,7 +2,7 @@
 Cantonese
 ==================
 
-.. admonition:: Background
+.. topic:: Background
 
     I speak Cantonese daily at home.  I can therefore understand and speak the langauge as it is used informally. I cannot however, speak formally or in business settings.  
 
