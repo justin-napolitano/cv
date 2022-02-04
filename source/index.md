@@ -29,8 +29,26 @@ Blah Blah Blah I've had a few jobs
 
 sections/work-history/btjn.rst
 sections/work-history/ucf.rst
-
 ```
+
+## Languages
+
+:::{admonition} Spoken Languages
+I like to learn to new languages. 
+:::
+
+```{toctree}
+:caption: Languages
+:maxdepth: 2
+
+sections/languages/french-language.rst
+sections/languages/spanish-language.rst
+sections/languages/mandarin-language.rst
+sections/languages/cantonese-language.rst
+sections/languages/msa-language.rst
+sections/languages/sranan-language.rst
+```
+
 
 ## Political Analysis
 
