@@ -9,7 +9,6 @@ justin@jnapolitano.io
 ^^^
 {email}`justin@jnapolitano.io`
 
-justin@jnapolitano.io
 +++
 
 :::
@@ -20,7 +19,7 @@ justin@jnapolitano.io
 :::{card} Phone
 
 ^^^
-(361) 524-8810
+{ref}`(361) 524-8810 <tel:361-524-8810>`
 +++
 
 :::

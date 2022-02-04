@@ -32,6 +32,11 @@ Module Contents
 
    
 
+.. py:data:: email_automode
+   :annotation: = True
+
+   
+
 .. py:data:: autoapi_type
    :annotation: = python
 

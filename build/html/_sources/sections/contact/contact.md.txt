@@ -7,6 +7,8 @@ justin@jnapolitano.io
 :::{card} Email
 
 ^^^
+{email}`justin@jnapolitano.io`
+
 justin@jnapolitano.io
 +++
 

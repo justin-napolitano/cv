@@ -1297,64 +1297,84 @@
             
               <div>
                  <div class="section" id="module-data_generation">
-<span id="data-generation"></span><h1><a class="reference internal" href="#module-data_generation" title="data_generation"><code class="xref py py-mod docutils literal notranslate"><span class="pre">data_generation</span></code></a><a class="headerlink" href="#module-data_generation" title="Permalink to this headline">¶</a></h1>
+<span id="data-generation"></span><h1>
+<a class="reference internal" href="#module-data_generation" title="data_generation"><code class="xref py py-mod docutils literal notranslate"><span class="pre">data_generation</span></code></a><a class="headerlink" href="#module-data_generation" title="Permalink to this headline">¶</a>
+</h1>
 <div class="section" id="module-contents">
-<h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a>
+</h2>
 <div class="section" id="functions">
-<h3>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h3>
+<h3>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a>
+</h3>
 <table class="longtable table autosummary">
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
+<col style="width: 10%">
+<col style="width: 90%">
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#data_generation.main" title="data_generation.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>()</p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#data_generation.main" title="data_generation.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#data_generation.create_generators" title="data_generation.create_generators"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_generators</span></code></a>(train_dir, validation_dir, batch_size, IMG_HEIGHT, IMG_WIDTH)</p></td>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#data_generation.create_generators" title="data_generation.create_generators"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_generators</span></code></a>(train_dir, validation_dir, batch_size, IMG_HEIGHT, IMG_WIDTH)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#data_generation.create_model" title="data_generation.create_model"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_model</span></code></a>(IMG_HEIGHT, IMG_WIDTH)</p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#data_generation.create_model" title="data_generation.create_model"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_model</span></code></a>(IMG_HEIGHT, IMG_WIDTH)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#data_generation.run_model" title="data_generation.run_model"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_model</span></code></a>(model, train_data_gen, val_data_gen, total_train, batch_size, epochs, total_val)</p></td>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#data_generation.run_model" title="data_generation.run_model"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_model</span></code></a>(model, train_data_gen, val_data_gen, total_train, batch_size, epochs, total_val)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#data_generation.plot_data" title="data_generation.plot_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">plot_data</span></code></a>(history, epochs)</p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#data_generation.plot_data" title="data_generation.plot_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">plot_data</span></code></a>(history, epochs)</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 <dl class="py function">
 <dt class="sig sig-object py" id="data_generation.main">
-<span class="sig-prename descclassname"><span class="pre">data_generation.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/data_generation.html#main"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_generation.main" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-prename descclassname"><span class="pre">data_generation.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/data_generation.html#main"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_generation.main" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="data_generation.create_generators">
-<span class="sig-prename descclassname"><span class="pre">data_generation.</span></span><span class="sig-name descname"><span class="pre">create_generators</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">train_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">validation_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_HEIGHT</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_WIDTH</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/data_generation.html#create_generators"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_generation.create_generators" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-prename descclassname"><span class="pre">data_generation.</span></span><span class="sig-name descname"><span class="pre">create_generators</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">train_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">validation_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_HEIGHT</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_WIDTH</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/data_generation.html#create_generators"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_generation.create_generators" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="data_generation.create_model">
-<span class="sig-prename descclassname"><span class="pre">data_generation.</span></span><span class="sig-name descname"><span class="pre">create_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">IMG_HEIGHT</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_WIDTH</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/data_generation.html#create_model"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_generation.create_model" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-prename descclassname"><span class="pre">data_generation.</span></span><span class="sig-name descname"><span class="pre">create_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">IMG_HEIGHT</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_WIDTH</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/data_generation.html#create_model"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_generation.create_model" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="data_generation.run_model">
-<span class="sig-prename descclassname"><span class="pre">data_generation.</span></span><span class="sig-name descname"><span class="pre">run_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">train_data_gen</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">val_data_gen</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">total_train</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epochs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">total_val</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/data_generation.html#run_model"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_generation.run_model" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-prename descclassname"><span class="pre">data_generation.</span></span><span class="sig-name descname"><span class="pre">run_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">train_data_gen</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">val_data_gen</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">total_train</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epochs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">total_val</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/data_generation.html#run_model"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_generation.run_model" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="data_generation.plot_data">
-<span class="sig-prename descclassname"><span class="pre">data_generation.</span></span><span class="sig-name descname"><span class="pre">plot_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">history</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epochs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/data_generation.html#plot_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_generation.plot_data" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-prename descclassname"><span class="pre">data_generation.</span></span><span class="sig-name descname"><span class="pre">plot_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">history</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epochs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/data_generation.html#plot_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_generation.plot_data" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 </div>
 </div>
 </div>
 
-    <script type="text/x-thebe-config">
+    
+<script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
@@ -1372,7 +1392,9 @@
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'python3'</script>
+    
+<script>kernelName = 'python3'</script>
+
 <div class="section">
    
 </div>
