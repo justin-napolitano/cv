@@ -5,7 +5,7 @@ title: Justin Napolitano
 
 ## Education
 
-:::{admonition} Education
+:::{topic} Education
 Blah Blah Blah i went to college.  
 :::
 
@@ -19,7 +19,7 @@ sections/education/ucf.rst
 
 ## Work History
 
-:::{admonition} Work History
+:::{topic} Work History
 Blah Blah Blah I've had a few jobs
 :::
 
@@ -33,7 +33,7 @@ sections/work-history/ucf.rst
 
 ## Languages
 
-:::{admonition} Spoken Languages
+:::{topic} Spoken Languages
 I like to learn to new languages. 
 :::
 
@@ -52,7 +52,7 @@ sections/languages/sranan-language.rst
 
 ## Political Analysis
 
-:::{admonition} Political Analysis
+:::{topic} Political Analysis
 The Political Analysis sections is a collection of projects that I primaily completed as a research professional at the University of Central Florida.
 :::
 
@@ -69,7 +69,7 @@ sections/political-analysis/international-law/index.md
 
 ## Business Analysis
 
-:::{admonition} Business Analysis
+:::{topic} Business Analysis
 Business analysis section.. Blah blah blah.  this is just a space holder.  
 :::
 
@@ -84,7 +84,7 @@ sections/business-analysis/forecasting/index.md
 
 ## ML and AI
 
-:::{admonition} Business Analysis
+:::{topic} Business Analysis
 ML an dAI section.. Blah blah blah.  this is just a space holder.  
 :::
 
@@ -101,7 +101,7 @@ sections/ml-ai/gender-recognition.rst
 
 ## Python Modules
 
-:::{admonition} Python Modules
+:::{topic} Python Modules
 Python Modules section.. Blah blah blah. this is just a space holder.  
 :::
 
@@ -121,7 +121,7 @@ sections/python-modules/dropbox/index.rst
 
 ## Database Development
 
-:::{admonition} Database Development 
+:::{topic} Database Development 
  Blah blah blah. this is just a space holder.  
 :::
 
@@ -134,7 +134,7 @@ sections/database/graph/index.rst
 
 ## Data Integration
 
-:::{admonition} Data Integration
+:::{topic} Data Integration
  Blah blah blah. this is just a space holder.  
 :::
 
@@ -149,7 +149,7 @@ sections/data-integration/csv-json/index.rst
 
 ## Journal 
 
-```{admonition} Journal
+```{topic} Journal
 The blog section is a collection of my journal entries.  It details and references my work.  It also includes personal projects.  
 ```
 
@@ -162,7 +162,7 @@ sections/blog/posts
 
 ## Reference
 
-```{admonition} References
+```{topic} References
 You will find the references here.  
 ```
 
