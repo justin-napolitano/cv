@@ -2,7 +2,7 @@
 Spanish
 ==================
 
-.. admonition:: Background
+.. topic:: Background
 
     I read newspapers written in spanish occasionally and I can with a degree of difficulty speak with native speakers.  
 

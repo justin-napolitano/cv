@@ -2,7 +2,7 @@
 Sranan Tongo
 ============
 
-.. admonition:: Background
+.. topic:: Background
 
     Sranan is a creole language derived from West African languages, English, Dutch, and Portuguese.  
 

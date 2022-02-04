@@ -26,9 +26,9 @@ United States Supreme Court
    :maxdepth: 2
    :caption: Papers:
 
-   /projects/project-supcourt-legalmodel/legal-model.md
-   /projects/project-supcourt-attitudinal-model/attitudinal-model.md
-   /projects/project-supcourt-masterpiececake/masterpiece-cake.md
+   project-supcourt-legalmodel/legal-model.md
+   project-supcourt-attitudinal-model/attitudinal-model.md
+   project-supcourt-masterpiececake/masterpiece-cake.md
 
 
 

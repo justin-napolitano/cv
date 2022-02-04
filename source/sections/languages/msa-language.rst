@@ -1,8 +1,8 @@
 ==========================
-Modern Standard
+Modern Standard Arabic
 ==========================
 
-.. admonition:: Background
+.. topic:: Background
     
     I studied MSA (Modern Standard Arabic) for a year at University. 
 
@@ -25,4 +25,4 @@ I can understand when someone introduces themselves or says hello.
 Beginner Level Speaking Proficiency
 -------------------------------------
 
-I can introduce myself, say where I am from, and say hello in the langugage; however, I would not consider myself knowledgable enough to communicate in Arabic.  
+I can introduce myself, say where I am from, and say hello in the langugage.  I do not consider myself knowledgable enough to communicate in Arabic.  
