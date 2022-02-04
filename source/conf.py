@@ -67,8 +67,15 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.coverage',
     'sphinx.ext.autosectionlabel',
-    'autoapi.extension'
+    'autoapi.extension',
+    'sphinxcontrib.email',
 ]
+
+
+#email obfuscation settings
+
+email_automode = True
+
 # Document Python Code
 
 #AUTOAPI CONFIG

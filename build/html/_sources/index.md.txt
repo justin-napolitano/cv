@@ -146,6 +146,18 @@ sections/data-integration/csv-json/index.rst
 
 ```
 
+## Contact 
+:::{topic} Contact
+ Blah blah blah. this is just a space holder.  
+:::
+
+```{toctree}
+:caption: Contact
+:maxdepth: 2
+
+sections/contact/contact.md
+
+```
 
 ## Journal 
 
