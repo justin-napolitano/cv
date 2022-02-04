@@ -54,6 +54,7 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Gender Recognition with TensorFlow" href="../../sections/ml-ai/gender-recognition.html" />
@@ -116,9 +117,12 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
       
       
-      <h1 class="site-logo" id="site-title">Justin Napolitano</h1>
+      <img src="../../_static/logo.svg" class="logo" alt="logo">
+      
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
@@ -159,6 +163,43 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../../sections/work-history/ucf.html">
    The University of Central Florida
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Languages
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/french-language.html">
+   French
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/spanish-language.html">
+   Spanish
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/mandarin-language.html">
+   Mandarin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/cantonese-language.html">
+   Cantonese
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/msa-language.html">
+   Modern Standard
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/sranan-language.html">
+   Sranan Tongo
   </a>
  </li>
 </ul>
@@ -1592,17 +1633,17 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_28448/4124950064.py:7: SettingWithCopyWarning: 
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_59089/4124950064.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg[&#39;moving_avg_forecast&#39;][0] = allData[&#39;sales&#39;][0].copy()
-/tmp/ipykernel_28448/4124950064.py:8: SettingWithCopyWarning: 
+/tmp/ipykernel_59089/4124950064.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg[&#39;moving_avg_forecast&#39;][1] = allData[&#39;sales&#39;][1].copy()
-/tmp/ipykernel_28448/4124950064.py:9: SettingWithCopyWarning: 
+/tmp/ipykernel_59089/4124950064.py:9: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -2095,25 +2136,25 @@ At X0         0 variables are exactly at the bounds
 At iterate    0    f=  2.66232D+00    |proj g|=  6.54170D-02
 
 At iterate    5    f=  2.58627D+00    |proj g|=  2.26162D-02
-
-At iterate   10    f=  2.57546D+00    |proj g|=  7.34123D-03
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   15    f=  2.56850D+00    |proj g|=  4.46988D-02
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   10    f=  2.57546D+00    |proj g|=  7.34123D-03
+
+At iterate   15    f=  2.56850D+00    |proj g|=  4.46988D-02
 
 At iterate   20    f=  2.56359D+00    |proj g|=  5.62649D-03
-
-At iterate   25    f=  2.56039D+00    |proj g|=  6.67412D-02
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   30    f=  2.55761D+00    |proj g|=  3.08187D-03
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   25    f=  2.56039D+00    |proj g|=  6.67412D-02
+
+At iterate   30    f=  2.55761D+00    |proj g|=  3.08187D-03
 
 At iterate   35    f=  2.55698D+00    |proj g|=  1.34257D-02
-
-At iterate   40    f=  2.55574D+00    |proj g|=  9.72859D-03
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   45    f=  2.55562D+00    |proj g|=  2.75953D-03
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>At iterate   40    f=  2.55574D+00    |proj g|=  9.72859D-03
+
+At iterate   45    f=  2.55562D+00    |proj g|=  2.75953D-03
 
 At iterate   50    f=  2.55559D+00    |proj g|=  1.56106D-03
 
@@ -2229,6 +2270,7 @@ The Best Model is Moving Average
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
+      Last updated on Feb 04, 2022.<br/>
   </p>
 </footer>
 </main>

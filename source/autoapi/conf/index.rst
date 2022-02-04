@@ -142,6 +142,21 @@ Module Contents
 
    
 
+.. py:data:: html_logo
+   :annotation: = _static/icons/faviconio-logo/logo.svg
+
+   
+
+.. py:data:: html_favicon
+   :annotation: = _static/icons/favicon_io-white/android-chrome-512x512.png
+
+   
+
+.. py:data:: html_last_updated_fmt
+   :annotation: = 
+
+   
+
 .. py:data:: html_static_path
    :annotation: = ['_static']
 

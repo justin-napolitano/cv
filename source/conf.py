@@ -159,6 +159,10 @@ pygments_style = None
 html_theme = 'sphinx_book_theme'
 html_use_index = True
 
+html_logo = "_static/icons/faviconio-logo/logo.svg"
+html_favicon = "_static/icons/favicon_io-white/android-chrome-512x512.png"
+html_last_updated_fmt = ""
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -212,7 +216,7 @@ html_theme_options = {
     "use_issues_button": False,
     "use_repository_button": True,
     "use_download_button": True,
-    "logo_only": False,
+    "logo_only": True,
     "show_toc_level": 2,
     # For testing
     # "use_fullscreen_button": False,
