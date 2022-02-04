@@ -17,8 +17,8 @@ United States Supreme Court
    :maxdepth: 2
    :caption: Python Projects:
    
-   /projects/project-sup-court-meta-data-graph/index.rst
-   /projects/project-supcourt-tensorflow/index.rst
+   project-sup-court-meta-data-graph/index.rst
+   project-supcourt-tensorflow/index.rst
  
         
 
