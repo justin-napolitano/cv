@@ -143,7 +143,7 @@ Module Contents
    
 
 .. py:data:: html_logo
-   :annotation: = _static/icons/faviconio-logo/logo.svg
+   :annotation: = _static/icons/faviconio-logo/logo.png
 
    
 
