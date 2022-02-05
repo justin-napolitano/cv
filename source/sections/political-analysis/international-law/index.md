@@ -5,7 +5,7 @@ title: International Law
 # International Law
 
 
-:::{admonition} International Law
+:::{topic} International Law
 Blah blah introduction
 :::
 

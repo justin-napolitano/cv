@@ -55,6 +55,7 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="NeoNodes" href="../NeoNodes/index.html" />
@@ -117,9 +118,12 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
       
       
-      <h1 class="site-logo" id="site-title">Justin Napolitano</h1>
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
@@ -165,6 +169,43 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Languages
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/french-language.html">
+   French
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/spanish-language.html">
+   Spanish
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/mandarin-language.html">
+   Mandarin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/cantonese-language.html">
+   Cantonese
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/msa-language.html">
+   Modern Standard Arabic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/sranan-language.html">
+   Sranan Tongo
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Political Analysis
  </span>
 </p>
@@ -180,7 +221,7 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../projects/project-sup-court-meta-data-graph/index.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.html">
      MetaData Graph
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
@@ -210,7 +251,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../projects/project-supcourt-tensorflow/index.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-tensorflow/index.html">
      TensorFlow Voting Behavior Predictions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
@@ -220,7 +261,7 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../projects/project-supcourt-tensorflow/training-features.html">
+      <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-tensorflow/training-features.html">
        Training Features
       </a>
      </li>
@@ -245,17 +286,17 @@
     </ul>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../projects/project-supcourt-legalmodel/legal-model.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.html">
      Analysis of the Legal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../projects/project-supcourt-attitudinal-model/attitudinal-model.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.html">
      Analysis of the Attitudinal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../projects/project-supcourt-masterpiececake/masterpiece-cake.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.html">
      Analysis of Masterpiece Cake
     </a>
    </li>
@@ -1018,6 +1059,18 @@
     </a>
    </li>
   </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Contact
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/contact/contact.html">
+   Contact
+  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -2326,615 +2379,862 @@
             
               <div>
                  <div class="section" id="module-neoModelAPI">
-<span id="neomodelapi"></span><h1><a class="reference internal" href="#module-neoModelAPI" title="neoModelAPI"><code class="xref py py-mod docutils literal notranslate"><span class="pre">neoModelAPI</span></code></a><a class="headerlink" href="#module-neoModelAPI" title="Permalink to this headline">¶</a></h1>
+<span id="neomodelapi"></span><h1>
+<a class="reference internal" href="#module-neoModelAPI" title="neoModelAPI"><code class="xref py py-mod docutils literal notranslate"><span class="pre">neoModelAPI</span></code></a><a class="headerlink" href="#module-neoModelAPI" title="Permalink to this headline">¶</a>
+</h1>
 <div class="section" id="module-contents">
-<h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a>
+</h2>
 <div class="section" id="classes">
-<h3>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h3>
+<h3>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a>
+</h3>
 <table class="longtable table autosummary">
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
+<col style="width: 10%">
+<col style="width: 90%">
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#neoModelAPI.neoAPI" title="neoModelAPI.neoAPI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">neoAPI</span></code></a></p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#neoModelAPI.neoAPI" title="neoModelAPI.neoAPI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">neoAPI</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#neoModelAPI.Processed" title="neoModelAPI.Processed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Processed</span></code></a></p></td>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#neoModelAPI.Processed" title="neoModelAPI.Processed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Processed</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#neoModelAPI.NotProcessed" title="neoModelAPI.NotProcessed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NotProcessed</span></code></a></p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#neoModelAPI.NotProcessed" title="neoModelAPI.NotProcessed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NotProcessed</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#neoModelAPI.City" title="neoModelAPI.City"><code class="xref py py-obj docutils literal notranslate"><span class="pre">City</span></code></a></p></td>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#neoModelAPI.City" title="neoModelAPI.City"><code class="xref py py-obj docutils literal notranslate"><span class="pre">City</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#neoModelAPI.Country" title="neoModelAPI.Country"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Country</span></code></a></p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#neoModelAPI.Country" title="neoModelAPI.Country"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Country</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#neoModelAPI.State" title="neoModelAPI.State"><code class="xref py py-obj docutils literal notranslate"><span class="pre">State</span></code></a></p></td>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#neoModelAPI.State" title="neoModelAPI.State"><code class="xref py py-obj docutils literal notranslate"><span class="pre">State</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#neoModelAPI.Root" title="neoModelAPI.Root"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Root</span></code></a></p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#neoModelAPI.Root" title="neoModelAPI.Root"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Root</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#neoModelAPI.Child" title="neoModelAPI.Child"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Child</span></code></a></p></td>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#neoModelAPI.Child" title="neoModelAPI.Child"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Child</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#neoModelAPI.Parent" title="neoModelAPI.Parent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Parent</span></code></a></p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#neoModelAPI.Parent" title="neoModelAPI.Parent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Parent</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#neoModelAPI.Sibling" title="neoModelAPI.Sibling"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Sibling</span></code></a></p></td>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#neoModelAPI.Sibling" title="neoModelAPI.Sibling"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Sibling</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#neoModelAPI.Realtor_com" title="neoModelAPI.Realtor_com"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Realtor_com</span></code></a></p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#neoModelAPI.Realtor_com" title="neoModelAPI.Realtor_com"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Realtor_com</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#neoModelAPI.Realtor_Search_URL" title="neoModelAPI.Realtor_Search_URL"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Realtor_Search_URL</span></code></a></p></td>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#neoModelAPI.Realtor_Search_URL" title="neoModelAPI.Realtor_Search_URL"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Realtor_Search_URL</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#neoModelAPI.Person" title="neoModelAPI.Person"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Person</span></code></a></p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#neoModelAPI.Person" title="neoModelAPI.Person"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Person</span></code></a></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">neoAPI</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="py method">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">neoAPI</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.instantiate_neo_model_session">
-<span class="sig-name descname"><span class="pre">instantiate_neo_model_session</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.instantiate_neo_model_session"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.instantiate_neo_model_session" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">instantiate_neo_model_session</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.instantiate_neo_model_session"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.instantiate_neo_model_session" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.create_city_node">
-<span class="sig-name descname"><span class="pre">create_city_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_city_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_city_node" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">create_city_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_city_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_city_node" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.create_country_node">
-<span class="sig-name descname"><span class="pre">create_country_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">code</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_country_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_country_node" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">create_country_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">code</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_country_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_country_node" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.create_state_node">
-<span class="sig-name descname"><span class="pre">create_state_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">code</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_state_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_state_node" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">create_state_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">code</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_state_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_state_node" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.create_realtor_search_url_node">
-<span class="sig-name descname"><span class="pre">create_realtor_search_url_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_realtor_search_url_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_realtor_search_url_node" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">create_realtor_search_url_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_realtor_search_url_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_realtor_search_url_node" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.create_root_node">
-<span class="sig-name descname"><span class="pre">create_root_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'realtor.com'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_root_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_root_node" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">create_root_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'realtor.com'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_root_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_root_node" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.create_child_node">
-<span class="sig-name descname"><span class="pre">create_child_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'realtor.com'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_child_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_child_node" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">create_child_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'realtor.com'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_child_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_child_node" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.create_parent_node">
-<span class="sig-name descname"><span class="pre">create_parent_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'realtor.com'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_parent_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_parent_node" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">create_parent_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'realtor.com'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_parent_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_parent_node" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.create_sibling_node">
-<span class="sig-name descname"><span class="pre">create_sibling_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'realtor.com'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_sibling_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_sibling_node" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">create_sibling_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'realtor.com'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_sibling_node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_sibling_node" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.create_relationship">
-<span class="sig-name descname"><span class="pre">create_relationship</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_relationship"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_relationship" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">create_relationship</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.create_relationship"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.create_relationship" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="neoModelAPI.neoAPI.update">
-<span class="sig-name descname"><span class="pre">update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">obj</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.update"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.update" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">obj</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/neoModelAPI.html#neoAPI.update"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.neoAPI.update" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.Processed">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Processed" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Processed" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Processed.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Processed.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Processed.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Processed.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Processed.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.NotProcessed">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.NotProcessed" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.NotProcessed" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.NotProcessed.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#NotProcessed.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.NotProcessed.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#NotProcessed.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.NotProcessed.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.City">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">City</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#City"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.City" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">City</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#City"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.City" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.City.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#City.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.City.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#City.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.City.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.City.name">
-<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#City.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.City.name" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#City.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.City.name" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.City.state">
-<span class="sig-name descname"><span class="pre">state</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#City.state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.City.state" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">state</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#City.state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.City.state" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.City.country">
-<span class="sig-name descname"><span class="pre">country</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#City.country"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.City.country" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">country</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#City.country"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.City.country" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.Country">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Country</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Country"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Country" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Country</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Country"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Country" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Country.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Country.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Country.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Country.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Country.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Country.code">
-<span class="sig-name descname"><span class="pre">code</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Country.code"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Country.code" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">code</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Country.code"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Country.code" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Country.name">
-<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Country.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Country.name" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Country.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Country.name" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.State">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">State</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#State"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.State" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">State</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#State"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.State" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.State.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#State.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.State.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#State.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.State.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.State.code">
-<span class="sig-name descname"><span class="pre">code</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#State.code"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.State.code" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">code</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#State.code"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.State.code" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.State.name">
-<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#State.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.State.name" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#State.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.State.name" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.State.country">
-<span class="sig-name descname"><span class="pre">country</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#State.country"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.State.country" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">country</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#State.country"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.State.country" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.Root">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.is_root">
-<span class="sig-name descname"><span class="pre">is_root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.is_root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.is_root" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.is_root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.is_root" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.is_parent">
-<span class="sig-name descname"><span class="pre">is_parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.is_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.is_parent" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.is_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.is_parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.is_sibling">
-<span class="sig-name descname"><span class="pre">is_sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.is_sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.is_sibling" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.is_sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.is_sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.is_child">
-<span class="sig-name descname"><span class="pre">is_child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.is_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.is_child" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.is_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.is_child" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.name">
-<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.name" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.name" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.url">
-<span class="sig-name descname"><span class="pre">url</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.url" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">url</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.url" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.processed">
-<span class="sig-name descname"><span class="pre">processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.processed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.processed" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.NotProcessed">
-<span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.NotProcessed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.NotProcessed" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.sibling">
-<span class="sig-name descname"><span class="pre">sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.sibling" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.child">
-<span class="sig-name descname"><span class="pre">child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.child" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.child" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.parent">
-<span class="sig-name descname"><span class="pre">parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.parent" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Root.root">
-<span class="sig-name descname"><span class="pre">root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.root" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Root.root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Root.root" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.Child">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.is_root">
-<span class="sig-name descname"><span class="pre">is_root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.is_root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.is_root" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.is_root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.is_root" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.is_parent">
-<span class="sig-name descname"><span class="pre">is_parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.is_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.is_parent" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.is_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.is_parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.is_sibling">
-<span class="sig-name descname"><span class="pre">is_sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.is_sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.is_sibling" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.is_sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.is_sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.is_child">
-<span class="sig-name descname"><span class="pre">is_child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.is_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.is_child" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.is_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.is_child" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.name">
-<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.name" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.name" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.processed">
-<span class="sig-name descname"><span class="pre">processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.processed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.processed" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.NotProcessed">
-<span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.NotProcessed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.NotProcessed" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.sibling">
-<span class="sig-name descname"><span class="pre">sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.sibling" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.child">
-<span class="sig-name descname"><span class="pre">child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.child" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.child" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.parent">
-<span class="sig-name descname"><span class="pre">parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.parent" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Child.root">
-<span class="sig-name descname"><span class="pre">root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.root" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Child.root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Child.root" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.Parent">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.name">
-<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.name" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.name" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.is_root">
-<span class="sig-name descname"><span class="pre">is_root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.is_root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.is_root" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.is_root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.is_root" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.is_parent">
-<span class="sig-name descname"><span class="pre">is_parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.is_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.is_parent" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.is_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.is_parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.is_sibling">
-<span class="sig-name descname"><span class="pre">is_sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.is_sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.is_sibling" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.is_sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.is_sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.is_child">
-<span class="sig-name descname"><span class="pre">is_child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.is_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.is_child" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.is_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.is_child" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.processed">
-<span class="sig-name descname"><span class="pre">processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.processed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.processed" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.NotProcessed">
-<span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.NotProcessed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.NotProcessed" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.sibling">
-<span class="sig-name descname"><span class="pre">sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.sibling" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.child">
-<span class="sig-name descname"><span class="pre">child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.child" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.child" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.parent">
-<span class="sig-name descname"><span class="pre">parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.parent" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Parent.root">
-<span class="sig-name descname"><span class="pre">root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.root" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Parent.root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Parent.root" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.is_root">
-<span class="sig-name descname"><span class="pre">is_root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.is_root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.is_root" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.is_root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.is_root" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.is_parent">
-<span class="sig-name descname"><span class="pre">is_parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.is_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.is_parent" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.is_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.is_parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.is_sibling">
-<span class="sig-name descname"><span class="pre">is_sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.is_sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.is_sibling" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.is_sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.is_sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.is_child">
-<span class="sig-name descname"><span class="pre">is_child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.is_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.is_child" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.is_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.is_child" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.name">
-<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.name" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.name" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.processed">
-<span class="sig-name descname"><span class="pre">processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.processed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.processed" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.NotProcessed">
-<span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.NotProcessed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.NotProcessed" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.sibling">
-<span class="sig-name descname"><span class="pre">sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.sibling" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.child">
-<span class="sig-name descname"><span class="pre">child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.child" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.child" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.parent">
-<span class="sig-name descname"><span class="pre">parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.parent" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Sibling.root">
-<span class="sig-name descname"><span class="pre">root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.root" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Sibling.root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Sibling.root" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_com">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Realtor_com</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_com"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_com" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Realtor_com</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_com"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_com" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_com.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_com.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_com.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_com.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_com.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_com.is_realtor_com">
-<span class="sig-name descname"><span class="pre">is_realtor_com</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_com.is_realtor_com"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_com.is_realtor_com" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_realtor_com</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_com.is_realtor_com"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_com.is_realtor_com" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_com.name">
-<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_com.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_com.name" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_com.name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_com.name" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Realtor_Search_URL</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Realtor_Search_URL</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.url">
-<span class="sig-name descname"><span class="pre">url</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.url" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">url</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.url" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.searched">
-<span class="sig-name descname"><span class="pre">searched</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.searched"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.searched" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">searched</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.searched"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.searched" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.is_root">
-<span class="sig-name descname"><span class="pre">is_root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.is_root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.is_root" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.is_root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.is_root" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.is_child">
-<span class="sig-name descname"><span class="pre">is_child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.is_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.is_child" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.is_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.is_child" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.is_parent">
-<span class="sig-name descname"><span class="pre">is_parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.is_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.is_parent" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.is_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.is_parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.is_sibling">
-<span class="sig-name descname"><span class="pre">is_sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.is_sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.is_sibling" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">is_sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.is_sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.is_sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.state">
-<span class="sig-name descname"><span class="pre">state</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.state" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">state</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.state" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.city">
-<span class="sig-name descname"><span class="pre">city</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.city"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.city" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">city</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.city"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.city" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.root">
-<span class="sig-name descname"><span class="pre">root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.root" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">root</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.root"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.root" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.child">
-<span class="sig-name descname"><span class="pre">child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.child" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">child</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.child" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.parent">
-<span class="sig-name descname"><span class="pre">parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.parent" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">parent</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.parent" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.sibling">
-<span class="sig-name descname"><span class="pre">sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.sibling" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">sibling</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.sibling"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.sibling" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.realtor_com">
-<span class="sig-name descname"><span class="pre">realtor_com</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.realtor_com"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.realtor_com" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">realtor_com</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.realtor_com"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.realtor_com" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.processed">
-<span class="sig-name descname"><span class="pre">processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.processed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">processed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.processed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.processed" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Realtor_Search_URL.NotProcessed">
-<span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.NotProcessed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">NotProcessed</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Realtor_Search_URL.NotProcessed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Realtor_Search_URL.NotProcessed" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="neoModelAPI.Person">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Person</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Person"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Person" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">neoModelAPI.</span></span><span class="sig-name descname"><span class="pre">Person</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Person"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Person" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">neomodel.StructuredNode</span></code></p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Person.uid">
-<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Person.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Person.uid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">uid</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Person.uid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Person.uid" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Person.full_name">
-<span class="sig-name descname"><span class="pre">full_name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Person.full_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Person.full_name" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">full_name</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Person.full_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Person.full_name" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="neoModelAPI.Person.email">
-<span class="sig-name descname"><span class="pre">email</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Person.email"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Person.email" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">email</span></span><a class="reference internal" href="../../_modules/neoModelAPI.html#Person.email"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#neoModelAPI.Person.email" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 </div>
 </div>
 </div>
 
-    <script type="text/x-thebe-config">
+    
+<script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
@@ -2952,7 +3252,9 @@
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'python3'</script>
+    
+<script>kernelName = 'python3'</script>
+
 <div class="section">
    
 </div>
@@ -2986,6 +3288,7 @@
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
+      Last updated on Feb 04, 2022.<br/>
   </p>
 </footer>
 </main>

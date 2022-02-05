@@ -55,6 +55,7 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Pandas Functions" href="../../sections/python-modules/pandas-functions/index.html" />
@@ -117,9 +118,12 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
       
       
-      <h1 class="site-logo" id="site-title">Justin Napolitano</h1>
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
@@ -165,6 +169,43 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Languages
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/french-language.html">
+   French
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/spanish-language.html">
+   Spanish
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/mandarin-language.html">
+   Mandarin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/cantonese-language.html">
+   Cantonese
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/msa-language.html">
+   Modern Standard Arabic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/sranan-language.html">
+   Sranan Tongo
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Political Analysis
  </span>
 </p>
@@ -180,7 +221,7 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../projects/project-sup-court-meta-data-graph/index.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.html">
      MetaData Graph
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
@@ -210,7 +251,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../projects/project-supcourt-tensorflow/index.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-tensorflow/index.html">
      TensorFlow Voting Behavior Predictions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
@@ -220,7 +261,7 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../projects/project-supcourt-tensorflow/training-features.html">
+      <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-tensorflow/training-features.html">
        Training Features
       </a>
      </li>
@@ -245,17 +286,17 @@
     </ul>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../projects/project-supcourt-legalmodel/legal-model.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.html">
      Analysis of the Legal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../projects/project-supcourt-attitudinal-model/attitudinal-model.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.html">
      Analysis of the Attitudinal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../projects/project-supcourt-masterpiececake/masterpiece-cake.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.html">
      Analysis of Masterpiece Cake
     </a>
    </li>
@@ -1022,6 +1063,18 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Contact
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/contact/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Journal
  </span>
 </p>
@@ -1308,143 +1361,185 @@
             
               <div>
                  <div class="section" id="module-align_dlib">
-<span id="align-dlib"></span><h1><a class="reference internal" href="#module-align_dlib" title="align_dlib"><code class="xref py py-mod docutils literal notranslate"><span class="pre">align_dlib</span></code></a><a class="headerlink" href="#module-align_dlib" title="Permalink to this headline">¶</a></h1>
+<span id="align-dlib"></span><h1>
+<a class="reference internal" href="#module-align_dlib" title="align_dlib"><code class="xref py py-mod docutils literal notranslate"><span class="pre">align_dlib</span></code></a><a class="headerlink" href="#module-align_dlib" title="Permalink to this headline">¶</a>
+</h1>
 <p>Module for dlib-based alignment.</p>
 <div class="section" id="module-contents">
-<h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a>
+</h2>
 <div class="section" id="classes">
-<h3>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h3>
+<h3>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a>
+</h3>
 <table class="longtable table autosummary">
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
+<col style="width: 10%">
+<col style="width: 90%">
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#align_dlib.AlignDlib" title="align_dlib.AlignDlib"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AlignDlib</span></code></a></p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#align_dlib.AlignDlib" title="align_dlib.AlignDlib"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AlignDlib</span></code></a></p></td>
 <td><p>Use <a class="reference external" href="http://blog.dlib.net/2014/08/real-time-face-pose-estimation.html">dlib's landmark estimation</a> to align faces.</p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="attributes">
-<h3>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h3>
+<h3>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a>
+</h3>
 <table class="longtable table autosummary">
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
+<col style="width: 10%">
+<col style="width: 90%">
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#align_dlib.TEMPLATE" title="align_dlib.TEMPLATE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TEMPLATE</span></code></a></p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#align_dlib.TEMPLATE" title="align_dlib.TEMPLATE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TEMPLATE</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#align_dlib.INV_TEMPLATE" title="align_dlib.INV_TEMPLATE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">INV_TEMPLATE</span></code></a></p></td>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#align_dlib.INV_TEMPLATE" title="align_dlib.INV_TEMPLATE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">INV_TEMPLATE</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#align_dlib.MINMAX_TEMPLATE" title="align_dlib.MINMAX_TEMPLATE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MINMAX_TEMPLATE</span></code></a></p></td>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#align_dlib.MINMAX_TEMPLATE" title="align_dlib.MINMAX_TEMPLATE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MINMAX_TEMPLATE</span></code></a></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 <dl class="py data">
 <dt class="sig sig-object py" id="align_dlib.TEMPLATE">
-<span class="sig-prename descclassname"><span class="pre">align_dlib.</span></span><span class="sig-name descname"><span class="pre">TEMPLATE</span></span><a class="reference internal" href="../../_modules/align_dlib.html#TEMPLATE"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.TEMPLATE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-prename descclassname"><span class="pre">align_dlib.</span></span><span class="sig-name descname"><span class="pre">TEMPLATE</span></span><a class="reference internal" href="../../_modules/align_dlib.html#TEMPLATE"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.TEMPLATE" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py data">
 <dt class="sig sig-object py" id="align_dlib.INV_TEMPLATE">
-<span class="sig-prename descclassname"><span class="pre">align_dlib.</span></span><span class="sig-name descname"><span class="pre">INV_TEMPLATE</span></span><a class="reference internal" href="../../_modules/align_dlib.html#INV_TEMPLATE"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.INV_TEMPLATE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-prename descclassname"><span class="pre">align_dlib.</span></span><span class="sig-name descname"><span class="pre">INV_TEMPLATE</span></span><a class="reference internal" href="../../_modules/align_dlib.html#INV_TEMPLATE"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.INV_TEMPLATE" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py data">
 <dt class="sig sig-object py" id="align_dlib.MINMAX_TEMPLATE">
-<span class="sig-prename descclassname"><span class="pre">align_dlib.</span></span><span class="sig-name descname"><span class="pre">MINMAX_TEMPLATE</span></span><a class="reference internal" href="../../_modules/align_dlib.html#MINMAX_TEMPLATE"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.MINMAX_TEMPLATE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-prename descclassname"><span class="pre">align_dlib.</span></span><span class="sig-name descname"><span class="pre">MINMAX_TEMPLATE</span></span><a class="reference internal" href="../../_modules/align_dlib.html#MINMAX_TEMPLATE"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.MINMAX_TEMPLATE" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="align_dlib.AlignDlib">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">align_dlib.</span></span><span class="sig-name descname"><span class="pre">AlignDlib</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">facePredictor</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib" title="Permalink to this definition">¶</a></dt>
-<dd><p>Use <a class="reference external" href="http://blog.dlib.net/2014/08/real-time-face-pose-estimation.html">dlib’s landmark estimation</a> to align faces.</p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">align_dlib.</span></span><span class="sig-name descname"><span class="pre">AlignDlib</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">facePredictor</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Use <a class="reference external" href="http://blog.dlib.net/2014/08/real-time-face-pose-estimation.html">dlib’s landmark estimation</a> to align faces.</p>
 <p>The alignment preprocess faces for input into a neural network.
 Faces are resized to the same size (such as 96x96) and transformed
 to make landmarks (such as the eyes and nose) appear at the same
 location on every image.</p>
 <p>Normalized landmarks:</p>
-<img alt="autoapi/images/dlib-landmark-mean.png" src="autoapi/images/dlib-landmark-mean.png" />
+<img alt="autoapi/images/dlib-landmark-mean.png" src="autoapi/images/dlib-landmark-mean.png">
 <dl class="py attribute">
 <dt class="sig sig-object py" id="align_dlib.AlignDlib.INNER_EYES_AND_BOTTOM_LIP">
-<span class="sig-name descname"><span class="pre">INNER_EYES_AND_BOTTOM_LIP</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">[39,</span> <span class="pre">42,</span> <span class="pre">57]</span></em><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.INNER_EYES_AND_BOTTOM_LIP"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.INNER_EYES_AND_BOTTOM_LIP" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">INNER_EYES_AND_BOTTOM_LIP</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">[39,</span> <span class="pre">42,</span> <span class="pre">57]</span></em><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.INNER_EYES_AND_BOTTOM_LIP"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.INNER_EYES_AND_BOTTOM_LIP" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="align_dlib.AlignDlib.OUTER_EYES_AND_NOSE">
-<span class="sig-name descname"><span class="pre">OUTER_EYES_AND_NOSE</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">[36,</span> <span class="pre">45,</span> <span class="pre">33]</span></em><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.OUTER_EYES_AND_NOSE"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.OUTER_EYES_AND_NOSE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">OUTER_EYES_AND_NOSE</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">[36,</span> <span class="pre">45,</span> <span class="pre">33]</span></em><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.OUTER_EYES_AND_NOSE"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.OUTER_EYES_AND_NOSE" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="align_dlib.AlignDlib.getAllFaceBoundingBoxes">
-<span class="sig-name descname"><span class="pre">getAllFaceBoundingBoxes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rgbImg</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.getAllFaceBoundingBoxes"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.getAllFaceBoundingBoxes" title="Permalink to this definition">¶</a></dt>
-<dd><p>Find all face bounding boxes in an image.</p>
+<span class="sig-name descname"><span class="pre">getAllFaceBoundingBoxes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rgbImg</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.getAllFaceBoundingBoxes"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.getAllFaceBoundingBoxes" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Find all face bounding boxes in an image.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>rgbImg</strong> (<em>numpy.ndarray</em>) – RGB image to process. Shape: (height, width, 3)</p>
+<dd class="field-odd">
+<p><strong>rgbImg</strong> (<em>numpy.ndarray</em>) – RGB image to process. Shape: (height, width, 3)</p>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p>All face bounding boxes in an image.</p>
+<dd class="field-even">
+<p>All face bounding boxes in an image.</p>
 </dd>
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>dlib.rectangles</p>
+<dd class="field-odd">
+<p>dlib.rectangles</p>
 </dd>
 </dl>
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="align_dlib.AlignDlib.getLargestFaceBoundingBox">
-<span class="sig-name descname"><span class="pre">getLargestFaceBoundingBox</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rgbImg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skipMulti</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.getLargestFaceBoundingBox"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.getLargestFaceBoundingBox" title="Permalink to this definition">¶</a></dt>
-<dd><p>Find the largest face bounding box in an image.</p>
+<span class="sig-name descname"><span class="pre">getLargestFaceBoundingBox</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rgbImg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skipMulti</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.getLargestFaceBoundingBox"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.getLargestFaceBoundingBox" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Find the largest face bounding box in an image.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
+<dd class="field-odd">
+<ul class="simple">
 <li><p><strong>rgbImg</strong> (<em>numpy.ndarray</em>) – RGB image to process. Shape: (height, width, 3)</p></li>
 <li><p><strong>skipMulti</strong> (<em>bool</em>) – Skip image if more than one face detected.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p>The largest face bounding box in an image, or None.</p>
+<dd class="field-even">
+<p>The largest face bounding box in an image, or None.</p>
 </dd>
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>dlib.rectangle</p>
+<dd class="field-odd">
+<p>dlib.rectangle</p>
 </dd>
 </dl>
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="align_dlib.AlignDlib.findLandmarks">
-<span class="sig-name descname"><span class="pre">findLandmarks</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rgbImg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bb</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.findLandmarks"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.findLandmarks" title="Permalink to this definition">¶</a></dt>
-<dd><p>Find the landmarks of a face.</p>
+<span class="sig-name descname"><span class="pre">findLandmarks</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rgbImg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bb</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.findLandmarks"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.findLandmarks" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Find the landmarks of a face.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
+<dd class="field-odd">
+<ul class="simple">
 <li><p><strong>rgbImg</strong> (<em>numpy.ndarray</em>) – RGB image to process. Shape: (height, width, 3)</p></li>
 <li><p><strong>bb</strong> (<em>dlib.rectangle</em>) – Bounding box around the face to find landmarks for.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p>Detected landmark locations.</p>
+<dd class="field-even">
+<p>Detected landmark locations.</p>
 </dd>
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>list of (x,y) tuples</p>
+<dd class="field-odd">
+<p>list of (x,y) tuples</p>
 </dd>
 </dl>
-</dd></dl>
+</dd>
+</dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="align_dlib.AlignDlib.align">
-<span class="sig-name descname"><span class="pre">align</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">imgDim</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rgbImg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">landmarks</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">landmarkIndices</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">INNER_EYES_AND_BOTTOM_LIP</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skipMulti</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.align"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.align" title="Permalink to this definition">¶</a></dt>
-<dd><p>align(imgDim, rgbImg, bb=None, landmarks=None, landmarkIndices=INNER_EYES_AND_BOTTOM_LIP)</p>
+<span class="sig-name descname"><span class="pre">align</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">imgDim</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rgbImg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">landmarks</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">landmarkIndices</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">INNER_EYES_AND_BOTTOM_LIP</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skipMulti</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/align_dlib.html#AlignDlib.align"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#align_dlib.AlignDlib.align" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>align(imgDim, rgbImg, bb=None, landmarks=None, landmarkIndices=INNER_EYES_AND_BOTTOM_LIP)</p>
 <p>Transform and align a face in an image.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
+<dd class="field-odd">
+<ul class="simple">
 <li><p><strong>imgDim</strong> (<em>int</em>) – The edge length in pixels of the square the image is resized to.</p></li>
 <li><p><strong>rgbImg</strong> (<em>numpy.ndarray</em>) – RGB image to process. Shape: (height, width, 3)</p></li>
 <li><p><strong>bb</strong> (<em>dlib.rectangle</em>) – Bounding box around the face to align. Defaults to the largest face.</p></li>
@@ -1455,21 +1550,26 @@ location on every image.</p>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p>The aligned RGB image. Shape: (imgDim, imgDim, 3)</p>
+<dd class="field-even">
+<p>The aligned RGB image. Shape: (imgDim, imgDim, 3)</p>
 </dd>
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>numpy.ndarray</p>
+<dd class="field-odd">
+<p>numpy.ndarray</p>
 </dd>
 </dl>
-</dd></dl>
+</dd>
+</dl>
 
-</dd></dl>
+</dd>
+</dl>
 
 </div>
 </div>
 </div>
 
-    <script type="text/x-thebe-config">
+    
+<script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
@@ -1487,7 +1587,9 @@ location on every image.</p>
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'python3'</script>
+    
+<script>kernelName = 'python3'</script>
+
 <div class="section">
    
 </div>
@@ -1521,6 +1623,7 @@ location on every image.</p>
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
+      Last updated on Feb 04, 2022.<br/>
   </p>
 </footer>
 </main>

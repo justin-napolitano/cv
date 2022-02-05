@@ -55,6 +55,7 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="GremlinConnect" href="../../../autoapi/GremlinConnect/index.html" />
@@ -117,9 +118,12 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
       
       
-      <h1 class="site-logo" id="site-title">Justin Napolitano</h1>
+      <img src="../../../_static/logo.png" class="logo" alt="logo">
+      
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
@@ -165,6 +169,43 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Languages
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../languages/french-language.html">
+   French
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../languages/spanish-language.html">
+   Spanish
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../languages/mandarin-language.html">
+   Mandarin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../languages/cantonese-language.html">
+   Cantonese
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../languages/msa-language.html">
+   Modern Standard Arabic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../languages/sranan-language.html">
+   Sranan Tongo
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Political Analysis
  </span>
 </p>
@@ -180,7 +221,7 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../../projects/project-sup-court-meta-data-graph/index.html">
+    <a class="reference internal" href="../../political-analysis/sup-court/project-sup-court-meta-data-graph/index.html">
      MetaData Graph
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
@@ -210,7 +251,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../../projects/project-supcourt-tensorflow/index.html">
+    <a class="reference internal" href="../../political-analysis/sup-court/project-supcourt-tensorflow/index.html">
      TensorFlow Voting Behavior Predictions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
@@ -220,7 +261,7 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../../projects/project-supcourt-tensorflow/training-features.html">
+      <a class="reference internal" href="../../political-analysis/sup-court/project-supcourt-tensorflow/training-features.html">
        Training Features
       </a>
      </li>
@@ -245,17 +286,17 @@
     </ul>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../../projects/project-supcourt-legalmodel/legal-model.html">
+    <a class="reference internal" href="../../political-analysis/sup-court/project-supcourt-legalmodel/legal-model.html">
      Analysis of the Legal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../../projects/project-supcourt-attitudinal-model/attitudinal-model.html">
+    <a class="reference internal" href="../../political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.html">
      Analysis of the Attitudinal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../../projects/project-supcourt-masterpiececake/masterpiece-cake.html">
+    <a class="reference internal" href="../../political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.html">
      Analysis of Masterpiece Cake
     </a>
    </li>
@@ -1022,6 +1063,18 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Contact
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../contact/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Journal
  </span>
 </p>
@@ -1196,9 +1249,11 @@
             
               <div>
                  <div class="section" id="janusgraph-modules">
-<span id="janus-graph-database"></span><h1>JanusGraph Modules<a class="headerlink" href="#janusgraph-modules" title="Permalink to this headline">¶</a></h1>
+<span id="janus-graph-database"></span><h1>JanusGraph Modules<a class="headerlink" href="#janusgraph-modules" title="Permalink to this headline">¶</a>
+</h1>
 <div class="section" id="summary">
-<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a>
+</h2>
 <ul class="simple">
 <li><p>An extension of the python-gremlin library. The modules is designed to work well with pandas DataFrames.</p></li>
 <li><p>The collection of functions are written to permit an asynchronous df.apply() across n threads to mimic transaction functionality of spark df’s without the overhead of running a local Spark cluster.</p></li>
@@ -1206,18 +1261,24 @@
 </ul>
 </div>
 <div class="section" id="links">
-<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a>
+</h2>
 <p><a class="reference external" href="https://github.com/justin-napolitano/JanusGraphAPI">GitHub</a></p>
 </div>
 <div class="section" id="module-documentation">
-<h2>Module Documentation<a class="headerlink" href="#module-documentation" title="Permalink to this headline">¶</a></h2>
+<h2>Module Documentation<a class="headerlink" href="#module-documentation" title="Permalink to this headline">¶</a>
+</h2>
 <div class="toctree-wrapper compound">
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">JanusGraph Modules</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">GremlinConnect</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.html#module-contents">Module Contents</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.html#classes">Classes</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.html#GremlinConnect.GremlinConnection">GremlinConnection</a><ul>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/GremlinConnect/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">GremlinConnect</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/GremlinConnect/index.html#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/GremlinConnect/index.html#classes">Classes</a><ul>
+<li class="toctree-l4">
+<a class="reference internal" href="../../../autoapi/GremlinConnect/index.html#GremlinConnect.GremlinConnection">GremlinConnection</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.html#GremlinConnect.GremlinConnection.inject_vertex_properties">inject_vertex_properties</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.html#GremlinConnect.GremlinConnection.gtx_inject_vertex_properties">gtx_inject_vertex_properties</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.html#GremlinConnect.GremlinConnection.connection_driver">connection_driver</a></li>
@@ -1235,9 +1296,12 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">AddChildrenToRoot</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.html#module-contents">Module Contents</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.html#functions">Functions</a><ul>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">AddChildrenToRoot</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.html#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.html#functions">Functions</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.html#AddChildrenToRoot.return_arbitrary_root_object">return_arbitrary_root_object</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.html#AddChildrenToRoot.return_arbitrary_root_element_map">return_arbitrary_root_element_map</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.html#AddChildrenToRoot.find_children_urls">find_children_urls</a></li>
@@ -1250,9 +1314,12 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">AddIsRootProperty</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.html#module-contents">Module Contents</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.html#functions">Functions</a><ul>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">AddIsRootProperty</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.html#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.html#functions">Functions</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.html#AddIsRootProperty.get_list">get_list</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.html#AddIsRootProperty.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.html#AddIsRootProperty.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
@@ -1264,9 +1331,12 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">AddSproutedProperty</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.html#module-contents">Module Contents</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.html#functions">Functions</a><ul>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">AddSproutedProperty</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.html#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.html#functions">Functions</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.html#AddSproutedProperty.get_list">get_list</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.html#AddSproutedProperty.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.html#AddSproutedProperty.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
@@ -1278,9 +1348,12 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../autoapi/TSubmit/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">TSubmit</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../autoapi/TSubmit/index.html#module-contents">Module Contents</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../autoapi/TSubmit/index.html#functions">Functions</a><ul>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/TSubmit/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">TSubmit</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/TSubmit/index.html#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/TSubmit/index.html#functions">Functions</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.html#TSubmit.connect_to_janus_server">connect_to_janus_server</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.html#TSubmit.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.html#TSubmit.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
@@ -1301,9 +1374,12 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../autoapi/Query/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">Query</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../autoapi/Query/index.html#module-contents">Module Contents</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../autoapi/Query/index.html#functions">Functions</a><ul>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/Query/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">Query</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/Query/index.html#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/Query/index.html#functions">Functions</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/Query/index.html#Query.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/Query/index.html#Query.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/Query/index.html#Query.query_graph_by_property_value">query_graph_by_property_value</a></li>
@@ -1316,9 +1392,12 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../autoapi/CleareGraph/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">CleareGraph</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../autoapi/CleareGraph/index.html#module-contents">Module Contents</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../autoapi/CleareGraph/index.html#functions">Functions</a><ul>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/CleareGraph/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">CleareGraph</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/CleareGraph/index.html#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/CleareGraph/index.html#functions">Functions</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/CleareGraph/index.html#CleareGraph.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/CleareGraph/index.html#CleareGraph.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../autoapi/CleareGraph/index.html#CleareGraph.delete_all_vertex">delete_all_vertex</a></li>
@@ -1334,7 +1413,8 @@
 </div>
 </div>
 
-    <script type="text/x-thebe-config">
+    
+<script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
@@ -1352,7 +1432,9 @@
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'python3'</script>
+    
+<script>kernelName = 'python3'</script>
+
 <div class="section">
    
 </div>
@@ -1386,6 +1468,7 @@
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
+      Last updated on Feb 04, 2022.<br/>
   </p>
 </footer>
 </main>

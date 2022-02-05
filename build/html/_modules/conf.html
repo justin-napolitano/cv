@@ -43,6 +43,7 @@
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/design-tabs.js"></script>
     <script src="../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="shortcut icon" href="../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -103,9 +104,12 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
       
       
-      <h1 class="site-logo" id="site-title">Justin Napolitano</h1>
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
@@ -151,6 +155,43 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Languages
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../sections/languages/french-language.html">
+   French
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../sections/languages/spanish-language.html">
+   Spanish
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../sections/languages/mandarin-language.html">
+   Mandarin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../sections/languages/cantonese-language.html">
+   Cantonese
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../sections/languages/msa-language.html">
+   Modern Standard Arabic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../sections/languages/sranan-language.html">
+   Sranan Tongo
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Political Analysis
  </span>
 </p>
@@ -166,7 +207,7 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../projects/project-sup-court-meta-data-graph/index.html">
+    <a class="reference internal" href="../sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.html">
      MetaData Graph
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
@@ -196,7 +237,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../projects/project-supcourt-tensorflow/index.html">
+    <a class="reference internal" href="../sections/political-analysis/sup-court/project-supcourt-tensorflow/index.html">
      TensorFlow Voting Behavior Predictions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
@@ -206,7 +247,7 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../projects/project-supcourt-tensorflow/training-features.html">
+      <a class="reference internal" href="../sections/political-analysis/sup-court/project-supcourt-tensorflow/training-features.html">
        Training Features
       </a>
      </li>
@@ -231,17 +272,17 @@
     </ul>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../projects/project-supcourt-legalmodel/legal-model.html">
+    <a class="reference internal" href="../sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.html">
      Analysis of the Legal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../projects/project-supcourt-attitudinal-model/attitudinal-model.html">
+    <a class="reference internal" href="../sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.html">
      Analysis of the Attitudinal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../projects/project-supcourt-masterpiececake/masterpiece-cake.html">
+    <a class="reference internal" href="../sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.html">
      Analysis of Masterpiece Cake
     </a>
    </li>
@@ -1008,6 +1049,18 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Contact
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../sections/contact/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Journal
  </span>
 </p>
@@ -1188,8 +1241,22 @@
     <span class="s1">&#39;sphinx.ext.napoleon&#39;</span><span class="p">,</span>
     <span class="s1">&#39;sphinx.ext.coverage&#39;</span><span class="p">,</span>
     <span class="s1">&#39;sphinx.ext.autosectionlabel&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;autoapi.extension&#39;</span></div>
+    <span class="s1">&#39;autoapi.extension&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;sphinxcontrib.email&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinx_jupyterbook_latex&quot;</span><span class="p">,</span></div>
 <span class="p">]</span>
+
+
+<span class="c1">#jupyter latex setup</span>
+
+
+<div class="viewcode-block" id="jb_load_imgconverter"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.jb_load_imgconverter">[docs]</a><span class="n">jb_load_imgconverter</span> <span class="o">=</span> <span class="kc">True</span></div>
+<div class="viewcode-block" id="jblatex_captions_to_parts"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.jblatex_captions_to_parts">[docs]</a><span class="n">jblatex_captions_to_parts</span> <span class="o">=</span> <span class="kc">True</span></div>
+
+<span class="c1">#email obfuscation settings</span>
+
+<div class="viewcode-block" id="email_automode"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.email_automode">[docs]</a><span class="n">email_automode</span> <span class="o">=</span> <span class="kc">True</span></div>
+
 <span class="c1"># Document Python Code</span>
 
 <span class="c1">#AUTOAPI CONFIG</span>
@@ -1280,6 +1347,10 @@
 <div class="viewcode-block" id="html_theme"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.html_theme">[docs]</a><span class="n">html_theme</span> <span class="o">=</span> <span class="s1">&#39;sphinx_book_theme&#39;</span></div>
 <div class="viewcode-block" id="html_use_index"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.html_use_index">[docs]</a><span class="n">html_use_index</span> <span class="o">=</span> <span class="kc">True</span></div>
 
+<div class="viewcode-block" id="html_logo"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.html_logo">[docs]</a><span class="n">html_logo</span> <span class="o">=</span> <span class="s2">&quot;_static/icons/faviconio-logo/logo.png&quot;</span></div>
+<div class="viewcode-block" id="html_favicon"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.html_favicon">[docs]</a><span class="n">html_favicon</span> <span class="o">=</span> <span class="s2">&quot;_static/icons/favicon_io-white/android-chrome-512x512.png&quot;</span></div>
+<div class="viewcode-block" id="html_last_updated_fmt"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.html_last_updated_fmt">[docs]</a><span class="n">html_last_updated_fmt</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span></div>
+
 <span class="c1"># Theme options are theme-specific and customize the look and feel of a theme</span>
 <span class="c1"># further.  For a list of options available for each theme, see the</span>
 <span class="c1"># documentation.</span>
@@ -1333,7 +1404,7 @@
     <span class="s2">&quot;use_issues_button&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
     <span class="s2">&quot;use_repository_button&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
     <span class="s2">&quot;use_download_button&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
-    <span class="s2">&quot;logo_only&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="s2">&quot;logo_only&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
     <span class="s2">&quot;show_toc_level&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
     <span class="c1"># For testing</span>
     <span class="c1"># &quot;use_fullscreen_button&quot;: False,</span>
@@ -1398,9 +1469,16 @@
 <span class="c1"># (source start file, target name, title,</span>
 <span class="c1">#  author, documentclass [howto, manual, or own class]).</span>
 <div class="viewcode-block" id="latex_documents"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.latex_documents">[docs]</a><span class="n">latex_documents</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="p">(</span><span class="n">master_doc</span><span class="p">,</span> <span class="s1">&#39;jnapolitanoio.tex&#39;</span><span class="p">,</span> <span class="s1">&#39;jnapolitano.io Documentation&#39;</span><span class="p">,</span>
-     <span class="s1">&#39;Justin Napolitano&#39;</span><span class="p">,</span> <span class="s1">&#39;manual&#39;</span><span class="p">),</span></div>
+    <span class="p">(</span><span class="n">master_doc</span><span class="p">,</span> <span class="s1">&#39;jnapolitanoio.tex&#39;</span><span class="p">,</span> <span class="s1">&#39;jnapolitano.io&#39;</span><span class="p">,</span>
+     <span class="s1">&#39;Justin Napolitano&#39;</span><span class="p">,</span> <span class="s1">&#39;manual&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span></div>
 <span class="p">]</span>
+<span class="c1">#latex_toplevel_sectioning = &#39;part&#39;</span>
+<span class="c1">#latex_engine = &#39;xelatex&#39;</span>
+<div class="viewcode-block" id="latex_engine"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.latex_engine">[docs]</a><span class="n">latex_engine</span> <span class="o">=</span> <span class="s1">&#39;pdflatex&#39;</span></div>
+<div class="viewcode-block" id="latex_use_xindy"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.latex_use_xindy">[docs]</a><span class="n">latex_use_xindy</span> <span class="o">=</span> <span class="kc">True</span></div>
+<div class="viewcode-block" id="latex_show_urls"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.latex_show_urls">[docs]</a><span class="n">latex_show_urls</span> <span class="o">=</span> <span class="s1">&#39;footnote&#39;</span></div>
+<div class="viewcode-block" id="latex_show_pagerefs"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.latex_show_pagerefs">[docs]</a><span class="n">latex_show_pagerefs</span> <span class="o">=</span> <span class="kc">True</span></div>
+
 
 
 <span class="c1"># -- Options for manual page output ------------------------------------------</span>
@@ -1474,6 +1552,7 @@
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
+      Last updated on Feb 04, 2022.<br/>
   </p>
 </footer>
 </main>

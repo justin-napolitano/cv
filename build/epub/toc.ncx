@@ -1,0 +1,1838 @@
+<?xml version="1.0"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="unknown"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Justin Napolitano</text>
+  </docTitle>
+  <navMap>    
+    <navPoint id="navPoint1" playOrder="1">
+      <navLabel>
+        <text>Curricula Vitae</text>
+      </navLabel>
+      <content src="index.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint2" playOrder="2">
+      <navLabel>
+        <text>The University of Central Florida</text>
+      </navLabel>
+      <content src="sections/education/ucf.xhtml" />  
+      <navPoint id="navPoint3" playOrder="2">
+        <navLabel>
+          <text>The University of Central Florida</text>
+        </navLabel>
+        <content src="sections/education/ucf.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint4" playOrder="3">
+        <navLabel>
+          <text>Political Science</text>
+        </navLabel>
+        <content src="sections/education/ucf.xhtml#political-science" />  
+      </navPoint>
+      <navPoint id="navPoint5" playOrder="4">
+        <navLabel>
+          <text>Statistics</text>
+        </navLabel>
+        <content src="sections/education/ucf.xhtml#statistics" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint6" playOrder="5">
+      <navLabel>
+        <text>BTJN, LLC</text>
+      </navLabel>
+      <content src="sections/work-history/btjn.xhtml" />  
+      <navPoint id="navPoint7" playOrder="5">
+        <navLabel>
+          <text>BTJN, LLC</text>
+        </navLabel>
+        <content src="sections/work-history/btjn.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint8" playOrder="6">
+        <navLabel>
+          <text>Founder and Lead Programmer</text>
+        </navLabel>
+        <content src="sections/work-history/btjn.xhtml#founder-and-lead-programmer" />  
+        <navPoint id="navPoint9" playOrder="6">
+          <navLabel>
+            <text>Founder and Lead Programmer</text>
+          </navLabel>
+          <content src="sections/work-history/btjn.xhtml#founder-and-lead-programmer" />  
+        </navPoint>
+        <navPoint id="navPoint10" playOrder="7">
+          <navLabel>
+            <text>Data Stream Management Application</text>
+          </navLabel>
+          <content src="sections/work-history/btjn.xhtml#data-stream-management-application" />  
+        </navPoint>
+        <navPoint id="navPoint11" playOrder="8">
+          <navLabel>
+            <text>Google Sheets and Drive Library</text>
+          </navLabel>
+          <content src="sections/work-history/btjn.xhtml#google-sheets-and-drive-library" />  
+        </navPoint>
+        <navPoint id="navPoint12" playOrder="9">
+          <navLabel>
+            <text>Neo4j Realtor Graph</text>
+          </navLabel>
+          <content src="sections/work-history/btjn.xhtml#neo4j-realtor-graph" />  
+        </navPoint>
+        <navPoint id="navPoint13" playOrder="10">
+          <navLabel>
+            <text>JanusGraph Realtor Graph</text>
+          </navLabel>
+          <content src="sections/work-history/btjn.xhtml#janusgraph-realtor-graph" />  
+        </navPoint>
+        <navPoint id="navPoint14" playOrder="11">
+          <navLabel>
+            <text>CRM Database and Python Management Scripting</text>
+          </navLabel>
+          <content src="sections/work-history/btjn.xhtml#crm-database-and-python-management-scripting" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint15" playOrder="12">
+      <navLabel>
+        <text>The University of Central Florida</text>
+      </navLabel>
+      <content src="sections/work-history/ucf.xhtml" />  
+      <navPoint id="navPoint16" playOrder="12">
+        <navLabel>
+          <text>The University of Central Florida</text>
+        </navLabel>
+        <content src="sections/work-history/ucf.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint17" playOrder="13">
+        <navLabel>
+          <text>The Turkish Kurdish Event Database</text>
+        </navLabel>
+        <content src="sections/work-history/ucf.xhtml#the-turkish-kurdish-event-database" />  
+        <navPoint id="navPoint18" playOrder="13">
+          <navLabel>
+            <text>The Turkish Kurdish Event Database</text>
+          </navLabel>
+          <content src="sections/work-history/ucf.xhtml#the-turkish-kurdish-event-database" />  
+        </navPoint>
+        <navPoint id="navPoint19" playOrder="14">
+          <navLabel>
+            <text>Experimental Design and Research Coordination</text>
+          </navLabel>
+          <content src="sections/work-history/ucf.xhtml#experimental-design-and-research-coordination" />  
+        </navPoint>
+        <navPoint id="navPoint20" playOrder="15">
+          <navLabel>
+            <text>Database Designer</text>
+          </navLabel>
+          <content src="sections/work-history/ucf.xhtml#database-designer" />  
+        </navPoint>
+        <navPoint id="navPoint21" playOrder="16">
+          <navLabel>
+            <text>Lead Analyst</text>
+          </navLabel>
+          <content src="sections/work-history/ucf.xhtml#lead-analyst" />  
+        </navPoint>
+        <navPoint id="navPoint22" playOrder="17">
+          <navLabel>
+            <text>Project Manager</text>
+          </navLabel>
+          <content src="sections/work-history/ucf.xhtml#project-manager" />  
+        </navPoint>
+        <navPoint id="navPoint23" playOrder="18">
+          <navLabel>
+            <text>Author</text>
+          </navLabel>
+          <content src="sections/work-history/ucf.xhtml#author" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint24" playOrder="19">
+        <navLabel>
+          <text>Emotional Decision Making</text>
+        </navLabel>
+        <content src="sections/work-history/ucf.xhtml#emotional-decision-making" />  
+        <navPoint id="navPoint25" playOrder="19">
+          <navLabel>
+            <text>Emotional Decision Making</text>
+          </navLabel>
+          <content src="sections/work-history/ucf.xhtml#emotional-decision-making" />  
+        </navPoint>
+        <navPoint id="navPoint26" playOrder="20">
+          <navLabel>
+            <text>Data Coding</text>
+          </navLabel>
+          <content src="sections/work-history/ucf.xhtml#data-coding" />  
+        </navPoint>
+        <navPoint id="navPoint27" playOrder="21">
+          <navLabel>
+            <text>Data Integrator</text>
+          </navLabel>
+          <content src="sections/work-history/ucf.xhtml#data-integrator" />  
+        </navPoint>
+        <navPoint id="navPoint28" playOrder="22">
+          <navLabel>
+            <text>Data Verification</text>
+          </navLabel>
+          <content src="sections/work-history/ucf.xhtml#data-verification" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint29" playOrder="23">
+      <navLabel>
+        <text>French</text>
+      </navLabel>
+      <content src="sections/languages/french-language.xhtml" />  
+      <navPoint id="navPoint30" playOrder="23">
+        <navLabel>
+          <text>French</text>
+        </navLabel>
+        <content src="sections/languages/french-language.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint31" playOrder="24">
+        <navLabel>
+          <text>Proficiency</text>
+        </navLabel>
+        <content src="sections/languages/french-language.xhtml#proficiency" />  
+        <navPoint id="navPoint32" playOrder="24">
+          <navLabel>
+            <text>Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/french-language.xhtml#proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint33" playOrder="25">
+          <navLabel>
+            <text>Business Level Reading Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/french-language.xhtml#business-level-reading-proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint34" playOrder="26">
+          <navLabel>
+            <text>Business Level Listening Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/french-language.xhtml#business-level-listening-proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint35" playOrder="27">
+          <navLabel>
+            <text>Intermediate Level Speaking Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/french-language.xhtml#intermediate-level-speaking-proficiency" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint36" playOrder="28">
+      <navLabel>
+        <text>Spanish</text>
+      </navLabel>
+      <content src="sections/languages/spanish-language.xhtml" />  
+      <navPoint id="navPoint37" playOrder="28">
+        <navLabel>
+          <text>Spanish</text>
+        </navLabel>
+        <content src="sections/languages/spanish-language.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint38" playOrder="29">
+        <navLabel>
+          <text>Proficiency</text>
+        </navLabel>
+        <content src="sections/languages/spanish-language.xhtml#proficiency" />  
+        <navPoint id="navPoint39" playOrder="29">
+          <navLabel>
+            <text>Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/spanish-language.xhtml#proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint40" playOrder="30">
+          <navLabel>
+            <text>Business Level Reading Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/spanish-language.xhtml#business-level-reading-proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint41" playOrder="31">
+          <navLabel>
+            <text>Intermediate Level Listening Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/spanish-language.xhtml#intermediate-level-listening-proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint42" playOrder="32">
+          <navLabel>
+            <text>Intermediate level Speaking Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/spanish-language.xhtml#intermediate-level-speaking-proficiency" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint43" playOrder="33">
+      <navLabel>
+        <text>Mandarin</text>
+      </navLabel>
+      <content src="sections/languages/mandarin-language.xhtml" />  
+      <navPoint id="navPoint44" playOrder="33">
+        <navLabel>
+          <text>Mandarin</text>
+        </navLabel>
+        <content src="sections/languages/mandarin-language.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint45" playOrder="34">
+        <navLabel>
+          <text>Proficiency</text>
+        </navLabel>
+        <content src="sections/languages/mandarin-language.xhtml#proficiency" />  
+        <navPoint id="navPoint46" playOrder="34">
+          <navLabel>
+            <text>Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/mandarin-language.xhtml#proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint47" playOrder="35">
+          <navLabel>
+            <text>Beginnner Level Reading Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/mandarin-language.xhtml#beginnner-level-reading-proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint48" playOrder="36">
+          <navLabel>
+            <text>Beginner Level Listening Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/mandarin-language.xhtml#beginner-level-listening-proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint49" playOrder="37">
+          <navLabel>
+            <text>Beginner Level Speaking Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/mandarin-language.xhtml#beginner-level-speaking-proficiency" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint50" playOrder="38">
+      <navLabel>
+        <text>Cantonese</text>
+      </navLabel>
+      <content src="sections/languages/cantonese-language.xhtml" />  
+      <navPoint id="navPoint51" playOrder="38">
+        <navLabel>
+          <text>Cantonese</text>
+        </navLabel>
+        <content src="sections/languages/cantonese-language.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint52" playOrder="39">
+        <navLabel>
+          <text>Beginnner Level Reading Proficiency</text>
+        </navLabel>
+        <content src="sections/languages/cantonese-language.xhtml#beginnner-level-reading-proficiency" />  
+      </navPoint>
+      <navPoint id="navPoint53" playOrder="40">
+        <navLabel>
+          <text>Beginner Level Listening Proficiency</text>
+        </navLabel>
+        <content src="sections/languages/cantonese-language.xhtml#beginner-level-listening-proficiency" />  
+      </navPoint>
+      <navPoint id="navPoint54" playOrder="41">
+        <navLabel>
+          <text>Beginner Level Speaking Proficiency</text>
+        </navLabel>
+        <content src="sections/languages/cantonese-language.xhtml#beginner-level-speaking-proficiency" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint55" playOrder="42">
+      <navLabel>
+        <text>Modern Standard Arabic</text>
+      </navLabel>
+      <content src="sections/languages/msa-language.xhtml" />  
+      <navPoint id="navPoint56" playOrder="42">
+        <navLabel>
+          <text>Modern Standard Arabic</text>
+        </navLabel>
+        <content src="sections/languages/msa-language.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint57" playOrder="43">
+        <navLabel>
+          <text>Proficiency</text>
+        </navLabel>
+        <content src="sections/languages/msa-language.xhtml#proficiency" />  
+        <navPoint id="navPoint58" playOrder="43">
+          <navLabel>
+            <text>Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/msa-language.xhtml#proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint59" playOrder="44">
+          <navLabel>
+            <text>Beginnner Level Reading Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/msa-language.xhtml#beginnner-level-reading-proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint60" playOrder="45">
+          <navLabel>
+            <text>Beginner Level Listening Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/msa-language.xhtml#beginner-level-listening-proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint61" playOrder="46">
+          <navLabel>
+            <text>Beginner Level Speaking Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/msa-language.xhtml#beginner-level-speaking-proficiency" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint62" playOrder="47">
+      <navLabel>
+        <text>Sranan Tongo</text>
+      </navLabel>
+      <content src="sections/languages/sranan-language.xhtml" />  
+      <navPoint id="navPoint63" playOrder="47">
+        <navLabel>
+          <text>Sranan Tongo</text>
+        </navLabel>
+        <content src="sections/languages/sranan-language.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint64" playOrder="48">
+        <navLabel>
+          <text>Proficiency</text>
+        </navLabel>
+        <content src="sections/languages/sranan-language.xhtml#proficiency" />  
+        <navPoint id="navPoint65" playOrder="48">
+          <navLabel>
+            <text>Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/sranan-language.xhtml#proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint66" playOrder="49">
+          <navLabel>
+            <text>Beginner Level Reading Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/sranan-language.xhtml#beginner-level-reading-proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint67" playOrder="50">
+          <navLabel>
+            <text>Intermediate to Advanced Level Listening Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/sranan-language.xhtml#intermediate-to-advanced-level-listening-proficiency" />  
+        </navPoint>
+        <navPoint id="navPoint68" playOrder="51">
+          <navLabel>
+            <text>Intermediate to Advanced Level Speaking Proficiency</text>
+          </navLabel>
+          <content src="sections/languages/sranan-language.xhtml#intermediate-to-advanced-level-speaking-proficiency" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint69" playOrder="52">
+      <navLabel>
+        <text>United States Supreme Court</text>
+      </navLabel>
+      <content src="sections/political-analysis/sup-court/index.xhtml" />  
+      <navPoint id="navPoint70" playOrder="52">
+        <navLabel>
+          <text>United States Supreme Court</text>
+        </navLabel>
+        <content src="sections/political-analysis/sup-court/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint71" playOrder="53">
+        <navLabel>
+          <text>MetaData Graph</text>
+        </navLabel>
+        <content src="sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.xhtml" />  
+        <navPoint id="navPoint72" playOrder="53">
+          <navLabel>
+            <text>MetaData Graph</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint73" playOrder="54">
+          <navLabel>
+            <text>Description</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.xhtml#description" />  
+        </navPoint>
+        <navPoint id="navPoint74" playOrder="55">
+          <navLabel>
+            <text>How to Improve</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.xhtml#how-to-improve" />  
+        </navPoint>
+        <navPoint id="navPoint75" playOrder="56">
+          <navLabel>
+            <text>External Links</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.xhtml#external-links" />  
+        </navPoint>
+        <navPoint id="navPoint76" playOrder="57">
+          <navLabel>
+            <text>Module Documentation</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.xhtml#module-documentation" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint77" playOrder="58">
+        <navLabel>
+          <text>TensorFlow Voting Behavior Predictions</text>
+        </navLabel>
+        <content src="sections/political-analysis/sup-court/project-supcourt-tensorflow/index.xhtml" />  
+        <navPoint id="navPoint78" playOrder="58">
+          <navLabel>
+            <text>TensorFlow Voting Behavior Predictions</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-tensorflow/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint79" playOrder="59">
+          <navLabel>
+            <text>Description</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-tensorflow/index.xhtml#description" />  
+        </navPoint>
+        <navPoint id="navPoint80" playOrder="60">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-tensorflow/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint81" playOrder="61">
+          <navLabel>
+            <text>How to Improve</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-tensorflow/index.xhtml#how-to-improve" />  
+        </navPoint>
+        <navPoint id="navPoint82" playOrder="62">
+          <navLabel>
+            <text>Training Features</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-tensorflow/index.xhtml#training-features" />  
+        </navPoint>
+        <navPoint id="navPoint83" playOrder="63">
+          <navLabel>
+            <text>Python Modules</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-tensorflow/index.xhtml#python-modules" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint84" playOrder="64">
+        <navLabel>
+          <text>Analysis of the Legal Model of Jurisprudence</text>
+        </navLabel>
+        <content src="sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.xhtml" />  
+        <navPoint id="navPoint85" playOrder="64">
+          <navLabel>
+            <text>Analysis of the Legal Model of Jurisprudence</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint86" playOrder="65">
+          <navLabel>
+            <text>Introduction</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.xhtml#introduction" />  
+        </navPoint>
+        <navPoint id="navPoint87" playOrder="66">
+          <navLabel>
+            <text>Jurists and the Legal Model</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.xhtml#jurists-and-the-legal-model" />  
+        </navPoint>
+        <navPoint id="navPoint88" playOrder="67">
+          <navLabel>
+            <text>Theorists and the Legal Model</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.xhtml#theorists-and-the-legal-model" />  
+        </navPoint>
+        <navPoint id="navPoint89" playOrder="68">
+          <navLabel>
+            <text>Limitations of the Legal Model</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.xhtml#limitations-of-the-legal-model" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint90" playOrder="69">
+        <navLabel>
+          <text>Analysis of the Attitudinal Model of Jurisprudence</text>
+        </navLabel>
+        <content src="sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.xhtml" />  
+        <navPoint id="navPoint91" playOrder="69">
+          <navLabel>
+            <text>Analysis of the Attitudinal Model of Jurisprudence</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint92" playOrder="70">
+          <navLabel>
+            <text>Introduction</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.xhtml#introduction" />  
+        </navPoint>
+        <navPoint id="navPoint93" playOrder="71">
+          <navLabel>
+            <text>Political Science Can be A Predictive and Explanatory Science</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.xhtml#political-science-can-be-a-predictive-and-explanatory-science" />  
+        </navPoint>
+        <navPoint id="navPoint94" playOrder="72">
+          <navLabel>
+            <text>Justices Create the Law</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.xhtml#justices-create-the-law" />  
+        </navPoint>
+        <navPoint id="navPoint95" playOrder="73">
+          <navLabel>
+            <text>Structural Systems Permit Judicial Independence</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.xhtml#structural-systems-permit-judicial-independence" />  
+        </navPoint>
+        <navPoint id="navPoint96" playOrder="74">
+          <navLabel>
+            <text>Justices Create Law According to their Ideological Preferences</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.xhtml#justices-create-law-according-to-their-ideological-preferences" />  
+        </navPoint>
+        <navPoint id="navPoint97" playOrder="75">
+          <navLabel>
+            <text>Limitations of the Attitudinal Model</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.xhtml#limitations-of-the-attitudinal-model" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint98" playOrder="76">
+        <navLabel>
+          <text>Analysis of Masterpiece Cake</text>
+        </navLabel>
+        <content src="sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.xhtml" />  
+        <navPoint id="navPoint99" playOrder="76">
+          <navLabel>
+            <text>Analysis of Masterpiece Cake</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint100" playOrder="77">
+          <navLabel>
+            <text>Introduction</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.xhtml#introduction" />  
+        </navPoint>
+        <navPoint id="navPoint101" playOrder="78">
+          <navLabel>
+            <text>Hypothesis</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.xhtml#hypothesis" />  
+        </navPoint>
+        <navPoint id="navPoint102" playOrder="79">
+          <navLabel>
+            <text>Experimental Design</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.xhtml#experimental-design" />  
+        </navPoint>
+        <navPoint id="navPoint103" playOrder="80">
+          <navLabel>
+            <text>Legal Model Case Study</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.xhtml#legal-model-case-study" />  
+        </navPoint>
+        <navPoint id="navPoint104" playOrder="81">
+          <navLabel>
+            <text>Attitudinal Model Case Study</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.xhtml#attitudinal-model-case-study" />  
+        </navPoint>
+        <navPoint id="navPoint105" playOrder="82">
+          <navLabel>
+            <text>Findings</text>
+          </navLabel>
+          <content src="sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.xhtml#findings" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint106" playOrder="83">
+      <navLabel>
+        <text>Instutitional Research</text>
+      </navLabel>
+      <content src="sections/political-analysis/international-systems/index.xhtml" />  
+      <navPoint id="navPoint107" playOrder="83">
+        <navLabel>
+          <text>Instutitional Research</text>
+        </navLabel>
+        <content src="sections/political-analysis/international-systems/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint108" playOrder="84">
+        <navLabel>
+          <text>The Evolution of the GATT to the WTO</text>
+        </navLabel>
+        <content src="projects/project-evolution-of-ngos/index.xhtml" />  
+        <navPoint id="navPoint109" playOrder="84">
+          <navLabel>
+            <text>The Evolution of the GATT to the WTO</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint110" playOrder="85">
+          <navLabel>
+            <text>Intro</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#intro" />  
+        </navPoint>
+        <navPoint id="navPoint111" playOrder="86">
+          <navLabel>
+            <text>The Question</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#the-question" />  
+        </navPoint>
+        <navPoint id="navPoint112" playOrder="87">
+          <navLabel>
+            <text>Literature Review</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#literature-review" />  
+        </navPoint>
+        <navPoint id="navPoint113" playOrder="88">
+          <navLabel>
+            <text>Theoretical Intuition</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#theoretical-intuition" />  
+        </navPoint>
+        <navPoint id="navPoint114" playOrder="89">
+          <navLabel>
+            <text>Hypothesis</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#hypothesis" />  
+        </navPoint>
+        <navPoint id="navPoint115" playOrder="90">
+          <navLabel>
+            <text>Design of the Test</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#design-of-the-test" />  
+        </navPoint>
+        <navPoint id="navPoint116" playOrder="91">
+          <navLabel>
+            <text>Case Study</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#case-study" />  
+        </navPoint>
+        <navPoint id="navPoint117" playOrder="92">
+          <navLabel>
+            <text>Findings</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#findings" />  
+        </navPoint>
+        <navPoint id="navPoint118" playOrder="93">
+          <navLabel>
+            <text>Discussion</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#discussion" />  
+        </navPoint>
+        <navPoint id="navPoint119" playOrder="94">
+          <navLabel>
+            <text>Conclusion</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#conclusion" />  
+        </navPoint>
+        <navPoint id="navPoint120" playOrder="95">
+          <navLabel>
+            <text>Works Cited</text>
+          </navLabel>
+          <content src="projects/project-evolution-of-ngos/index.xhtml#works-cited" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint121" playOrder="96">
+      <navLabel>
+        <text>Terrorism and Conflict</text>
+      </navLabel>
+      <content src="sections/political-analysis/terrorism-conflict/index.xhtml" />  
+      <navPoint id="navPoint122" playOrder="96">
+        <navLabel>
+          <text>Terrorism and Conflict</text>
+        </navLabel>
+        <content src="sections/political-analysis/terrorism-conflict/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint123" playOrder="97">
+        <navLabel>
+          <text>Turkish Kurdish Conflict Database</text>
+        </navLabel>
+        <content src="projects/project-turkish-kurdish/index.xhtml" />  
+        <navPoint id="navPoint124" playOrder="97">
+          <navLabel>
+            <text>Turkish Kurdish Conflict Database</text>
+          </navLabel>
+          <content src="projects/project-turkish-kurdish/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint125" playOrder="98">
+          <navLabel>
+            <text>Introduction</text>
+          </navLabel>
+          <content src="projects/project-turkish-kurdish/introduction.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint126" playOrder="99">
+          <navLabel>
+            <text>Event Query Procedure</text>
+          </navLabel>
+          <content src="projects/project-turkish-kurdish/event_query_procedure.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint127" playOrder="100">
+          <navLabel>
+            <text>Schema Definitions</text>
+          </navLabel>
+          <content src="projects/project-turkish-kurdish/database_schema.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint128" playOrder="101">
+          <navLabel>
+            <text>Reference Tables</text>
+          </navLabel>
+          <content src="projects/project-turkish-kurdish/reference_tables.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint129" playOrder="102">
+          <navLabel>
+            <text>Analysis</text>
+          </navLabel>
+          <content src="projects/project-turkish-kurdish/analysis.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint130" playOrder="103">
+          <navLabel>
+            <text>PDF</text>
+          </navLabel>
+          <content src="projects/project-turkish-kurdish/pdf.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint131" playOrder="104">
+          <navLabel>
+            <text>Data</text>
+          </navLabel>
+          <content src="projects/project-turkish-kurdish/data.xhtml" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint132" playOrder="105">
+      <navLabel>
+        <text>International Law</text>
+      </navLabel>
+      <content src="sections/political-analysis/international-law/index.xhtml" />  
+      <navPoint id="navPoint133" playOrder="105">
+        <navLabel>
+          <text>International Law</text>
+        </navLabel>
+        <content src="sections/political-analysis/international-law/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint134" playOrder="106">
+        <navLabel>
+          <text>International Human Rights Law Framework</text>
+        </navLabel>
+        <content src="projects/project-human-rights-law/index.xhtml" />  
+        <navPoint id="navPoint135" playOrder="106">
+          <navLabel>
+            <text>International Human Rights Law Framework</text>
+          </navLabel>
+          <content src="projects/project-human-rights-law/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint136" playOrder="107">
+          <navLabel>
+            <text>Human Rights Law Framework</text>
+          </navLabel>
+          <content src="projects/project-human-rights-law/index.xhtml#human-rights-law-framework" />  
+        </navPoint>
+        <navPoint id="navPoint137" playOrder="108">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="projects/project-human-rights-law/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint138" playOrder="109">
+          <navLabel>
+            <text>Tables</text>
+          </navLabel>
+          <content src="projects/project-human-rights-law/index.xhtml#tables" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint139" playOrder="110">
+      <navLabel>
+        <text>SQL</text>
+      </navLabel>
+      <content src="sections/business-analysis/cli-program/index.xhtml" />  
+      <navPoint id="navPoint140" playOrder="110">
+        <navLabel>
+          <text>SQL</text>
+        </navLabel>
+        <content src="sections/business-analysis/cli-program/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint141" playOrder="111">
+        <navLabel>
+          <text>Sales Reporting CLI Program</text>
+        </navLabel>
+        <content src="projects/project-cli-program/index.xhtml" />  
+        <navPoint id="navPoint142" playOrder="111">
+          <navLabel>
+            <text>Sales Reporting CLI Program</text>
+          </navLabel>
+          <content src="projects/project-cli-program/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint143" playOrder="112">
+          <navLabel>
+            <text>Description</text>
+          </navLabel>
+          <content src="projects/project-cli-program/index.xhtml#description" />  
+        </navPoint>
+        <navPoint id="navPoint144" playOrder="113">
+          <navLabel>
+            <text>How to Improve</text>
+          </navLabel>
+          <content src="projects/project-cli-program/index.xhtml#how-to-improve" />  
+        </navPoint>
+        <navPoint id="navPoint145" playOrder="114">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="projects/project-cli-program/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint146" playOrder="115">
+          <navLabel>
+            <text>Code Documentation</text>
+          </navLabel>
+          <content src="projects/project-cli-program/index.xhtml#code-documentation" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint147" playOrder="116">
+      <navLabel>
+        <text>Sales Analysis and Forecasting</text>
+      </navLabel>
+      <content src="sections/business-analysis/forecasting/index.xhtml" />  
+      <navPoint id="navPoint148" playOrder="116">
+        <navLabel>
+          <text>Sales Analysis and Forecasting</text>
+        </navLabel>
+        <content src="sections/business-analysis/forecasting/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint149" playOrder="117">
+        <navLabel>
+          <text>Cigarette Sales Forecasting and Order Prediction</text>
+        </navLabel>
+        <content src="projects/project-order-forecasting/index.xhtml" />  
+        <navPoint id="navPoint150" playOrder="117">
+          <navLabel>
+            <text>Cigarette Sales Forecasting and Order Prediction</text>
+          </navLabel>
+          <content src="projects/project-order-forecasting/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint151" playOrder="118">
+          <navLabel>
+            <text>Description</text>
+          </navLabel>
+          <content src="projects/project-order-forecasting/index.xhtml#description" />  
+        </navPoint>
+        <navPoint id="navPoint152" playOrder="119">
+          <navLabel>
+            <text>How to Improve</text>
+          </navLabel>
+          <content src="projects/project-order-forecasting/index.xhtml#how-to-improve" />  
+        </navPoint>
+        <navPoint id="navPoint153" playOrder="120">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="projects/project-order-forecasting/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint154" playOrder="121">
+          <navLabel>
+            <text>Code Documentation</text>
+          </navLabel>
+          <content src="projects/project-order-forecasting/index.xhtml#code-documentation" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint155" playOrder="122">
+        <navLabel>
+          <text>Retail Sales Forecasting</text>
+        </navLabel>
+        <content src="projects/project-retail-sales-forecasting/index.xhtml" />  
+        <navPoint id="navPoint156" playOrder="122">
+          <navLabel>
+            <text>Retail Sales Forecasting</text>
+          </navLabel>
+          <content src="projects/project-retail-sales-forecasting/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint157" playOrder="123">
+          <navLabel>
+            <text>Description</text>
+          </navLabel>
+          <content src="projects/project-retail-sales-forecasting/index.xhtml#description" />  
+        </navPoint>
+        <navPoint id="navPoint158" playOrder="124">
+          <navLabel>
+            <text>Models Tested</text>
+          </navLabel>
+          <content src="projects/project-retail-sales-forecasting/index.xhtml#models-tested" />  
+        </navPoint>
+        <navPoint id="navPoint159" playOrder="125">
+          <navLabel>
+            <text>How to Improve</text>
+          </navLabel>
+          <content src="projects/project-retail-sales-forecasting/index.xhtml#how-to-improve" />  
+        </navPoint>
+        <navPoint id="navPoint160" playOrder="126">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="projects/project-retail-sales-forecasting/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint161" playOrder="127">
+          <navLabel>
+            <text>Code Documentation</text>
+          </navLabel>
+          <content src="projects/project-retail-sales-forecasting/index.xhtml#code-documentation" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint162" playOrder="128">
+      <navLabel>
+        <text>TensorFlow Voting Behavior Predictions</text>
+      </navLabel>
+      <content src="projects/project-supcourt-tensorflow/index.xhtml" />  
+      <navPoint id="navPoint163" playOrder="128">
+        <navLabel>
+          <text>TensorFlow Voting Behavior Predictions</text>
+        </navLabel>
+        <content src="projects/project-supcourt-tensorflow/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint164" playOrder="129">
+        <navLabel>
+          <text>Description</text>
+        </navLabel>
+        <content src="projects/project-supcourt-tensorflow/index.xhtml#description" />  
+      </navPoint>
+      <navPoint id="navPoint165" playOrder="130">
+        <navLabel>
+          <text>Links</text>
+        </navLabel>
+        <content src="projects/project-supcourt-tensorflow/index.xhtml#links" />  
+      </navPoint>
+      <navPoint id="navPoint166" playOrder="131">
+        <navLabel>
+          <text>How to Improve</text>
+        </navLabel>
+        <content src="projects/project-supcourt-tensorflow/index.xhtml#how-to-improve" />  
+      </navPoint>
+      <navPoint id="navPoint167" playOrder="132">
+        <navLabel>
+          <text>Training Features</text>
+        </navLabel>
+        <content src="projects/project-supcourt-tensorflow/index.xhtml#training-features" />  
+        <navPoint id="navPoint168" playOrder="132">
+          <navLabel>
+            <text>Training Features</text>
+          </navLabel>
+          <content src="projects/project-supcourt-tensorflow/index.xhtml#training-features" />  
+        </navPoint>
+        <navPoint id="navPoint169" playOrder="133">
+          <navLabel>
+            <text>Training Features</text>
+          </navLabel>
+          <content src="projects/project-supcourt-tensorflow/training-features.xhtml" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint170" playOrder="134">
+        <navLabel>
+          <text>Python Modules</text>
+        </navLabel>
+        <content src="projects/project-supcourt-tensorflow/index.xhtml#python-modules" />  
+        <navPoint id="navPoint171" playOrder="134">
+          <navLabel>
+            <text>Python Modules</text>
+          </navLabel>
+          <content src="projects/project-supcourt-tensorflow/index.xhtml#python-modules" />  
+        </navPoint>
+        <navPoint id="navPoint172" playOrder="135">
+          <navLabel>
+            <text>SupremeCourtPredictionsCase</text>
+          </navLabel>
+          <content src="autoapi/SupremeCourtPredictionsCase/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint173" playOrder="136">
+          <navLabel>
+            <text>SupremeCourtPredictionsJustice</text>
+          </navLabel>
+          <content src="autoapi/SupremeCourtPredictionsJustice/index.xhtml" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint174" playOrder="137">
+      <navLabel>
+        <text>Gender Recognition with TensorFlow</text>
+      </navLabel>
+      <content src="sections/ml-ai/gender-recognition.xhtml" />  
+      <navPoint id="navPoint175" playOrder="137">
+        <navLabel>
+          <text>Gender Recognition with TensorFlow</text>
+        </navLabel>
+        <content src="sections/ml-ai/gender-recognition.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint176" playOrder="138">
+        <navLabel>
+          <text>Description</text>
+        </navLabel>
+        <content src="sections/ml-ai/gender-recognition.xhtml#description" />  
+      </navPoint>
+      <navPoint id="navPoint177" playOrder="139">
+        <navLabel>
+          <text>Links</text>
+        </navLabel>
+        <content src="sections/ml-ai/gender-recognition.xhtml#links" />  
+      </navPoint>
+      <navPoint id="navPoint178" playOrder="140">
+        <navLabel>
+          <text>Module Documentation</text>
+        </navLabel>
+        <content src="sections/ml-ai/gender-recognition.xhtml#module-documentation" />  
+        <navPoint id="navPoint179" playOrder="140">
+          <navLabel>
+            <text>Module Documentation</text>
+          </navLabel>
+          <content src="sections/ml-ai/gender-recognition.xhtml#module-documentation" />  
+        </navPoint>
+        <navPoint id="navPoint180" playOrder="141">
+          <navLabel>
+            <text>preprocess</text>
+          </navLabel>
+          <content src="autoapi/preprocess/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint181" playOrder="142">
+          <navLabel>
+            <text>data_generation</text>
+          </navLabel>
+          <content src="autoapi/data_generation/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint182" playOrder="143">
+          <navLabel>
+            <text>lfw_input</text>
+          </navLabel>
+          <content src="autoapi/lfw_input/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint183" playOrder="144">
+          <navLabel>
+            <text>FilterDataset</text>
+          </navLabel>
+          <content src="autoapi/FilterDataset/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint184" playOrder="145">
+          <navLabel>
+            <text>align_dlib</text>
+          </navLabel>
+          <content src="autoapi/align_dlib/index.xhtml" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint185" playOrder="146">
+      <navLabel>
+        <text>Pandas Functions</text>
+      </navLabel>
+      <content src="sections/python-modules/pandas-functions/index.xhtml" />  
+      <navPoint id="navPoint186" playOrder="146">
+        <navLabel>
+          <text>Pandas Functions</text>
+        </navLabel>
+        <content src="sections/python-modules/pandas-functions/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint187" playOrder="147">
+        <navLabel>
+          <text>Description</text>
+        </navLabel>
+        <content src="sections/python-modules/pandas-functions/index.xhtml#description" />  
+      </navPoint>
+      <navPoint id="navPoint188" playOrder="148">
+        <navLabel>
+          <text>Links</text>
+        </navLabel>
+        <content src="sections/python-modules/pandas-functions/index.xhtml#links" />  
+        <navPoint id="navPoint189" playOrder="148">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="sections/python-modules/pandas-functions/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint190" playOrder="149">
+          <navLabel>
+            <text>Module Documentation</text>
+          </navLabel>
+          <content src="sections/python-modules/pandas-functions/index.xhtml#module-documentation" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint191" playOrder="150">
+      <navLabel>
+        <text>Neo4j Modules</text>
+      </navLabel>
+      <content src="sections/python-modules/project-neo4j/index.xhtml" />  
+      <navPoint id="navPoint192" playOrder="150">
+        <navLabel>
+          <text>Neo4j Modules</text>
+        </navLabel>
+        <content src="sections/python-modules/project-neo4j/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint193" playOrder="151">
+        <navLabel>
+          <text>Description</text>
+        </navLabel>
+        <content src="sections/python-modules/project-neo4j/index.xhtml#description" />  
+      </navPoint>
+      <navPoint id="navPoint194" playOrder="152">
+        <navLabel>
+          <text>Links</text>
+        </navLabel>
+        <content src="sections/python-modules/project-neo4j/index.xhtml#links" />  
+        <navPoint id="navPoint195" playOrder="152">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="sections/python-modules/project-neo4j/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint196" playOrder="153">
+          <navLabel>
+            <text>Module Documentation</text>
+          </navLabel>
+          <content src="sections/python-modules/project-neo4j/index.xhtml#module-documentation" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint197" playOrder="154">
+      <navLabel>
+        <text>JanusGraph Modules</text>
+      </navLabel>
+      <content src="sections/python-modules/project-janus/index.xhtml" />  
+      <navPoint id="navPoint198" playOrder="154">
+        <navLabel>
+          <text>JanusGraph Modules</text>
+        </navLabel>
+        <content src="sections/python-modules/project-janus/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint199" playOrder="155">
+        <navLabel>
+          <text>Summary</text>
+        </navLabel>
+        <content src="sections/python-modules/project-janus/index.xhtml#summary" />  
+      </navPoint>
+      <navPoint id="navPoint200" playOrder="156">
+        <navLabel>
+          <text>Links</text>
+        </navLabel>
+        <content src="sections/python-modules/project-janus/index.xhtml#links" />  
+      </navPoint>
+      <navPoint id="navPoint201" playOrder="157">
+        <navLabel>
+          <text>Module Documentation</text>
+        </navLabel>
+        <content src="sections/python-modules/project-janus/index.xhtml#module-documentation" />  
+        <navPoint id="navPoint202" playOrder="157">
+          <navLabel>
+            <text>Module Documentation</text>
+          </navLabel>
+          <content src="sections/python-modules/project-janus/index.xhtml#module-documentation" />  
+        </navPoint>
+        <navPoint id="navPoint203" playOrder="158">
+          <navLabel>
+            <text>GremlinConnect</text>
+          </navLabel>
+          <content src="autoapi/GremlinConnect/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint204" playOrder="159">
+          <navLabel>
+            <text>AddChildrenToRoot</text>
+          </navLabel>
+          <content src="autoapi/AddChildrenToRoot/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint205" playOrder="160">
+          <navLabel>
+            <text>AddIsRootProperty</text>
+          </navLabel>
+          <content src="autoapi/AddIsRootProperty/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint206" playOrder="161">
+          <navLabel>
+            <text>AddSproutedProperty</text>
+          </navLabel>
+          <content src="autoapi/AddSproutedProperty/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint207" playOrder="162">
+          <navLabel>
+            <text>TSubmit</text>
+          </navLabel>
+          <content src="autoapi/TSubmit/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint208" playOrder="163">
+          <navLabel>
+            <text>Query</text>
+          </navLabel>
+          <content src="autoapi/Query/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint209" playOrder="164">
+          <navLabel>
+            <text>CleareGraph</text>
+          </navLabel>
+          <content src="autoapi/CleareGraph/index.xhtml" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint210" playOrder="165">
+      <navLabel>
+        <text>Google Services Modules</text>
+      </navLabel>
+      <content src="sections/python-modules/project-google-service/index.xhtml" />  
+      <navPoint id="navPoint211" playOrder="165">
+        <navLabel>
+          <text>Google Services Modules</text>
+        </navLabel>
+        <content src="sections/python-modules/project-google-service/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint212" playOrder="166">
+        <navLabel>
+          <text>Description</text>
+        </navLabel>
+        <content src="sections/python-modules/project-google-service/index.xhtml#description" />  
+      </navPoint>
+      <navPoint id="navPoint213" playOrder="167">
+        <navLabel>
+          <text>Links</text>
+        </navLabel>
+        <content src="sections/python-modules/project-google-service/index.xhtml#links" />  
+        <navPoint id="navPoint214" playOrder="167">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="sections/python-modules/project-google-service/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint215" playOrder="168">
+          <navLabel>
+            <text>Module Documentation</text>
+          </navLabel>
+          <content src="sections/python-modules/project-google-service/index.xhtml#module-documentation" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint216" playOrder="169">
+      <navLabel>
+        <text>Flask Modules</text>
+      </navLabel>
+      <content src="sections/python-modules/project-flask-modules/index.xhtml" />  
+      <navPoint id="navPoint217" playOrder="169">
+        <navLabel>
+          <text>Flask Modules</text>
+        </navLabel>
+        <content src="sections/python-modules/project-flask-modules/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint218" playOrder="170">
+        <navLabel>
+          <text>Description</text>
+        </navLabel>
+        <content src="sections/python-modules/project-flask-modules/index.xhtml#description" />  
+      </navPoint>
+      <navPoint id="navPoint219" playOrder="171">
+        <navLabel>
+          <text>Links</text>
+        </navLabel>
+        <content src="sections/python-modules/project-flask-modules/index.xhtml#links" />  
+        <navPoint id="navPoint220" playOrder="171">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="sections/python-modules/project-flask-modules/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint221" playOrder="172">
+          <navLabel>
+            <text>Module Documentation</text>
+          </navLabel>
+          <content src="sections/python-modules/project-flask-modules/index.xhtml#module-documentation" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint222" playOrder="173">
+      <navLabel>
+        <text>Spark Modules</text>
+      </navLabel>
+      <content src="sections/python-modules/project-spark-api/index.xhtml" />  
+      <navPoint id="navPoint223" playOrder="173">
+        <navLabel>
+          <text>Spark Modules</text>
+        </navLabel>
+        <content src="sections/python-modules/project-spark-api/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint224" playOrder="174">
+        <navLabel>
+          <text>Description</text>
+        </navLabel>
+        <content src="sections/python-modules/project-spark-api/index.xhtml#description" />  
+      </navPoint>
+      <navPoint id="navPoint225" playOrder="175">
+        <navLabel>
+          <text>Links</text>
+        </navLabel>
+        <content src="sections/python-modules/project-spark-api/index.xhtml#links" />  
+        <navPoint id="navPoint226" playOrder="175">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="sections/python-modules/project-spark-api/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint227" playOrder="176">
+          <navLabel>
+            <text>Module Documentation</text>
+          </navLabel>
+          <content src="sections/python-modules/project-spark-api/index.xhtml#module-documentation" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint228" playOrder="177">
+      <navLabel>
+        <text>Dropbox Modules</text>
+      </navLabel>
+      <content src="sections/python-modules/dropbox/index.xhtml" />  
+      <navPoint id="navPoint229" playOrder="177">
+        <navLabel>
+          <text>Dropbox Modules</text>
+        </navLabel>
+        <content src="sections/python-modules/dropbox/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint230" playOrder="178">
+        <navLabel>
+          <text>Description</text>
+        </navLabel>
+        <content src="sections/python-modules/dropbox/index.xhtml#description" />  
+      </navPoint>
+      <navPoint id="navPoint231" playOrder="179">
+        <navLabel>
+          <text>Links</text>
+        </navLabel>
+        <content src="sections/python-modules/dropbox/index.xhtml#links" />  
+        <navPoint id="navPoint232" playOrder="179">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="sections/python-modules/dropbox/index.xhtml#links" />  
+        </navPoint>
+        <navPoint id="navPoint233" playOrder="180">
+          <navLabel>
+            <text>Module Documentation</text>
+          </navLabel>
+          <content src="sections/python-modules/dropbox/index.xhtml#module-documentation" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint234" playOrder="181">
+      <navLabel>
+        <text>Graph Databases</text>
+      </navLabel>
+      <content src="sections/database/graph/index.xhtml" />  
+      <navPoint id="navPoint235" playOrder="181">
+        <navLabel>
+          <text>Graph Databases</text>
+        </navLabel>
+        <content src="sections/database/graph/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint236" playOrder="182">
+        <navLabel>
+          <text>Janus Graph Stack</text>
+        </navLabel>
+        <content src="sections/database/graph/janus-graph.xhtml" />  
+        <navPoint id="navPoint237" playOrder="182">
+          <navLabel>
+            <text>Janus Graph Stack</text>
+          </navLabel>
+          <content src="sections/database/graph/janus-graph.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint238" playOrder="183">
+          <navLabel>
+            <text>Application</text>
+          </navLabel>
+          <content src="autoapi/Application/index.xhtml" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint239" playOrder="184">
+        <navLabel>
+          <text>Neo4j Stack</text>
+        </navLabel>
+        <content src="sections/database/graph/neo.xhtml" />  
+        <navPoint id="navPoint240" playOrder="184">
+          <navLabel>
+            <text>Neo4j Stack</text>
+          </navLabel>
+          <content src="sections/database/graph/neo.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint241" playOrder="185">
+          <navLabel>
+            <text>graph_crawler</text>
+          </navLabel>
+          <content src="autoapi/graph_crawler/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint242" playOrder="186">
+          <navLabel>
+            <text>realtor_graph</text>
+          </navLabel>
+          <content src="autoapi/realtor_graph/index.xhtml" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint243" playOrder="187">
+        <navLabel>
+          <text>Networkx</text>
+        </navLabel>
+        <content src="sections/database/graph/networkx.xhtml" />  
+        <navPoint id="navPoint244" playOrder="187">
+          <navLabel>
+            <text>Networkx</text>
+          </navLabel>
+          <content src="sections/database/graph/networkx.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint245" playOrder="188">
+          <navLabel>
+            <text>lok_scraper_1</text>
+          </navLabel>
+          <content src="autoapi/lok_scraper_1/index.xhtml" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint246" playOrder="189">
+      <navLabel>
+        <text>CSV and JSON Integration Application</text>
+      </navLabel>
+      <content src="sections/data-integration/csv-json/index.xhtml" />  
+      <navPoint id="navPoint247" playOrder="189">
+        <navLabel>
+          <text>CSV and JSON Integration Application</text>
+        </navLabel>
+        <content src="sections/data-integration/csv-json/index.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint248" playOrder="190">
+        <navLabel>
+          <text>Config File</text>
+        </navLabel>
+        <content src="sections/data-integration/csv-json/config.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint249" playOrder="191">
+        <navLabel>
+          <text>integrate_main</text>
+        </navLabel>
+        <content src="autoapi/integrate_main/index.xhtml" />  
+        <navPoint id="navPoint250" playOrder="191">
+          <navLabel>
+            <text>integrate_main</text>
+          </navLabel>
+          <content src="autoapi/integrate_main/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint251" playOrder="192">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/integrate_main/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint252" playOrder="193">
+        <navLabel>
+          <text>integration_program_skeleton</text>
+        </navLabel>
+        <content src="autoapi/integration_program_skeleton/index.xhtml" />  
+        <navPoint id="navPoint253" playOrder="193">
+          <navLabel>
+            <text>integration_program_skeleton</text>
+          </navLabel>
+          <content src="autoapi/integration_program_skeleton/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint254" playOrder="194">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/integration_program_skeleton/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint255" playOrder="195">
+        <navLabel>
+          <text>integrate_load_vars</text>
+        </navLabel>
+        <content src="autoapi/integrate_load_vars/index.xhtml" />  
+        <navPoint id="navPoint256" playOrder="195">
+          <navLabel>
+            <text>integrate_load_vars</text>
+          </navLabel>
+          <content src="autoapi/integrate_load_vars/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint257" playOrder="196">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/integrate_load_vars/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint258" playOrder="197">
+        <navLabel>
+          <text>integrate_csv_log</text>
+        </navLabel>
+        <content src="autoapi/integrate_csv_log/index.xhtml" />  
+        <navPoint id="navPoint259" playOrder="197">
+          <navLabel>
+            <text>integrate_csv_log</text>
+          </navLabel>
+          <content src="autoapi/integrate_csv_log/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint260" playOrder="198">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/integrate_csv_log/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint261" playOrder="199">
+        <navLabel>
+          <text>integrate_load_df</text>
+        </navLabel>
+        <content src="autoapi/integrate_load_df/index.xhtml" />  
+        <navPoint id="navPoint262" playOrder="199">
+          <navLabel>
+            <text>integrate_load_df</text>
+          </navLabel>
+          <content src="autoapi/integrate_load_df/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint263" playOrder="200">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/integrate_load_df/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint264" playOrder="201">
+        <navLabel>
+          <text>integrate_clean_df</text>
+        </navLabel>
+        <content src="autoapi/integrate_clean_df/index.xhtml" />  
+        <navPoint id="navPoint265" playOrder="201">
+          <navLabel>
+            <text>integrate_clean_df</text>
+          </navLabel>
+          <content src="autoapi/integrate_clean_df/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint266" playOrder="202">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/integrate_clean_df/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint267" playOrder="203">
+        <navLabel>
+          <text>integrate_merge</text>
+        </navLabel>
+        <content src="autoapi/integrate_merge/index.xhtml" />  
+        <navPoint id="navPoint268" playOrder="203">
+          <navLabel>
+            <text>integrate_merge</text>
+          </navLabel>
+          <content src="autoapi/integrate_merge/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint269" playOrder="204">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/integrate_merge/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint270" playOrder="205">
+        <navLabel>
+          <text>integrate_write</text>
+        </navLabel>
+        <content src="autoapi/integrate_write/index.xhtml" />  
+        <navPoint id="navPoint271" playOrder="205">
+          <navLabel>
+            <text>integrate_write</text>
+          </navLabel>
+          <content src="autoapi/integrate_write/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint272" playOrder="206">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/integrate_write/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint273" playOrder="207">
+        <navLabel>
+          <text>integrate_log</text>
+        </navLabel>
+        <content src="autoapi/integrate_log/index.xhtml" />  
+        <navPoint id="navPoint274" playOrder="207">
+          <navLabel>
+            <text>integrate_log</text>
+          </navLabel>
+          <content src="autoapi/integrate_log/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint275" playOrder="208">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/integrate_log/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint276" playOrder="209">
+        <navLabel>
+          <text>integrate_json_log</text>
+        </navLabel>
+        <content src="autoapi/integrate_json_log/index.xhtml" />  
+        <navPoint id="navPoint277" playOrder="209">
+          <navLabel>
+            <text>integrate_json_log</text>
+          </navLabel>
+          <content src="autoapi/integrate_json_log/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint278" playOrder="210">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/integrate_json_log/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint279" playOrder="211">
+        <navLabel>
+          <text>upload_csv_to_neo</text>
+        </navLabel>
+        <content src="autoapi/upload_csv_to_neo/index.xhtml" />  
+        <navPoint id="navPoint280" playOrder="211">
+          <navLabel>
+            <text>upload_csv_to_neo</text>
+          </navLabel>
+          <content src="autoapi/upload_csv_to_neo/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint281" playOrder="212">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/upload_csv_to_neo/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint282" playOrder="213">
+        <navLabel>
+          <text>csv_to_neo</text>
+        </navLabel>
+        <content src="autoapi/csv_to_neo/index.xhtml" />  
+        <navPoint id="navPoint283" playOrder="213">
+          <navLabel>
+            <text>csv_to_neo</text>
+          </navLabel>
+          <content src="autoapi/csv_to_neo/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint284" playOrder="214">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/csv_to_neo/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint285" playOrder="215">
+        <navLabel>
+          <text>PrepareCityDB</text>
+        </navLabel>
+        <content src="autoapi/PrepareCityDB/index.xhtml" />  
+        <navPoint id="navPoint286" playOrder="215">
+          <navLabel>
+            <text>PrepareCityDB</text>
+          </navLabel>
+          <content src="autoapi/PrepareCityDB/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint287" playOrder="216">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/PrepareCityDB/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint288" playOrder="217">
+        <navLabel>
+          <text>PrepareZipCodeDB</text>
+        </navLabel>
+        <content src="autoapi/PrepareZipCodeDB/index.xhtml" />  
+        <navPoint id="navPoint289" playOrder="217">
+          <navLabel>
+            <text>PrepareZipCodeDB</text>
+          </navLabel>
+          <content src="autoapi/PrepareZipCodeDB/index.xhtml" />  
+        </navPoint>
+        <navPoint id="navPoint290" playOrder="218">
+          <navLabel>
+            <text>Module Contents</text>
+          </navLabel>
+          <content src="autoapi/PrepareZipCodeDB/index.xhtml#module-contents" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint291" playOrder="219">
+      <navLabel>
+        <text>Contact</text>
+      </navLabel>
+      <content src="sections/contact/contact.xhtml" />  
+      <navPoint id="navPoint292" playOrder="219">
+        <navLabel>
+          <text>Contact</text>
+        </navLabel>
+        <content src="sections/contact/contact.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint293" playOrder="220">
+        <navLabel>
+          <text>Email</text>
+        </navLabel>
+        <content src="sections/contact/contact.xhtml#email" />  
+      </navPoint>
+      <navPoint id="navPoint294" playOrder="221">
+        <navLabel>
+          <text>Phone</text>
+        </navLabel>
+        <content src="sections/contact/contact.xhtml#phone" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint295" playOrder="222">
+      <navLabel>
+        <text>Posts</text>
+      </navLabel>
+      <content src="sections/blog/posts.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint296" playOrder="223">
+      <navLabel>
+        <text>Bibliography</text>
+      </navLabel>
+      <content src="sections/bibliography/bibliography_rst.xhtml" />  
+      <navPoint id="navPoint297" playOrder="223">
+        <navLabel>
+          <text>Bibliography</text>
+        </navLabel>
+        <content src="sections/bibliography/bibliography_rst.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint298" playOrder="224">
+        <navLabel>
+          <text>Articles</text>
+        </navLabel>
+        <content src="sections/bibliography/bibliography_rst.xhtml#articles" />  
+      </navPoint>
+      <navPoint id="navPoint299" playOrder="225">
+        <navLabel>
+          <text>Books</text>
+        </navLabel>
+        <content src="sections/bibliography/bibliography_rst.xhtml#books" />  
+      </navPoint>
+      <navPoint id="navPoint300" playOrder="226">
+        <navLabel>
+          <text>Cases</text>
+        </navLabel>
+        <content src="sections/bibliography/bibliography_rst.xhtml#cases" />  
+      </navPoint>
+      <navPoint id="navPoint301" playOrder="227">
+        <navLabel>
+          <text>US Constitution</text>
+        </navLabel>
+        <content src="sections/bibliography/bibliography_rst.xhtml#us-constitution" />  
+      </navPoint>
+      <navPoint id="navPoint302" playOrder="228">
+        <navLabel>
+          <text>Government Bills and Laws</text>
+        </navLabel>
+        <content src="sections/bibliography/bibliography_rst.xhtml#government-bills-and-laws" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint303" playOrder="229">
+      <navLabel>
+        <text>Python Module Index</text>
+      </navLabel>
+      <content src="py-modindex.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint304" playOrder="230">
+      <navLabel>
+        <text>Index</text>
+      </navLabel>
+      <content src="genindex.xhtml" />  
+    </navPoint>
+  </navMap>
+</ncx>

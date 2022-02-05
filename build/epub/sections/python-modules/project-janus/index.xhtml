@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="JanusGraph Modules" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="sections/python-modules/project-janus/index.xhtml" />
+  <meta property="og:description" content="Summary: An extension of the python-gremlin library. The modules is designed to work well with pandas DataFrames., The collection of functions are written to permit an asynchronous df.apply() acros..." />
+  
+    <title>JanusGraph Modules</title>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/epub.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../blog/posts/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+             <div class="section" id="janusgraph-modules">
+<span id="janus-graph-database"></span><h1>JanusGraph Modules</h1>
+<div class="section" id="summary">
+<h2>Summary</h2>
+<ul class="simple">
+<li><p>An extension of the python-gremlin library. The modules is designed to work well with pandas DataFrames.</p></li>
+<li><p>The collection of functions are written to permit an asynchronous df.apply() across n threads to mimic transaction functionality of spark df’s without the overhead of running a local Spark cluster.</p></li>
+<li><p>Runner applications are also included that create example city and zip code graphs</p></li>
+</ul>
+</div>
+<div class="section" id="links">
+<h2>Links</h2>
+<p><a class="reference external" href="https://github.com/justin-napolitano/JanusGraphAPI">GitHub</a><span class="link-target"> [https://github.com/justin-napolitano/JanusGraphAPI]</span></p>
+</div>
+<div class="section" id="module-documentation">
+<h2>Module Documentation</h2>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">JanusGraph Modules</span></p>
+<ul>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">GremlinConnect</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#classes">Classes</a><ul>
+<li class="toctree-l4">
+<a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#GremlinConnect.GremlinConnection">GremlinConnection</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#GremlinConnect.GremlinConnection.inject_vertex_properties">inject_vertex_properties</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#GremlinConnect.GremlinConnection.gtx_inject_vertex_properties">gtx_inject_vertex_properties</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#GremlinConnect.GremlinConnection.connection_driver">connection_driver</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#GremlinConnect.GremlinConnection._connection_driver">_connection_driver</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#GremlinConnect.GremlinConnection.add_vertex_traversal">add_vertex_traversal</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#GremlinConnect.GremlinConnection.client_connection">client_connection</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#GremlinConnect.GremlinConnection._client_connection">_client_connection</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#GremlinConnect.GremlinConnection.traversal_connection">traversal_connection</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../autoapi/GremlinConnect/index.xhtml#GremlinConnect.GremlinConnection._traversal_connection">_traversal_connection</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">AddChildrenToRoot</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.xhtml#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.xhtml#AddChildrenToRoot.return_arbitrary_root_object">return_arbitrary_root_object</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.xhtml#AddChildrenToRoot.return_arbitrary_root_element_map">return_arbitrary_root_element_map</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.xhtml#AddChildrenToRoot.find_children_urls">find_children_urls</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.xhtml#AddChildrenToRoot.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.xhtml#AddChildrenToRoot.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddChildrenToRoot/index.xhtml#AddChildrenToRoot.main">main</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">AddIsRootProperty</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.xhtml#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.xhtml#AddIsRootProperty.get_list">get_list</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.xhtml#AddIsRootProperty.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.xhtml#AddIsRootProperty.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.xhtml#AddIsRootProperty.add_is_root_property">add_is_root_property</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddIsRootProperty/index.xhtml#AddIsRootProperty.main">main</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">AddSproutedProperty</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.xhtml#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.xhtml#AddSproutedProperty.get_list">get_list</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.xhtml#AddSproutedProperty.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.xhtml#AddSproutedProperty.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.xhtml#AddSproutedProperty.add_sprouted_property">add_sprouted_property</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/AddSproutedProperty/index.xhtml#AddSproutedProperty.main">main</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">TSubmit</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.connect_to_janus_server">connect_to_janus_server</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.add_vertex">add_vertex</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.add_vertex_traversal">add_vertex_traversal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.add_zip_code_vertex">add_zip_code_vertex</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.get_value_map">get_value_map</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.load_zip_code_df">load_zip_code_df</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.create_traversal_df">create_traversal_df</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.submit_traversal">submit_traversal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.close_connection">close_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.inject_vertex_properties">inject_vertex_properties</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.transaction_injection_vertex_properties">transaction_injection_vertex_properties</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/TSubmit/index.xhtml#TSubmit.main">main</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/Query/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">Query</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/Query/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/Query/index.xhtml#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/Query/index.xhtml#Query.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/Query/index.xhtml#Query.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/Query/index.xhtml#Query.query_graph_by_property_value">query_graph_by_property_value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/Query/index.xhtml#Query.get_list_of_all_vertex">get_list_of_all_vertex</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/Query/index.xhtml#Query.get_list_of_all_vertex_by_label">get_list_of_all_vertex_by_label</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/Query/index.xhtml#Query.main">main</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1">
+<a class="reference internal" href="../../../autoapi/CleareGraph/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">CleareGraph</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../../autoapi/CleareGraph/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../../autoapi/CleareGraph/index.xhtml#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/CleareGraph/index.xhtml#CleareGraph.get_janus_graph_traversal">get_janus_graph_traversal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/CleareGraph/index.xhtml#CleareGraph.get_janus_graph_connection_driver">get_janus_graph_connection_driver</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/CleareGraph/index.xhtml#CleareGraph.delete_all_vertex">delete_all_vertex</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/CleareGraph/index.xhtml#CleareGraph.main">main</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+    
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./sections/python-modules/project-janus"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    
+<script>kernelName = 'python3'</script>
+
+<div class="section">
+   
+</div>
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

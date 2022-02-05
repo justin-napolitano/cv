@@ -5,7 +5,7 @@ title: Terrorism and Conflict
 # Terrorism and Conflict
 
 
-:::{admonition} Introduction
+:::{topic} Introduction
 I specialize in studying terrorism and conflict.  I am most interested in studying the environmental conditions that contrinbute to lawlessness, conflict, and terrorism.  
 :::
 

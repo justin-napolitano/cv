@@ -43,6 +43,7 @@
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/design-tabs.js"></script>
     <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="shortcut icon" href="_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="#" />
     <link rel="search" title="Search" href="search.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -71,9 +72,12 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
       
       
-      <h1 class="site-logo" id="site-title">Justin Napolitano</h1>
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -119,6 +123,43 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Languages
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="sections/languages/french-language.html">
+   French
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sections/languages/spanish-language.html">
+   Spanish
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sections/languages/mandarin-language.html">
+   Mandarin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sections/languages/cantonese-language.html">
+   Cantonese
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sections/languages/msa-language.html">
+   Modern Standard Arabic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sections/languages/sranan-language.html">
+   Sranan Tongo
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Political Analysis
  </span>
 </p>
@@ -134,7 +175,7 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="projects/project-sup-court-meta-data-graph/index.html">
+    <a class="reference internal" href="sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.html">
      MetaData Graph
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
@@ -164,7 +205,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="projects/project-supcourt-tensorflow/index.html">
+    <a class="reference internal" href="sections/political-analysis/sup-court/project-supcourt-tensorflow/index.html">
      TensorFlow Voting Behavior Predictions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
@@ -174,7 +215,7 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="projects/project-supcourt-tensorflow/training-features.html">
+      <a class="reference internal" href="sections/political-analysis/sup-court/project-supcourt-tensorflow/training-features.html">
        Training Features
       </a>
      </li>
@@ -199,17 +240,17 @@
     </ul>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="projects/project-supcourt-legalmodel/legal-model.html">
+    <a class="reference internal" href="sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.html">
      Analysis of the Legal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="projects/project-supcourt-attitudinal-model/attitudinal-model.html">
+    <a class="reference internal" href="sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.html">
      Analysis of the Attitudinal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="projects/project-supcourt-masterpiececake/masterpiece-cake.html">
+    <a class="reference internal" href="sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.html">
      Analysis of Masterpiece Cake
     </a>
    </li>
@@ -976,6 +1017,18 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Contact
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="sections/contact/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Journal
  </span>
 </p>
@@ -1675,6 +1728,8 @@
         <li><a href="autoapi/NeoNodes/index.html#NeoNodes.Person.email">(NeoNodes.Person attribute)</a>
 </li>
       </ul></li>
+      <li><a href="autoapi/conf/index.html#conf.email_automode">email_automode (in module conf)</a>
+</li>
       <li><a href="autoapi/integrate_log/index.html#integrate_log.garbage_collector.enable_collection">enable_collection() (integrate_log.garbage_collector method)</a>
 </li>
       <li><a href="autoapi/conf/index.html#conf.epub_exclude_files">epub_exclude_files (in module conf)</a>
@@ -1949,14 +2004,20 @@
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="autoapi/rest_server/index.html#rest_server.hello_world">hello_world() (in module rest_server)</a>
 </li>
+      <li><a href="autoapi/conf/index.html#conf.html_favicon">html_favicon (in module conf)</a>
+</li>
+      <li><a href="autoapi/conf/index.html#conf.html_last_updated_fmt">html_last_updated_fmt (in module conf)</a>
+</li>
+      <li><a href="autoapi/conf/index.html#conf.html_logo">html_logo (in module conf)</a>
+</li>
       <li><a href="autoapi/lok_scraper_1/index.html#lok_scraper_1.search_results_page.html_parse">html_parse() (lok_scraper_1.search_results_page method)</a>
 </li>
       <li><a href="autoapi/conf/index.html#conf.html_sidebars">html_sidebars (in module conf)</a>
 </li>
-      <li><a href="autoapi/conf/index.html#conf.html_static_path">html_static_path (in module conf)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/conf/index.html#conf.html_static_path">html_static_path (in module conf)</a>
+</li>
       <li><a href="autoapi/conf/index.html#conf.html_theme">html_theme (in module conf)</a>
 </li>
       <li><a href="autoapi/conf/index.html#conf.html_theme_options">html_theme_options (in module conf)</a>
@@ -2199,6 +2260,12 @@
 <h2 id="J">J</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/conf/index.html#conf.jb_load_imgconverter">jb_load_imgconverter (in module conf)</a>
+</li>
+      <li><a href="autoapi/conf/index.html#conf.jblatex_captions_to_parts">jblatex_captions_to_parts (in module conf)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="autoapi/integrate_json_log/index.html#integrate_json_log.json_dump">json_dump() (in module integrate_json_log)</a>
 
       <ul>
@@ -2213,13 +2280,19 @@
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="autoapi/conf/index.html#conf.language">language (in module conf)</a>
 </li>
-      <li><a href="sections/resume/spoken-languages.html#index-0">Languages</a>
-</li>
       <li><a href="autoapi/report_tool/index.html#report_tool.last_report">last_report (class in report_tool)</a>
 </li>
       <li><a href="autoapi/conf/index.html#conf.latex_documents">latex_documents (in module conf)</a>
 </li>
       <li><a href="autoapi/conf/index.html#conf.latex_elements">latex_elements (in module conf)</a>
+</li>
+      <li><a href="autoapi/conf/index.html#conf.latex_engine">latex_engine (in module conf)</a>
+</li>
+      <li><a href="autoapi/conf/index.html#conf.latex_show_pagerefs">latex_show_pagerefs (in module conf)</a>
+</li>
+      <li><a href="autoapi/conf/index.html#conf.latex_show_urls">latex_show_urls (in module conf)</a>
+</li>
+      <li><a href="autoapi/conf/index.html#conf.latex_use_xindy">latex_use_xindy (in module conf)</a>
 </li>
       <li>
     lfw_input
@@ -2258,10 +2331,10 @@
         <li><a href="autoapi/upload_csv_to_neo/index.html#upload_csv_to_neo.load_data_to_spark_df">(in module upload_csv_to_neo)</a>
 </li>
       </ul></li>
-      <li><a href="autoapi/integrate_load_vars/index.html#integrate_load_vars.load_date">load_date() (in module integrate_load_vars)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/integrate_load_vars/index.html#integrate_load_vars.load_date">load_date() (in module integrate_load_vars)</a>
+</li>
       <li><a href="autoapi/integrate_load_vars/index.html#integrate_load_vars.load_files">load_files() (in module integrate_load_vars)</a>
 </li>
       <li><a href="autoapi/GoogleServices/index.html#GoogleServices.GoogleAPI.load_google_creds">load_google_creds() (GoogleServices.GoogleAPI method)</a>
@@ -2811,7 +2884,7 @@
         <li><a href="autoapi/rest_server/index.html#module-rest_server">module</a>
 </li>
       </ul></li>
-      <li><a href="sections/resume/program-languages.html#index-0">Resume</a>, <a href="sections/resume/spoken-languages.html#index-0">[1]</a>, <a href="sections/resume/web-design.html#index-0">[2]</a>
+      <li><a href="sections/resume/program-languages.html#index-0">Resume</a>, <a href="sections/resume/web-design.html#index-0">[1]</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
@@ -3230,6 +3303,7 @@
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
+      Last updated on Feb 04, 2022.<br/>
   </p>
 </footer>
 </main>

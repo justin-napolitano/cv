@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="3. Schema Definitions" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="projects/project-turkish-kurdish/database_schema.xhtml" />
+  <meta property="og:description" content="Overview: This section contains the definitions and descriptions for every variable recorded in the data set. Date, Feb 04, 2022,, Author, Justin Napolitano,. Year: Definition, Records the year an ..." />
+  
+    <title>3. Schema Definitions</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/epub.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../sections/blog/posts/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+             <div class="section" id="schema-definitions">
+<h1>
+<span class="section-number">3. </span>Schema Definitions</h1>
+<div class="topic">
+<p class="topic-title">Overview</p>
+<p>This section contains the definitions and descriptions for every variable recorded in the data set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd">
+<p>Feb 04, 2022</p>
+</dd>
+<dt class="field-even">Author</dt>
+<dd class="field-even">
+<p><strong>Justin Napolitano</strong></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="year">
+<h2>
+<span class="section-number">3.1. </span>Year</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>Records the year an event occurs</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Integer</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="aggressor-id">
+<h2>
+<span class="section-number">3.2. </span>Aggressor_ID</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>Records the ID of the aggressor of an event; the agent or group that commits a human right violation.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Caegorical Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#aggressor-table"><span class="std std-ref">Aggressor Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="aggressor-name">
+<h2>
+<span class="section-number">3.3. </span>Aggressor_Name</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>Records the name of the aggressor of an event; the agent or group that commits a human right violation.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>String.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#aggressor-table"><span class="std std-ref">Aggressor Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="victim-id">
+<h2>
+<span class="section-number">3.4. </span>Victim_ID</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>Records the ID of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Categorical integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#victim-table"><span class="std std-ref">Victim Table</span></a>.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="victim-name">
+<h2>
+<span class="section-number">3.5. </span>Victim_Name</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>Records the name of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>String.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#victim-table"><span class="std std-ref">Victim Table</span></a>.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="source-article">
+<h2>
+<span class="section-number">3.6. </span>Source_Article</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>A record of the name, data, and title of the source from which information on an event is gathered.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>String.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="source-date">
+<h2>
+<span class="section-number">3.7. </span>Source_Date</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The date the source material containing the information of an event record.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>DateStamp.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="source-headline">
+<h2>
+<span class="section-number">3.8. </span>Source_Headline</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The title of the source material containing the information of an event record.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>String.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="region-name">
+<h2>
+<span class="section-number">3.9. </span>Region_Name</h2>
+<dl class="simple">
+<dt>Defintion</dt>
+<dd>
+<p>The name of the administrative region an event was recorded.  Regions are defined according the offical provincial and administrative regions of the Turkish State.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>String.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#region-table"><span class="std std-ref">Region Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="region-code">
+<h2>
+<span class="section-number">3.10. </span>Region_Code</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The code of the administrative region an event was recorded.  Regions are defined according the offical provincial and administrative regions of the Turkish State.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Categorical Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#region-table"><span class="std std-ref">Region Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="kurdish-region">
+<h2>
+<span class="section-number">3.11. </span>Kurdish_Region</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>A boolean variable that indicates whether a region is predominantly Kurdish by population.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Boolean.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="province-name">
+<h2>
+<span class="section-number">3.12. </span>Province_Name</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The name of the provincial level administrative region an event was recorded.  Provinces are defined according the offical provincial and administrative regions of the Turkish State.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>String.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#province-table"><span class="std std-ref">Province Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="province-code">
+<h2>
+<span class="section-number">3.13. </span>Province_Code</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The code of the provincial level administrative region an event was recorded.  Provinces are defined according the offical provincial and administrative regions of the Turkish State.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Categorical Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#province-table"><span class="std std-ref">Province Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="country">
+<h2>
+<span class="section-number">3.14. </span>Country</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The state (country) where an event is recorded.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="date-start">
+<h2>
+<span class="section-number">3.15. </span>Date_Start</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>A record of the day, month, and year in the DD/MM/YYYY format of when an event takes starts.
+If the exact datastamp cannot be determined the best possible date is estimated.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>DateStamp DD/MM/YYYY.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="date-end">
+<h2>
+<span class="section-number">3.16. </span>Date_End</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>A record of the day, month, and yearn in the DD/MM/YYYY format of when an event ends.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>DateStamp DD/MM/YYYY.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="women-killed">
+<h2>
+<span class="section-number">3.17. </span>Women_Killed</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The best estimate of deaths of women recorded for an event.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="children-killed">
+<h2>
+<span class="section-number">3.18. </span>Children_Killed</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The best estimate of the number of deaths of children recorded for an event.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="total-killed">
+<h2>
+<span class="section-number">3.19. </span>Total_Killed</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The sum of Women_Killed, Children_Killed, and any other deaths recorded for an event.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="women-raped">
+<h2>
+<span class="section-number">3.20. </span>Women_Raped</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The recorded number of women during an event.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="illegal-arrests">
+<h2>
+<span class="section-number">3.21. </span>Illegal_Arrests</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The recorded number of people illegally arrested during an event.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="illegal-detentions">
+<h2>
+<span class="section-number">3.22. </span>Illegal_Detentions</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The recorded number of people illegally detained by any non-governmental agent or organization during an event.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Integer</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="illegal-imprisonments">
+<h2>
+<span class="section-number">3.23. </span>Illegal_Imprisonments</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The recorded number of people illegally imprisoned by the Turkish State during an event.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="human-rights-category-code">
+<h2>
+<span class="section-number">3.24. </span>Human_Rights_Category_Code</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The code of the category of Human Rights violation as defined by Justin Napolitano and Demet Mousseau. Insert a reference here.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Categorical Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#human-rights-category-table"><span class="std std-ref">Human Rights Category Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="human-rights-category-name">
+<h2>
+<span class="section-number">3.25. </span>Human_Rights_Category_Name</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The name of the category of Human Rights violation as defined by Justin Napolitano and Demet Mousseau. Insert a reference here.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>String.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#human-rights-category-table"><span class="std std-ref">Human Rights Category Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="human-rights-offense-code">
+<h2>
+<span class="section-number">3.26. </span>Human_Rights_Offense_Code</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The code of the offence to Human Rights as defined by the United Nations or Comparable International Treaty Organization.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Categorical Integer.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#human-rights-offense-table"><span class="std std-ref">Human Rights Offense Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="human-rights-offense-name">
+<h2>
+<span class="section-number">3.27. </span>Human_Rights_Offense_Name</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>The name of the offence to Human Rights as defined by the United Nations or Comparable International Treaty Organization.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>String.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#human-rights-offense-table"><span class="std std-ref">Human Rights Offense Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="is-women-event">
+<h2>
+<span class="section-number">3.28. </span>Is_Women_Event</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<dl class="simple">
+<dt>A boolean variable that designates if an event primarily affects males or females.</dt>
+<dd>
+<ul class="simple">
+<li><p>0 designates an event as affecting males.</p></li>
+<li><p>1 designates an event as affecting women.</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Boolean.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="is-children-event">
+<h2>
+<span class="section-number">3.29. </span>Is_Children_Event</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<dl class="simple">
+<dt>A boolean variable that designates if an event primarily affects adults or children.</dt>
+<dd>
+<ul class="simple">
+<li><p>0 designates an event as affecting adults.</p></li>
+<li><p>1 designates an event as affecting children.</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>Boolean.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="description">
+<h2>
+<span class="section-number">3.30. </span>Description</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>A description of an event that may contain information that could not be relayed in the coding.</p>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>String.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+<div class="section" id="id">
+<h2>
+<span class="section-number">3.31. </span>ID</h2>
+<dl class="simple">
+<dt>Definition</dt>
+<dd>
+<p>A unique identifier for a coded event.</p>
+<ul class="simple">
+<li>
+<dl class="simple">
+<dt>It is constructed by appending the values of:</dt>
+<dd>
+<ol class="arabic simple">
+<li><p>year</p></li>
+<li><p>Aggressor_ID</p></li>
+<li><p>Victim_ID</p></li>
+<li><p>Human_Rights_Category_Code</p></li>
+<li><p>Human_Rights_Offense_Code</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p>For instance, id 19981265 is an event that occurred in 1998 committed by the Turkish government against women.  It is a broad violation of Collective Developmental rights.  Specifically, the right to freedom of peaceful assembly and association</p></li>
+</ul>
+</dd>
+<dt>Data Type</dt>
+<dd>
+<p>String.</p>
+</dd>
+<dt>Reference Table</dt>
+<dd>
+<p><a class="reference internal" href="reference_tables.xhtml#overview-table"><span class="std std-ref">Overview Table</span></a></p>
+</dd>
+</dl>
+</div>
+</div>
+
+    
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./projects/project-turkish-kurdish"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    
+<script>kernelName = 'python3'</script>
+
+<div class="section">
+   
+</div>
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

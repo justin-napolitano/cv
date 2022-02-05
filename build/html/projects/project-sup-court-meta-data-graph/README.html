@@ -55,6 +55,7 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -115,9 +116,12 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
       
       
-      <h1 class="site-logo" id="site-title">Justin Napolitano</h1>
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
@@ -163,6 +167,43 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Languages
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/french-language.html">
+   French
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/spanish-language.html">
+   Spanish
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/mandarin-language.html">
+   Mandarin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/cantonese-language.html">
+   Cantonese
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/msa-language.html">
+   Modern Standard Arabic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/languages/sranan-language.html">
+   Sranan Tongo
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Political Analysis
  </span>
 </p>
@@ -178,7 +219,7 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="index.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.html">
      MetaData Graph
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
@@ -208,7 +249,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../project-supcourt-tensorflow/index.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-tensorflow/index.html">
      TensorFlow Voting Behavior Predictions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
@@ -218,7 +259,7 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../project-supcourt-tensorflow/training-features.html">
+      <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-tensorflow/training-features.html">
        Training Features
       </a>
      </li>
@@ -243,17 +284,17 @@
     </ul>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../project-supcourt-legalmodel/legal-model.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.html">
      Analysis of the Legal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../project-supcourt-attitudinal-model/attitudinal-model.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.html">
      Analysis of the Attitudinal Model of Jurisprudence
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../project-supcourt-masterpiececake/masterpiece-cake.html">
+    <a class="reference internal" href="../../sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.html">
      Analysis of Masterpiece Cake
     </a>
    </li>
@@ -1020,6 +1061,18 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Contact
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../sections/contact/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Journal
  </span>
 </p>
@@ -1148,7 +1201,8 @@
             
               <div>
                  <div class="tex2jax_ignore mathjax_ignore section" id="ussupremecourtmetadatagraph">
-<h1>USSupremeCourtMetaDataGraph<a class="headerlink" href="#ussupremecourtmetadatagraph" title="Permalink to this headline">¶</a></h1>
+<h1>USSupremeCourtMetaDataGraph<a class="headerlink" href="#ussupremecourtmetadatagraph" title="Permalink to this headline">¶</a>
+</h1>
 <p>Code that pulls the metadata of every US Supreme Court Case in the Library of Congress database into a Graph for analysis.</p>
 <p>I need to review the data.  I built it as a proof of concept for a research project that involved mining the US Supreme Court Corpus for specific data.  That Project is still a work in progress.</p>
 <p>The files within this project should enable researchers to mine all of the Metadata from the US Library of Congress API relating to US Supreme Court Jurisprudence.  The data can then be saved into a number of Graph DB backends with some additional work.</p>
@@ -1156,7 +1210,8 @@
 The additional work will be uploaded soon.  Currently working on a JanusGraph Stack implementation that can be run in a docker environment.</p>
 </div>
 
-    <script type="text/x-thebe-config">
+    
+<script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
@@ -1174,7 +1229,9 @@ The additional work will be uploaded soon.  Currently working on a JanusGraph St
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'python3'</script>
+    
+<script>kernelName = 'python3'</script>
+
 <div class="section">
    
 </div>
@@ -1194,6 +1251,7 @@ The additional work will be uploaded soon.  Currently working on a JanusGraph St
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
+      Last updated on Feb 04, 2022.<br/>
   </p>
 </footer>
 </main>

@@ -67,8 +67,22 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.coverage',
     'sphinx.ext.autosectionlabel',
-    'autoapi.extension'
+    'autoapi.extension',
+    'sphinxcontrib.email',
+    "sphinx_jupyterbook_latex",
 ]
+
+
+#jupyter latex setup
+
+
+jb_load_imgconverter = True
+jblatex_captions_to_parts = True
+
+#email obfuscation settings
+
+email_automode = True
+
 # Document Python Code
 
 #AUTOAPI CONFIG
@@ -159,6 +173,10 @@ pygments_style = None
 html_theme = 'sphinx_book_theme'
 html_use_index = True
 
+html_logo = "_static/icons/faviconio-logo/logo.png"
+html_favicon = "_static/icons/favicon_io-white/android-chrome-512x512.png"
+html_last_updated_fmt = ""
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -212,7 +230,7 @@ html_theme_options = {
     "use_issues_button": False,
     "use_repository_button": True,
     "use_download_button": True,
-    "logo_only": False,
+    "logo_only": True,
     "show_toc_level": 2,
     # For testing
     # "use_fullscreen_button": False,
@@ -277,9 +295,16 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'jnapolitanoio.tex', 'jnapolitano.io Documentation',
-     'Justin Napolitano', 'manual'),
+    (master_doc, 'jnapolitanoio.tex', 'jnapolitano.io',
+     'Justin Napolitano', 'manual', False),
 ]
+#latex_toplevel_sectioning = 'part'
+#latex_engine = 'xelatex'
+latex_engine = 'pdflatex'
+latex_use_xindy = True
+latex_show_urls = 'footnote'
+latex_show_pagerefs = True
+
 
 
 # -- Options for manual page output ------------------------------------------

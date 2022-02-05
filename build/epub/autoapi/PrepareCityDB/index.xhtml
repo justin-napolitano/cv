@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="PrepareCityDB" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="autoapi/PrepareCityDB/index.xhtml" />
+  <meta property="og:description" content="Module Contents: Functions:" />
+  
+    <title>PrepareCityDB</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/epub.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../sections/blog/posts/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+             <div class="section" id="module-PrepareCityDB">
+<span id="preparecitydb"></span><h1><a class="reference internal" href="#module-PrepareCityDB" title="PrepareCityDB"><code class="xref py py-mod docutils literal notranslate"><span class="pre">PrepareCityDB</span></code></a></h1>
+<div class="section" id="module-contents">
+<h2>Module Contents</h2>
+<div class="section" id="functions">
+<h3>Functions</h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#PrepareCityDB.get_file_buffer" title="PrepareCityDB.get_file_buffer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_file_buffer</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#PrepareCityDB.get_df_from_csv" title="PrepareCityDB.get_df_from_csv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_df_from_csv</span></code></a>(file_buffer='uscities.csv')</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#PrepareCityDB.return_zip_code_df_to_zip_code_dict" title="PrepareCityDB.return_zip_code_df_to_zip_code_dict"><code class="xref py py-obj docutils literal notranslate"><span class="pre">return_zip_code_df_to_zip_code_dict</span></code></a>(zip_code_df)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#PrepareCityDB.add_property_column_to_the_zip_code_df" title="PrepareCityDB.add_property_column_to_the_zip_code_df"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_property_column_to_the_zip_code_df</span></code></a>(df, zip_code_property_list)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#PrepareCityDB.write_zip_code_df_to_file" title="PrepareCityDB.write_zip_code_df_to_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_zip_code_df_to_file</span></code></a>(zip_code_df)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#PrepareCityDB.main" title="PrepareCityDB.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py function">
+<dt class="sig sig-object py" id="PrepareCityDB.get_file_buffer">
+<span class="sig-prename descclassname"><span class="pre">PrepareCityDB.</span></span><span class="sig-name descname"><span class="pre">get_file_buffer</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PrepareCityDB.get_df_from_csv">
+<span class="sig-prename descclassname"><span class="pre">PrepareCityDB.</span></span><span class="sig-name descname"><span class="pre">get_df_from_csv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_buffer</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'uscities.csv'</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PrepareCityDB.return_zip_code_df_to_zip_code_dict">
+<span class="sig-prename descclassname"><span class="pre">PrepareCityDB.</span></span><span class="sig-name descname"><span class="pre">return_zip_code_df_to_zip_code_dict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">zip_code_df</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PrepareCityDB.add_property_column_to_the_zip_code_df">
+<span class="sig-prename descclassname"><span class="pre">PrepareCityDB.</span></span><span class="sig-name descname"><span class="pre">add_property_column_to_the_zip_code_df</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">zip_code_property_list</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PrepareCityDB.write_zip_code_df_to_file">
+<span class="sig-prename descclassname"><span class="pre">PrepareCityDB.</span></span><span class="sig-name descname"><span class="pre">write_zip_code_df_to_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">zip_code_df</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="PrepareCityDB.main">
+<span class="sig-prename descclassname"><span class="pre">PrepareCityDB.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</div>
+</div>
+</div>
+
+    
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./autoapi/PrepareCityDB"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    
+<script>kernelName = 'python3'</script>
+
+<div class="section">
+   
+</div>
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

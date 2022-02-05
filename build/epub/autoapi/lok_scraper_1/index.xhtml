@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="lok_scraper_1" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="autoapi/lok_scraper_1/index.xhtml" />
+  <meta property="og:description" content="Module Contents: Classes: Functions:" />
+  
+    <title>lok_scraper_1</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/epub.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../sections/blog/posts/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+             <div class="section" id="module-lok_scraper_1">
+<span id="lok-scraper-1"></span><h1><a class="reference internal" href="#module-lok_scraper_1" title="lok_scraper_1"><code class="xref py py-mod docutils literal notranslate"><span class="pre">lok_scraper_1</span></code></a></h1>
+<div class="section" id="module-contents">
+<h2>Module Contents</h2>
+<div class="section" id="classes">
+<h3>Classes</h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lok_scraper_1.node_json" title="lok_scraper_1.node_json"><code class="xref py py-obj docutils literal notranslate"><span class="pre">node_json</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#lok_scraper_1.search_result" title="lok_scraper_1.search_result"><code class="xref py py-obj docutils literal notranslate"><span class="pre">search_result</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lok_scraper_1.google_drive" title="lok_scraper_1.google_drive"><code class="xref py py-obj docutils literal notranslate"><span class="pre">google_drive</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#lok_scraper_1.google_sheet" title="lok_scraper_1.google_sheet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">google_sheet</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lok_scraper_1.google_creds" title="lok_scraper_1.google_creds"><code class="xref py py-obj docutils literal notranslate"><span class="pre">google_creds</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#lok_scraper_1.config" title="lok_scraper_1.config"><code class="xref py py-obj docutils literal notranslate"><span class="pre">config</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lok_scraper_1.search_results_page" title="lok_scraper_1.search_results_page"><code class="xref py py-obj docutils literal notranslate"><span class="pre">search_results_page</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="functions">
+<h3>Functions</h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lok_scraper_1.create_google_credentials_object" title="lok_scraper_1.create_google_credentials_object"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_google_credentials_object</span></code></a>(creds_path='credentials.json')</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#lok_scraper_1.create_config_object" title="lok_scraper_1.create_config_object"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_config_object</span></code></a>(file_path='config.yaml')</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lok_scraper_1.search_result_generator" title="lok_scraper_1.search_result_generator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">search_result_generator</span></code></a>(base_url='https://www.loc.gov/collections', collection='united-states-reports', json_parameter='fo=json', results_per_page='c=150', query_param='?', page_param='sp=', page_num=1, condition=True)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#lok_scraper_1.create_search_results_page_object" title="lok_scraper_1.create_search_results_page_object"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_search_results_page_object</span></code></a>(base_url='https://www.loc.gov/collections', collection='united-states-reports', json_parameter='fo=json', results_per_page='c=150', query_param='?', page_param='sp=', page_num=1, column_lookup_table={})</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lok_scraper_1.create_google_drive_object" title="lok_scraper_1.create_google_drive_object"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_google_drive_object</span></code></a>(google_creds)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#lok_scraper_1.create_google_sheet_object" title="lok_scraper_1.create_google_sheet_object"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_google_sheet_object</span></code></a>(google_creds)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lok_scraper_1.create_new_google_sheet" title="lok_scraper_1.create_new_google_sheet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_new_google_sheet</span></code></a>(google_drive_object, folder_id, title)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#lok_scraper_1.flatten_result" title="lok_scraper_1.flatten_result"><code class="xref py py-obj docutils literal notranslate"><span class="pre">flatten_result</span></code></a>(result_json)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lok_scraper_1.main" title="lok_scraper_1.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py class">
+<dt class="sig sig-object py" id="lok_scraper_1.node_json">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">node_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.node_json.create_node">
+<span class="sig-name descname"><span class="pre">create_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.node_json.node_generator">
+<span class="sig-name descname"><span class="pre">node_generator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="lok_scraper_1.search_result">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">search_result</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dict_item</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_columns</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">colnum_string</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_result.create_column_request">
+<span class="sig-name descname"><span class="pre">create_column_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_result.create_column_range_string">
+<span class="sig-name descname"><span class="pre">create_column_range_string</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_result.colnum_string">
+<span class="sig-name descname"><span class="pre">colnum_string</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_columns</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="lok_scraper_1.google_drive">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">google_drive</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">creds</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.google_drive.test">
+<span class="sig-name descname"><span class="pre">test</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.google_drive.get_drive_service">
+<span class="sig-name descname"><span class="pre">get_drive_service</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">creds</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<p>Shows basic usage of the Drive v3 API.
+Prints the names and ids of the first 10 files the user has access to.</p>
+</dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.google_drive.create_folder">
+<span class="sig-name descname"><span class="pre">create_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.google_drive.add_spreadsheet_to_folder">
+<span class="sig-name descname"><span class="pre">add_spreadsheet_to_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="lok_scraper_1.google_sheet">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">google_sheet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">creds</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.google_sheet.get_sheet_service">
+<span class="sig-name descname"><span class="pre">get_sheet_service</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">creds</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="lok_scraper_1.google_creds">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">google_creds</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">creds_path</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.google_creds.get_creds">
+<span class="sig-name descname"><span class="pre">get_creds</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">creds_path</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="lok_scraper_1.config">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.config.load_config">
+<span class="sig-name descname"><span class="pre">load_config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">search_results_page</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_url</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://www.loc.gov/collections'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collection</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'united-states-reports'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">json_parameter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'fo=json'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">results_per_page</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'c=150'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">query_param</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'?'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page_param</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'sp='</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page_num</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">column_lookup_table</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">{}</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_columns</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.create_search_result_node">
+<span class="sig-name descname"><span class="pre">create_search_result_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.append_to_data_list">
+<span class="sig-name descname"><span class="pre">append_to_data_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rnge</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">d</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_list</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.map_columns_to_batch_request_list">
+<span class="sig-name descname"><span class="pre">map_columns_to_batch_request_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.colnum_string">
+<span class="sig-name descname"><span class="pre">colnum_string</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.map_columns_to_lookup_table">
+<span class="sig-name descname"><span class="pre">map_columns_to_lookup_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.get_next_url">
+<span class="sig-name descname"><span class="pre">get_next_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.create_search_url">
+<span class="sig-name descname"><span class="pre">create_search_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collection</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">json_parameter</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">results_per_page</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">query_param</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page_param</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page_num</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.say_hello">
+<span class="sig-name descname"><span class="pre">say_hello</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.request_data">
+<span class="sig-name descname"><span class="pre">request_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.response_to_json">
+<span class="sig-name descname"><span class="pre">response_to_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.html_parse">
+<span class="sig-name descname"><span class="pre">html_parse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lok_scraper_1.search_results_page.flatten_result">
+<span class="sig-name descname"><span class="pre">flatten_result</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lok_scraper_1.create_google_credentials_object">
+<span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">create_google_credentials_object</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">creds_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'credentials.json'</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lok_scraper_1.create_config_object">
+<span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">create_config_object</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'config.yaml'</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lok_scraper_1.search_result_generator">
+<span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">search_result_generator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_url</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://www.loc.gov/collections'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collection</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'united-states-reports'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">json_parameter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'fo=json'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">results_per_page</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'c=150'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">query_param</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'?'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page_param</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'sp='</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page_num</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">condition</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lok_scraper_1.create_search_results_page_object">
+<span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">create_search_results_page_object</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_url</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://www.loc.gov/collections'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collection</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'united-states-reports'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">json_parameter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'fo=json'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">results_per_page</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'c=150'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">query_param</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'?'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page_param</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'sp='</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page_num</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">column_lookup_table</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">{}</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lok_scraper_1.create_google_drive_object">
+<span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">create_google_drive_object</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">google_creds</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lok_scraper_1.create_google_sheet_object">
+<span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">create_google_sheet_object</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">google_creds</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lok_scraper_1.create_new_google_sheet">
+<span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">create_new_google_sheet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">google_drive_object</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lok_scraper_1.flatten_result">
+<span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">flatten_result</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">result_json</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lok_scraper_1.main">
+<span class="sig-prename descclassname"><span class="pre">lok_scraper_1.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</div>
+</div>
+</div>
+
+    
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./autoapi/lok_scraper_1"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    
+<script>kernelName = 'python3'</script>
+
+<div class="section">
+   
+</div>
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>
