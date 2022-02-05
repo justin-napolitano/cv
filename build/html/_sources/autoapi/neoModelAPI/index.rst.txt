@@ -65,14 +65,9 @@ Classes
 
 
 
-.. py:class:: Processed(*args, **kwargs)
+.. py:class:: Processed
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -80,14 +75,9 @@ Classes
       
 
 
-.. py:class:: NotProcessed(*args, **kwargs)
+.. py:class:: NotProcessed
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -95,14 +85,9 @@ Classes
       
 
 
-.. py:class:: City(*args, **kwargs)
+.. py:class:: City
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -125,14 +110,9 @@ Classes
       
 
 
-.. py:class:: Country(*args, **kwargs)
+.. py:class:: Country
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -150,14 +130,9 @@ Classes
       
 
 
-.. py:class:: State(*args, **kwargs)
+.. py:class:: State
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -180,14 +155,9 @@ Classes
       
 
 
-.. py:class:: Root(*args, **kwargs)
+.. py:class:: Root
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -255,14 +225,9 @@ Classes
       
 
 
-.. py:class:: Child(*args, **kwargs)
+.. py:class:: Child
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -325,14 +290,9 @@ Classes
       
 
 
-.. py:class:: Parent(*args, **kwargs)
+.. py:class:: Parent
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -395,14 +355,9 @@ Classes
       
 
 
-.. py:class:: Sibling(*args, **kwargs)
+.. py:class:: Sibling
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -465,14 +420,9 @@ Classes
       
 
 
-.. py:class:: Realtor_com(*args, **kwargs)
+.. py:class:: Realtor_com
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -490,14 +440,9 @@ Classes
       
 
 
-.. py:class:: Realtor_Search_URL(*args, **kwargs)
+.. py:class:: Realtor_Search_URL
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       
@@ -580,14 +525,9 @@ Classes
       
 
 
-.. py:class:: Person(*args, **kwargs)
+.. py:class:: Person
 
    Bases: :py:obj:`neomodel.StructuredNode`
-
-   Base class for all node definitions to inherit from.
-
-   If you want to create your own abstract classes set:
-       __abstract_node__ = True
 
    .. py:attribute:: uid
       

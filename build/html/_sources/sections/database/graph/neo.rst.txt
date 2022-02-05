@@ -12,6 +12,5 @@ Neo4j Stack
    :maxdepth: 2
    :caption: Neo4j:
    
-   /autoapi/upload_csv_to_neo/index
    /autoapi/graph_crawler/index
    /autoapi/realtor_graph/index

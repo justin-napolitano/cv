@@ -46,7 +46,8 @@
    "source": [
     "#Creating the initial Data Frame from the potLog6 csv.  Data from 1/1/2020 to 3/31/2020\n",
     "\n",
-    "df = pd.read_csv('/Users/jnapolitano/Dropbox/python/Projects/websites/jnapolitano.io/source/projects/project-retail-sales-forecasting/PotLog.csv')\n",
+    "df = pd.read_csv('/home/jnapolitano/Dropbox/python/Projects/websites/jnapolitano.io/source/projects/project-retail-sales-forecasting/PotLog.csv')\n",
+    "\n",
     "\n",
     "#creating the dictionary to hold the Errors of each method.  Will find minimum(best) value at the end\n",
     "rmseDictionary = {}\n",

@@ -33,7 +33,8 @@ def mape_vectorized_v2(a, b):
 
 #Creating the initial Data Frame from the potLog6 csv.  Data from 1/1/2020 to 3/31/2020
 
-df = pd.read_csv('/Users/jnapolitano/Dropbox/python/Projects/websites/jnapolitano.io/source/projects/project-retail-sales-forecasting/PotLog.csv')
+df = pd.read_csv('/home/jnapolitano/Dropbox/python/Projects/websites/jnapolitano.io/source/projects/project-retail-sales-forecasting/PotLog.csv')
+
 
 #creating the dictionary to hold the Errors of each method.  Will find minimum(best) value at the end
 rmseDictionary = {}
