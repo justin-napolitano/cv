@@ -21,7 +21,7 @@ Blah Blah Blah i went to college.
 :caption: Education
 :maxdepth: 2
 
-sections/education/ucf.rst
+/docs/education/ucf.rst
 
 ```
 
@@ -39,8 +39,8 @@ Blah Blah Blah I've had a few jobs
 :caption: Work History
 :maxdepth: 2
 
-/sections/work-history/btjn.rst
-/sections/work-history/ucf.rst
+/docs/work-history/btjn.rst
+/docs/work-history/ucf.rst
 ```
 :::
 
@@ -59,12 +59,12 @@ I like to learn to new languages.
 :caption: Languages
 :maxdepth: 2
 
-/sections/languages/french-language.rst
-/sections/languages/spanish-language.rst
-/sections/languages/mandarin-language.rst
-/sections/languages/cantonese-language.rst
-/sections/languages/msa-language.rst
-/sections/languages/sranan-language.rst
+/docs/languages/french-language.rst
+/docs/languages/spanish-language.rst
+/docs/languages/mandarin-language.rst
+/docs/languages/cantonese-language.rst
+/docs/languages/msa-language.rst
+/docs/languages/sranan-language.rst
 ```
 :::
 
@@ -80,14 +80,14 @@ The Political Analysis sections is a collection of projects that I primaily comp
 :caption: Political Analysis
 :maxdepth: 2
 
-/sections/political-analysis/sup-court/index.rst
-/sections/political-analysis/international-systems/index.rst
-/sections/political-analysis/terrorism-conflict/index.md
-/sections/political-analysis/international-law/index.md
+/docs/political-analysis/sup-court/index.rst
+/docs/political-analysis/international-systems/index.rst
+/docs/political-analysis/terrorism-conflict/index.md
+/docs/political-analysis/international-law/index.md
 ```
 :::
 
-## Business Analysis
+## Business Analysis and Reporting
 
 :::{card} Business Analysis
 Business analysis section.. Blah blah blah.  this is just a space holder.  
@@ -98,15 +98,15 @@ Business analysis section.. Blah blah blah.  this is just a space holder.
 ```{toctree}
 :caption: Business Analysis
 :maxdepth: 2
-
-/sections/business-analysis/cli-program/index.md
-/sections/business-analysis/forecasting/index.md
+/docs/project-cli-program/index.rst
+/docs/project-order-forecasting/index.rst
+/docs/project-retail-sales-forecasting/index.rst
 ```
 :::
 ## ML and AI
 
 :::{card} Business Analysis
-ML an dAI section.. Blah blah blah.  this is just a space holder.  
+ML and AI section.. Blah blah blah.  this is just a space holder.  
 :::
 
 :::{card}
@@ -115,8 +115,8 @@ ML an dAI section.. Blah blah blah.  this is just a space holder.
 :caption: ML and AI
 :maxdepth: 2
 
-/projects/project-supcourt-tensorflow/index.rst
-/sections/ml-ai/gender-recognition.rst
+/docs/project-supcourt-tensorflow/index.rst
+/docs/project-gender-recognition/gender-recognition.rst
 
 ```
 :::
@@ -133,13 +133,13 @@ Python Modules section.. Blah blah blah. this is just a space holder.
 :caption: Python Modules
 :maxdepth: 2
 
-/sections/python-modules/pandas-functions/index
-/sections/python-modules/project-neo4j/index.rst
-/sections/python-modules/project-janus/index.rst
-/sections/python-modules/project-google-service/index.rst
-/sections/python-modules/project-flask-modules/index.rst
-/sections/python-modules/project-spark-api/index.rst
-/sections/python-modules/dropbox/index.rst
+/docs/python-modules/pandas-functions/index
+/docs/python-modules/project-neo4j/index.rst
+/docs/python-modules/project-janus/index.rst
+/docs/python-modules/project-google-service/index.rst
+/docs/python-modules/project-flask-modules/index.rst
+/docs/python-modules/project-spark-api/index.rst
+/docs/python-modules/dropbox/index.rst
 ```
 :::
 
@@ -155,7 +155,8 @@ Python Modules section.. Blah blah blah. this is just a space holder.
 :caption: Database Development
 :maxdepth: 2
 
-/sections/database/graph/index.rst
+/docs/graph-database/index.rst
+/docs/relational-databases/index.rst
 ```
 :::
 
@@ -170,7 +171,7 @@ Python Modules section.. Blah blah blah. this is just a space holder.
 :caption: Data Integration
 :maxdepth: 2
 
-/sections/data-integration/csv-json/index.rst
+/docs/data-integration/csv-json-integration.rst
 
 ```
 
@@ -187,7 +188,7 @@ Blah blah blah. this is just a space holder.
 :caption: Contact
 :maxdepth: 2
 
-/sections/contact/contact.md
+/docs/contact/contact.md
 
 ```
 
@@ -225,11 +226,7 @@ The blog section is a collection of my journal entries.  It details and referenc
 ```{toctree}
 :caption: Journal
 :maxdepth: 2
-<<<<<<< HEAD
 docs/blog/posts
-=======
-/sections/blog/posts
->>>>>>> projects
 ```
 :::
 
@@ -243,16 +240,10 @@ You will find the references here.
 ```{toctree}
 :caption: Reference
 :maxdepth: 2
-<<<<<<< HEAD
-docs/bibliography.rst
+docs/bibliography/bibliography.rst
 py-modindex.rst
 genindex.rst
 ```
-=======
-/sections/bibliography/bibliography_rst.rst
-/py-modindex.rst
-/genindex.rst
-```
+
 
 :::
->>>>>>> projects
