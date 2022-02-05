@@ -139,7 +139,7 @@ The blog section is a collection of my journal entries.  It details and referenc
 ```{toctree}
 :caption: Journal
 :maxdepth: 2
-sections/blog/posts
+docs/blog/posts
 ```
 
 ## Reference
@@ -151,7 +151,7 @@ You will find the references here.
 ```{toctree}
 :caption: Reference
 :maxdepth: 2
-sections/bibliography/bibliography_rst.rst
+docs/bibliography.rst
 py-modindex.rst
 genindex.rst
 ```

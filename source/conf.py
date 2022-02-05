@@ -181,7 +181,7 @@ html_static_path = ['_static']
 # html_sidebars = {}
 
 html_sidebars = {
-    "sections/blog/posts/*": [
+    "docs/blog/posts/*": [
         "sidebar-logo.html",
         "search-field.html",
         "postcard.html",
@@ -233,8 +233,8 @@ htmlhelp_basename = 'jnapolitano.io'
 
 
 # -- ABlog config -------------------------------------------------
-blog_path = "sections/blog/posts"
-blog_post_pattern = ["sections/blog/*.md", "sections/blog/posts/*.md", "sections/blog/posts/*.rst"]
+blog_path = "docs/blog/posts"
+blog_post_pattern = ["docs/blog/*.md", "docs/blog/posts/*.md", "docs/blog/posts/*.rst"]
 blog_baseurl = "cv.jnapolitano.io"
 fontawesome_included = True
 post_auto_image = 1

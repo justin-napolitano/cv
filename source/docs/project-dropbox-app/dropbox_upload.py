@@ -24,8 +24,8 @@ CWD = os.getcwd()
 # Access token
 TOKEN = '<insert your token here>'
 
-LOCALFILE = 'build/html'
-BACKUPPATH = '/In_Progress/jnapolitano.io/html' # Keep the forward slash before destination filename
+LOCALFILE = 'test.txt'
+BACKUPPATH = '/DropboxApplications/JanusGraph/realtor_data/test.txt' # Keep the forward slash before destination filename
 
 LOCALFILE = SEP.join((CWD,LOCALFILE))
 print(LOCALFILE)
