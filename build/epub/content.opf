@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en"
+ unique-identifier="unknown"
+ prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf"
+        xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:language>en</dc:language>
+    <dc:title>Justin Napolitano</dc:title>
+    <dc:description>unknown</dc:description>
+    <dc:creator>Justin Napolitano</dc:creator>
+    <dc:contributor>unknown</dc:contributor>
+    <dc:publisher>Justin Napolitano</dc:publisher>
+    <dc:rights>2022, Justin Napolitano</dc:rights>
+    <dc:identifier id="unknown">unknown</dc:identifier>
+    <dc:date>2022-02-04T21:26:24Z</dc:date>
+    <meta property="dcterms:modified">2022-02-04T21:26:24Z</meta>
+    <meta property="ibooks:version"></meta>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:binding">true</meta>
+    <meta property="ibooks:scroll-axis">vertical</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="epub-0" href="genindex.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-1" href="index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-2" href="py-modindex.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-3" href="_images/SalesForcasting_11_0.png" media-type="image/png" />
+    <item id="epub-4" href="_images/SalesForcasting_12_0.png" media-type="image/png" />
+    <item id="epub-5" href="_images/SalesForcasting_13_0.png" media-type="image/png" />
+    <item id="epub-6" href="_images/SalesForcasting_14_7.png" media-type="image/png" />
+    <item id="epub-7" href="_images/SalesForcasting_5_0.png" media-type="image/png" />
+    <item id="epub-8" href="_images/SalesForcasting_7_0.png" media-type="image/png" />
+    <item id="epub-9" href="_images/SalesForcasting_8_0.png" media-type="image/png" />
+    <item id="epub-10" href="_images/SalesForcasting_9_1.png" media-type="image/png" />
+    <item id="epub-11" href="_sphinx_design_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" media-type="text/css" />
+    <item id="epub-12" href="_static/android-chrome-512x512.png" media-type="image/png" />
+    <item id="epub-13" href="_static/basic.css" media-type="text/css" />
+    <item id="epub-14" href="_static/check-solid.svg" media-type="image/svg+xml" />
+    <item id="epub-15" href="_static/copy-button.svg" media-type="image/svg+xml" />
+    <item id="epub-16" href="_static/copybutton.css" media-type="text/css" />
+    <item id="epub-17" href="_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" media-type="text/css" />
+    <item id="epub-18" href="_static/epub.css" media-type="text/css" />
+    <item id="epub-19" href="_static/file.png" media-type="image/png" />
+    <item id="epub-20" href="_static/logo.png" media-type="image/png" />
+    <item id="epub-21" href="_static/minus.png" media-type="image/png" />
+    <item id="epub-22" href="_static/mystnb.css" media-type="text/css" />
+    <item id="epub-23" href="_static/plus.png" media-type="image/png" />
+    <item id="epub-24" href="_static/pygments.css" media-type="text/css" />
+    <item id="epub-25" href="_static/sphinx-thebe.css" media-type="text/css" />
+    <item id="epub-26" href="_static/togglebutton.css" media-type="text/css" />
+    <item id="epub-27" href="_static/icons/logo.png" media-type="image/png" />
+    <item id="epub-28" href="_static/icons/logo.svg" media-type="image/svg+xml" />
+    <item id="epub-29" href="_static/icons/favicon_io-grey/android-chrome-192x192.png" media-type="image/png" />
+    <item id="epub-30" href="_static/icons/favicon_io-grey/android-chrome-512x512.png" media-type="image/png" />
+    <item id="epub-31" href="_static/icons/favicon_io-grey/apple-touch-icon.png" media-type="image/png" />
+    <item id="epub-32" href="_static/icons/favicon_io-grey/favicon-16x16.png" media-type="image/png" />
+    <item id="epub-33" href="_static/icons/favicon_io-grey/favicon-32x32.png" media-type="image/png" />
+    <item id="epub-34" href="_static/icons/favicon_io-white/android-chrome-192x192.png" media-type="image/png" />
+    <item id="epub-35" href="_static/icons/favicon_io-white/android-chrome-512x512.png" media-type="image/png" />
+    <item id="epub-36" href="_static/icons/favicon_io-white/apple-touch-icon.png" media-type="image/png" />
+    <item id="epub-37" href="_static/icons/favicon_io-white/favicon-16x16.png" media-type="image/png" />
+    <item id="epub-38" href="_static/icons/favicon_io-white/favicon-32x32.png" media-type="image/png" />
+    <item id="epub-39" href="_static/icons/faviconio-logo/logo.png" media-type="image/png" />
+    <item id="epub-40" href="_static/icons/faviconio-logo/logo.svg" media-type="image/svg+xml" />
+    <item id="epub-41" href="autoapi/AddChildrenToRoot/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-42" href="autoapi/AddIsRootProperty/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-43" href="autoapi/AddSproutedProperty/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-44" href="autoapi/Application/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-45" href="autoapi/CleareGraph/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-46" href="autoapi/FilterDataset/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-47" href="autoapi/GoogleServices/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-48" href="autoapi/GremlinConnect/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-49" href="autoapi/NeoNodes/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-50" href="autoapi/PandasFunctions/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-51" href="autoapi/PrepareCityDB/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-52" href="autoapi/PrepareZipCodeDB/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-53" href="autoapi/Query/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-54" href="autoapi/SupremeCourtPredictionsCase/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-55" href="autoapi/SupremeCourtPredictionsJustice/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-56" href="autoapi/TSubmit/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-57" href="autoapi/align_dlib/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-58" href="autoapi/cigarette_sales_order_form/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-59" href="autoapi/conf/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-60" href="autoapi/csv_to_neo/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-61" href="autoapi/data_generation/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-62" href="autoapi/dropbox_upload/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-63" href="autoapi/graph_crawler/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-64" href="autoapi/integrate_clean_df/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-65" href="autoapi/integrate_csv_log/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-66" href="autoapi/integrate_json_log/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-67" href="autoapi/integrate_load_df/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-68" href="autoapi/integrate_load_vars/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-69" href="autoapi/integrate_log/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-70" href="autoapi/integrate_main/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-71" href="autoapi/integrate_merge/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-72" href="autoapi/integrate_write/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-73" href="autoapi/integration_program_skeleton/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-74" href="autoapi/lfw_input/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-75" href="autoapi/loc_scraper_test/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-76" href="autoapi/lok_scraper_1/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-77" href="autoapi/neo4jClasses/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-78" href="autoapi/neoModelAPI/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-79" href="autoapi/neo_native_apy/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-80" href="autoapi/preprocess/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-81" href="autoapi/realtor_graph/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-82" href="autoapi/report_tool/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-83" href="autoapi/rest_server/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-84" href="autoapi/sparkAPI/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-85" href="autoapi/upload_csv_to_neo/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-86" href="projects/project-cli-program/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-87" href="projects/project-evolution-of-ngos/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-88" href="projects/project-human-rights-law/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-89" href="projects/project-order-forecasting/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-90" href="projects/project-retail-sales-forecasting/README.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-91" href="projects/project-retail-sales-forecasting/SalesForcasting.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-92" href="projects/project-retail-sales-forecasting/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-93" href="projects/project-sup-court-meta-data-graph/README.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-94" href="projects/project-supcourt-tensorflow/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-95" href="projects/project-supcourt-tensorflow/training-features.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-96" href="projects/project-turkish-kurdish/analysis.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-97" href="projects/project-turkish-kurdish/data.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-98" href="projects/project-turkish-kurdish/database_schema.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-99" href="projects/project-turkish-kurdish/event_query_procedure.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-100" href="projects/project-turkish-kurdish/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-101" href="projects/project-turkish-kurdish/introduction.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-102" href="projects/project-turkish-kurdish/pdf.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-103" href="projects/project-turkish-kurdish/reference_tables.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-104" href="sections/bibliography/bibliography_rst.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-105" href="sections/blog/posts.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-106" href="sections/blog/posts/2014.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-107" href="sections/blog/posts/archive.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-108" href="sections/blog/posts/author.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-109" href="sections/blog/posts/category.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-110" href="sections/blog/posts/drafts.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-111" href="sections/blog/posts/language.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-112" href="sections/blog/posts/location.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-113" href="sections/blog/posts/tag.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-114" href="sections/blog/posts/test-post.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-115" href="sections/blog/posts/author/me.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-116" href="sections/blog/posts/category/python.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-117" href="sections/blog/posts/language/en.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-118" href="sections/blog/posts/location/sf.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-119" href="sections/blog/posts/tag/earth.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-120" href="sections/blog/posts/tag/love.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-121" href="sections/blog/posts/tag/peace.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-122" href="sections/business-analysis/cli-program/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-123" href="sections/business-analysis/forecasting/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-124" href="sections/contact/contact.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-125" href="sections/data-integration/csv-json/config.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-126" href="sections/data-integration/csv-json/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-127" href="sections/database/graph/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-128" href="sections/database/graph/janus-graph.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-129" href="sections/database/graph/neo.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-130" href="sections/database/graph/networkx.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-131" href="sections/education/ucf.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-132" href="sections/languages/cantonese-language.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-133" href="sections/languages/french-language.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-134" href="sections/languages/mandarin-language.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-135" href="sections/languages/msa-language.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-136" href="sections/languages/spanish-language.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-137" href="sections/languages/sranan-language.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-138" href="sections/ml-ai/gender-recognition.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-139" href="sections/political-analysis/international-law/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-140" href="sections/political-analysis/international-systems/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-141" href="sections/political-analysis/sup-court/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-142" href="sections/political-analysis/sup-court/project-sup-court-meta-data-graph/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-143" href="sections/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-144" href="sections/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-145" href="sections/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-146" href="sections/political-analysis/sup-court/project-supcourt-tensorflow/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-147" href="sections/political-analysis/sup-court/project-supcourt-tensorflow/training-features.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-148" href="sections/political-analysis/terrorism-conflict/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-149" href="sections/python-modules/dropbox/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-150" href="sections/python-modules/pandas-functions/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-151" href="sections/python-modules/project-flask-modules/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-152" href="sections/python-modules/project-google-service/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-153" href="sections/python-modules/project-janus/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-154" href="sections/python-modules/project-neo4j/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-155" href="sections/python-modules/project-spark-api/index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-156" href="sections/resume/outline.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-157" href="sections/resume/program-languages.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-158" href="sections/resume/references.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-159" href="sections/resume/web-design.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-160" href="sections/work-history/btjn.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-161" href="sections/work-history/ucf.xhtml" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine toc="ncx" page-progression-direction="ltr">
+    <itemref idref="epub-1" />
+    <itemref idref="epub-131" />
+    <itemref idref="epub-160" />
+    <itemref idref="epub-161" />
+    <itemref idref="epub-133" />
+    <itemref idref="epub-136" />
+    <itemref idref="epub-134" />
+    <itemref idref="epub-132" />
+    <itemref idref="epub-135" />
+    <itemref idref="epub-137" />
+    <itemref idref="epub-141" />
+    <itemref idref="epub-142" />
+    <itemref idref="epub-76" />
+    <itemref idref="epub-75" />
+    <itemref idref="epub-146" />
+    <itemref idref="epub-147" />
+    <itemref idref="epub-54" />
+    <itemref idref="epub-55" />
+    <itemref idref="epub-144" />
+    <itemref idref="epub-143" />
+    <itemref idref="epub-145" />
+    <itemref idref="epub-140" />
+    <itemref idref="epub-87" />
+    <itemref idref="epub-148" />
+    <itemref idref="epub-100" />
+    <itemref idref="epub-101" />
+    <itemref idref="epub-99" />
+    <itemref idref="epub-98" />
+    <itemref idref="epub-103" />
+    <itemref idref="epub-96" />
+    <itemref idref="epub-102" />
+    <itemref idref="epub-97" />
+    <itemref idref="epub-139" />
+    <itemref idref="epub-88" />
+    <itemref idref="epub-122" />
+    <itemref idref="epub-86" />
+    <itemref idref="epub-82" />
+    <itemref idref="epub-123" />
+    <itemref idref="epub-89" />
+    <itemref idref="epub-58" />
+    <itemref idref="epub-92" />
+    <itemref idref="epub-91" />
+    <itemref idref="epub-94" />
+    <itemref idref="epub-95" />
+    <itemref idref="epub-54" />
+    <itemref idref="epub-55" />
+    <itemref idref="epub-138" />
+    <itemref idref="epub-80" />
+    <itemref idref="epub-61" />
+    <itemref idref="epub-74" />
+    <itemref idref="epub-46" />
+    <itemref idref="epub-57" />
+    <itemref idref="epub-150" />
+    <itemref idref="epub-50" />
+    <itemref idref="epub-154" />
+    <itemref idref="epub-79" />
+    <itemref idref="epub-78" />
+    <itemref idref="epub-49" />
+    <itemref idref="epub-77" />
+    <itemref idref="epub-153" />
+    <itemref idref="epub-48" />
+    <itemref idref="epub-41" />
+    <itemref idref="epub-42" />
+    <itemref idref="epub-43" />
+    <itemref idref="epub-56" />
+    <itemref idref="epub-53" />
+    <itemref idref="epub-45" />
+    <itemref idref="epub-152" />
+    <itemref idref="epub-47" />
+    <itemref idref="epub-151" />
+    <itemref idref="epub-83" />
+    <itemref idref="epub-155" />
+    <itemref idref="epub-84" />
+    <itemref idref="epub-149" />
+    <itemref idref="epub-62" />
+    <itemref idref="epub-127" />
+    <itemref idref="epub-128" />
+    <itemref idref="epub-44" />
+    <itemref idref="epub-129" />
+    <itemref idref="epub-63" />
+    <itemref idref="epub-81" />
+    <itemref idref="epub-130" />
+    <itemref idref="epub-76" />
+    <itemref idref="epub-126" />
+    <itemref idref="epub-125" />
+    <itemref idref="epub-70" />
+    <itemref idref="epub-73" />
+    <itemref idref="epub-68" />
+    <itemref idref="epub-65" />
+    <itemref idref="epub-67" />
+    <itemref idref="epub-64" />
+    <itemref idref="epub-71" />
+    <itemref idref="epub-72" />
+    <itemref idref="epub-69" />
+    <itemref idref="epub-66" />
+    <itemref idref="epub-85" />
+    <itemref idref="epub-60" />
+    <itemref idref="epub-51" />
+    <itemref idref="epub-52" />
+    <itemref idref="epub-124" />
+    <itemref idref="epub-105" />
+    <itemref idref="epub-104" />
+    <itemref idref="epub-2" />
+    <itemref idref="epub-0" />
+    <itemref idref="epub-2" />
+    <itemref idref="epub-0" />
+    <itemref idref="epub-59" linear="no" />
+    <itemref idref="epub-90" linear="no" />
+    <itemref idref="epub-93" linear="no" />
+    <itemref idref="epub-106" linear="no" />
+    <itemref idref="epub-107" linear="no" />
+    <itemref idref="epub-108" linear="no" />
+    <itemref idref="epub-109" linear="no" />
+    <itemref idref="epub-110" linear="no" />
+    <itemref idref="epub-111" linear="no" />
+    <itemref idref="epub-112" linear="no" />
+    <itemref idref="epub-113" linear="no" />
+    <itemref idref="epub-114" linear="no" />
+    <itemref idref="epub-115" linear="no" />
+    <itemref idref="epub-116" linear="no" />
+    <itemref idref="epub-117" linear="no" />
+    <itemref idref="epub-118" linear="no" />
+    <itemref idref="epub-119" linear="no" />
+    <itemref idref="epub-120" linear="no" />
+    <itemref idref="epub-121" linear="no" />
+    <itemref idref="epub-156" linear="no" />
+    <itemref idref="epub-157" linear="no" />
+    <itemref idref="epub-158" linear="no" />
+    <itemref idref="epub-159" linear="no" />
+  </spine>
+  <guide>
+    <reference type="toc" title="Table of Contents" href="index.xhtml" />
+  </guide>
+</package>

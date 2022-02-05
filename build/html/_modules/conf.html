@@ -1242,9 +1242,16 @@
     <span class="s1">&#39;sphinx.ext.coverage&#39;</span><span class="p">,</span>
     <span class="s1">&#39;sphinx.ext.autosectionlabel&#39;</span><span class="p">,</span>
     <span class="s1">&#39;autoapi.extension&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;sphinxcontrib.email&#39;</span><span class="p">,</span></div>
+    <span class="s1">&#39;sphinxcontrib.email&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinx_jupyterbook_latex&quot;</span><span class="p">,</span></div>
 <span class="p">]</span>
 
+
+<span class="c1">#jupyter latex setup</span>
+
+
+<div class="viewcode-block" id="jb_load_imgconverter"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.jb_load_imgconverter">[docs]</a><span class="n">jb_load_imgconverter</span> <span class="o">=</span> <span class="kc">True</span></div>
+<div class="viewcode-block" id="jblatex_captions_to_parts"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.jblatex_captions_to_parts">[docs]</a><span class="n">jblatex_captions_to_parts</span> <span class="o">=</span> <span class="kc">True</span></div>
 
 <span class="c1">#email obfuscation settings</span>
 
@@ -1462,9 +1469,16 @@
 <span class="c1"># (source start file, target name, title,</span>
 <span class="c1">#  author, documentclass [howto, manual, or own class]).</span>
 <div class="viewcode-block" id="latex_documents"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.latex_documents">[docs]</a><span class="n">latex_documents</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="p">(</span><span class="n">master_doc</span><span class="p">,</span> <span class="s1">&#39;jnapolitanoio.tex&#39;</span><span class="p">,</span> <span class="s1">&#39;jnapolitano.io Documentation&#39;</span><span class="p">,</span>
-     <span class="s1">&#39;Justin Napolitano&#39;</span><span class="p">,</span> <span class="s1">&#39;manual&#39;</span><span class="p">),</span></div>
+    <span class="p">(</span><span class="n">master_doc</span><span class="p">,</span> <span class="s1">&#39;jnapolitanoio.tex&#39;</span><span class="p">,</span> <span class="s1">&#39;jnapolitano.io&#39;</span><span class="p">,</span>
+     <span class="s1">&#39;Justin Napolitano&#39;</span><span class="p">,</span> <span class="s1">&#39;manual&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span></div>
 <span class="p">]</span>
+<span class="c1">#latex_toplevel_sectioning = &#39;part&#39;</span>
+<span class="c1">#latex_engine = &#39;xelatex&#39;</span>
+<div class="viewcode-block" id="latex_engine"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.latex_engine">[docs]</a><span class="n">latex_engine</span> <span class="o">=</span> <span class="s1">&#39;pdflatex&#39;</span></div>
+<div class="viewcode-block" id="latex_use_xindy"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.latex_use_xindy">[docs]</a><span class="n">latex_use_xindy</span> <span class="o">=</span> <span class="kc">True</span></div>
+<div class="viewcode-block" id="latex_show_urls"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.latex_show_urls">[docs]</a><span class="n">latex_show_urls</span> <span class="o">=</span> <span class="s1">&#39;footnote&#39;</span></div>
+<div class="viewcode-block" id="latex_show_pagerefs"><a class="viewcode-back" href="../autoapi/conf/index.html#conf.latex_show_pagerefs">[docs]</a><span class="n">latex_show_pagerefs</span> <span class="o">=</span> <span class="kc">True</span></div>
+
 
 
 <span class="c1"># -- Options for manual page output ------------------------------------------</span>

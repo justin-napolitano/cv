@@ -69,8 +69,15 @@ extensions = [
     'sphinx.ext.autosectionlabel',
     'autoapi.extension',
     'sphinxcontrib.email',
+    "sphinx_jupyterbook_latex",
 ]
 
+
+#jupyter latex setup
+
+
+jb_load_imgconverter = True
+jblatex_captions_to_parts = True
 
 #email obfuscation settings
 
@@ -288,9 +295,16 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'jnapolitanoio.tex', 'jnapolitano.io Documentation',
-     'Justin Napolitano', 'manual'),
+    (master_doc, 'jnapolitanoio.tex', 'jnapolitano.io',
+     'Justin Napolitano', 'manual', False),
 ]
+#latex_toplevel_sectioning = 'part'
+#latex_engine = 'xelatex'
+latex_engine = 'pdflatex'
+latex_use_xindy = True
+latex_show_urls = 'footnote'
+latex_show_pagerefs = True
+
 
 
 # -- Options for manual page output ------------------------------------------

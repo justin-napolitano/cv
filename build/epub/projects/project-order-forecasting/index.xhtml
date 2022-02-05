@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Cigarette Sales Forecasting and Order Prediction" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="projects/project-order-forecasting/index.xhtml" />
+  <meta property="og:description" content="Description: I wrote this program as a project to help a midsized retail company forecast their cigarette sales., It works by pulling data from a SQL server into dataframes., I then calculate the w..." />
+  
+    <title>Cigarette Sales Forecasting and Order Prediction</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/epub.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../sections/blog/posts/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+             <div class="section" id="cigarette-sales-forecasting-and-order-prediction">
+<h1>Cigarette Sales Forecasting and Order Prediction</h1>
+<div class="section" id="description">
+<h2>Description</h2>
+<ul class="simple">
+<li><p>I wrote this program as a project to help a midsized retail company forecast their cigarette sales.</p></li>
+<li><p>It works by pulling data from a SQL server into dataframes.</p></li>
+<li><p>I then calculate the weekly average sales volume for each cigarrette brand accross 58 retail locactions.</p></li>
+<li><p>If the total number of cartons sold of a brand per week is greater than the minimum inventory value for that brand than the program would produce an order output.</p></li>
+<li><p>The data was then exported to an excel spreadhseet that could be distributed to each store manager.</p></li>
+</ul>
+</div>
+<div class="section" id="how-to-improve">
+<h2>How to Improve</h2>
+<ul class="simple">
+<li><p>I discovered that the true number of items inventory was often less than the predicted amount according to average sales data.</p></li>
+<li><p>When comparing averages to invoices some items appeared to be sold at volumes much greater than reported in sales reports.</p></li>
+<li><p>For this report to accurately model the flow of reatila commerce it must account for the average number of items “lost” in transport and those that “dissapear” from the shelves.</p></li>
+</ul>
+</div>
+<div class="section" id="links">
+<h2>Links</h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/justin-napolitano/Cigarette-Forecasting-and-Ordering">GitHub</a><span class="link-target"> [https://github.com/justin-napolitano/Cigarette-Forecasting-and-Ordering]</span></p></li>
+</ul>
+</div>
+<div class="section" id="code-documentation">
+<h2>Code Documentation</h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1">
+<a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">cigarette_sales_order_form</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#cigarette_sales_order_form.cwd">cwd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#cigarette_sales_order_form.df">df</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#cigarette_sales_order_form.index">index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#cigarette_sales_order_form.df2">df2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#id0">df2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#cigarette_sales_order_form.weekly_average">weekly_average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#id1">df2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#id2">df2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#cigarette_sales_order_form.x">x</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#cigarette_sales_order_form.max_i">max_i</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#cigarette_sales_order_form.df3">df3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/cigarette_sales_order_form/index.xhtml#id3">df3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+    
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./projects/project-order-forecasting"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    
+<script>kernelName = 'python3'</script>
+
+<div class="section">
+   
+</div>
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

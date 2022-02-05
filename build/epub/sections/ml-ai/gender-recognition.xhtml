@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Gender Recognition with TensorFlow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="sections/ml-ai/gender-recognition.xhtml" />
+  <meta property="og:description" content="Description: Python scripts that call the TensorFlow API to categorize photos according to gender.. Links: Github[https://github.com/justin-napolitano/Gender-Recognition-from-image]. Module Documen..." />
+  
+    <title>Gender Recognition with TensorFlow</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/epub.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../blog/posts/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+             <div class="section" id="gender-recognition-with-tensorflow">
+<h1>Gender Recognition with TensorFlow</h1>
+<div class="section" id="description">
+<h2>Description</h2>
+<ul class="simple">
+<li><p>Python scripts that call the TensorFlow API to categorize photos according to gender.</p></li>
+</ul>
+</div>
+<div class="section" id="links">
+<h2>Links</h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/justin-napolitano/Gender-Recognition-from-image">Github</a><span class="link-target"> [https://github.com/justin-napolitano/Gender-Recognition-from-image]</span></p></li>
+</ul>
+</div>
+<div class="section" id="module-documentation">
+<h2>Module Documentation</h2>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Gender Recognition Documentation</span></p>
+<ul>
+<li class="toctree-l1">
+<a class="reference internal" href="../../autoapi/preprocess/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">preprocess</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../autoapi/preprocess/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/preprocess/index.xhtml#functions">Functions</a></li>
+<li class="toctree-l3">
+<a class="reference internal" href="../../autoapi/preprocess/index.xhtml#attributes">Attributes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/preprocess/index.xhtml#preprocess.logger">logger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/preprocess/index.xhtml#preprocess.align_dlib">align_dlib</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/preprocess/index.xhtml#preprocess.main">main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/preprocess/index.xhtml#preprocess.preprocess_image">preprocess_image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/preprocess/index.xhtml#preprocess._process_image">_process_image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/preprocess/index.xhtml#preprocess._buffer_image">_buffer_image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/preprocess/index.xhtml#preprocess._align_image">_align_image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/preprocess/index.xhtml#preprocess.input_directory">input_directory</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1">
+<a class="reference internal" href="../../autoapi/data_generation/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">data_generation</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../autoapi/data_generation/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3">
+<a class="reference internal" href="../../autoapi/data_generation/index.xhtml#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/data_generation/index.xhtml#data_generation.main">main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/data_generation/index.xhtml#data_generation.create_generators">create_generators</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/data_generation/index.xhtml#data_generation.create_model">create_model</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/data_generation/index.xhtml#data_generation.run_model">run_model</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/data_generation/index.xhtml#data_generation.plot_data">plot_data</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1">
+<a class="reference internal" href="../../autoapi/lfw_input/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">lfw_input</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#classes">Classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#functions">Functions</a></li>
+<li class="toctree-l3">
+<a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#attributes">Attributes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#lfw_input.logger">logger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#lfw_input.read_data">read_data</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#lfw_input.read_image_from_disk">read_image_from_disk</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#lfw_input.get_image_paths_and_labels">get_image_paths_and_labels</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#lfw_input.get_dataset">get_dataset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#lfw_input.filter_dataset">filter_dataset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#lfw_input.split_dataset">split_dataset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/lfw_input/index.xhtml#lfw_input.ImageClass">ImageClass</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1">
+<a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">FilterDataset</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#classes">Classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#functions">Functions</a></li>
+<li class="toctree-l3">
+<a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#attributes">Attributes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#FilterDataset.logger">logger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#FilterDataset.get_dataset">get_dataset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#FilterDataset.filter_dataset">filter_dataset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#FilterDataset.clean_directory">clean_directory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#FilterDataset.validate_dataset">validate_dataset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#FilterDataset.test_dateset">test_dateset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#FilterDataset.ImageClass">ImageClass</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#FilterDataset.validate_data">validate_data</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/FilterDataset/index.xhtml#FilterDataset.parser">parser</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1">
+<a class="reference internal" href="../../autoapi/align_dlib/index.xhtml"><code class="xref py py-mod docutils literal notranslate"><span class="pre">align_dlib</span></code></a><ul>
+<li class="toctree-l2">
+<a class="reference internal" href="../../autoapi/align_dlib/index.xhtml#module-contents">Module Contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../autoapi/align_dlib/index.xhtml#classes">Classes</a></li>
+<li class="toctree-l3">
+<a class="reference internal" href="../../autoapi/align_dlib/index.xhtml#attributes">Attributes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/align_dlib/index.xhtml#align_dlib.TEMPLATE">TEMPLATE</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/align_dlib/index.xhtml#align_dlib.INV_TEMPLATE">INV_TEMPLATE</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/align_dlib/index.xhtml#align_dlib.MINMAX_TEMPLATE">MINMAX_TEMPLATE</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../autoapi/align_dlib/index.xhtml#align_dlib.AlignDlib">AlignDlib</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+    
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./sections/ml-ai"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    
+<script>kernelName = 'python3'</script>
+
+<div class="section">
+   
+</div>
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>
