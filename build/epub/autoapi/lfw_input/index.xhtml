@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="lfw_input" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="autoapi/lfw_input/index.xhtml" />
+  <meta property="og:description" content="Module Contents: Classes: Functions: Attributes:" />
+  
+    <title>lfw_input</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/epub.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../sections/blog/posts/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+             <div class="section" id="module-lfw_input">
+<span id="lfw-input"></span><h1><a class="reference internal" href="#module-lfw_input" title="lfw_input"><code class="xref py py-mod docutils literal notranslate"><span class="pre">lfw_input</span></code></a></h1>
+<div class="section" id="module-contents">
+<h2>Module Contents</h2>
+<div class="section" id="classes">
+<h3>Classes</h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lfw_input.ImageClass" title="lfw_input.ImageClass"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ImageClass</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="functions">
+<h3>Functions</h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lfw_input.read_data" title="lfw_input.read_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_data</span></code></a>(image_paths, label_list, image_size, batch_size, max_nrof_epochs, num_threads, shuffle, random_flip, random_brightness, random_contrast)</p></td>
+<td><p>Creates Tensorflow Queue to batch load images. Applies transformations to images as they are loaded.</p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#lfw_input.read_image_from_disk" title="lfw_input.read_image_from_disk"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_image_from_disk</span></code></a>(filename_to_label_tuple)</p></td>
+<td><p>Consumes input tensor and loads image</p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lfw_input.get_image_paths_and_labels" title="lfw_input.get_image_paths_and_labels"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_image_paths_and_labels</span></code></a>(dataset)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#lfw_input.get_dataset" title="lfw_input.get_dataset"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_dataset</span></code></a>(input_directory)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lfw_input.filter_dataset" title="lfw_input.filter_dataset"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_dataset</span></code></a>(dataset, min_images_per_label=10)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#lfw_input.split_dataset" title="lfw_input.split_dataset"><code class="xref py py-obj docutils literal notranslate"><span class="pre">split_dataset</span></code></a>(dataset, split_ratio=0.8)</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="attributes">
+<h3>Attributes</h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#lfw_input.logger" title="lfw_input.logger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">logger</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py data">
+<dt class="sig sig-object py" id="lfw_input.logger">
+<span class="sig-prename descclassname"><span class="pre">lfw_input.</span></span><span class="sig-name descname"><span class="pre">logger</span></span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lfw_input.read_data">
+<span class="sig-prename descclassname"><span class="pre">lfw_input.</span></span><span class="sig-name descname"><span class="pre">read_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image_paths</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">image_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_nrof_epochs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_threads</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shuffle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">random_flip</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">random_brightness</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">random_contrast</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<p>Creates Tensorflow Queue to batch load images. Applies transformations to images as they are loaded.
+:param random_brightness:
+:param random_flip:
+:param image_paths: image paths to load
+:param label_list: class labels for image paths
+:param image_size: size to resize images to
+:param batch_size: num of images to load in batch
+:param max_nrof_epochs: total number of epochs to read through image list
+:param num_threads: num threads to use
+:param shuffle: Shuffle images
+:param random_flip: Random Flip image
+:param random_brightness: Apply random brightness transform to image
+:param random_contrast: Apply random contrast transform to image
+:return: images and labels of batch_size</p>
+</dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lfw_input.read_image_from_disk">
+<span class="sig-prename descclassname"><span class="pre">lfw_input.</span></span><span class="sig-name descname"><span class="pre">read_image_from_disk</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename_to_label_tuple</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<p>Consumes input tensor and loads image
+:param filename_to_label_tuple:
+:type filename_to_label_tuple: list
+:return: tuple of image and label</p>
+</dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lfw_input.get_image_paths_and_labels">
+<span class="sig-prename descclassname"><span class="pre">lfw_input.</span></span><span class="sig-name descname"><span class="pre">get_image_paths_and_labels</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lfw_input.get_dataset">
+<span class="sig-prename descclassname"><span class="pre">lfw_input.</span></span><span class="sig-name descname"><span class="pre">get_dataset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_directory</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lfw_input.filter_dataset">
+<span class="sig-prename descclassname"><span class="pre">lfw_input.</span></span><span class="sig-name descname"><span class="pre">filter_dataset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">min_images_per_label</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="lfw_input.split_dataset">
+<span class="sig-prename descclassname"><span class="pre">lfw_input.</span></span><span class="sig-name descname"><span class="pre">split_dataset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">split_ratio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.8</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="lfw_input.ImageClass">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">lfw_input.</span></span><span class="sig-name descname"><span class="pre">ImageClass</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">image_paths</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl class="py method">
+<dt class="sig sig-object py" id="lfw_input.ImageClass.__str__">
+<span class="sig-name descname"><span class="pre">__str__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<p>Return str(self).</p>
+</dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lfw_input.ImageClass.__len__">
+<span class="sig-name descname"><span class="pre">__len__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</dd>
+</dl>
+
+</div>
+</div>
+</div>
+
+    
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./autoapi/lfw_input"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    
+<script>kernelName = 'python3'</script>
+
+<div class="section">
+   
+</div>
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

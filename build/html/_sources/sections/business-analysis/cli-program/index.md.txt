@@ -5,7 +5,7 @@ title: SQL Projects
 # SQL 
 
 
-:::{admonition} SQL Projects
+:::{topic} SQL Projects
 Blah blah introduction
 :::
 

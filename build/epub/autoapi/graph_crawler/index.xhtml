@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="graph_crawler" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="autoapi/graph_crawler/index.xhtml" />
+  <meta property="og:description" content="Module Contents: Classes: Functions: Attributes:" />
+  
+    <title>graph_crawler</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/epub.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../sections/blog/posts/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+             <div class="section" id="module-graph_crawler">
+<span id="graph-crawler"></span><h1><a class="reference internal" href="#module-graph_crawler" title="graph_crawler"><code class="xref py py-mod docutils literal notranslate"><span class="pre">graph_crawler</span></code></a></h1>
+<div class="section" id="module-contents">
+<h2>Module Contents</h2>
+<div class="section" id="classes">
+<h3>Classes</h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#graph_crawler.Realtor_Url_Data" title="graph_crawler.Realtor_Url_Data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Realtor_Url_Data</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#graph_crawler.Realtor_Search_URL" title="graph_crawler.Realtor_Search_URL"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Realtor_Search_URL</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#graph_crawler.TO_PROCESS" title="graph_crawler.TO_PROCESS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TO_PROCESS</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#graph_crawler.IS_CHILD" title="graph_crawler.IS_CHILD"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IS_CHILD</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#graph_crawler.IS_ROOT" title="graph_crawler.IS_ROOT"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IS_ROOT</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#graph_crawler.IS_SIBLING" title="graph_crawler.IS_SIBLING"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IS_SIBLING</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#graph_crawler.to_process_node_struct" title="graph_crawler.to_process_node_struct"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_process_node_struct</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#graph_crawler.id_label" title="graph_crawler.id_label"><code class="xref py py-obj docutils literal notranslate"><span class="pre">id_label</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#graph_crawler.UpdateGraph" title="graph_crawler.UpdateGraph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGraph</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="functions">
+<h3>Functions</h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#graph_crawler.instantiate_neo_driver" title="graph_crawler.instantiate_neo_driver"><code class="xref py py-obj docutils literal notranslate"><span class="pre">instantiate_neo_driver</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#graph_crawler.get_data_from_realtor_url" title="graph_crawler.get_data_from_realtor_url"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_data_from_realtor_url</span></code></a>(url)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#graph_crawler.get_root_url" title="graph_crawler.get_root_url"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_root_url</span></code></a>(neo_driver)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#graph_crawler.get_non_processed_node" title="graph_crawler.get_non_processed_node"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_non_processed_node</span></code></a>(neo_driver)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#graph_crawler.create_friendship" title="graph_crawler.create_friendship"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_friendship</span></code></a>(neo_driver)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#graph_crawler.create_url_list" title="graph_crawler.create_url_list"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_url_list</span></code></a>(non_processed_node)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#graph_crawler.update_graph" title="graph_crawler.update_graph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_graph</span></code></a>(neo_driver)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even">
+<td><p><a class="reference internal" href="#graph_crawler.crawl_graph" title="graph_crawler.crawl_graph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">crawl_graph</span></code></a>()</p></td>
+<td><p>#find all ancestors and descendents</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="attributes">
+<h3>Attributes</h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="row-odd">
+<td><p><a class="reference internal" href="#graph_crawler.neo_driver" title="graph_crawler.neo_driver"><code class="xref py py-obj docutils literal notranslate"><span class="pre">neo_driver</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py function">
+<dt class="sig sig-object py" id="graph_crawler.instantiate_neo_driver">
+<span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">instantiate_neo_driver</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="graph_crawler.Realtor_Url_Data">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">Realtor_Url_Data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">root_url</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.Realtor_Url_Data.create_url_list">
+<span class="sig-name descname"><span class="pre">create_url_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_it</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">root_url</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.Realtor_Url_Data.calculate_number_of_pages">
+<span class="sig-name descname"><span class="pre">calculate_number_of_pages</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.Realtor_Url_Data.get_soup">
+<span class="sig-name descname"><span class="pre">get_soup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">real_url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">response</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.Realtor_Url_Data.get_web_data">
+<span class="sig-name descname"><span class="pre">get_web_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">soup</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.Realtor_Url_Data.get_request">
+<span class="sig-name descname"><span class="pre">get_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">real_url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">headers</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="graph_crawler.get_data_from_realtor_url">
+<span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">get_data_from_realtor_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="graph_crawler.get_root_url">
+<span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">get_root_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">neo_driver</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="graph_crawler.get_non_processed_node">
+<span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">get_non_processed_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">neo_driver</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="graph_crawler.create_friendship">
+<span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">create_friendship</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">neo_driver</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="graph_crawler.create_url_list">
+<span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">create_url_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">non_processed_node</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="graph_crawler.Realtor_Search_URL">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">Realtor_Search_URL</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">processed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_root</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_child</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_sibling</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="graph_crawler.TO_PROCESS">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">TO_PROCESS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">priority</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="graph_crawler.IS_CHILD">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">IS_CHILD</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">priority</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="graph_crawler.IS_ROOT">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">IS_ROOT</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">priority</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="graph_crawler.IS_SIBLING">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">IS_SIBLING</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">priority</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="graph_crawler.to_process_node_struct">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">to_process_node_struct</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type_property_of_node</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="graph_crawler.id_label">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">id_label</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">UpdateGraph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">neo_driver</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.get_root_url">
+<span class="sig-name descname"><span class="pre">get_root_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.create_url_list">
+<span class="sig-name descname"><span class="pre">create_url_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">non_processed_node</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.set_node_to_sprouted">
+<span class="sig-name descname"><span class="pre">set_node_to_sprouted</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">property</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.create_node_struct">
+<span class="sig-name descname"><span class="pre">create_node_struct</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">processed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_root</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_child</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_sibling</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.create_relationship_last_to_current_node">
+<span class="sig-name descname"><span class="pre">create_relationship_last_to_current_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.create_to_process_node_property_struct">
+<span class="sig-name descname"><span class="pre">create_to_process_node_property_struct</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'To_Process'</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.get_to_process_node">
+<span class="sig-name descname"><span class="pre">get_to_process_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_property_struct</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.create_to_process_relationship_struct">
+<span class="sig-name descname"><span class="pre">create_to_process_relationship_struct</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.create_is_child_relationship">
+<span class="sig-name descname"><span class="pre">create_is_child_relationship</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.create_is_root_relationship">
+<span class="sig-name descname"><span class="pre">create_is_root_relationship</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.create_is_sibling_relationship">
+<span class="sig-name descname"><span class="pre">create_is_sibling_relationship</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.create_id_struct_from_node">
+<span class="sig-name descname"><span class="pre">create_id_struct_from_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.create_relationship_by_id">
+<span class="sig-name descname"><span class="pre">create_relationship_by_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">relationship_struct</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">relationship_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="graph_crawler.UpdateGraph.add_node">
+<span class="sig-name descname"><span class="pre">add_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_struct</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_label</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+</dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="graph_crawler.update_graph">
+<span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">update_graph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">neo_driver</span></span></em><span class="sig-paren">)</span>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="graph_crawler.crawl_graph">
+<span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">crawl_graph</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span>
+</dt>
+<dd>
+<dl>
+<dt>#find all ancestors and descendents</dt>
+<dd>
+<p>MATCH (n:Node2)
+WITH n, [(n)&lt;-[:Child*]-(x) | x] as ancestors,  [(x)&lt;-[:Child*]-(n) | x] as descendants</p>
+<p>#find 1 parent and 1 child
+MATCH (n:Node2)
+WITH n, [(n)&lt;-[:Child]-(x) | x][0] as parent,  [(x)&lt;-[:Child]-(n) | x] as children
+RETURN n, parent, children
+RETURN n, ancestors, descendants</p>
+<p>#set state all descendents of root
+match (n:Realtor_Search_URL) where (n.is_root = True and n.sprouted = True and n.processed = False) return n limit 100
+match n [:IS_STATE_OF] -&gt; (state)
+pull 100 url’s at a time by state</p>
+<p>n:Realtor_Search_URL where n.processed = false
+match n -{‘is_state_of’} -&gt;[]</p>
+<p>n:Realtor_Search_URL related to to_process</p>
+<p>#create or stack??/ or just do it randomly?</p>
+</dd>
+</dl>
+</dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="graph_crawler.neo_driver">
+<span class="sig-prename descclassname"><span class="pre">graph_crawler.</span></span><span class="sig-name descname"><span class="pre">neo_driver</span></span>
+</dt>
+<dd></dd>
+</dl>
+
+</div>
+</div>
+</div>
+
+    
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./autoapi/graph_crawler"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    
+<script>kernelName = 'python3'</script>
+
+<div class="section">
+   
+</div>
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

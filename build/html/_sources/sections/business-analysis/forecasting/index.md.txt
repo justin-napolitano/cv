@@ -5,7 +5,7 @@ title: Sales Analysis and Forecasting
 # Sales Analysis and Forecasting 
 
 
-:::{admonition} Sales Analysis and forecasting
+:::{topic} Sales Analysis and forecasting
 Blah blah introduction
 :::
 
