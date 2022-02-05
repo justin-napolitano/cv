@@ -193,12 +193,12 @@ Module Contents
    
 
 .. py:data:: blog_path
-   :annotation: = sections/blog/posts
+   :annotation: = docs/blog/posts
 
    
 
 .. py:data:: blog_post_pattern
-   :annotation: = ['sections/blog/*.md', 'sections/blog/posts/*.md', 'sections/blog/posts/*.rst']
+   :annotation: = ['docs/blog/*.md', 'docs/blog/posts/*.md', 'docs/blog/posts/*.rst']
 
    
 
