@@ -17,8 +17,6 @@ Turkish Kurdish Conflict Database
     :maxdepth: 3
     :numbered:
 
-    introduction
-    event_query_procedure
     database_schema
     reference_tables
     analysis
