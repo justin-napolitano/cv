@@ -156,7 +156,7 @@ Python Modules section.. Blah blah blah. this is just a space holder.
 :maxdepth: 2
 
 /docs/graph-database/index.rst
-/docs/relational-databases/index.rst
+/docs/relational-database/index.rst
 ```
 :::
 
