@@ -1160,13 +1160,11 @@ class sql_connection():
             driver = '{ODBC Driver 17 for SQL Server}'
         else:
             driver = '/usr/local/lib/libmsodbcsql.17.dylib'
-        server = '' 
-        database = 'Testing' 
-        username = '' 
-        password = '' 
+        username = 'nonyas' 
+        password = 'wouldnt ya like to know' 
 
-        database = ''
-        server = '' 
+        database = 'datadatadatadatadata'
+        server = 'basebasebasebasebasebase' 
         self.connection = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server}; \
                             SERVER=' + server + '; \
                             DATABASE=' + database +'; \
@@ -1176,15 +1174,16 @@ class sql_connection():
         self.cursor = self.connection.cursor()
 
 if __name__ =='__main__':
-    universal_settings = universal_settings()
+    #changed universal setting to just settings.  It's bad practice to name it twice.  
+    settings = universal_settings()
     logging.info('Testing_Main Function')
     #onnection = sql_connection
     print("******************************************")
-    print("Cox Oil Report Builder Version 0.0")
+    print("*** Oil Company Report Builder Version 0.0")
     print("Doug...Get Ready to **** Yourself")
     print("******************************************")
     final_report = report()
-    write_to_file = write_to_file(final_report.report,universal_settings.cwd)
+    write_to_file = write_to_file(final_report.report,settings.cwd)
    
 #The main function. Intitates the process of selecting the reports.  
 #The end.  Watch demo video to see code in action.
