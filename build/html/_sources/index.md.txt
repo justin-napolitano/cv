@@ -98,9 +98,9 @@ Business analysis section.. Blah blah blah.  this is just a space holder.
 ```{toctree}
 :caption: Business Analysis
 :maxdepth: 2
-/docs/project-cli-program/index.rst
-/docs/project-order-forecasting/index.rst
-/docs/project-retail-sales-forecasting/index.rst
+/docs/business-analysis/project-cli-program/index.rst
+/docs/business-analysis/project-order-forecasting/index.rst
+/docs/business-analysis/project-retail-sales-forecasting/index.rst
 ```
 :::
 ## ML and AI
@@ -115,8 +115,8 @@ ML and AI section.. Blah blah blah.  this is just a space holder.
 :caption: ML and AI
 :maxdepth: 2
 
-/docs/project-supcourt-tensorflow/index.rst
-/docs/project-gender-recognition/gender-recognition.rst
+/docs/ml-ai/project-supcourt-tensorflow/index.rst
+/docs/ml-ai/project-gender-recognition/gender-recognition.rst
 
 ```
 :::
