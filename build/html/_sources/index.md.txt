@@ -11,7 +11,7 @@ rewrite the tree.  it is too greatly nested for latex output and referencing.
 
 ## Education
 
-:::{card} Education
+:::{card}
 Blah Blah Blah i went to college.  
 :::
 
@@ -29,7 +29,7 @@ Blah Blah Blah i went to college.
 
 ## Work History
 
-:::{card} Work History
+:::{card} 
 Blah Blah Blah I've had a few jobs
 :::
 
@@ -46,7 +46,7 @@ Blah Blah Blah I've had a few jobs
 
 ## Languages
 
-:::{card} Spoken Languages
+:::{card} 
 
 I like to learn to new languages. 
 
@@ -70,7 +70,7 @@ I like to learn to new languages.
 
 ## Political Analysis
 
-:::{card} Political Analysis
+:::{card} 
 The Political Analysis sections is a collection of projects that I primaily completed as a research professional at the University of Central Florida.
 :::
 
@@ -89,7 +89,7 @@ The Political Analysis sections is a collection of projects that I primaily comp
 
 ## Business Analysis and Reporting
 
-:::{card} Business Analysis
+:::{card} 
 Business analysis section.. Blah blah blah.  this is just a space holder.  
 :::
 
@@ -105,7 +105,7 @@ Business analysis section.. Blah blah blah.  this is just a space holder.
 :::
 ## ML and AI
 
-:::{card} Business Analysis
+:::{card}
 ML and AI section.. Blah blah blah.  this is just a space holder.  
 :::
 
@@ -123,7 +123,7 @@ ML and AI section.. Blah blah blah.  this is just a space holder.
 
 ## Python Modules
 
-:::{card} Python Modules
+:::{card} 
 Python Modules section.. Blah blah blah. this is just a space holder.  
 :::
 
@@ -145,7 +145,7 @@ Python Modules section.. Blah blah blah. this is just a space holder.
 
 ## Database Development
 
-:::{card} Database Development 
+:::{card} 
  Blah blah blah. this is just a space holder.  
 :::
 
@@ -162,7 +162,7 @@ Python Modules section.. Blah blah blah. this is just a space holder.
 
 ## Data Integration
 
-:::{card} Data Integration
+:::{card} 
  Blah blah blah. this is just a space holder.  
 :::
 :::{card}
@@ -177,7 +177,7 @@ Python Modules section.. Blah blah blah. this is just a space holder.
 
 :::
 ## Contact 
-:::{card} Contact
+:::{card} 
 Blah blah blah. this is just a space holder.  
 :::
 
@@ -218,7 +218,7 @@ Blah blah blah. this is just a space holder.
 
 ## Journal 
 
-```{card} Journal
+```{card} 
 The blog section is a collection of my journal entries.  It details and references my work.  It also includes personal projects.  
 ```
 :::{card}
@@ -232,8 +232,8 @@ docs/blog/posts
 
 ## Reference
 
-```{card} References
-You will find the references here.  
+```{card} 
+You will find the site references here.  
 ```
 :::{card}
 

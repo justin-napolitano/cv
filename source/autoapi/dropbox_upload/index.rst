@@ -28,7 +28,7 @@ Attributes
    dropbox_upload.TOKEN
    dropbox_upload.LOCALFILE
    dropbox_upload.BACKUPPATH
-   dropbox_upload.LOCALFILE
+   dropbox_upload.LOCALFILE_JOINED
    dropbox_upload.dbx
 
 
@@ -57,7 +57,7 @@ Attributes
 
    
 
-.. py:data:: LOCALFILE
+.. py:data:: LOCALFILE_JOINED
    
 
    
