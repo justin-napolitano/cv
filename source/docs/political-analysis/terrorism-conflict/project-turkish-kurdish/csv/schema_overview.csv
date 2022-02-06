@@ -1,0 +1,34 @@
+Variable Name,Data Type
+:ref:`projects/project-turkish-kurdish/database_schema:Year`,Integer
+:ref:`projects/project-turkish-kurdish/database_schema:Aggressor_Id`,Categorical Integer
+:ref:`projects/project-turkish-kurdish/database_schema:Aggressor_Name`,String
+:ref:`projects/project-turkish-kurdish/database_schema:Victim_ID`,Categorical Integer
+:ref:`projects/project-turkish-kurdish/database_schema:Victim_Name`,String
+:ref:`projects/project-turkish-kurdish/database_schema:Source_Article`,String
+:ref:`projects/project-turkish-kurdish/database_schema:Source_Date`,DateString
+:ref:`projects/project-turkish-kurdish/database_schema:Source_Headline`,String
+:ref:`projects/project-turkish-kurdish/database_schema:Region_Name`,String
+:ref:`projects/project-turkish-kurdish/database_schema:Kurdish_Region`,Boolean
+:ref:`projects/project-turkish-kurdish/database_schema:Region_Code`,Categorical
+:ref:`projects/project-turkish-kurdish/database_schema:Province_Name`,"String"
+:ref:`projects/project-turkish-kurdish/database_schema:Province_Code`,"Categorical"
+:ref:`projects/project-turkish-kurdish/database_schema:Country`,String
+:ref:`projects/project-turkish-kurdish/database_schema:Date_Start`,String
+:ref:`projects/project-turkish-kurdish/database_schema:Date_End`,String
+:ref:`projects/project-turkish-kurdish/database_schema:Women_Killed`,Integer
+:ref:`projects/project-turkish-kurdish/database_schema:Children_Killed`,Integer
+:ref:`projects/project-turkish-kurdish/database_schema:Total_Killed`,Integer
+:ref:`projects/project-turkish-kurdish/database_schema:Women_Raped`,Integer
+:ref:`projects/project-turkish-kurdish/database_schema:Illegal_Imprisonments`,Integer
+:ref:`projects/project-turkish-kurdish/database_schema:Illegal_Arrests`,Integer
+:ref:`projects/project-turkish-kurdish/database_schema:Illegal_Detentions`,Integer
+:ref:`projects/project-turkish-kurdish/database_schema:Human_Rights_Category_Code`,Categorical
+:ref:`projects/project-turkish-kurdish/database_schema:Human_Rights_Category_Name`,String
+:ref:`projects/project-turkish-kurdish/database_schema:Human_Rights_Offense_Code`,Categorical
+:ref:`projects/project-turkish-kurdish/database_schema:Human_Rights_Offense_Name`,String
+:ref:`projects/project-turkish-kurdish/database_schema:Is_Women_Event`,Boolean
+:ref:`projects/project-turkish-kurdish/database_schema:Is_Children_Event`,Boolean
+:ref:`projects/project-turkish-kurdish/database_schema:Description`,String
+:ref:`projects/project-turkish-kurdish/database_schema:ID`,Integer
+
+
