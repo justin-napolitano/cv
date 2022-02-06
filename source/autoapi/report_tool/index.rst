@@ -30,7 +30,7 @@ Attributes
 
 .. autoapisummary::
 
-   report_tool.universal_settings
+   report_tool.settings
 
 
 .. py:class:: sales_report
@@ -151,7 +151,7 @@ Attributes
 .. py:class:: sql_connection
 
 
-.. py:data:: universal_settings
+.. py:data:: settings
    
 
    
