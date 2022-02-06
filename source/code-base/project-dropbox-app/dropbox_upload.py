@@ -27,15 +27,17 @@ TOKEN = '<insert your token here>'
 LOCALFILE = 'test.txt'
 BACKUPPATH = '/DropboxApplications/JanusGraph/realtor_data/test.txt' # Keep the forward slash before destination filename
 
-LOCALFILE = SEP.join((CWD,LOCALFILE))
-print(LOCALFILE)
+
+##### Sphinx requries that I give each new assignment a new name.  I have to change this habit in all of my new writing.  
+LOCALFILE_JOINED = SEP.join((CWD,LOCALFILE))
+print(LOCALFILE_JOINED)
 
 # Uploads contents of LOCALFILE to Dropbox
 def backup():
-    with open(LOCALFILE, 'rb') as f:
+    with open(LOCALFILE_JOINED, 'rb') as f:
         # We use WriteMode=overwrite to make sure that the settings in the file
         # are changed on upload
-        print("Uploading " + LOCALFILE + " to Dropbox as " + BACKUPPATH + "...")
+        print("Uploading " + LOCALFILE_JOINED + " to Dropbox as " + BACKUPPATH + "...")
         try:
             dbx.files_upload(f.read(), BACKUPPATH, mode=WriteMode('overwrite'))
         except ApiError as err:
