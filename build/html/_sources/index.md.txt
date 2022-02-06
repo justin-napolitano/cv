@@ -21,6 +21,7 @@ Write the realtor graph
 
 ****** Write the Resume Section *******
 
+****** Collect your sysadmin scripts **************
 :::
 
 ## Education
