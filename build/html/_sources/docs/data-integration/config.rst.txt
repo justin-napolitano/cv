@@ -3,4 +3,4 @@ Config File
 ########################
 
 
-.. literalinclude:: /projects/project-data-integration/config.yaml
+.. literalinclude:: /docs/data-integration/config.rst

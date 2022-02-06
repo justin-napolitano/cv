@@ -27,7 +27,7 @@ Module Contents
 
    
 
-.. py:data:: df2
+.. py:data:: grouped_df
    
 
    
@@ -37,12 +37,12 @@ Module Contents
 
    
 
-.. py:data:: df2
+.. py:data:: joined_grouped_df
    
 
    
 
-.. py:data:: df2
+.. py:data:: sorted_joined_grouped_df
    
 
    
@@ -57,12 +57,12 @@ Module Contents
 
    
 
-.. py:data:: df3
+.. py:data:: maxed_sorted_joined_grouped_df
    
 
    
 
-.. py:data:: df3
+.. py:data:: sorted_maxed_sorted_joined_grouped_df
    
 
    

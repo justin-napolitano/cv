@@ -1159,18 +1159,20 @@
 <span class="c1"># Access token</span>
 <div class="viewcode-block" id="TOKEN"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.TOKEN">[docs]</a><span class="n">TOKEN</span> <span class="o">=</span> <span class="s1">&#39;&lt;insert your token here&gt;&#39;</span></div>
 
-<span class="n">LOCALFILE</span> <span class="o">=</span> <span class="s1">&#39;test.txt&#39;</span>
+<div class="viewcode-block" id="LOCALFILE"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.LOCALFILE">[docs]</a><span class="n">LOCALFILE</span> <span class="o">=</span> <span class="s1">&#39;test.txt&#39;</span></div>
 <div class="viewcode-block" id="BACKUPPATH"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.BACKUPPATH">[docs]</a><span class="n">BACKUPPATH</span> <span class="o">=</span> <span class="s1">&#39;/DropboxApplications/JanusGraph/realtor_data/test.txt&#39;</span> <span class="c1"># Keep the forward slash before destination filename</span></div>
 
-<div class="viewcode-block" id="LOCALFILE"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.LOCALFILE">[docs]</a><span class="n">LOCALFILE</span> <span class="o">=</span> <span class="n">SEP</span><span class="o">.</span><span class="n">join</span><span class="p">((</span><span class="n">CWD</span><span class="p">,</span><span class="n">LOCALFILE</span><span class="p">))</span></div>
-<span class="nb">print</span><span class="p">(</span><span class="n">LOCALFILE</span><span class="p">)</span>
+
+<span class="c1">##### Sphinx requries that I give each new assignment a new name.  I have to change this habit in all of my new writing.  </span>
+<div class="viewcode-block" id="LOCALFILE_JOINED"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.LOCALFILE_JOINED">[docs]</a><span class="n">LOCALFILE_JOINED</span> <span class="o">=</span> <span class="n">SEP</span><span class="o">.</span><span class="n">join</span><span class="p">((</span><span class="n">CWD</span><span class="p">,</span><span class="n">LOCALFILE</span><span class="p">))</span></div>
+<span class="nb">print</span><span class="p">(</span><span class="n">LOCALFILE_JOINED</span><span class="p">)</span>
 
 <span class="c1"># Uploads contents of LOCALFILE to Dropbox</span>
 <div class="viewcode-block" id="backup"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.backup">[docs]</a><span class="k">def</span> <span class="nf">backup</span><span class="p">():</span>
-    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">LOCALFILE</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">LOCALFILE_JOINED</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="c1"># We use WriteMode=overwrite to make sure that the settings in the file</span>
         <span class="c1"># are changed on upload</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Uploading &quot;</span> <span class="o">+</span> <span class="n">LOCALFILE</span> <span class="o">+</span> <span class="s2">&quot; to Dropbox as &quot;</span> <span class="o">+</span> <span class="n">BACKUPPATH</span> <span class="o">+</span> <span class="s2">&quot;...&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Uploading &quot;</span> <span class="o">+</span> <span class="n">LOCALFILE_JOINED</span> <span class="o">+</span> <span class="s2">&quot; to Dropbox as &quot;</span> <span class="o">+</span> <span class="n">BACKUPPATH</span> <span class="o">+</span> <span class="s2">&quot;...&quot;</span><span class="p">)</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">dbx</span><span class="o">.</span><span class="n">files_upload</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">(),</span> <span class="n">BACKUPPATH</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="n">WriteMode</span><span class="p">(</span><span class="s1">&#39;overwrite&#39;</span><span class="p">))</span>
         <span class="k">except</span> <span class="n">ApiError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
