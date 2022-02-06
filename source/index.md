@@ -5,7 +5,21 @@ title: Justin Napolitano
 
 :::{todo}
 
-rewrite the tree.  it is too greatly nested for latex output and referencing.  
+Remove unnecessary cards from this page
+
+add cards to all sections.  It makes for easier reading i woud say.  
+
+Review References
+
+Clean up the code
+
+Reorganize the WTO paper
+
+Store your db's
+
+Write the realtor graph
+
+****** Write the Resume Section *******
 
 :::
 
