@@ -13,6 +13,6 @@ Blah blah introduction
 :caption: International Law
 :maxdepth: 2
 
-project-human-rights-law/index.rst
+project-human-rights-law/human-rights-law.rst
 
 ```
