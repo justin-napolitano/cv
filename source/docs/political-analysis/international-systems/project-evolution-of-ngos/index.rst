@@ -18,12 +18,14 @@ Intro
 
 The Question
 ==============
+
 .. card:: 
 
     International Organizations are vital to the operation of International politics.  They regulate behaviors, facilitate communication, and promote cooperation between states.  The process by which International Organizations come into being is well discussed in the literature, however, not equally well debated is the process by which International Organizations come to modify their operating procedure.  Or in other words, when the member states renegotiate the terms of their membership. 
 
 Literature Review
 =================
+
 .. card:: 
 
     Kenneth Waltz argues that domestic politics is irrelevant to the calculus of states. He argues primarily that states act according to the actions of other states.  The bureaucracy, the public, and the legal systems are all factors not considered in his framework.  He does however take the position that “politics determines economics (Waltz 2010)”, but does not further his sociological analyses.  In other words, he accepts that the behavior of states is derive from the socially constructed political process, but does not analyze human systems to other than the state when attempting to predict state behavior.  (Waltz 2010) 
@@ -42,8 +44,9 @@ Literature Review
 
 Theoretical Intuition
 =========================
+
 .. card:: 
-    
+
     Ultimately one must put forth a state centric argument in order to best explain the operation of International Organizations and the International System more generally.   This heart of this paper will rest on the assumption that the state as an organization is most responsible for influencing the character of the International System, and ultimately the modification of International Organizations.  It does not however, assume the state to be a rational entity capable of responding to external stimuli in a way that maximizes its gains.  Rather, as all states depend on domestic legitimacy in order to exist, states ultimately operate in order to appease the demands of powerful domestic constituencies, often without regard to the actions of other states.
 
     The structure of state can be thought of as a pyramidal hierarchy built upon increasing levels of authority within the state.  The base of which is comprised of all of those people without any employment by the state.  Moving up from there may be civil servants of the state bureaucracy.  Ultimately the pinnacle of which is the institution or institutions responsible for the management of all lower levels.  The most important factor binding the structure is legitimacy as each level is inherently dependent on the external recognition of its legitimacy by the levels beneath it.  For instance, the Executive of the United States is essentially without power, except for that power which is recognized Congress and by extension the general public.  A similar argument example could be drawn for the military, the police, or any other institution within a state. 
@@ -60,18 +63,21 @@ Theoretical Intuition
 
 Hypothesis
 ===============
+
 .. card:: 
     
     Therefore, I argue that international organizations modify the terms of their agreements only when it is in the interest of the powerful domestic constituencies of a coalition of powerful member states.  A state cannot go it alone at the international level, nor will it successfully ratify the agreement if it is not in the interest of the domestic camp. 
 
 Design of the Test
 =======================
+
 .. card:: 
 
     I adopt the intuition of the two-level game, but avoid the calculus by way of preferences.   Instead I adopt a calculus by way of expectations.  Preferences are unbounded.  Expectations however are the set of expected outcomes bounded by law and authority.  In other words, expectations are preferences bounded by the exercise of a state’s institutions.  As institutions are expected to act in such a way as to maintain legitimacy, their free exercise is not unbounded.  As opposed to the convergence about preferences, I expect that win-sets will converge about a common set of expectations that arise from the internal process of maintaining political legitimacy.  To test my hypothesis then, I first analyze the international organization.  I then discern which states are the most powerful.  I then look to the issue, to see whether it is an issue is supported by domestic coalitions of the powerful states.  If that issue is agreed upon by the most influential states within the organization it is likely that new agreements will be signed, and the policy of the organization will change. 
 
 Case Study
 ======================
+
 .. card:: 
 
     The transition of the GATT (the General Agreement on Tariffs and Trade) to the World Trade Organization will serve as the case study of analysis.  I will analyze the foundations of the GATT, the basic terms under which the states agreed to enter into the agreement.  Then I will look to the World Trade Organization, and seek to explain why the most powerful states in the organization sought to expand the GATT and why they agreed to the terms. 
@@ -96,6 +102,7 @@ Case Study
 
 Findings
 =========
+
 .. card:: 
 
     As expected the Quad States (United States, Canada, Japan, EU) were by far the most important states involved in the process of negotiation.  Their economic power and political clout were necessary to develop an international organization with actual effect on international trade.  Thus, the states with economic value were essentially ignored in this process. (VanGrasstek, 2013).
@@ -106,6 +113,7 @@ Findings
 
 Discussion
 ==========
+
 .. card:: 
 
     Regarding when international organizations likely to modify their agreements, they appear to do so when a coalition of powerful states can agree to do so.  Such a straightforward answer to the question seems obvious however, in the process of research many questions arose as to if this is actually true.  I began this research from an entirely different point of view.  I sought to answer whether Non-Governmental Organizations (NGO) could influence Inter-Governmental organization to adopt new policy. 
@@ -122,6 +130,7 @@ Discussion
 
 Conclusion
 ===========
+
 .. card:: 
 
     When do International Organizations renegotiate the terms of their agreements? They do so when powerful states within the organization compel it do so.  The logic of the Two-Level game though indicates that the process is dependent on the expectations of domestic coalitions.  Also, the relative power between states makes it so that only a minority of powerful states are actually important when attempting to renegotiate deals.  A win-set is achieved when the expectations of the domestic coalitions of the most relevant states converge about a deal.   The transition of the GATT to the World Trade Organization as case study demonstrates this process.  The Quad states, the most relevant state in the international economy   Rather, it is apparent that the need for politicians to maintain their domestic coalitions was more important to the calculus of the leaders than the acquisition of power or wealth.
