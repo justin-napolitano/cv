@@ -4,9 +4,9 @@ Sranan Tongo
 
 .. topic:: Background
 
-Sranan is a creole language derived from West African languages, English, Dutch, and Portuguese.  
+    Sranan is a creole language derived from West African languages, English, Dutch, and Portuguese.  
 
-I speak a modified version of the language everyday at home to communicate that is heavily influenced by English and Cantonese.  
+    I speak a modified version of the language everyday at home to communicate that is heavily influenced by English and Cantonese.  
 
 
 Proficiency
