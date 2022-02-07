@@ -4,25 +4,25 @@ Cantonese
 
 .. topic:: Background
 
-    I speak Cantonese daily at home.  I can therefore understand and speak the langauge as it is used informally. I cannot however, speak formally or in business settings.  
+I speak Cantonese daily at home.  I can therefore understand and speak the langauge as it is used informally. I cannot however, speak formally or in business settings.  
 
 
 Beginnner Level Reading Proficiency
 ---------------------------------------
-.. card:: 
 
-    I can read a few characters relating to food items and basic actions.  
+
+I can read a few characters relating to food items and basic actions.  
 
 
 Beginner Level Listening Proficiency
 -------------------------------------
-.. card:: 
 
-    I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
+
+I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
 
 
 Beginner Level Speaking Proficiency
 -------------------------------------
-.. card:: 
 
-    I can order food and interact with merchants.  
+
+I can order food and interact with merchants.  

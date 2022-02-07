@@ -28,6 +28,7 @@ Links
 Code Documentation
 -------------------
 
+.. card:: 
 
-.. toctree::
-    SalesForcasting.ipynb
+    .. toctree::
+        SalesForcasting.ipynb

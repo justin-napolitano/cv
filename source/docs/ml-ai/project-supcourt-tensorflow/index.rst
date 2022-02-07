@@ -29,19 +29,23 @@ How to Improve
 Training Features
 -------------------
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Training Features:
+.. card:: 
 
-   training-features.rst
+   .. toctree::
+      :maxdepth: 2
+      :caption: Training Features:
+
+      training-features.rst
 
 Python Modules
 ---------------
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Modules:
-   
-   /autoapi/SupremeCourtPredictionsCase/index.rst
-   /autoapi/SupremeCourtPredictionsJustice/index.rst
+.. card:: 
+      
+   .. toctree::
+      :maxdepth: 2
+      :caption: Modules:
+      
+      /autoapi/SupremeCourtPredictionsCase/index.rst
+      /autoapi/SupremeCourtPredictionsJustice/index.rst
   

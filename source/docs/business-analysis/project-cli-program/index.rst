@@ -25,7 +25,9 @@ Links
 Code Documentation
 --------------------
 
-.. toctree::
+.. card:: 
     
+    .. toctree::
+        
 
-    /autoapi/report_tool/index.rst
+        /autoapi/report_tool/index.rst

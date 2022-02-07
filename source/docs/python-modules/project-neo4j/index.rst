@@ -18,13 +18,16 @@ Links
 Module Documentation
 ---------------------
 
-.. toctree::
-    :caption: Neo4jModules
-    :maxdepth: 4
 
-    /autoapi/neo_native_apy/index.rst
-    /autoapi/neoModelAPI/index.rst
-    /autoapi/NeoNodes/index.rst
-    /autoapi/neo4jClasses/index.rst
+.. card:: 
+    
+    .. toctree::
+        :caption: Neo4jModules
+        :maxdepth: 4
+
+        /autoapi/neo_native_apy/index.rst
+        /autoapi/neoModelAPI/index.rst
+        /autoapi/NeoNodes/index.rst
+        /autoapi/neo4jClasses/index.rst
     
 

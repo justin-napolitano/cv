@@ -20,15 +20,19 @@ Tables
 Human Rights Category Table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. csv-table:: Human Rights Category Table
-   :file: csv/human_rights_category_table.csv
-   :widths: 3, 10
-   :header-rows: 1
+.. card:: 
+
+   .. csv-table:: Human Rights Category Table
+      :file: csv/human_rights_category_table.csv
+      :widths: 3, 10
+      :header-rows: 1
 
 Human Rights Offense Table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. csv-table:: Human Rights Offense Table
-   :file: csv/human_rights_offense_table.csv
-   :widths: 5, 20, 5, 5, 15, 15
-   :header-rows: 1
+.. card:: 
+   
+   .. csv-table:: Human Rights Offense Table
+      :file: csv/human_rights_offense_table.csv
+      :widths: 5, 20, 5, 5, 15, 15
+      :header-rows: 1

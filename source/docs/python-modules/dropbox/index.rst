@@ -17,9 +17,10 @@ Links
 Module Documentation
 ---------------------
 
+.. card:: 
+    
+    .. toctree::
+        :caption: Dropbox Modules Documentation
+        :maxdepth: 4
 
-.. toctree::
-    :caption: Dropbox Modules Documentation
-    :maxdepth: 4
-
-    /autoapi/dropbox_upload/index
+        /autoapi/dropbox_upload/index
