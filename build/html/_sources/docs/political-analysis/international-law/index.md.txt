@@ -9,6 +9,8 @@ title: International Law
 Blah blah introduction
 :::
 
+:::{card}
+
 ```{toctree}
 :caption: International Law
 :maxdepth: 2
@@ -16,3 +18,4 @@ Blah blah introduction
 project-human-rights-law/human-rights-law.rst
 
 ```
+:::
