@@ -1,0 +1,2287 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="conf" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="autoapi/conf/index.html" />
+  <meta property="og:description" content="Module Contents:" />
+  
+    <title>conf &#8212; Justin Napolitano</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script src="../../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../_static/android-chrome-512x512.png"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+     
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../docs/blog/posts/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../index.html">
+   Curricula Vitae
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Education
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/education/ucf.html">
+   The University of Central Florida
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Work History
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/work-history/btjn.html">
+   BTJN, LLC
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/work-history/ucf.html">
+   The University of Central Florida
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Languages
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/languages/french-language.html">
+   French
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/languages/spanish-language.html">
+   Spanish
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/languages/mandarin-language.html">
+   Mandarin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/languages/cantonese-language.html">
+   Cantonese
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/languages/msa-language.html">
+   Modern Standard Arabic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/languages/sranan-language.html">
+   Sranan Tongo
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Political Analysis
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/political-analysis/sup-court/index.html">
+   United States Supreme Court
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../docs/political-analysis/sup-court/project-sup-court-meta-data-graph/index.html">
+     MetaData Graph
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../lok_scraper_1/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         lok_scraper_1
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../loc_scraper_test/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         loc_scraper_test
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../docs/political-analysis/sup-court/project-supcourt-tensorflow/index.html">
+     TensorFlow Voting Behavior Predictions
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+    <label for="toctree-checkbox-3">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../docs/political-analysis/sup-court/project-supcourt-tensorflow/training-features.html">
+       Training Features
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../SupremeCourtPredictionsCase/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         SupremeCourtPredictionsCase
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../SupremeCourtPredictionsJustice/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         SupremeCourtPredictionsJustice
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../docs/political-analysis/sup-court/project-supcourt-legalmodel/legal-model.html">
+     Analysis of the Legal Model of Jurisprudence
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../docs/political-analysis/sup-court/project-supcourt-attitudinal-model/attitudinal-model.html">
+     Analysis of the Attitudinal Model of Jurisprudence
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../docs/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.html">
+     Analysis of Masterpiece Cake
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/political-analysis/international-systems/index.html">
+   Instutitional Research
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../docs/political-analysis/international-systems/project-evolution-of-ngos/index.html">
+     The Evolution of the GATT to the WTO
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/political-analysis/terrorism-conflict/index.html">
+   Terrorism and Conflict
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../docs/political-analysis/terrorism-conflict/project-turkish-kurdish/index.html">
+     Turkish Kurdish Conflict Database
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../docs/political-analysis/terrorism-conflict/project-turkish-kurdish/database_schema.html">
+       1. Schema Definitions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../docs/political-analysis/terrorism-conflict/project-turkish-kurdish/reference_tables.html">
+       2. Reference Tables
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../docs/political-analysis/terrorism-conflict/project-turkish-kurdish/analysis.html">
+       3. Analysis
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../docs/political-analysis/terrorism-conflict/project-turkish-kurdish/pdf.html">
+       4. PDF
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/political-analysis/international-law/index.html">
+   International Law
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../docs/political-analysis/international-law/project-human-rights-law/human-rights-law.html">
+     International Human Rights Law Framework
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Business Analysis
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/business-analysis/project-cli-program/index.html">
+   Sales Reporting CLI Program
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../report_tool/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       report_tool
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/business-analysis/project-order-forecasting/index.html">
+   Cigarette Sales Forecasting and Order Prediction
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../cigarette_sales_order_form/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       cigarette_sales_order_form
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/business-analysis/project-retail-sales-forecasting/index.html">
+   Retail Sales Forecasting
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../docs/business-analysis/project-retail-sales-forecasting/SalesForcasting.html">
+     Retail Sales Analysis Jupyter Notebook
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  ML and AI
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/ml-ai/project-supcourt-tensorflow/index.html">
+   TensorFlow Voting Behavior Predictions
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../docs/ml-ai/project-supcourt-tensorflow/training-features.html">
+     Training Features
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../SupremeCourtPredictionsCase/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       SupremeCourtPredictionsCase
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../SupremeCourtPredictionsJustice/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       SupremeCourtPredictionsJustice
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/ml-ai/project-gender-recognition/gender-recognition.html">
+   Gender Recognition with TensorFlow
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+  <label for="toctree-checkbox-12">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../preprocess/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       preprocess
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../data_generation/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       data_generation
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lfw_input/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       lfw_input
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../FilterDataset/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       FilterDataset
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../align_dlib/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       align_dlib
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Python Modules
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/python-modules/pandas-functions/index.html">
+   Pandas Functions
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+  <label for="toctree-checkbox-13">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../PandasFunctions/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       PandasFunctions
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/python-modules/project-neo4j/index.html">
+   Neo4j Modules
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+  <label for="toctree-checkbox-14">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../neo_native_apy/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       neo_native_apy
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../neoModelAPI/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       neoModelAPI
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../NeoNodes/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       NeoNodes
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../neo4jClasses/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       neo4jClasses
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/python-modules/project-janus/index.html">
+   JanusGraph Modules
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" type="checkbox"/>
+  <label for="toctree-checkbox-15">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../GremlinConnect/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       GremlinConnect
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../AddChildrenToRoot/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       AddChildrenToRoot
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../AddIsRootProperty/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       AddIsRootProperty
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../AddSproutedProperty/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       AddSproutedProperty
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../TSubmit/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       TSubmit
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Query/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       Query
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../CleareGraph/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       CleareGraph
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/python-modules/project-google-service/index.html">
+   Google Services Modules
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" type="checkbox"/>
+  <label for="toctree-checkbox-16">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../GoogleServices/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       GoogleServices
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/python-modules/project-flask-modules/index.html">
+   Flask Modules
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" type="checkbox"/>
+  <label for="toctree-checkbox-17">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../rest_server/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       rest_server
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/python-modules/project-spark-api/index.html">
+   Spark Modules
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" type="checkbox"/>
+  <label for="toctree-checkbox-18">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../sparkAPI/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       sparkAPI
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/python-modules/dropbox/index.html">
+   Dropbox Modules
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" type="checkbox"/>
+  <label for="toctree-checkbox-19">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../dropbox_upload/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       dropbox_upload
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Database Development
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/graph-database/index.html">
+   Graph Databases
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" type="checkbox"/>
+  <label for="toctree-checkbox-20">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../docs/graph-database/janus-graph.html">
+     Janus Graph Stack
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" type="checkbox"/>
+    <label for="toctree-checkbox-21">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Application/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         Application
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../docs/graph-database/neo.html">
+     Neo4j Stack
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" type="checkbox"/>
+    <label for="toctree-checkbox-22">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../graph_crawler/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         graph_crawler
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../realtor_graph/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         realtor_graph
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../docs/graph-database/networkx.html">
+     Networkx
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" type="checkbox"/>
+    <label for="toctree-checkbox-23">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../lok_scraper_1/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         lok_scraper_1
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/relational-database/index.html">
+   Relational Databases
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" type="checkbox"/>
+  <label for="toctree-checkbox-24">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../docs/relational-database/project-human-rights-law/human-rights-law.html">
+     International Human Rights Law Framework
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../docs/relational-database/project-turkish-kurdish/index.html">
+     Turkish Kurdish Conflict Database
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" type="checkbox"/>
+    <label for="toctree-checkbox-25">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../docs/relational-database/project-turkish-kurdish/database_schema.html">
+       1. Schema Definitions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../docs/relational-database/project-turkish-kurdish/reference_tables.html">
+       2. Reference Tables
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../docs/relational-database/project-turkish-kurdish/data.html">
+       3. Data
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Integration
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../docs/data-integration/csv-json-integration.html">
+   CSV and JSON Integration Application
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" type="checkbox"/>
+  <label for="toctree-checkbox-26">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../docs/data-integration/config.html">
+     Config File
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../integrate_main/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       integrate_main
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../integration_program_skeleton/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       integration_program_skeleton
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../integrate_load_vars/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       integrate_load_vars
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../integrate_csv_log/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       integrate_csv_log
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../integrate_load_df/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       integrate_load_df
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../integrate_clean_df/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       integrate_clean_df
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../integrate_merge/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       integrate_merge
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../integrate_write/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       integrate_write
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../integrate_log/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       integrate_log
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../integrate_json_log/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       integrate_json_log
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../upload_csv_to_neo/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       upload_csv_to_neo
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../csv_to_neo/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       csv_to_neo
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../PrepareCityDB/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       PrepareCityDB
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../PrepareZipCodeDB/index.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       PrepareZipCodeDB
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Contact
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/contact/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Journal
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/blog/posts.html">
+   Posts
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Reference
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../docs/bibliography/bibliography.html">
+   Bibliography
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../py-modindex.html">
+   Python Module Index
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../genindex.html">
+   Index
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+<div class="sbt-scroll-pixel-helper"></div>
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/autoapi/conf/index.rst.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.rst</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/justin-napolitano/cv"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#module-contents">
+   Module Contents
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.project">
+     project
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.copyright">
+     copyright
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.author">
+     author
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_title">
+     html_title
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.extensions">
+     extensions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.jb_load_imgconverter">
+     jb_load_imgconverter
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.jblatex_captions_to_parts">
+     jblatex_captions_to_parts
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.email_automode">
+     email_automode
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autoapi_type">
+     autoapi_type
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autoapi_dirs">
+     autoapi_dirs
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autoapi_generate_api_docs">
+     autoapi_generate_api_docs
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autoapi_keep_files">
+     autoapi_keep_files
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autoapi_add_toctree_entry">
+     autoapi_add_toctree_entry
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autosectionlabel_prefix_document">
+     autosectionlabel_prefix_document
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.nitpick_ignore">
+     nitpick_ignore
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.suppress_warnings">
+     suppress_warnings
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.numfig">
+     numfig
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.myst_enable_extensions">
+     myst_enable_extensions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.thebe_config">
+     thebe_config
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.external_toc_path">
+     external_toc_path
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.external_toc_exclude_missing">
+     external_toc_exclude_missing
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.intersphinx_mapping">
+     intersphinx_mapping
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.templates_path">
+     templates_path
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.source_suffix">
+     source_suffix
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.master_doc">
+     master_doc
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.language">
+     language
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.exclude_patterns">
+     exclude_patterns
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.pygments_style">
+     pygments_style
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_theme">
+     html_theme
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_use_index">
+     html_use_index
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_logo">
+     html_logo
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_favicon">
+     html_favicon
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_last_updated_fmt">
+     html_last_updated_fmt
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_static_path">
+     html_static_path
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_sidebars">
+     html_sidebars
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_theme_options">
+     html_theme_options
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.htmlhelp_basename">
+     htmlhelp_basename
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.blog_path">
+     blog_path
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.blog_post_pattern">
+     blog_post_pattern
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.blog_baseurl">
+     blog_baseurl
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.fontawesome_included">
+     fontawesome_included
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.post_auto_image">
+     post_auto_image
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.post_auto_excerpt">
+     post_auto_excerpt
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.execution_show_tb">
+     execution_show_tb
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.bibtex_bibfiles">
+     bibtex_bibfiles
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.bibtex_reference_style">
+     bibtex_reference_style
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.bibtex_default_style">
+     bibtex_default_style
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_elements">
+     latex_elements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_documents">
+     latex_documents
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_engine">
+     latex_engine
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_use_xindy">
+     latex_use_xindy
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_show_urls">
+     latex_show_urls
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_show_pagerefs">
+     latex_show_pagerefs
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.man_pages">
+     man_pages
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.texinfo_documents">
+     texinfo_documents
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.epub_title">
+     epub_title
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.epub_exclude_files">
+     epub_exclude_files
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.todo_include_todos">
+     todo_include_todos
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>conf</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#module-contents">
+   Module Contents
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.project">
+     project
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.copyright">
+     copyright
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.author">
+     author
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_title">
+     html_title
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.extensions">
+     extensions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.jb_load_imgconverter">
+     jb_load_imgconverter
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.jblatex_captions_to_parts">
+     jblatex_captions_to_parts
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.email_automode">
+     email_automode
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autoapi_type">
+     autoapi_type
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autoapi_dirs">
+     autoapi_dirs
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autoapi_generate_api_docs">
+     autoapi_generate_api_docs
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autoapi_keep_files">
+     autoapi_keep_files
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autoapi_add_toctree_entry">
+     autoapi_add_toctree_entry
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.autosectionlabel_prefix_document">
+     autosectionlabel_prefix_document
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.nitpick_ignore">
+     nitpick_ignore
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.suppress_warnings">
+     suppress_warnings
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.numfig">
+     numfig
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.myst_enable_extensions">
+     myst_enable_extensions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.thebe_config">
+     thebe_config
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.external_toc_path">
+     external_toc_path
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.external_toc_exclude_missing">
+     external_toc_exclude_missing
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.intersphinx_mapping">
+     intersphinx_mapping
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.templates_path">
+     templates_path
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.source_suffix">
+     source_suffix
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.master_doc">
+     master_doc
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.language">
+     language
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.exclude_patterns">
+     exclude_patterns
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.pygments_style">
+     pygments_style
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_theme">
+     html_theme
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_use_index">
+     html_use_index
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_logo">
+     html_logo
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_favicon">
+     html_favicon
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_last_updated_fmt">
+     html_last_updated_fmt
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_static_path">
+     html_static_path
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_sidebars">
+     html_sidebars
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.html_theme_options">
+     html_theme_options
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.htmlhelp_basename">
+     htmlhelp_basename
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.blog_path">
+     blog_path
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.blog_post_pattern">
+     blog_post_pattern
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.blog_baseurl">
+     blog_baseurl
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.fontawesome_included">
+     fontawesome_included
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.post_auto_image">
+     post_auto_image
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.post_auto_excerpt">
+     post_auto_excerpt
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.execution_show_tb">
+     execution_show_tb
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.bibtex_bibfiles">
+     bibtex_bibfiles
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.bibtex_reference_style">
+     bibtex_reference_style
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.bibtex_default_style">
+     bibtex_default_style
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_elements">
+     latex_elements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_documents">
+     latex_documents
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_engine">
+     latex_engine
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_use_xindy">
+     latex_use_xindy
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_show_urls">
+     latex_show_urls
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.latex_show_pagerefs">
+     latex_show_pagerefs
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.man_pages">
+     man_pages
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.texinfo_documents">
+     texinfo_documents
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.epub_title">
+     epub_title
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.epub_exclude_files">
+     epub_exclude_files
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf.todo_include_todos">
+     todo_include_todos
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                 <div class="section" id="module-conf">
+<span id="conf"></span><h1>
+<a class="reference internal" href="#module-conf" title="conf"><code class="xref py py-mod docutils literal notranslate"><span class="pre">conf</span></code></a><a class="headerlink" href="#module-conf" title="Permalink to this headline">¶</a>
+</h1>
+<div class="section" id="module-contents">
+<h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a>
+</h2>
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.project">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">project</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">Justin</span> <span class="pre">Napolitano</span></em><a class="reference internal" href="../../_modules/conf.html#project"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.project" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.copyright">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">copyright</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">2022,</span> <span class="pre">Justin</span> <span class="pre">Napolitano</span></em><a class="reference internal" href="../../_modules/conf.html#copyright"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.copyright" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.author">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">author</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">Justin</span> <span class="pre">Napolitano</span></em><a class="reference internal" href="../../_modules/conf.html#author"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.author" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.html_title">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">html_title</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">Justin</span> <span class="pre">Napolitano</span></em><a class="reference internal" href="../../_modules/conf.html#html_title"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.html_title" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.extensions">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">extensions</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['ablog',</span> <span class="pre">'myst_nb',</span> <span class="pre">'sphinx_copybutton',</span> <span class="pre">'sphinx_design',</span> <span class="pre">'sphinx_thebe',...</span></em><a class="reference internal" href="../../_modules/conf.html#extensions"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.extensions" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.jb_load_imgconverter">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">jb_load_imgconverter</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#jb_load_imgconverter"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.jb_load_imgconverter" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.jblatex_captions_to_parts">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">jblatex_captions_to_parts</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#jblatex_captions_to_parts"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.jblatex_captions_to_parts" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.email_automode">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">email_automode</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#email_automode"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.email_automode" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.autoapi_type">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">autoapi_type</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">python</span></em><a class="reference internal" href="../../_modules/conf.html#autoapi_type"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.autoapi_type" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.autoapi_dirs">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">autoapi_dirs</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['../source']</span></em><a class="reference internal" href="../../_modules/conf.html#autoapi_dirs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.autoapi_dirs" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.autoapi_generate_api_docs">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">autoapi_generate_api_docs</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#autoapi_generate_api_docs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.autoapi_generate_api_docs" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.autoapi_keep_files">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">autoapi_keep_files</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#autoapi_keep_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.autoapi_keep_files" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.autoapi_add_toctree_entry">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">autoapi_add_toctree_entry</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">False</span></em><a class="reference internal" href="../../_modules/conf.html#autoapi_add_toctree_entry"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.autoapi_add_toctree_entry" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.autosectionlabel_prefix_document">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">autosectionlabel_prefix_document</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#autosectionlabel_prefix_document"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.autosectionlabel_prefix_document" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.nitpick_ignore">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">nitpick_ignore</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">[['py:class',</span> <span class="pre">'docutils.nodes.document'],</span> <span class="pre">['py:class',</span> <span class="pre">'docutils.parsers.rst.directives.body.Sidebar']]</span></em><a class="reference internal" href="../../_modules/conf.html#nitpick_ignore"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.nitpick_ignore" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.suppress_warnings">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">suppress_warnings</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['myst.domains',</span> <span class="pre">'ref.ref']</span></em><a class="reference internal" href="../../_modules/conf.html#suppress_warnings"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.suppress_warnings" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.numfig">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">numfig</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#numfig"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.numfig" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.myst_enable_extensions">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">myst_enable_extensions</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['dollarmath',</span> <span class="pre">'deflist',</span> <span class="pre">'colon_fence']</span></em><a class="reference internal" href="../../_modules/conf.html#myst_enable_extensions"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.myst_enable_extensions" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.thebe_config">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">thebe_config</span></span><a class="reference internal" href="../../_modules/conf.html#thebe_config"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.thebe_config" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.external_toc_path">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">external_toc_path</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">_toc.yml</span></em><a class="reference internal" href="../../_modules/conf.html#external_toc_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.external_toc_path" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.external_toc_exclude_missing">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">external_toc_exclude_missing</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">False</span></em><a class="reference internal" href="../../_modules/conf.html#external_toc_exclude_missing"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.external_toc_exclude_missing" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.intersphinx_mapping">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">intersphinx_mapping</span></span><a class="reference internal" href="../../_modules/conf.html#intersphinx_mapping"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.intersphinx_mapping" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.templates_path">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">templates_path</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['_templates']</span></em><a class="reference internal" href="../../_modules/conf.html#templates_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.templates_path" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.source_suffix">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">source_suffix</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['.rst',</span> <span class="pre">'.md']</span></em><a class="reference internal" href="../../_modules/conf.html#source_suffix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.source_suffix" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.master_doc">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">master_doc</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">index</span></em><a class="reference internal" href="../../_modules/conf.html#master_doc"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.master_doc" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.language">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">language</span></span><a class="reference internal" href="../../_modules/conf.html#language"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.language" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.exclude_patterns">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">exclude_patterns</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['posts/*/.ipynb_checkpoints/*',</span> <span class="pre">'.github/*',</span> <span class="pre">'.history',</span> <span class="pre">'github_submodule/*',</span> <span class="pre">'LICENSE.md',...</span></em><a class="reference internal" href="../../_modules/conf.html#exclude_patterns"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.exclude_patterns" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.pygments_style">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">pygments_style</span></span><a class="reference internal" href="../../_modules/conf.html#pygments_style"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.pygments_style" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.html_theme">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">html_theme</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">sphinx_book_theme</span></em><a class="reference internal" href="../../_modules/conf.html#html_theme"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.html_theme" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.html_use_index">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">html_use_index</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#html_use_index"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.html_use_index" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.html_logo">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">html_logo</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">_static/icons/faviconio-logo/logo.png</span></em><a class="reference internal" href="../../_modules/conf.html#html_logo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.html_logo" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.html_favicon">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">html_favicon</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">_static/icons/favicon_io-white/android-chrome-512x512.png</span></em><a class="reference internal" href="../../_modules/conf.html#html_favicon"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.html_favicon" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.html_last_updated_fmt">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">html_last_updated_fmt</span></span><em class="property"><span class="w"> </span><span class="pre">=</span></em><a class="reference internal" href="../../_modules/conf.html#html_last_updated_fmt"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.html_last_updated_fmt" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.html_static_path">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">html_static_path</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['_static']</span></em><a class="reference internal" href="../../_modules/conf.html#html_static_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.html_static_path" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.html_sidebars">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">html_sidebars</span></span><a class="reference internal" href="../../_modules/conf.html#html_sidebars"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.html_sidebars" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.html_theme_options">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">html_theme_options</span></span><a class="reference internal" href="../../_modules/conf.html#html_theme_options"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.html_theme_options" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.htmlhelp_basename">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">htmlhelp_basename</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">jnapolitano.io</span></em><a class="reference internal" href="../../_modules/conf.html#htmlhelp_basename"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.htmlhelp_basename" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.blog_path">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">blog_path</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">docs/blog/posts</span></em><a class="reference internal" href="../../_modules/conf.html#blog_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.blog_path" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.blog_post_pattern">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">blog_post_pattern</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['docs/blog/*.md',</span> <span class="pre">'docs/blog/posts/*.md',</span> <span class="pre">'docs/blog/posts/*.rst']</span></em><a class="reference internal" href="../../_modules/conf.html#blog_post_pattern"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.blog_post_pattern" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.blog_baseurl">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">blog_baseurl</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">cv.jnapolitano.io</span></em><a class="reference internal" href="../../_modules/conf.html#blog_baseurl"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.blog_baseurl" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.fontawesome_included">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">fontawesome_included</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#fontawesome_included"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.fontawesome_included" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.post_auto_image">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">post_auto_image</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">1</span></em><a class="reference internal" href="../../_modules/conf.html#post_auto_image"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.post_auto_image" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.post_auto_excerpt">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">post_auto_excerpt</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">2</span></em><a class="reference internal" href="../../_modules/conf.html#post_auto_excerpt"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.post_auto_excerpt" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.execution_show_tb">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">execution_show_tb</span></span><a class="reference internal" href="../../_modules/conf.html#execution_show_tb"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.execution_show_tb" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.bibtex_bibfiles">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">bibtex_bibfiles</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['references/articles.bib',</span> <span class="pre">'references/references.bib',</span> <span class="pre">'references/bills.bib',...</span></em><a class="reference internal" href="../../_modules/conf.html#bibtex_bibfiles"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.bibtex_bibfiles" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.bibtex_reference_style">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">bibtex_reference_style</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">author_year</span></em><a class="reference internal" href="../../_modules/conf.html#bibtex_reference_style"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.bibtex_reference_style" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.bibtex_default_style">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">bibtex_default_style</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">alpha</span></em><a class="reference internal" href="../../_modules/conf.html#bibtex_default_style"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.bibtex_default_style" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.latex_elements">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">latex_elements</span></span><a class="reference internal" href="../../_modules/conf.html#latex_elements"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.latex_elements" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.latex_documents">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">latex_documents</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">[None]</span></em><a class="reference internal" href="../../_modules/conf.html#latex_documents"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.latex_documents" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.latex_engine">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">latex_engine</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">pdflatex</span></em><a class="reference internal" href="../../_modules/conf.html#latex_engine"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.latex_engine" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.latex_use_xindy">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">latex_use_xindy</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#latex_use_xindy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.latex_use_xindy" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.latex_show_urls">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">latex_show_urls</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">footnote</span></em><a class="reference internal" href="../../_modules/conf.html#latex_show_urls"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.latex_show_urls" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.latex_show_pagerefs">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">latex_show_pagerefs</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#latex_show_pagerefs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.latex_show_pagerefs" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.man_pages">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">man_pages</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">[None]</span></em><a class="reference internal" href="../../_modules/conf.html#man_pages"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.man_pages" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.texinfo_documents">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">texinfo_documents</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">[None]</span></em><a class="reference internal" href="../../_modules/conf.html#texinfo_documents"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.texinfo_documents" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.epub_title">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">epub_title</span></span><a class="reference internal" href="../../_modules/conf.html#epub_title"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.epub_title" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.epub_exclude_files">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">epub_exclude_files</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">['search.html']</span></em><a class="reference internal" href="../../_modules/conf.html#epub_exclude_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.epub_exclude_files" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="conf.todo_include_todos">
+<span class="sig-prename descclassname"><span class="pre">conf.</span></span><span class="sig-name descname"><span class="pre">todo_include_todos</span></span><em class="property"><span class="w"> </span><span class="pre">=</span> <span class="pre">True</span></em><a class="reference internal" href="../../_modules/conf.html#todo_include_todos"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#conf.todo_include_todos" title="Permalink to this definition">¶</a>
+</dt>
+<dd></dd>
+</dl>
+
+</div>
+</div>
+
+    
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./autoapi/conf"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    
+<script>kernelName = 'python3'</script>
+
+<div class="section">
+   
+</div>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Justin Napolitano<br/>
+    
+        &copy; Copyright 2022, Justin Napolitano.<br/>
+      Last updated on Feb 07, 2022.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
