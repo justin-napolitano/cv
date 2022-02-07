@@ -14,16 +14,19 @@ Proficiency
 
 Beginner Level Reading Proficiency
 -----------------------------------
+.. card:: 
 
-The written version of this language is not standardized; therefore,  I can not accurately rate my level of proficiency. 
+    The written version of this language is not standardized; therefore,  I can not accurately rate my level of proficiency. 
 
 Intermediate to Advanced Level Listening Proficiency
 ----------------------------------------------------
+.. card:: 
 
-Intermediate-Advanced level proficiency. I can understand about 50% to 75% of what I hear in normal conversation. 
+    Intermediate-Advanced level proficiency. I can understand about 50% to 75% of what I hear in normal conversation. 
 
 
 Intermediate to Advanced Level Speaking Proficiency
 ----------------------------------------------------
+.. card:: 
 
-Intermediate-Advanced level proficiency.  I can discuss day to to events and issue directives.  I can also express myself and abstract ideas.  
+    Intermediate-Advanced level proficiency.  I can discuss day to to events and issue directives.  I can also express myself and abstract ideas.  
