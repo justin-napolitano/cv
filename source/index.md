@@ -28,9 +28,6 @@ Write the realtor graph
 
 ## Education
 
-:::{card}
-Blah Blah Blah i went to college.  
-:::
 
 :::{card}
 
@@ -46,9 +43,6 @@ Blah Blah Blah i went to college.
 
 ## Work History
 
-:::{card} 
-Blah Blah Blah I've had a few jobs
-:::
 
 :::{card}
 
@@ -63,11 +57,6 @@ Blah Blah Blah I've had a few jobs
 
 ## Languages
 
-:::{card} 
-
-I like to learn to new languages. 
-
-:::
 
 :::{card}
 
@@ -87,9 +76,6 @@ I like to learn to new languages.
 
 ## Political Analysis
 
-:::{card} 
-The Political Analysis sections is a collection of projects that I primaily completed as a research professional at the University of Central Florida.
-:::
 
 :::{card}
 
@@ -106,9 +92,6 @@ The Political Analysis sections is a collection of projects that I primaily comp
 
 ## Business Analysis and Reporting
 
-:::{card} 
-Business analysis section.. Blah blah blah.  this is just a space holder.  
-:::
 
 :::{card}
 
@@ -122,9 +105,6 @@ Business analysis section.. Blah blah blah.  this is just a space holder.
 :::
 ## ML and AI
 
-:::{card}
-ML and AI section.. Blah blah blah.  this is just a space holder.  
-:::
 
 :::{card}
 
@@ -140,9 +120,6 @@ ML and AI section.. Blah blah blah.  this is just a space holder.
 
 ## Python Modules
 
-:::{card} 
-Python Modules section.. Blah blah blah. this is just a space holder.  
-:::
 
 :::{card}
 
@@ -162,9 +139,6 @@ Python Modules section.. Blah blah blah. this is just a space holder.
 
 ## Database Development
 
-:::{card} 
- Blah blah blah. this is just a space holder.  
-:::
 
 :::{card}
 
@@ -179,9 +153,6 @@ Python Modules section.. Blah blah blah. this is just a space holder.
 
 ## Data Integration
 
-:::{card} 
- Blah blah blah. this is just a space holder.  
-:::
 :::{card}
 
 ```{toctree}
@@ -194,11 +165,6 @@ Python Modules section.. Blah blah blah. this is just a space holder.
 
 :::
 ## Contact 
-:::{card} 
-Blah blah blah. this is just a space holder.  
-:::
-
-
 
 ```{toctree}
 :caption: Contact
@@ -233,9 +199,6 @@ Blah blah blah. this is just a space holder.
 
 ## Journal 
 
-```{card} 
-The blog section is a collection of my journal entries.  It details and references my work.  It also includes personal projects.  
-```
 :::{card}
 
 ```{toctree}
@@ -247,9 +210,6 @@ docs/blog/posts
 
 ## Reference
 
-```{card} 
-You will find the site references here.  
-```
 :::{card}
 
 ```{toctree}
