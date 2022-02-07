@@ -9,17 +9,20 @@ Cantonese
 
 Beginnner Level Reading Proficiency
 ---------------------------------------
+.. card:: 
 
-I can read a few characters relating to food items and basic actions.  
+    I can read a few characters relating to food items and basic actions.  
 
 
 Beginner Level Listening Proficiency
 -------------------------------------
+.. card:: 
 
-I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
+    I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
 
 
 Beginner Level Speaking Proficiency
 -------------------------------------
+.. card:: 
 
-I can order food and interact with merchants.  
+    I can order food and interact with merchants.  

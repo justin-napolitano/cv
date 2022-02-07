@@ -13,16 +13,20 @@ Proficiency
 Beginnner Level Reading Proficiency
 ---------------------------------------
 
-I can read a few characters relating to food items.  I also know some basic verbs and grammatical words.  
+.. card:: 
+    
+    I can read a few characters relating to food items.  I also know some basic verbs and grammatical words.  
 
 
 Beginner Level Listening Proficiency
 -------------------------------------
+.. card:: 
 
-I understand basic questions involving purchasing items from merchants and very basic commands.  
+    I understand basic questions involving purchasing items from merchants and very basic commands.  
 
 
 Beginner Level Speaking Proficiency
 -------------------------------------
+.. card:: 
 
-I can order food and interact with merchants.  I speak very informally and not in complete sentences. 
+    I can order food and interact with merchants.  I speak very informally and not in complete sentences. 
