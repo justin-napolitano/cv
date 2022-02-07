@@ -13,8 +13,9 @@ Proficiency
 
 Business Level Reading Proficiency
 -----------------------------------
+.. card:: 
 
-I can understand memos, email correspondance, and newspaper articles.
+    I can understand memos, email correspondance, and newspaper articles.
 
 
 Business Level Listening Proficiency
