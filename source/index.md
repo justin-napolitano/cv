@@ -23,7 +23,7 @@ Write the realtor graph
 ****** Write the Resume Section *******
 
 ****** Collect your sysadmin scripts **************
-    add github bash scripts
+    add github bash scripts do this now!
 :::
 
 ## Education
@@ -164,6 +164,20 @@ Write the realtor graph
 ```
 
 :::
+
+
+## Automation and Utility Scripts
+
+:::{card}
+
+:::{toctree}
+
+    :caption: Automation and Utility Scripts
+    :maxdepth: 2
+
+    /docs/automation/index.rst
+
+
 ## Contact 
 
 ```{toctree}
