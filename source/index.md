@@ -5,15 +5,16 @@ title: Justin Napolitano
 
 :::{todo}
 
-Remove unnecessary cards from this page
 
-add cards to all sections.  It makes for easier reading i woud say.  
+add cards to all sections.  It makes for easier reading i woud say.   Bad idea.  only add where necessaryd
+    review
 
 Review References
 
 Clean up the code
 
-Reorganize the WTO paper
+Reorganize the WTO paper. 
+    Good enough
 
 Store your db's
 
@@ -22,6 +23,7 @@ Write the realtor graph
 ****** Write the Resume Section *******
 
 ****** Collect your sysadmin scripts **************
+    add github bash scripts
 :::
 
 ## Education
