@@ -202,6 +202,7 @@ Blah blah blah. this is just a space holder.
 ```{toctree}
 :caption: Contact
 :maxdepth: 2
+:hidden:
 
 /docs/contact/contact.md
 
