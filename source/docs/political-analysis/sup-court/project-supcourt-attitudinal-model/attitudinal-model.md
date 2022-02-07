@@ -5,7 +5,7 @@
 ## Introduction
 
 
-:::{card}
+:::{card}ca
 
 
 This section will be an intro to the Attitudinal model
