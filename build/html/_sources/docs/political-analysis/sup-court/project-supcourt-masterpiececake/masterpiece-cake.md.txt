@@ -246,12 +246,15 @@ To determine a justice’s ideological score I test their votes across time to d
 the chart below.  
 
 
+
 ```{eval-rst}
 
-.. csv-table:: Ideological Score by Justice Figure 1.0
-    :header-rows: 1
-    :widths: 5, 5, 5, 5, 5
-    :file: tables/id-score-justice.csv
+.. card:: 
+
+    .. csv-table:: Ideological Score by Justice Figure 1.0
+        :header-rows: 1
+        :widths: 5, 5, 5, 5, 5
+        :file: tables/id-score-justice.csv
 ```
 
 #### Ideological Score by Justice First Ammendment 
@@ -260,10 +263,12 @@ Similarly, I derive ideological values according to voting patterns relating to 
 
 ```{eval-rst}
 
-.. csv-table:: Ideological Score by Justice by First Ammendment Figure 1.1
-    :header-rows: 1
-    :widths: 5, 5, 5, 5, 5, 5
-    :file: tables/id-first-ammendment.csv
+.. card:: 
+
+    .. csv-table:: Ideological Score by Justice by First Ammendment Figure 1.1
+        :header-rows: 1
+        :widths: 5, 5, 5, 5, 5, 5
+        :file: tables/id-first-ammendment.csv
 ```
 
 #### Ideological Score by Justice by Individual Issue Area
@@ -271,10 +276,12 @@ Finally, ideological scores are derived by issue area.  For the purpose of this 
 
 ```{eval-rst}
 
-.. csv-table:: Ideological Score by Justice by Issue Area Figure 1.2
-    :header-rows: 1
-    :widths: 5, 5, 5, 5, 5, 5, 5
-    :file: tables/id-issue-area.csv
+.. card:: 
+
+    .. csv-table:: Ideological Score by Justice by Issue Area Figure 1.2
+        :header-rows: 1
+        :widths: 5, 5, 5, 5, 5, 5, 5
+        :file: tables/id-issue-area.csv
 ```
 
 
@@ -290,20 +297,24 @@ In context, A liberal vote will found in favor of the Mr. Charlie Craig and his 
 
 ```{eval-rst}
 
-.. csv-table:: Justice Vote by General Ideological Score Figure 4
-    :header-rows: 1
-    :widths: 5, 5, 5
-    :file: tables/justice-vote-id-score.csv
+.. card:: 
+
+    .. csv-table:: Justice Vote by General Ideological Score Figure 4
+        :header-rows: 1
+        :widths: 5, 5, 5
+        :file: tables/justice-vote-id-score.csv
 ```
 #### Justice Votes by First Amendment 
 
 
 ```{eval-rst}
 
-.. csv-table:: Justice Vote by Amendment Figure 5
-    :header-rows: 1
-    :widths: 5, 5, 5, 5
-    :file: tables/justice-vote-amendment.csv
+.. card:: 
+
+    .. csv-table:: Justice Vote by Amendment Figure 5
+        :header-rows: 1
+        :widths: 5, 5, 5, 5
+        :file: tables/justice-vote-amendment.csv
 ```
 
 #### Justice Votes by Issue Area
@@ -311,10 +322,12 @@ In context, A liberal vote will found in favor of the Mr. Charlie Craig and his 
 
 ```{eval-rst}
 
-.. csv-table:: Justice Vote by Issue Area Figure 6
-    :header-rows: 1
-    :widths: 5, 5, 5, 5, 5
-    :file: tables/justice-vote-issue-area.csv
+.. card:: 
+
+    .. csv-table:: Justice Vote by Issue Area Figure 6
+        :header-rows: 1
+        :widths: 5, 5, 5, 5, 5
+        :file: tables/justice-vote-issue-area.csv
 ```
 
 ### Prediction Summary
@@ -334,6 +347,7 @@ Testing again for individual issue areas, the results seem spurious.  When contr
 ## Findings
 
 ### Actual Results
+
 The actual results of Masterpiece Cakeshop, Ltd, v. Chicago Civil Rights Commission (2018) yield a 7-2 conservative majority in favor of Mr. Phillips consisting of Justice Roberts, Justice Kennedy, Justice Thomas, Justice Breyer, Justice Alito, Justice Kagan, and Justice Gorsuch.  The liberal minority consist of Justice Ginsberg and Justice Sotomayor.  Justice Kennedy delivered the opinion of the Court. 
 	
 The set of ideological values that best predict the actual outcome of the case is the general ideological score.  A 5-4 conservative majority in this case was expected with Justices Kennedy, Thomas, Roberts, Alito, and Gorsuch in the majority.  Justices Ginsberg, Breyer, Sotomayor, and Kagan were in the expected minority.  
