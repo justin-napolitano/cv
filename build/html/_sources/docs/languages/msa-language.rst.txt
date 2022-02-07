@@ -4,7 +4,7 @@ Modern Standard Arabic
 
 .. topic:: Background
 
-I studied MSA (Modern Standard Arabic) for a year at University. 
+    I studied MSA (Modern Standard Arabic) for a year at University. 
 
 
 
