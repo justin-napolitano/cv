@@ -4,21 +4,11 @@
 (intro-attitude)= 
 ## Introduction
 
-
-:::{card}ca
-
-
 This section will be an intro to the Attitudinal model
-
-:::
-
 
 
 (political-science-contrib)= 
 ## Political Science Can be A Predictive and Explanatory Science
-
-
-:::{card}
 
 
 
@@ -31,12 +21,12 @@ Their arguments are founded upon the foundation of political science as argued b
 3. Data should be quantified and “findings” based upon quantifiable data.
 4. Research should be theory oriented and theory directed
 
-:::
+
 
 (realist_argument)=
 ## Justices Create the Law
 
-:::{card}
+
 
 
 (llewellyn)=
@@ -48,12 +38,12 @@ Karl Llewellyn introduced the first principles of legal realism, the “concepti
 C. Herman Pritchet's the Roosevelt Court ({cite}`pritchett1969roosevelt`, xii-xiii). suports Llewellyn's theory.  Pritchet's *The Roosevelt Court* systematically analyzes ideological configurations from the Court’s nonunanimous decisions between 1937 and 1947 finding that the “the politics and values of the Roosevelt Court were predominantly motivated by the preferences of the Justices.”  An idea that is currently heterodox among the majority of U.S. Representives and Senetatori [^public-aside], [^kavanaugh].  
 
 
-:::
+
 
 (strucutural-systems-permitting-judicial-independence)=
 ## Structural Systems Permit Judicial Independence 
 
-:::{card}
+
 
 
 
@@ -127,13 +117,13 @@ As the court of last resort, The Supreme Court in no way must comply with the de
 
 Because of the ability of the Supreme Court to control its own docket, justices are expected to vote in order to grant cert (or not) according their personal policy preferences.  Cases regarding an ambiguous constitutional question act as the perfect tool to accomplish these ends.  To quote Judge Richard Posner, “where the constitution is unclear, judicial review is likely to be guided by the political prejudices and the policy preferences of the of the judges rather than by the Constitution itself ({cite}`posner1999appeal`, 36-40)."
 
-::: 
+ 
 
 (schubert)=
 ## Justices Create Law According to their Ideological Preferences
 
 
-:::{card}
+
 
 
 
@@ -145,7 +135,7 @@ The Judicial Mind {cite}`schubert1965judicial` and The Judicial Mind Revisited {
 ### Example
 
 
-:::{card}
+
 
 
 Consider the following cases:
@@ -193,12 +183,12 @@ The primary goals of Supreme Court justices in the decision-making process are p
 
 In order for the justices to acquire their goals they must play by the rules of the game, “the various formal and informal rules and norms within the framework of which decisions are made.   As such, they specify which types of actions are permissible and which are impermissible, the circumstances and conditions under which choice may be exercised, and the manner of choosing ({cite}`rohde1976supreme`, 71)."
 
-:::
+
 
 ## Limitations of the Attitudinal Model
 
 
-:::{card}
+
 
 
 
@@ -207,7 +197,7 @@ While the court enjoys a great amount of leeway in their decision-making process
 
 Glendon Shubert addressed the problem.  He posits that justices’ vote for certiorari depends upon their predictions to what will happen according to the merit {cite}`schubert1960quantitative`.  Rhode and Spaeth as well examine the likelihood of the formation of “minimum winning opinion coalitions” when the court is facing threatening situations {cite}`rohde1976supreme`. Most importantly Maltzman, Spriggs, and Wahlbeck argue that the in order to solve the paradigm political scientists must move away from the attitudinal model ({cite}`maltzman2000crafting`, 4).
 
-:::
+
 
 
 
