@@ -43,6 +43,7 @@ Literature Review
 Theoretical Intuition
 =========================
 .. card:: 
+    
     Ultimately one must put forth a state centric argument in order to best explain the operation of International Organizations and the International System more generally.   This heart of this paper will rest on the assumption that the state as an organization is most responsible for influencing the character of the International System, and ultimately the modification of International Organizations.  It does not however, assume the state to be a rational entity capable of responding to external stimuli in a way that maximizes its gains.  Rather, as all states depend on domestic legitimacy in order to exist, states ultimately operate in order to appease the demands of powerful domestic constituencies, often without regard to the actions of other states.
 
     The structure of state can be thought of as a pyramidal hierarchy built upon increasing levels of authority within the state.  The base of which is comprised of all of those people without any employment by the state.  Moving up from there may be civil servants of the state bureaucracy.  Ultimately the pinnacle of which is the institution or institutions responsible for the management of all lower levels.  The most important factor binding the structure is legitimacy as each level is inherently dependent on the external recognition of its legitimacy by the levels beneath it.  For instance, the Executive of the United States is essentially without power, except for that power which is recognized Congress and by extension the general public.  A similar argument example could be drawn for the military, the police, or any other institution within a state. 
@@ -129,7 +130,7 @@ Works Cited
 ============
 
 .. card:: 
-    
+
     Dahl, Robert Alan. “Who Governs? Democracy and power in an American city.” (2005).
 
     Dahl, Robert A. “The concept of power.” Systems Research and Behavioral Science 2, no. 3 (1957): 201-215.
