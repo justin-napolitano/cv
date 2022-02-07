@@ -22,7 +22,7 @@ Turkish Kurdish Conflict Database
         :maxdepth: 3
         :numbered:
 
-        database_schema
-        reference_tables
-        analysis
-        pdf
+        database_schema.rst
+        reference_tables.rst
+        analysis.rst
+        pdf.rst
