@@ -11,7 +11,8 @@ The Evolution of the GATT to the WTO
 Intro
 ======
 
-.. card:: 
+.. card::
+    
     International Organizations are vital to the operation of International politics.  They regulate behaviors, facilitate communication, and promote cooperation between states.  The process by which International Organizations come into being is well discussed in the literature, however, not equally well debated is the process by which International Organizations come to modify their operating procedure.  Or in other words, when the member states renegotiate the terms of their membership. 
 
 
