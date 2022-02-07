@@ -4,24 +4,23 @@
 (intro-attitude)= 
 ## Introduction
 
-This section will be an intro to the Attitudinal model and contain a local table of contents
 
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
+:::{card}
 
-Will also contain proper structuring and contents
-```
+
+This section will be an intro to the Attitudinal model
+
+:::
 
 
 
 (political-science-contrib)= 
 ## Political Science Can be A Predictive and Explanatory Science
 
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
 
-Will also contain proper structuring and contents
-```
+:::{card}
+
+
 
 Political scientists further extended the ideas of the {ref}`political realists <realist_argument>`. 
 
@@ -32,15 +31,12 @@ Their arguments are founded upon the foundation of political science as argued b
 3. Data should be quantified and “findings” based upon quantifiable data.
 4. Research should be theory oriented and theory directed
 
-
+:::
 
 (realist_argument)=
 ## Justices Create the Law
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
 
-Will also contain proper structuring and contents
-```
+:::{card}
 
 
 (llewellyn)=
@@ -51,10 +47,16 @@ Karl Llewellyn introduced the first principles of legal realism, the “concepti
 ### C. Herman Pritchet
 C. Herman Pritchet's the Roosevelt Court ({cite}`pritchett1969roosevelt`, xii-xiii). suports Llewellyn's theory.  Pritchet's *The Roosevelt Court* systematically analyzes ideological configurations from the Court’s nonunanimous decisions between 1937 and 1947 finding that the “the politics and values of the Roosevelt Court were predominantly motivated by the preferences of the Justices.”  An idea that is currently heterodox among the majority of U.S. Representives and Senetatori [^public-aside], [^kavanaugh].  
 
+:::
 
 
 (strucutural-systems-permitting-judicial-independence)=
 ## Structural Systems Permit Judicial Independence 
+
+
+
+:::{card}
+
 
 ```{todo}
 Write an introduction to this section
@@ -97,36 +99,36 @@ Those are:
 5. The Twenty-sixth Amendment ({cite}`USConst`, Ammendment 26) overturned Oregon v. Mitchell {cite}`Oregon:1970`; which had disallowed eighteen-year-olds from voting in state elections.  
 
 
-### The President Can Not Influence The Court
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
+:::
 
-Will also contain proper structuring and contents
-```
+### The President Can Not Influence The Court
+
+
+:::{card}
+
+
 
 Presidential influence too appears to be of little importance.  The most striking example is that of United States v. Nixon in which three Nixon appointees joined a unanimous decision forcing the President to turn over the Watergate tapes.  In effect, delivering the knockout punch, which required Nixon to resign himself from the presidency {cite}`USvNixon:1974`.
 
-
+:::
 
 ### The Superior Court is a Sovereign Court
 
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
 
-Will also contain proper structuring and contents
-```
+:::{card}
+
+
 
 As the court of last resort, The Supreme Court in no way must comply with the decisions of the lower courts, or obviously any superior court.  The result of which enables a level of discretion not apparent in the other branches of government, nor in the lower judiciary {cite}`songer1990overview`, {cite}`benesh2002us`.  In fact, non-compliant behavior among the lower courts is rare.  Even in the case of non-adherence to precedent by lower court judges, the Supreme Court often affirms the judgement as to reinforce its position at the apex of the judiciary {cite}`reddick2000norm`
 
-
+:::
 
 ### Certiorari Is an Example of Political Will
 
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
 
-Will also contain proper structuring and contents
-```
+:::{card}
+
+
 
 (posner-1999)=
 #### Posner 1999
@@ -135,20 +137,27 @@ Because of the ability of the Supreme Court to control its own docket, justices 
 
 
 
+:::
 
 (schubert)=
 ## Justices Create Law According to their Ideological Preferences
 
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
 
-Will also contain proper structuring and contents
-```
+:::{card}
+
+
 
 The Judicial Mind {cite}`schubert1965judicial` and The Judicial Mind Revisited {cite}`schubert1974judicial` provided the first working attitudinal model of Supreme Court decision making.  He describes Judicial decision making as dependent upon ideological preferences and the context of facts of the case. 
 
+:::
+
 (schubert-case-study)=
 ### Example
+
+
+:::{card}
+
+
 Consider the following cases:
 
 1. The police search an apartment in which they have probable cause to enter.  While investigating the unit an officer eyes expensive stereo equipment.  He believes this to be stolen property, therefore he moves the equipment in order to obtain the serial numbers.  He later calls this information in, acquires a warrant, and seizes the equipment. {cite}`arizonahicks`
@@ -164,7 +173,14 @@ Next, we score the ideological values of the Individual justices.  For the sake 
 
 Schubert posits that a justice will accept any set of action to the left of his ideal and then disregard all to the right. Or in other words, a justice will only accept a set of actions bounded by a maximum level of intrusiveness.  Action that falls beyond that set are morally unacceptable.  Therefore, a justice if true to his own ideological preferences will not vote to affirm an action to the right of his own ideological values.
 
+:::
+
 ### Judicial Attitudes and the facts of the case 
+
+
+
+:::{card}
+
 
 (spaeth)=
 #### Harold Spaeth
@@ -190,29 +206,29 @@ The primary goals of Supreme Court justices in the decision-making process are p
 
 In order for the justices to acquire their goals they must play by the rules of the game, “the various formal and informal rules and norms within the framework of which decisions are made.   As such, they specify which types of actions are permissible and which are impermissible, the circumstances and conditions under which choice may be exercised, and the manner of choosing ({cite}`rohde1976supreme`, 71)."
 
+:::
 
 ## Limitations of the Attitudinal Model
 
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
 
-Will also contain proper structuring and contents
-```
+:::{card}
+
+
 
 While the court enjoys a great amount of leeway in their decision-making process, this is by no means unrestrained.  “Situations” apply in which the vote on certiorari, formation of the majority opinion, opinion assignment, and so on bound the range of possible Judicial decisions.  Therefore, attitudes and values alone cannot account for the all factors guiding a justice’s process of decision making.  Rather, they serve as the guiding principles that allow for a justice to rationally navigate the rules and situations facing the court.  Thus, the open-ended model permitting limitless discretion cannot be wholly accurate. A pure attitudinal model may explain voting on the merits, but does not address the problem of opinion formation.  
 
 
 Glendon Shubert addressed the problem.  He posits that justices’ vote for certiorari depends upon their predictions to what will happen according to the merit {cite}`schubert1960quantitative`.  Rhode and Spaeth as well examine the likelihood of the formation of “minimum winning opinion coalitions” when the court is facing threatening situations {cite}`rohde1976supreme`. Most importantly Maltzman, Spriggs, and Wahlbeck argue that the in order to solve the paradigm political scientists must move away from the attitudinal model ({cite}`maltzman2000crafting`, 4).
 
+:::
 
 
 
 
 
-[//]: # (Editorial Comments)
+
 [^who]: who said this?
 
-[//]: # (Comments)
 
 [^kavanaugh]: Review the Kavanaugh hearings for an expose a justice and the US senate claiming to support the idea of judicial agnosticism.
 [^public-aside]: At least publically.
