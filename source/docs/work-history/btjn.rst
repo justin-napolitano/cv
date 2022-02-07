@@ -14,7 +14,8 @@ Founder and Lead Programmer
 
     Below are my notable projects. 
 
- Data Stream Management Application
+
+Data Stream Management Application
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. card:: 
 
@@ -34,6 +35,7 @@ Neo4j Realtor Graph
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. card:: 
+
     * With the data collected from the Data Stream Management Application I designed a graph of my leads to pinpoint high quality leads.
     * I initially wrote the scripts in python to use a Neo4j backend.  I discovered that the published library was lacking.  I therefore extended it slightly to achieve my use case. The link is here....
 
@@ -48,7 +50,7 @@ JanusGraph Realtor Graph
 CRM Database and Python Management Scripting
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. card:: 
-    
+
     * I was contracted by a public health company that required a CRM application to sell consultations to organizations at the height of the Covid pandemic. 
     * They had initially requested a SQL backend which I accomplished with an Azure deployed SQL server.
     * My employers later requested a transition to an excel based implementation due to cost concerns.  
