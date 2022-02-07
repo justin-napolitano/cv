@@ -25,4 +25,3 @@ Turkish Kurdish Conflict Database
         database_schema.rst
         reference_tables.rst
         analysis.rst
-        pdf.rst
