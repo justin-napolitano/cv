@@ -197,7 +197,6 @@ Blah blah blah. this is just a space holder.
 :::
 
 
-:::{card}
 
 ```{toctree}
 :caption: Contact
@@ -207,8 +206,6 @@ Blah blah blah. this is just a space holder.
 /docs/contact/contact.md
 
 ```
-
-:::
 
 
 
