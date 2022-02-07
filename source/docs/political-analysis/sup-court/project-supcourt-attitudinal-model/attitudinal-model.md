@@ -47,20 +47,15 @@ Karl Llewellyn introduced the first principles of legal realism, the “concepti
 ### C. Herman Pritchet
 C. Herman Pritchet's the Roosevelt Court ({cite}`pritchett1969roosevelt`, xii-xiii). suports Llewellyn's theory.  Pritchet's *The Roosevelt Court* systematically analyzes ideological configurations from the Court’s nonunanimous decisions between 1937 and 1947 finding that the “the politics and values of the Roosevelt Court were predominantly motivated by the preferences of the Justices.”  An idea that is currently heterodox among the majority of U.S. Representives and Senetatori [^public-aside], [^kavanaugh].  
 
-:::
 
+:::
 
 (strucutural-systems-permitting-judicial-independence)=
 ## Structural Systems Permit Judicial Independence 
 
-
-
 :::{card}
 
 
-```{todo}
-Write an introduction to this section
-```
 
 Structural Systems permit judicial independence as supported by the sections below.
 
@@ -99,34 +94,31 @@ Those are:
 5. The Twenty-sixth Amendment ({cite}`USConst`, Ammendment 26) overturned Oregon v. Mitchell {cite}`Oregon:1970`; which had disallowed eighteen-year-olds from voting in state elections.  
 
 
-:::
+
 
 ### The President Can Not Influence The Court
 
 
-:::{card}
 
 
 
 Presidential influence too appears to be of little importance.  The most striking example is that of United States v. Nixon in which three Nixon appointees joined a unanimous decision forcing the President to turn over the Watergate tapes.  In effect, delivering the knockout punch, which required Nixon to resign himself from the presidency {cite}`USvNixon:1974`.
 
-:::
+
 
 ### The Superior Court is a Sovereign Court
 
 
-:::{card}
 
 
 
 As the court of last resort, The Supreme Court in no way must comply with the decisions of the lower courts, or obviously any superior court.  The result of which enables a level of discretion not apparent in the other branches of government, nor in the lower judiciary {cite}`songer1990overview`, {cite}`benesh2002us`.  In fact, non-compliant behavior among the lower courts is rare.  Even in the case of non-adherence to precedent by lower court judges, the Supreme Court often affirms the judgement as to reinforce its position at the apex of the judiciary {cite}`reddick2000norm`
 
-:::
+
 
 ### Certiorari Is an Example of Political Will
 
 
-:::{card}
 
 
 
@@ -135,9 +127,7 @@ As the court of last resort, The Supreme Court in no way must comply with the de
 
 Because of the ability of the Supreme Court to control its own docket, justices are expected to vote in order to grant cert (or not) according their personal policy preferences.  Cases regarding an ambiguous constitutional question act as the perfect tool to accomplish these ends.  To quote Judge Richard Posner, “where the constitution is unclear, judicial review is likely to be guided by the political prejudices and the policy preferences of the of the judges rather than by the Constitution itself ({cite}`posner1999appeal`, 36-40)."
 
-
-
-:::
+::: 
 
 (schubert)=
 ## Justices Create Law According to their Ideological Preferences
@@ -149,7 +139,7 @@ Because of the ability of the Supreme Court to control its own docket, justices 
 
 The Judicial Mind {cite}`schubert1965judicial` and The Judicial Mind Revisited {cite}`schubert1974judicial` provided the first working attitudinal model of Supreme Court decision making.  He describes Judicial decision making as dependent upon ideological preferences and the context of facts of the case. 
 
-:::
+
 
 (schubert-case-study)=
 ### Example
@@ -173,13 +163,10 @@ Next, we score the ideological values of the Individual justices.  For the sake 
 
 Schubert posits that a justice will accept any set of action to the left of his ideal and then disregard all to the right. Or in other words, a justice will only accept a set of actions bounded by a maximum level of intrusiveness.  Action that falls beyond that set are morally unacceptable.  Therefore, a justice if true to his own ideological preferences will not vote to affirm an action to the right of his own ideological values.
 
-:::
+
 
 ### Judicial Attitudes and the facts of the case 
 
-
-
-:::{card}
 
 
 (spaeth)=
