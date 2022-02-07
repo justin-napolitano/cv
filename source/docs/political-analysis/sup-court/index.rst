@@ -12,23 +12,26 @@ United States Supreme Court
    `Court-Behavior.io <https://court-behavior.io>`_
 
 
+.. card:: 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Python Projects:
-   
-   project-sup-court-meta-data-graph/index.rst
-   project-supcourt-tensorflow/index.rst
+   .. toctree::
+      :maxdepth: 2
+      :caption: Python Projects:
+      
+      project-sup-court-meta-data-graph/index.rst
+      project-supcourt-tensorflow/index.rst
  
         
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Papers:
+.. card:: 
+   
+   .. toctree::
+      :maxdepth: 2
+      :caption: Papers:
 
-   project-supcourt-legalmodel/legal-model.md
-   project-supcourt-attitudinal-model/attitudinal-model.md
-   project-supcourt-masterpiececake/masterpiece-cake.md
+      project-supcourt-legalmodel/legal-model.md
+      project-supcourt-attitudinal-model/attitudinal-model.md
+      project-supcourt-masterpiececake/masterpiece-cake.md
 
 
 

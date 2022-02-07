@@ -1,27 +1,23 @@
 # Analysis of the Legal Model of Jurisprudence
 
 ## Introduction
+
+:::{card}
+
 The definnition of the legal model varies by theorist.  The central premise however is that the “decisions of the Court are substantially influenced by the facts of the case in light of the plain meaning of statutes and the Constitution, the intent of the Framers, and/or precedent {cite}`segal2002supreme`.
 
 The validity of the model is disputed amongst jurists, legal scholars, and political scientists.
 
-
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
-
-Will also contain proper structuring and contents
-```
+:::
 
 
 
 ## Jurists and the Legal Model
 
 
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
+:::{card}
 
-Will also contain proper structuring and contents
-```
+
 
 Justices Scalia, Hugo Black, Rehnquist and Thomas are notable proponents of the legal model. 
 
@@ -34,17 +30,20 @@ Like, the liberal Justice Black,  Justice Rehnquist also claimed to base his beh
 
 Among the current members of the Bench, Justice Thomas “seeks to base his opinions on the original intent of the Framers of the Constitutions, Bill of Rights, and subsequent constitutional amendments ({cite}`smith1997clarence`, 9). The support for his opinions (and dissents for that matter) reference the primacy of the Founder’s intentions which to him dictate the outcome of cases.  
 
-
+:::
 
 ## Theorists and the Legal Model
 
+:::{todo}
 
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
+Complete the theorists section or remove the argument from your paper
 
-Will also contain proper structuring and contents
-```
+:::
+
 ### Dworkin and the Legal Model
+
+:::{card}
+
 
 Political theorists like Ronald Dworkin, in Taking Rights Seriously {cite}`dworkin2013taking` argues that jhustices do not freely exercise discretion according to ideological preference alone.  Instead, he posits that precedent guides justices towards a decision.  In contrast to attitudinal theorists he does not accept that Justices merely pick and choose from precedent in order to rationalize their individual values.  The law determined by precedent is considered to the rule which Justices follow.
 
@@ -52,9 +51,14 @@ In fact, precedent is considered to be the paramount authority in cases in which
 
 Dworkin’s work does not argue that the subjective factor of jurisprudence is totally eliminated.   Rather, the justice is argued to operate as a qualified filter that selects the proper ruling in a case while bound by the structures of legal history and precedent.   Accordingly this theoretical approach nullifies certain interpretations from a possible win set available to a justice.  The Judge’s job then is to find the law with the support of a “textual anchor” or “extant legislation.”  Individual interpretations, or bounds may different, but nonetheless precedent affects decision making.  Dworkin also considers the role of institutional factors.  Higher courts, he acknowledges, are not obligated to strictly follow precedent due to their position within the hierarchy of the courts, but are to a degree still reliant upon the pull of precedent.  {cite}`dworkin2013taking`
 
-
+:::
 
 ### Kahn and the legal model.  
+
+
+:::{card}
+
+
 
 Of the theorists and justices arguing for a legal model, Khan's argument is most succint.  He states, that:
 
@@ -64,16 +68,18 @@ Of the theorists and justices arguing for a legal model, Khan's argument is most
 * “respect for precedent and principled decision making are central to decision making ({cite}`kahn1999institutional`, 177)."
 
 
+:::
+
 ## Limitations of the Legal Model
 
-```{note}
-Under Construction.  This section and chapter will expand greatly.  
 
-Will also contain proper structuring and contents
-```
+:::{card}
+
+
 
 In order for a legal model to be accurate a justice themself must accept the model to be legitimate.  Or in other words, justices must accept as precedent, plain meaning, and textual sources to be the proverbial word of god.  They must then hedge themselves into artificial boxes created by the framers and previous justices without considering their personal policy preferences or individual biases.  
 
 I find this argument difficult to accept as valid.  I would argue that pecedent, intent, and gobblygook are but rationalizations that justices create to justify their own preferences.  The court, like every other institution is political.  This is true whether justices or idealists are willing to admit it to themselves.  
 
 
+:::

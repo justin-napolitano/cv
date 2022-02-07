@@ -11,12 +11,13 @@ Instutitional Research
 .. todo:: Add Citations to the bibliography.  BUild with bibtex
 
 
+.. card::
 
-.. toctree::
-   :maxdepth: 2
-   :caption: World Trade Orgnaization:
+   .. toctree::
+      :maxdepth: 2
+      :caption: World Trade Orgnaization:
 
-   project-evolution-of-ngos/index.rst
+      project-evolution-of-ngos/index.rst
  
 
 
