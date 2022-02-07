@@ -18,8 +18,10 @@ Module Documentation
 ---------------------
 
 
-.. toctree::
-    :caption: Flask Server Documentation
-    :maxdepth: 4
+.. card:: 
+    
+    .. toctree::
+        :caption: Flask Server Documentation
+        :maxdepth: 4
 
-    /autoapi/rest_server/index
+        /autoapi/rest_server/index

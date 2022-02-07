@@ -18,8 +18,10 @@ Module Documentation
 ---------------------
 
 
-.. toctree::
-    :caption: Google Services Modules
-    :maxdepth: 4
+.. card:: 
+    
+    .. toctree::
+        :caption: Google Services Modules
+        :maxdepth: 4
 
-    /autoapi/GoogleServices/index
+        /autoapi/GoogleServices/index

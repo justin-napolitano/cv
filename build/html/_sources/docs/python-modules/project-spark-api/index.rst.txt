@@ -17,9 +17,10 @@ Links
 Module Documentation
 ---------------------
 
+.. card:: 
 
-.. toctree::
-    :caption: Spark Modules Documentation
-    :maxdepth: 4
+    .. toctree::
+        :caption: Spark Modules Documentation
+        :maxdepth: 4
 
-    /autoapi/sparkAPI/index
+        /autoapi/sparkAPI/index

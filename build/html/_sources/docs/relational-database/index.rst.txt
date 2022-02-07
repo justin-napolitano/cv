@@ -7,21 +7,23 @@ Relational Databases
 
    This section details my work with relational databases.  
 
+.. card:: 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Human Rights Law:
+   .. toctree::
+      :maxdepth: 2
+      :caption: Human Rights Law:
 
-   project-human-rights-law/human-rights-law
+      project-human-rights-law/human-rights-law
 
  
         
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Terrorist Event Database:
+.. card:: 
    
-   project-turkish-kurdish/index
+   .. toctree::
+      :maxdepth: 2
+      :caption: Terrorist Event Database:
+      
+      project-turkish-kurdish/index
 
 
 

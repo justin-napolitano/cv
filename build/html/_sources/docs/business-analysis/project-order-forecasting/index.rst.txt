@@ -24,6 +24,8 @@ Links
 Code Documentation 
 -------------------
 
-.. toctree::
-    
-    /autoapi/cigarette_sales_order_form/index  
+.. card:: 
+
+    .. toctree::
+        
+        /autoapi/cigarette_sales_order_form/index  

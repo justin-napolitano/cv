@@ -19,8 +19,10 @@ Module Documentation
 ---------------------
 
 
-.. toctree::
-    :caption: Pandas Functions
-    :maxdepth: 4
+.. card:: 
 
-    /autoapi/PandasFunctions/index
+    .. toctree::
+        :caption: Pandas Functions
+        :maxdepth: 4
+
+        /autoapi/PandasFunctions/index

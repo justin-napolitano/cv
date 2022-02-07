@@ -15,55 +15,69 @@ Reference Tables
 Overview Table
 ==============
 
-.. csv-table:: Overview Table
-   :file: csv/schema_overview.csv
-   :widths: 10, 10
-   :header-rows: 1
+.. card:: 
+
+   .. csv-table:: Overview Table
+      :file: csv/schema_overview.csv
+      :widths: 10, 10
+      :header-rows: 1
 
 
 Aggressor Table
 ===============
 
-.. csv-table:: Aggressor Table
-   :file: csv/side_a_table.csv
-   :widths: 3, 10
+.. card:: 
+
+   .. csv-table:: Aggressor Table
+      :file: csv/side_a_table.csv
+      :widths: 3, 10
 
 Victim Table
 ============
 
-.. csv-table:: Victim Table
-   :file: csv/side_b_table.csv
-   :widths: 3, 10
-   :header-rows: 1
+.. card:: 
+
+   .. csv-table:: Victim Table
+      :file: csv/side_b_table.csv
+      :widths: 3, 10
+      :header-rows: 1
 
 Human Rights Category Table
 ===========================
 
-.. csv-table:: Human Rights Category Table
-   :file: csv/human_rights_category_table.csv
-   :widths: 3, 10
-   :header-rows: 1
+.. card:: 
+
+   .. csv-table:: Human Rights Category Table
+      :file: csv/human_rights_category_table.csv
+      :widths: 3, 10
+      :header-rows: 1
 
 Human Rights Offense Table
 ===========================
 
-.. csv-table:: Human Rights Offense Table
-   :file: csv/human_rights_offense_table.csv
-   :widths: 5, 20, 5, 5, 15, 15
-   :header-rows: 1   
+.. card:: 
+
+   .. csv-table:: Human Rights Offense Table
+      :file: csv/human_rights_offense_table.csv
+      :widths: 5, 20, 5, 5, 15, 15
+      :header-rows: 1   
 
 Region Table
 ============
 
-.. csv-table:: Region Table
-   :file: csv/region_code_table.csv
-   :widths: 3, 10
-   :header-rows: 1
+.. card:: 
+
+   .. csv-table:: Region Table
+      :file: csv/region_code_table.csv
+      :widths: 3, 10
+      :header-rows: 1
 
 Province Table
 ==============
 
-.. csv-table:: Province Table
-   :file: csv/province_code_table.csv
-   :widths: 3, 15
-   :header-rows: 1
+.. card:: 
+
+   .. csv-table:: Province Table
+      :file: csv/province_code_table.csv
+      :widths: 3, 15
+      :header-rows: 1

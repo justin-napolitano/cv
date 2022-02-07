@@ -5,12 +5,11 @@ TensorFlow Voting Behavior Predictions
 Description
 ----------------------
 
-.. card:: 
 
-   * The application is written python and uses the TensorFlow api to train an algorithm that predicts the outcome of court cases.
-   * Data is collected from `The Supreme Court Database <http://scdb.wustl.edu/about.php?s=3>`_
-   * The predicted outcomes of the cases proved to be correct about 80% of the time when tested against historical data.  
-   * Thus it appears that justices vote according to personal preferences towards political issue areas. 
+* The application is written python and uses the TensorFlow api to train an algorithm that predicts the outcome of court cases.
+* Data is collected from `The Supreme Court Database <http://scdb.wustl.edu/about.php?s=3>`_
+* The predicted outcomes of the cases proved to be correct about 80% of the time when tested against historical data.  
+* Thus it appears that justices vote according to personal preferences towards political issue areas. 
 
 
 Links
@@ -26,10 +25,8 @@ Links
 How to Improve
 -------------------
 
-.. card:: 
-
-   * Import this data into :ref:`The US Supreme Court Metadata Graph<metadatagraph>`.
-   * Train the algorithm to correlate outcome with as many other variables as possible.
+* Import this data into :ref:`The US Supreme Court Metadata Graph<metadatagraph>`.
+* Train the algorithm to correlate outcome with as many other variables as possible.
 
 
 Training Features

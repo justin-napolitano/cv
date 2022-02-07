@@ -4,20 +4,16 @@ MetaData Graph
 Description
 ----------------------
 
-.. card:: 
-
-   * The application is written python.
-   * It scrapes the US Library of Congress API for every Us Supreme Court case to extract metadata that is then imported int a graph for analysis. 
-   * I also experimented with test driven deleopment on this project to learn the pytest library. 
+* The application is written python.
+* It scrapes the US Library of Congress API for every Us Supreme Court case to extract metadata that is then imported int a graph for analysis. 
+* I also experimented with test driven deleopment on this project to learn the pytest library. 
 
 How to Improve
 -------------------
 
-.. card:: 
-
-   * Import the graph into a Janus Stack
-   * Recode into a POLE style graph. People would be the Justices;.  Objects would be the issue areas.  Locations may be removed and replaced by outcomes.  Events would be the individual cases. 
-   * The POLE can be expanded to include interactions between states, practitioners, issues, political party, ad infinitum.  
+* Import the graph into a Janus Stack
+* Recode into a POLE style graph. People would be the Justices;.  Objects would be the issue areas.  Locations may be removed and replaced by outcomes.  Events would be the individual cases. 
+* The POLE can be expanded to include interactions between states, practitioners, issues, political party, ad infinitum.  
 
 
 External Links

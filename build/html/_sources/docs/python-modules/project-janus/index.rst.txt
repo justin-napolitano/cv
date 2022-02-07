@@ -19,17 +19,20 @@ Links
 Module Documentation
 ---------------------
 
-.. toctree:: 
-    :caption: JanusGraph Modules
+.. card:: 
 
-    
-    /autoapi/GremlinConnect/index.rst
-    /autoapi/AddChildrenToRoot/index.rst
-    /autoapi/AddIsRootProperty/index.rst
-    /autoapi/AddSproutedProperty/index.rst
-    /autoapi/TSubmit/index.rst
-    /autoapi/Query/index.rst
-    /autoapi/CleareGraph/index.rst
+        
+    .. toctree:: 
+        :caption: JanusGraph Modules
+
+        
+        /autoapi/GremlinConnect/index.rst
+        /autoapi/AddChildrenToRoot/index.rst
+        /autoapi/AddIsRootProperty/index.rst
+        /autoapi/AddSproutedProperty/index.rst
+        /autoapi/TSubmit/index.rst
+        /autoapi/Query/index.rst
+        /autoapi/CleareGraph/index.rst
 
 
     
