@@ -16,7 +16,9 @@ Political Science
     I studied empirical methods of analysis for observational and demographic data. 
 
 
-My focuses included:
+
+.. card:: My focuses included:
+
     * :ref:`US Supreme Court Jurisprudence. <masterpiece>`
     * :ref:`Behavioral-Statistical Analysis of Supreme Court Voting Behavior. <masterpiece>`
     * :ref:`International Relations Theory and Analysis. <evolution_of_ngo_paper>`
@@ -31,8 +33,8 @@ Statistics
 
     Following graduation I studied computational statistics at the master's level to supplement my work as a research lead.  
 
+.. card:: Notable Coursework:
 
-Notable Coursework:
     * Experimental Design in SAS
     * Political Analysis with SPSS
     * Statistical Analysis with MiniTab
