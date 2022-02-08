@@ -5,6 +5,10 @@ from GremlinConnect import GremlinConnection
 from pprint import pprint
 import json
 
+"""
+traverses a graph and add's the is root property where necessary.
+an is root property is a root link
+"""
 def get_list(traversal, label):
     vertex_list = get_vertex(traversal, label)
     return vertex_list

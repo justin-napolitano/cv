@@ -22,7 +22,9 @@ from gremlin_python.process.graph_traversal import property
 
 
 
-
+"""
+A standard class that i have modified to my use case
+"""
 class GremlinConnection:
 
     def inject_vertex_properties(traversal,properties,label):

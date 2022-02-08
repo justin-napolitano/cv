@@ -7,7 +7,10 @@ from google.oauth2.credentials import Credentials
 from google.oauth2 import service_account
 from googleapiclient.http import MediaIoBaseDownload, MediaFileUpload
 
-
+"""
+Google api.
+instantiates sheets and drive app.
+"""
 class GoogleAPI:
     def __init__(self):
         self.GoogleCredentials = self.load_google_creds()
@@ -26,7 +29,9 @@ class GoogleAPI:
         return drive_app
 
 
-
+"""
+functions for sheets
+"""
 class SheetsApp:
 
     def __init__(self,creds):
@@ -38,7 +43,9 @@ class SheetsApp:
         return service.spreadsheets()
 
 
-
+"""
+functions for drive
+"""
 class DriveApp:
     
     def __init__(self,creds):
@@ -115,8 +122,11 @@ class DriveApp:
         return res
 
 
-
+"""
+gets creds
+"""
 class creds:
+    
 
     def __init__(self,file_path = "credentials.json"):
         self.credentials = self.get_creds(file_path)

@@ -42,7 +42,12 @@ def get_janus_graph_connection_driver():
 
 
 
-
+"""
+creates a connection driver object
+creates a traversal object.
+returns arbitrary roots
+then adds children to root.  
+"""
 def main():
     connection_driver = get_janus_graph_connection_driver()
     traversal = get_janus_graph_traversal(connection_driver)

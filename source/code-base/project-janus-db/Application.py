@@ -47,7 +47,9 @@ def get_janus_graph_connection_driver():
     print("&&& Gremlin is Alive  &&& ")
     return driver
 
-
+"""
+adds a test traversal vertex.  of type person and properties of name chris.  I retain this function for usage examples
+"""
 def add_vertex(traversal):
     vertex = traversal.addV('person').property('name', 'chris').next()
     print(vertex)
@@ -56,10 +58,16 @@ def add_vertex(traversal):
     ##g.V().name.toList()
     return name
 
+"""
+actually adds teh vertex to the graph via the gremlinconnection object. 
+"""
 def add_vertex_traversal(traversal, label, properties):
     vertex_traversal = GremlinConnection.add_vertex_traversal(traversal, label, properties)
     return vertex_traversal
 
+"""
+creates a zip code vertex records that is sent to df
+"""
 def add_zip_code_vertex(traversal):
     label = "zip_code"
    

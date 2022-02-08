@@ -15,13 +15,16 @@ import math
 
 def instantiate_neo_driver():
     bolt = "bolt://0.0.0.0:7687"
-    password = '5995Oscar'
+    password = '<your password here>'
     user = 'neo4j'
     driver = neo.NeoSandboxApp(bolt,user,password)
     driver.run_test_query()
     return driver
 
 #def get_root_url():
+"""
+Creates a graph of urls of realtors
+"""
 class Realtor_Url_Data():
 
     def __init__(self,root_url) :
@@ -76,6 +79,7 @@ class Realtor_Url_Data():
         except:
             print('could not get a response from realtor.com')
         return response
+
 
 def get_data_from_realtor_url(url):
     #root_url = "https://www.realtor.com/realestateagents/ridgeway_ak/sort-activelistings"

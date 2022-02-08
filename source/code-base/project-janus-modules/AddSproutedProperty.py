@@ -6,6 +6,12 @@ from pprint import pprint
 import json
 import PandasFunctions as PF
 
+
+"""
+traverses a graph and add's sprouted property. 
+a sprouted property is a link that branches that have sprouted
+"""
+
 def get_list(traversal, label):
     vertex_list = get_vertex(traversal, label)
     return vertex_list

@@ -115,6 +115,9 @@ def transaction_injection_vertex_properties(traversal, zip_code_df):
 
     
 def main():
+    """
+    Adds vertices to a df that are then uploaded to janus graph via transactions asynchronously. 
+    """
     zip_code_df = load_zip_code_df()
     #test = json.loads(zip_code_df['vertice_property'][0])
     #pprint(test)
