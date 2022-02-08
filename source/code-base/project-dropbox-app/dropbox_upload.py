@@ -28,7 +28,9 @@ LOCALFILE = 'test.txt'
 BACKUPPATH = '/DropboxApplications/JanusGraph/realtor_data/test.txt' # Keep the forward slash before destination filename
 
 
-##### Sphinx requries that I give each new assignment a new name.  I have to change this habit in all of my new writing.  
+"""
+Sphinx requries that I give each new assignment a new name.  I have to change this habit in all of my new writing.  
+"""
 LOCALFILE_JOINED = SEP.join((CWD,LOCALFILE))
 print(LOCALFILE_JOINED)
 
@@ -52,8 +54,9 @@ def backup():
                 print(err)
                 sys.exit()
 
-
-# Adding few functions to check file details
+"""
+Adding few functions to check file details
+"""
 def checkFileDetails():
     print("Checking file details")
 

@@ -12,7 +12,9 @@ add cards to all sections.  It makes for easier reading i woud say.   Bad idea. 
 Review References
 
 Clean up the code
-
+    get rid of the abnoqious commments 
+    add descriptions
+        
 Reorganize the WTO paper. 
     Good enough
 

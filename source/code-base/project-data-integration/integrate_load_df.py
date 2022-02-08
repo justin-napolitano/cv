@@ -5,6 +5,13 @@ import os
 import log as log
 import json
 
+"""
+This is a number of load functions that i have used across my workflows
+"""
+
+"""
+Loads the cases into a df from output json files.  It is used to recreate an in memory networz graph
+"""
 def load_cases_df(dictionary: dict):
     #print(dictionary['download_pdf']['directories'])
     os.chdir(dictionary['download_pdf']['directories']['read_directory'])
@@ -22,7 +29,9 @@ def load_cases_df(dictionary: dict):
     return json_df
 
 
-
+"""
+Merges points of contacts files into a csv that is later uploaded to a db. 
+"""
 def load_POC(dictionary: dict):
     os.chdir(dictionary['dumb_merge']['directories']['output_directory'])
     working_file = glob.glob('*.{}'.format(dictionary['create_POC_table']['files']['output_extension']))
@@ -33,6 +42,9 @@ def load_POC(dictionary: dict):
     os.chdir(dictionary['dumb_merge']['directories']['cwd'])
     return points_of_contact
 
+"""
+Creates and merges company table dfs.
+"""
 def load_company_table(dictionary: dict):
     os.chdir(dictionary['dumb_merge']['directories']['output_directory'])
     working_file = glob.glob('*.{}'.format(dictionary['create_company_table']['files']['output_extension']))
@@ -46,6 +58,9 @@ def load_company_table(dictionary: dict):
     #print(NotTrue.groups)
     #print(NotTrue)
 
+"""
+Unsubcsribes en masse contacts that have requested to no longer be contacted
+"""
 def unsubcribe_master(dictionary: dict):
     os.chdir(dictionary['dumb_merge']['directories']['output_directory'])
     master_file = glob.glob('*.{}'.format(dictionary['unsubscribe']['files']['output_extension']))
@@ -68,6 +83,9 @@ def unsubcribe_master(dictionary: dict):
 
     return master_df, unsubscribers_df
 
+"""
+Unsubcsribes in batches contacts that have requested to no longer be contacted
+"""
 def unsubscribe_batches(dictionary: dict):
 
     os.chdir(dictionary['unsubscribe']['directories']['input_directory'])

@@ -6,13 +6,19 @@ import os
 import log as log
 import gc
 
-
+"""
+drops unnecessary columns
+"""
 def clean_df(json_dirty_df):
     drop_columns = ['id','date','dates', 'hassegments','access_restricted','aka','campaigns','contributor','digitized','group','extract_timestamp','language','image_url','index','mime_type','online_format','original_format','other_title','partof','subject','timestamp','type']
     json_dirty_df.drop(columns = drop_columns,inplace = True)
     #print(json_dirty_df.columns)
 
-
+"""
+traverses a json dictionary for the series key. 
+creates a list of data
+appends the list to the df as a collumn
+"""
 def series_col(df):
     #file_location_df['shelf_id'] = df["shelf_id"] 
     #file_location = df['shelf_id'] + df['title'] + df["item"][call_number]
@@ -44,7 +50,11 @@ def series_col(df):
         i +=1
         
     #print(df['series'])
-
+"""
+traverses a json dictionary for the subject key. 
+creates a list of data
+appends the list to the df as a collumn
+"""
 def subject_col(df):
     #file_location_df['shelf_id'] = df["shelf_id"] 
     #file_location = df['shelf_id'] + df['title'] + df["item"][call_number]
@@ -69,6 +79,11 @@ def subject_col(df):
         i +=1
     #print(unique_subject_list)
 
+"""
+traverses a json dictionary for the pdf key. 
+creates a list of data
+appends the list to the df as a collumn
+"""
 def pdf_col(df):
     #file_location_df['shelf_id'] = df["shelf_id"] 
     #file_location = df['shelf_id'] + df['title'] + df["item"][call_number]
@@ -86,6 +101,9 @@ def pdf_col(df):
     #print(df.columns)
     #print(df['resources'])
    
+"""
+Creates the output df for json output
+"""
 def output_df(df,dictionary):
     output_df = pd.DataFrame({"shelf_id": [], "title": [], "series": [], "subject": [], "pdf": [], "url": []})
     sep = os.sep
@@ -120,20 +138,5 @@ def output_df(df,dictionary):
     #print(garbage_log.objects)
 
   
-
-
-
-
-    #print(output_df['series'])
-
-         
-                    
-                
-
-    
-    #while i < df_len:
-    #    item = df['resources'][i][0]["pdf"]
-    #    df['pdf'][i] = item
-    #    i += 1
 
    

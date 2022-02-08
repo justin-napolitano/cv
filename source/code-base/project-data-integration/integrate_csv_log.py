@@ -4,6 +4,9 @@
 import csv
 import logging
 
+"""
+begins the logging
+"""
 def log(dictionary):
 
     #with open(dictionary['log_dump'], 'w') as f:  # Just use 'w' mode in 3.x

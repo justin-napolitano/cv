@@ -5,6 +5,10 @@ import yaml
 import glob
 import datetime
 
+
+"""
+loads universal settings from a yaml config file   
+"""
 def load_stream():
     #print("test")
     stream = open("config.yaml", 'r')

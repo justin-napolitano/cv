@@ -7,6 +7,9 @@ import pandas
 
 def df_toCsv(dataframe, dictionary):
     #print(dataframe)
+    """
+    writes a df to csv
+    """
 
     output_filename = '_'.join((dictionary['files']['output_filename_csv'],dictionary['vars']['date']))
     output_filename = '.'.join((output_filename,dictionary['files']['output_extension_csv']))
@@ -16,6 +19,9 @@ def df_toCsv(dataframe, dictionary):
     dataframe.to_csv(output_path, index=False, encoding='utf-8-sig')
 
 def df_toJson(dataframe, dictionary):
+    """
+    writes a df to json
+    """
     #print(dataframe)
 
     output_filename = '_'.join((dictionary['files']['output_filename_json'], dictionary['vars']['date']))

@@ -19,7 +19,9 @@ import os
 #from neoModelAPI import NeoNodes as nn
 
 
-
+"""
+uploads a df created from csv to a neo4j workflow
+"""
 def upload_data_pipeline_to_neo(df_pipeline_dictionary):
     upload = DataUploadFunctions()
     df_pipeline_dictionary['country_df']['country_node'] = upload.upload_df(df_pipeline_dictionary['country_df']['country_node'])
@@ -59,7 +61,9 @@ def upload_data_pipeline_to_neo(df_pipeline_dictionary):
 
 
     
-    
+"""
+Data upload functions that upload to neo.  
+"""
 class DataUploadFunctions():
     def upload_df(self,df):
         #df.apply(lambda x: pprint(str(x) + str(type(x))))
@@ -83,7 +87,9 @@ class DataUploadFunctions():
         return rel
 
 
-
+"""
+manages the dframe and data transformations prior to uploading
+"""
 class DataPipelineFunctions():
     def write_df_to_csv(self,df,path: str):
         cwd = os.getcwd()
@@ -149,8 +155,6 @@ class DataPipelineFunctions():
         #pprint(df)
         
         
-
-
     def set_url_relationships(self):
         #pprint(self.df.columns)
         update_list = self.df.apply(lambda x: neo.neoAPI.create_relationship(source = x.url_node.city,target = x.city_node), axis=1)

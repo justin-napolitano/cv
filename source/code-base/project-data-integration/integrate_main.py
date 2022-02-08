@@ -5,8 +5,16 @@ import load_vars as lv
 import program_skeleton as ps
 import log as log
 
+
+"""
+the driver function for a data ingeration program
+"""
 def main():
-    
+    """
+    loads yaml config values
+    collects the garbage log
+    runs a program skeleton according to the config values. 
+    """ 
     dictionary = lv.load_stream()
     garbage_log = log.garbage_collector("garbage_log")
     #garbage_log.enable_collection()

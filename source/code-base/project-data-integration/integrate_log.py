@@ -5,6 +5,13 @@ import csv
 import logging
 import gc
 
+"""
+json and csv log dumps.  
+"""
+
+"""
+Garbage collector investigation.
+"""
 class garbage_collector:
     def __init__(self, name):
         self.name = name

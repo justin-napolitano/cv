@@ -11,8 +11,13 @@ import datetime
 import json
 import urllib.request
 
-
+"""
+merges csv and json files according to user preferences defined in a yaml file
+"""
 def batch_merge(dictionary: dict):
+    """
+    merges in batches
+    """
     
     input_directory = dictionary['directories']['input_directory']
     #output_directory = cwd + dictionary['output_directory']
@@ -51,12 +56,18 @@ def batch_merge(dictionary: dict):
     os.chdir(dictionary['directories']['cwd'])
 
 def dumb_merge(dictionary: dict):
+    """
+    Merges en masse.  Memory inefficient
+    """
     os.chdir(dictionary['directories']['input_directory'])
     dumb_merge = pd.concat([pd.read_csv(f) for f in dictionary['files']['files_to_merge'] ],sort=True)
     os.chdir(dictionary['directories']['cwd'])
     return dumb_merge
 
 def load_json_files(dictionary: dict):
+    """
+    Json files to merge
+    """ 
     os.chdir(dictionary['directories']['input_directory'])
     #f = dictionary['files']['files_to_merge'][2]
     #with open(f) as d:
@@ -84,45 +95,6 @@ def load_json_files(dictionary: dict):
 
     return json_df
 
-    #print(json_df)
-    #counter = 0
-    #for f in dictionary['files']['files_to_merge']:
-    #    if counter == 0:
-    #        with open(f) as d:
-    #            data = json.load(d)
-    #        json_df = pd.DataFrame(data["results"])
-    #        counter +=1
-    #    else:
-    #        with open(f) as d:
-    #            data = json.load(d)
-    #            df = pd.DataFrame(data["results"])
-        
-    #        pd.concat([json_df,df])
-
-    #print(json_df)
-
-
-
     
-    #with open(dictionary['files']['files_to_merge'][0]) as f:
-        #data = json.load(f)
-
-    #print(data.keys())
-    ##print(len(data["results"]))
-    #df = pd.DataFrame(data["results"])
-    #print(df.columns)
-
-    #print(df)
-    #print(data["content"])
-    #print(data['content']['results'][0])
-    #print(len(data['content']['results'])) 
-    #print(len(data['results']))
-    #print(len(data['content']))
-    #print(json.dumps(data["content"], indent = 4, sort_keys=True))
-    #jsonin = pd.DataFrame.from_dict(data,orient='index')
-    #online = pd.read_json("https://www.loc.gov/collections/united-states-reports?fo=json&dates=2000/2099&fa=online-format:image%7Cpartof:u.s.+reports:+civil+procedure&sb=date")
-    #print(online)
-    #json = pd.concat([pd.read_json(f) for f in dictionary['files']['files_to_merge'] ],sort=True)
-    #os.chdir(dictionary['directories']['cwd'])
     
 

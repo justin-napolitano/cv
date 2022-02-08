@@ -9,6 +9,10 @@ import log as log
 import clean_df as clean
 import download as dl
 import gc
+
+"""
+master program skeleton for mergeing files to to a crm
+"""
 def program_skeleton(dictionary: dict, garbage_log):
 
 ## Batch Merge creates a back_up of contacts from csv in batches no greater than 500 contacts per document.  Can be expanded.  Keeps files from getting to large
