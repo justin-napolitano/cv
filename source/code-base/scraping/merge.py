@@ -13,7 +13,7 @@ import urllib.request
 
 
 
-
+"""batch merges csvs from a directory"""
 def batch_merge(dictionary: dict):
     
     input_directory = dictionary['directories']['input_directory']

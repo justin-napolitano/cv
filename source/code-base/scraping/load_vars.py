@@ -6,13 +6,16 @@ import glob
 import datetime
 from pprint import pprint
 
+"""loads the config from yaml"""
 def load_config():
     #print("test")
     stream = open("config.yaml", 'r')
     task_dictionary = yaml.load(stream)
     return task_dictionary
 
-
+"""creates an environmental variable dictionary.  Probably not the best idea.  These should be set in the indvidual applications that use them
+when designing this i had only one work flow.  It has expanded into multiple jobs
+"""
 def set_environmental_vars(dictionary):
     dictionary['environmental_vars']['directories']['cwd'] = os.getcwd()
     dictionary['environmental_vars']['sep'] = os.sep

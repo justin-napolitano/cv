@@ -1,4 +1,4 @@
 #!/bin/bash
 #push it script
 
-git commit -a && git push
+git add . && git commit -a && git push

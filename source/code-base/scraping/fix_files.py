@@ -3,6 +3,7 @@ from os.path import isfile, join
 import os
 
 
+""" i must have made a mistake in naming files.  I don't remember what it was.  This program fixes the mistakes and adds a data prefix as well as a .json extension"""
 def fix_files(dictionary):
     mypath = dictionary['tasks']['universal_vars']['directories']['to_merge']
     #print(mypath)

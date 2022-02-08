@@ -9,6 +9,8 @@ from google.oauth2.credentials import Credentials
 from google.oauth2 import service_account
 from googleapiclient.http import MediaIoBaseDownload, MediaFileUpload
 
+
+"""the original drive api I need to run the spinx build to find duplicate entries to rename"""
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/drive.metadata.readonly']
 

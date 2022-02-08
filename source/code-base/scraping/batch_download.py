@@ -1,5 +1,6 @@
 from pprint import pprint
 
+"""a sheet properties tuple is passed to this function.  It then downloads the data in batches from a remote google sheet"""
 def batch_download(sheet_properties: dict):
     
     #pprint(dictionary)

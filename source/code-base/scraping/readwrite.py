@@ -5,7 +5,7 @@ from os import listdir
 from os.path import isfile, join
 import os
 
-
+"""df to csv write"""
 def df_toCsv(dictionary,file_name, dataframe,output_directory):
    #print(dataframe)
     output_filename = '_'.join((file_name, dictionary['universal_vars']['date']['date']))
@@ -15,6 +15,7 @@ def df_toCsv(dictionary,file_name, dataframe,output_directory):
 
     dataframe.to_csv(output_path, index=False, encoding='utf-8-sig')
 
+"""df to json write"""
 def df_toJson(dictionary,file_name, dataframe,output_directory):
     #print(dataframe)
     
@@ -25,6 +26,7 @@ def df_toJson(dictionary,file_name, dataframe,output_directory):
     print("Exporting file to : {}".format(output_path))
     dataframe.to_json(output_path)
 
+"""glob file list from a directory"""
 def file_list(directory):
         mypath = directory
         #print(mypath)
@@ -37,6 +39,8 @@ def file_list(directory):
 
 
 # r=root, d=directories, f = files
+
+"""walk a file list for a specific extension"""
 def file_list_walk(thisdir):
     onlyfiles = []
     for r, d, f in os.walk(thisdir):

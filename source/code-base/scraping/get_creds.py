@@ -7,6 +7,8 @@ from google.oauth2.credentials import Credentials
 from google.oauth2 import service_account
 from pprint import pprint
 
+
+"""gets creds from file specified"""
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/spreadsheets']
 

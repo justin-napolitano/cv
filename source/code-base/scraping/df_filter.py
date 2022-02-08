@@ -1,6 +1,10 @@
 #filter.py
 from pprint import pprint
 
+
+"""filters a df for certian criteria
+this program was made obsolete with the switch to the sheets api
+"""
 def clean_agent_data(agent_dict):
     #print(df)
     #df['count'] = ''
@@ -50,7 +54,8 @@ def obsolete():
     
     #df['aproximate_listing_value'] = df['for_sale']['count']* ((df['for_sale']['min'] + df['for_sale']['max'])/2) 
     
-
+"""filters realtor data according to the number of listings and values
+it also checks if the names are in a Do Not Need file"""
 def filter_realtor_data(df, dnn ,min_val: int,min_listings: int):
 
 

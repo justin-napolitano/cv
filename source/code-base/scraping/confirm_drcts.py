@@ -1,5 +1,6 @@
 import os
 
+"""ensure that we are not overwriting any files"""
 def confirm_folder_structure(dictionary):
     for (k,v) in dictionary['tasks']['universal_vars']['directories'].items():
         

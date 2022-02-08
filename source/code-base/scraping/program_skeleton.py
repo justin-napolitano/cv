@@ -27,7 +27,8 @@ def program_skeleton(dictionary: dict):
 
 ## Batch Merge creates a back_up of contacts from csv in batches no greater than 500 contacts per document.  Can be expanded.  Keeps files from getting to large
  
-    
+    """environmental variables loaded from config files
+    I also create the drive and sheet service here.  I will in the future do this for every function that update individually.  Passing objects creates room for errors... also very c like"""
     if dictionary['tasks']['environmental_vars']['run'] == True:
         dictionary['tasks']['environmental_vars']['log']['environmental_vars_set'] = lv.set_environmental_vars(dictionary['tasks'])
         dictionary['tasks']['environmental_vars']['goog_creds'] = creds.get_creds()
@@ -38,6 +39,7 @@ def program_skeleton(dictionary: dict):
        
         #dictionary['tasks']['environmental_vars']['dfs']['cities_search'] = goog_sheets.
         #pprint(dictionary['tasks']['environmental_vars']['sheet_meta'])
+        """downloads search criteria in batches to avoid overflow and asynchronous reception"""
         lv.batchify(dictionary['tasks']['environmental_vars']['criteria_sheet_meta'],dictionary['tasks']['environmental_vars']['batch_size'])
         dictionary['tasks']['environmental_vars']['dnn'] = sheets.batch_download(dictionary['tasks']['environmental_vars']['criteria_sheet_meta']['dnn'],dictionary['tasks']['environmental_vars']['sheets_service'],True)
         
@@ -46,6 +48,8 @@ def program_skeleton(dictionary: dict):
         #log.json_dump(dictionary['tasks'])
         #log.csv_dump(dictionary['tasks'])
         #print(dictionary)
+        
+        """scrapes data from the rew file"""
     if dictionary['tasks']['scrape_web_data_rew']['run'] == True:
         #if dictionary['tasks']['scrape_web_data_sheets']['input_list']['run'] == True:
         #pprint(dictionary['tasks']['environmental_vars']['criteria_sheet_meta'])
@@ -55,7 +59,8 @@ def program_skeleton(dictionary: dict):
         rew3.initial(dictionary['tasks']['environmental_vars']['input_list'],dictionary['tasks']['environmental_vars']['sheets_service'])
         #rew_scraper.scrape("agents/areas/toronto-on",dictionary['tasks']['environmental_vars']['sheets_service'],2,2)
         #print('true')
-
+    
+    """scrapes from the sheets file"""
     if dictionary['tasks']['scrape_web_data_sheets']['run'] == True:
         if dictionary['tasks']['scrape_web_data_sheets']['input_list']['run'] == True:
             #pprint(dictionary['tasks']['environmental_vars']['criteria_sheet_meta'])
@@ -70,11 +75,12 @@ def program_skeleton(dictionary: dict):
          
 
 
-
+    """this a houldout from an old version that saved data locally"""
     if dictionary['tasks']['confirm_folder_structure']['run'] == True:
         dictionary['tasks']['confirm_folder_structure']['log']['folder_structure_confirmed'] = cfs.confirm_folder_structure(dictionary)
         #ff.fix_files(dictionary) # fix files if necessary.  This is a fuck up on my end...
     
+    """holdout from a previous version that i have yet to let go of"""
     if dictionary['tasks']['scrape_web_data']['run'] == True:
         dictionary['tasks']['scrape_web_data']['log']['cities'] = rw.file_list(dictionary['tasks']['environmental_vars']['directories']['cities'])
         df = dictionary['tasks']['environmental_vars']['dfs']['cities'] = m.merge_zip_data(dictionary['tasks']['scrape_web_data']['log']['cities'])
@@ -89,7 +95,8 @@ def program_skeleton(dictionary: dict):
 
         #dictionary['tasks']['environmental_vars']['dfs'][''] = m.merge_zip_data(dictionary['tasks']['scrape_web_data']['log']['zip_codes'])
         #dictionary['tasks']['environmental_vars']['dfs']['zip_codes'] = rw.file_list(dictionary['tasks']['environmental_vars']['files']['zip_database'])
-
+    
+    """holdout from the prevous version"""
     if dictionary['tasks']['merge_data']['run'] == True:
         dictionary['tasks']['merge_data']['log']['files_to_merge'] = rw.file_list_walk(dictionary['tasks']['environmental_vars']['directories']['to_merge'])
         dictionary['tasks']['environmental_vars']['dfs']['master_merge'] = m.merge_agent_data(dictionary['tasks']['merge_data']['log']['files_to_merge'])
@@ -97,7 +104,8 @@ def program_skeleton(dictionary: dict):
         rw.df_toCsv(dictionary['tasks'],dictionary['tasks']['environmental_vars']['file_names']['agent_data_raw'],dictionary['tasks']['environmental_vars']['dfs']['master_merge'],dictionary['tasks']['environmental_vars']['directories']['merged_data'])
         rw.df_toJson(dictionary['tasks'],dictionary['tasks']['environmental_vars']['file_names']['agent_data_raw'],dictionary['tasks']['environmental_vars']['dfs']['master_merge'],dictionary['tasks']['environmental_vars']['directories']['merged_data'])
         #print(dictionary['tasks']['environmental_vars']['dfs']['master_merge'])
-
+    
+    """probs a holdout i have to review it"""
     if dictionary['tasks']['filter_data']['run'] == True:
         print('filtering_data')
         dictionary['tasks']['filter_data']['log']['files_to_filter'] = rw.file_list(dictionary['tasks']['environmental_vars']['directories']['merged_data'])

@@ -6,13 +6,13 @@ import os
 import log as log
 import gc
 
-
+"""makes my df clean"""
 def clean_df(json_dirty_df):
     drop_columns = ['id','date','dates', 'hassegments','access_restricted','aka','campaigns','contributor','digitized','group','extract_timestamp','language','image_url','index','mime_type','online_format','original_format','other_title','partof','subject','timestamp','type']
     json_dirty_df.drop(columns = drop_columns,inplace = True)
     #print(json_dirty_df.columns)
 
-
+"""creates the cold df col"""
 def series_col(df):
     #file_location_df['shelf_id'] = df["shelf_id"] 
     #file_location = df['shelf_id'] + df['title'] + df["item"][call_number]
@@ -44,7 +44,7 @@ def series_col(df):
         i +=1
         
     #print(df['series'])
-
+"""creates the subject df col"""
 def subject_col(df):
     #file_location_df['shelf_id'] = df["shelf_id"] 
     #file_location = df['shelf_id'] + df['title'] + df["item"][call_number]
@@ -69,6 +69,7 @@ def subject_col(df):
         i +=1
     #print(unique_subject_list)
 
+"""creatse the pdf df col"""
 def pdf_col(df):
     #file_location_df['shelf_id'] = df["shelf_id"] 
     #file_location = df['shelf_id'] + df['title'] + df["item"][call_number]
@@ -86,6 +87,7 @@ def pdf_col(df):
     #print(df.columns)
     #print(df['resources'])
    
+"""creates the output df and exports to file"""
 def output_df(df,dictionary):
     output_df = pd.DataFrame({"shelf_id": [], "title": [], "series": [], "subject": [], "pdf": [], "url": []})
     sep = os.sep
@@ -117,23 +119,3 @@ def output_df(df,dictionary):
     dictionary["unique_series_list"] = unique_series_list
     dictionary['unique_subject_list'] = unique_subject_list
     return output_df
-    #print(garbage_log.objects)
-
-  
-
-
-
-
-    #print(output_df['series'])
-
-         
-                    
-                
-
-    
-    #while i < df_len:
-    #    item = df['resources'][i][0]["pdf"]
-    #    df['pdf'][i] = item
-    #    i += 1
-
-   
