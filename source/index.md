@@ -16,6 +16,10 @@ Clean up the code
 Reorganize the WTO paper. 
     Good enough
 
+********** fix linkx ************
+so so many broken links.  
+Add correct section headers don't be lazy about it
+
 Store your db's
 
 Write the realtor graph
