@@ -24,6 +24,9 @@ Write the realtor graph
 
 ****** Collect your sysadmin scripts **************
     add github bash scripts do this now!
+        done
+    add the startup scripts
+    
 :::
 
 ## Education
@@ -233,6 +236,5 @@ docs/bibliography/bibliography.rst
 py-modindex.rst
 genindex.rst
 ```
-
 
 :::
