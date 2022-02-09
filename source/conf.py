@@ -70,8 +70,12 @@ extensions = [
     'autoapi.extension',
     'sphinxcontrib.email',
     "sphinx_jupyterbook_latex",
+    "hawkmoth",
 ]
 
+#Cautodoc Setup 
+
+cautodoc_root = os.path.abspath(/codebase/project-c-reference)
 
 #jupyter latex setup
 

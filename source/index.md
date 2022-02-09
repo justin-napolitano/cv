@@ -143,8 +143,18 @@ Write the realtor graph
 /docs/python-modules/project-flask-modules/index.rst
 /docs/python-modules/project-spark-api/index.rst
 /docs/python-modules/dropbox/index.rst
+/docs/python-modules/project-reference/index.md
 ```
 :::
+
+## C Reference
+:::{card}
+
+:::{toctree}
+:caption: C Reference
+/docs/c-projects/index.md 
+:maxdepth: 2
+
 
 ## Database Development
 
