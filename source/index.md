@@ -5,6 +5,9 @@ title: Justin Napolitano
 
 :::{todo}
 
+build and look for errrors.  To many commits and no tests
+
+
 Review References
 
 Clean up the code 
