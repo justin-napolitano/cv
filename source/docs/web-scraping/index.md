@@ -20,6 +20,10 @@ It could also be modified to save data locally.  Currently, it downloads search 
 
 * `Github <https://github.com/justin-napolitano/project-web-scraping>
 
+## Web Scraping Application
+
+A general purpose web scraping application that can be addapted to most use cases.  
+
 :::{card}
 
 :::{toctree}
@@ -44,3 +48,18 @@ It could also be modified to save data locally.  Currently, it downloads search 
 /autoapi/scrape_merge/index
 /autoapi/scrape_readwrite/index
 /autoapi/scrape_load_df/index
+
+:::
+:::
+
+## Google Image Crawler
+
+A google crawler that will search and download for a requested category of images.  
+
+:::{card}
+
+:::{toctree}
+:caption: Google Image Crawler
+
+/autoapi/googlecrawler.py
+/autoapi/seleniumCrawler.py
