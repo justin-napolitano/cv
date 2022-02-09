@@ -15,6 +15,12 @@ confirm your indices
 	c and python and experimental design
 	everything you did yesterday
 
+Write the resume section next.  
+    ***top priority***:
+Write some db's 
+    school in graph and relational and nosql
+    work in graph and relational and nosql
+
 ********** fix linkx ************
 so so many broken links.  
 Add correct section headers don't be lazy about it
