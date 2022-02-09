@@ -5,18 +5,15 @@ title: Justin Napolitano
 
 :::{todo}
 
-
-add cards to all sections.  It makes for easier reading i woud say.   Bad idea.  only add where necessaryd
-    review
-
 Review References
 
-Clean up the code
-    get rid of the abnoqious commments 
+Clean up the code 
     add descriptions
         
-Reorganize the WTO paper. 
-    Good enough
+confirm your indices
+	reorder according to preference and need
+	c and python and experimental design
+	everything you did yesterday
 
 ********** fix linkx ************
 so so many broken links.  
@@ -32,6 +29,7 @@ Write the realtor graph
     add github bash scripts do this now!
         done
     add the startup scripts
+
     
 :::
 
@@ -112,6 +110,7 @@ Write the realtor graph
 /docs/business-analysis/project-retail-sales-forecasting/index.rst
 ```
 :::
+
 ## ML and AI
 
 
@@ -155,6 +154,10 @@ Write the realtor graph
 /docs/c-projects/index.md 
 :maxdepth: 2
 
+## SAS Reference
+:caption:SAS Reference
+:maxdepth: 2
+/docs/sas/index.md
 
 ## Database Development
 
