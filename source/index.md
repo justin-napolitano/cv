@@ -36,7 +36,17 @@ Write the realtor graph
         done
     add the startup scripts
 
-    
+add ide's 
+add resume section.  It will be a 1 pager when we are done.  It wiall also link to another website dedicated to the res. 
+:::
+
+## Resume Ref this
+Follow the link the one page overview
+
+:::{toctree}
+:hidden:
+:caption: Resume
+/docs/resume/index.md
 :::
 
 ## Education
