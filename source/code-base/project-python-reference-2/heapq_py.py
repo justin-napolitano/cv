@@ -1,33 +1,3 @@
-Skip to content
-Why GitHub? 
-Team
-Enterprise
-Explore 
-Marketplace
-Pricing 
-Search
-
-Sign in
-Sign up
-python
-/
-cpython
-39.2k19.6k
-Code
-Pull requests
-1.4k
-Actions
-Security
-Insights
-cpython/Lib/heapq.py /
-@rkday
-rkday bpo-29984: Improve 'heapq' test coverage (GH-992)
-Latest commit 664fe39 on May 31, 2019
- History
- 16 contributors
-@rhettinger@tim-one@gvanrossum@birkenfeld@benjaminp@Yhg1s@merwok@mdickinson@brettcannon@Amper@doerwalter@vadmium
- 601 lines (531 sloc)  22.3 KB
-  
 """Heap queue algorithm (a.k.a. priority queue).
 Heaps are arrays for which a[k] <= a[2*k+1] and a[k] <= a[2*k+2] for
 all k, counting elements from 0.  For the sake of comparison,
