@@ -1640,6 +1640,381 @@
 </h2>
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
+<div class="highlight-default notranslate">
+<div class="highlight"><pre><span></span>
+<span class="n">Part</span> <span class="n">B</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">on</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">file</span><span class="o">=</span><span class="s2">"/folders/myfoildrs/sasuser.v94/question1partb"</span><span class="p">;</span>
+<span class="n">data</span> <span class="n">bread</span><span class="p">;</span>
+  <span class="nb">input</span> <span class="n">tsp</span> <span class="n">h1</span> <span class="o">-</span><span class="n">h4</span><span class="p">;</span>
+  <span class="n">height</span><span class="o">=</span><span class="n">h1</span><span class="p">;</span> <span class="n">output</span><span class="p">;</span>
+  <span class="n">height</span><span class="o">=</span><span class="n">h2</span><span class="p">;</span> <span class="n">output</span><span class="p">;</span>
+  <span class="n">height</span><span class="o">=</span><span class="n">h3</span><span class="p">;</span> <span class="n">output</span><span class="p">;</span>
+  <span class="n">height</span><span class="o">=</span><span class="n">h4</span><span class="p">;</span> <span class="n">output</span><span class="p">;</span>
+  <span class="n">keep</span> <span class="n">tsp</span> <span class="n">height</span><span class="p">;</span>
+<span class="n">datalines</span><span class="p">;</span>
+  <span class="mf">0.25</span> <span class="mf">11.4</span> <span class="mf">11.0</span> <span class="mf">11.3</span> <span class="mf">09.5</span>
+  <span class="mf">0.50</span> <span class="mf">27.8</span> <span class="mf">29.2</span> <span class="mf">26.8</span> <span class="mf">26.0</span>
+  <span class="mf">0.75</span> <span class="mf">47.6</span> <span class="mf">47.0</span> <span class="mf">47.3</span> <span class="mf">45.5</span>
+  <span class="mf">1.00</span> <span class="mf">61.6</span> <span class="mf">62.4</span> <span class="mf">63.0</span> <span class="mf">63.9</span>
+ <span class="n">run</span><span class="p">;</span>
+ <span class="n">proc</span> <span class="n">glm</span><span class="p">;</span>
+  <span class="k">class</span> <span class="nc">tsp</span><span class="p">;</span>
+  <span class="n">model</span> <span class="n">height</span><span class="o">=</span><span class="n">tsp</span><span class="o">/</span><span class="n">solution</span><span class="p">;</span>
+  <span class="n">run</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">off</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">close</span><span class="p">;</span>
+
+<span class="n">Part</span> <span class="n">C</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">on</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">file</span><span class="o">=</span><span class="s2">"C:\Users\ju849482\Desktop"</span><span class="p">;</span>
+<span class="n">proc</span> <span class="n">iml</span><span class="p">;</span>
+<span class="n">t</span><span class="o">=</span><span class="p">{</span><span class="mf">.25</span> <span class="mf">.5</span> <span class="mf">.75</span> <span class="mf">1.0</span><span class="p">};</span>
+<span class="n">C</span><span class="o">=</span><span class="n">orpol</span><span class="p">(</span><span class="n">t</span><span class="p">);</span>
+<span class="nb">print</span> <span class="n">c</span><span class="p">;</span>
+<span class="n">quit</span>
+
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">data</span><span class="o">=</span><span class="n">bread</span><span class="p">;</span>
+  <span class="k">class</span> <span class="nc">tsp</span><span class="p">;</span>
+  <span class="n">model</span> <span class="n">height</span><span class="o">=</span><span class="n">tsp</span><span class="p">;</span>
+  <span class="n">estimate</span> <span class="s1">'Linear Trend'</span> <span class="n">tsp</span>  <span class="o">-</span><span class="mf">.67082</span> <span class="o">-</span><span class="mf">0.223607</span> <span class="mf">0.223607</span> <span class="mf">0.67082</span>
+  <span class="n">output</span> <span class="n">out</span><span class="o">=</span><span class="n">s</span> <span class="n">r</span><span class="o">=</span><span class="n">resid</span> <span class="n">p</span><span class="o">=</span><span class="n">yhat</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">off</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">close</span><span class="p">;</span>
+
+<span class="n">Part</span> <span class="n">E</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">on</span><span class="p">;</span>
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">plots</span><span class="o">=</span><span class="n">diagnostic</span><span class="p">;</span>
+  <span class="k">class</span> <span class="nc">tsp</span><span class="p">;</span>
+  <span class="n">model</span> <span class="n">height</span><span class="o">=</span> <span class="n">tsp</span><span class="o">/</span><span class="n">solution</span><span class="p">;</span>
+  <span class="n">run</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">off</span><span class="p">;</span>
+
+<span class="n">Question</span> <span class="mi">2</span>
+<span class="n">part</span> <span class="n">a</span>
+  <span class="n">Data</span> <span class="n">Power</span><span class="p">;</span>
+  <span class="n">do</span> <span class="n">r</span><span class="o">=</span><span class="mi">2</span> <span class="n">to</span> <span class="mi">10</span>
+    <span class="n">nu1</span><span class="o">=</span><span class="mi">4</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span> <span class="o">*</span> <span class="n">df</span> <span class="k">for</span> <span class="n">numerator</span> <span class="n">modified</span> <span class="k">for</span> <span class="mi">4</span> <span class="n">factor</span> <span class="n">levels</span><span class="o">.</span><span class="p">;</span>
+    <span class="n">nu2</span><span class="o">=</span><span class="mi">4</span><span class="o">*</span><span class="p">(</span><span class="n">r</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span> <span class="o">*</span> <span class="n">df</span> <span class="k">for</span> <span class="n">denominator</span> <span class="n">modified</span> <span class="k">for</span> <span class="n">four</span> <span class="n">factor</span> <span class="n">levels</span><span class="p">;</span>
+    <span class="n">alpha</span> <span class="o">=</span><span class="mf">.05</span><span class="p">;</span>
+    <span class="n">Fcrit</span><span class="o">=</span><span class="n">finv</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">alpha</span><span class="p">,</span><span class="n">nu1</span><span class="p">,</span><span class="n">nu2</span><span class="p">);</span><span class="o">*</span><span class="n">F</span> <span class="n">critical</span> <span class="n">value</span><span class="p">;</span>
+    <span class="n">nc</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">r</span><span class="p">;</span><span class="o">*</span><span class="n">noncentrality</span> <span class="n">parameter</span> <span class="k">for</span> <span class="n">noncentral</span> <span class="n">F</span><span class="p">;</span>
+    <span class="n">power</span><span class="o">=</span><span class="mi">1</span><span class="o">-</span><span class="n">probf</span><span class="p">(</span><span class="n">Fcrit</span><span class="p">,</span><span class="n">nu1</span><span class="p">,</span><span class="n">nu2</span><span class="p">,</span><span class="n">nc</span><span class="p">);</span>
+    <span class="n">output</span>
+  <span class="n">end</span><span class="p">;</span>
+  <span class="n">keep</span> <span class="n">r</span> <span class="n">nu1</span> <span class="n">nu2</span> <span class="n">nc</span> <span class="n">power</span><span class="p">;</span>
+  <span class="n">title</span> <span class="n">Power</span> <span class="n">Calculation</span> <span class="ow">in</span> <span class="n">Data</span> <span class="n">Step</span>
+  <span class="n">proc</span> <span class="nb">print</span><span class="p">;</span> <span class="n">run</span><span class="p">;</span>
+
+<span class="n">part</span> <span class="n">b</span>
+  <span class="o">*</span><span class="n">Power</span> <span class="n">Calculation</span> <span class="n">Using</span> <span class="n">proc</span> <span class="n">glmpower</span><span class="p">;</span>
+  <span class="n">data</span> <span class="n">Case</span>
+  <span class="nb">input</span> <span class="n">trt</span> <span class="n">meanht</span><span class="p">;</span>
+  <span class="n">datalines</span>
+  <span class="mi">1</span> <span class="o">-</span><span class="mi">1</span>
+  <span class="mi">2</span> <span class="mi">0</span>
+  <span class="mi">3</span> <span class="mi">0</span>
+  <span class="mi">4</span> <span class="mi">1</span>
+  <span class="n">proc</span> <span class="n">glmpower</span><span class="p">;</span>
+    <span class="k">class</span> <span class="nc">trt</span><span class="p">;</span>
+    <span class="n">model</span> <span class="n">meanh</span><span class="o">=</span><span class="n">trt</span><span class="p">;</span>
+    <span class="n">power</span>
+      <span class="n">stddev</span><span class="o">=</span><span class="mi">1</span>
+      <span class="n">ntotal</span><span class="o">=</span><span class="mi">8</span> <span class="n">to</span> <span class="mi">40</span> <span class="n">by</span> <span class="mi">4</span>
+      <span class="n">power</span> <span class="o">=</span> <span class="o">.</span><span class="p">;</span>
+    <span class="n">run</span><span class="p">;</span>
+
+  <span class="n">proc</span> <span class="n">power</span><span class="p">;</span>
+    <span class="n">OneWayAnova</span>
+      <span class="n">Alpha</span><span class="o">=</span><span class="mf">.05</span>
+      <span class="n">GroupMeans</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="mf">1.5</span> <span class="mi">0</span> <span class="mf">1.5</span><span class="p">)</span>
+      <span class="n">StdDev</span><span class="o">=</span><span class="mf">1.4449</span>
+      <span class="n">power</span> <span class="o">=</span> <span class="o">.</span>
+      <span class="n">NPerGroup</span> <span class="o">=</span> <span class="mf">2.</span> <span class="n">to</span> <span class="mi">6</span> <span class="n">by</span> <span class="mi">1</span><span class="p">;</span>
+  <span class="n">run</span><span class="p">;</span>
+
+
+<span class="o">*</span><span class="n">Part</span> <span class="n">d</span> <span class="k">with</span> <span class="mi">2</span> <span class="n">replicates</span>
+<span class="o">*</span><span class="n">Power</span> <span class="n">Calculation</span> <span class="n">Using</span> <span class="n">proc</span> <span class="n">glmpower</span><span class="p">;</span>
+<span class="n">data</span> <span class="n">class</span><span class="p">;</span>
+<span class="nb">input</span> <span class="n">trt</span> <span class="n">meanht</span><span class="p">;</span>
+<span class="n">datalines</span><span class="p">;</span>
+<span class="mi">1</span> <span class="mi">1</span>
+<span class="mi">2</span> <span class="mi">0</span>
+<span class="n">proc</span> <span class="n">glmpower</span><span class="p">;</span>
+  <span class="k">class</span> <span class="nc">trt</span><span class="p">;</span>
+  <span class="n">model</span> <span class="n">meanht</span><span class="o">=</span><span class="n">trt</span><span class="p">;</span>
+  <span class="n">power</span>
+    <span class="n">stddev</span><span class="o">=</span><span class="mi">1</span>
+    <span class="n">ntotal</span><span class="o">=</span><span class="mi">4</span> <span class="n">to</span> <span class="mi">20</span> <span class="n">by</span> <span class="mi">2</span>
+    <span class="n">power</span> <span class="o">=</span> <span class="o">.</span><span class="p">;</span>
+  <span class="n">run</span><span class="p">;</span>
+
+  <span class="o">*</span><span class="n">Part</span> <span class="n">d</span> <span class="k">with</span> <span class="mi">8</span> <span class="n">replicates</span>
+  <span class="o">*</span><span class="n">Power</span> <span class="n">Calculation</span> <span class="n">Using</span> <span class="n">proc</span> <span class="n">glmpower</span><span class="p">;</span>
+  <span class="n">data</span> <span class="n">MidtermQ2</span>
+  <span class="nb">input</span> <span class="n">trt</span> <span class="n">meanht</span><span class="p">;</span>
+  <span class="n">datalines</span>
+  <span class="mi">1</span> <span class="o">-</span><span class="mi">1</span>
+  <span class="mi">2</span> <span class="mi">0</span>
+  <span class="mi">3</span> <span class="mi">0</span>
+  <span class="mi">4</span> <span class="mi">1</span>
+  <span class="n">proc</span> <span class="n">glmpower</span><span class="p">;</span>
+    <span class="k">class</span> <span class="nc">trt</span><span class="p">;</span>
+    <span class="n">model</span> <span class="n">meanht</span><span class="o">=</span><span class="n">trt</span><span class="p">;</span>
+    <span class="n">power</span>
+      <span class="n">stddev</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+      <span class="n">ntotal</span><span class="o">=</span><span class="mi">16</span> <span class="n">to</span> <span class="mi">80</span> <span class="n">by</span> <span class="mi">8</span>
+      <span class="n">power</span> <span class="o">=</span> <span class="o">.</span><span class="p">;</span>
+    <span class="n">run</span><span class="p">;</span>
+
+
+
+<span class="n">Question</span> <span class="mi">3</span>
+
+<span class="n">Part</span> <span class="n">A</span><span class="o">-</span><span class="n">b</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">on</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">file</span> <span class="o">=</span><span class="s2">"C:\Users\ju849482\Desktop\q3.pdf"</span> <span class="p">;</span>
+
+<span class="n">data</span> <span class="n">toolLife</span><span class="p">;</span>
+<span class="nb">input</span> <span class="n">A</span> <span class="n">B</span> <span class="n">C</span> <span class="n">toolLife</span> <span class="p">;</span>
+<span class="n">datalines</span><span class="p">;</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">22</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">32</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">25</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">32</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">43</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">29</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">35</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">34</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">50</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">55</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">47</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">46</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">44</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">45</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">38</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">40</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">37</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">36</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">60</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">50</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">54</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">39</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">41</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">47</span>
+<span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">data</span><span class="o">=</span><span class="n">toolLife</span><span class="p">;</span>
+<span class="n">model</span> <span class="n">toolLife</span> <span class="o">=</span> <span class="n">A</span><span class="o">|</span><span class="n">B</span><span class="o">|</span><span class="n">C</span> <span class="o">/</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">output</span> <span class="n">ParameterEstimates</span><span class="o">=</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">off</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">close</span><span class="p">;</span>
+
+
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">on</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">file</span> <span class="o">=</span><span class="s2">"C:\Users\ju849482\Desktop\q3c.pdf"</span> <span class="p">;</span>
+
+<span class="n">data</span> <span class="n">toolLife</span><span class="p">;</span>
+<span class="nb">input</span> <span class="n">A</span> <span class="n">B</span> <span class="n">C</span> <span class="n">toolLife</span> <span class="p">;</span>
+<span class="n">datalines</span><span class="p">;</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">22</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">32</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">25</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">32</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">43</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">29</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">35</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">34</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">50</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">55</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">47</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">46</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">44</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">45</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">38</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">40</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">37</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">36</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">60</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">50</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">54</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">39</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">41</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">47</span>
+<span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">data</span><span class="o">=</span><span class="n">toolLife</span><span class="p">;</span>
+<span class="n">model</span> <span class="n">toolLife</span> <span class="o">=</span> <span class="n">B</span> <span class="n">C</span> <span class="n">A</span><span class="o">*</span><span class="n">C</span> <span class="o">/</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">output</span> <span class="n">ParameterEstimates</span><span class="o">=</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="nb">print</span> <span class="n">data</span><span class="o">=</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">title</span> <span class="s2">"Regression model for predicting tool life (in hours) based on factors A B C and AC"</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">data</span><span class="o">=</span><span class="n">toolLife</span> <span class="n">plot</span><span class="p">(</span><span class="n">unpack</span><span class="p">)</span><span class="o">=</span><span class="n">diagnostic</span> <span class="p">;</span>
+	<span class="n">model</span> <span class="n">toolLife</span> <span class="o">=</span> <span class="n">A</span><span class="o">|</span><span class="n">B</span><span class="o">|</span><span class="n">C</span><span class="p">;</span>
+	<span class="n">output</span> <span class="n">out</span><span class="o">=</span><span class="n">out</span> <span class="n">p</span><span class="o">=</span><span class="n">yhat</span> <span class="n">r</span><span class="o">=</span><span class="n">resid</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+<span class="n">quit</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">off</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">close</span><span class="p">;</span>
+
+
+
+
+
+<span class="n">Question</span> <span class="mi">3</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">on</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">file</span> <span class="o">=</span><span class="s2">"C:\Users\ju849482\Desktop\q3.pdf"</span> <span class="p">;</span>
+
+
+<span class="n">data</span> <span class="n">toolLife</span><span class="p">;</span>
+<span class="nb">input</span> <span class="n">A</span> <span class="n">B</span> <span class="n">C</span> <span class="n">toolLife</span> <span class="p">;</span>
+<span class="n">datalines</span><span class="p">;</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">22</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">32</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">25</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">32</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">43</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">29</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">35</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">34</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">50</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">55</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">47</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">46</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">44</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">45</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">38</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">40</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">37</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">36</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">60</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">50</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">54</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">39</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">41</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">47</span>
+<span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">data</span><span class="o">=</span><span class="n">toolLife</span><span class="p">;</span>
+<span class="n">model</span> <span class="n">toolLife</span> <span class="o">=</span> <span class="n">A</span><span class="o">|</span><span class="n">B</span><span class="o">|</span><span class="n">C</span> <span class="o">/</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">output</span> <span class="n">ParameterEstimates</span><span class="o">=</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">data</span><span class="o">=</span><span class="n">toolLife</span><span class="p">;</span>
+<span class="n">model</span> <span class="n">toolLife</span> <span class="o">=</span> <span class="n">B</span> <span class="n">C</span> <span class="n">A</span><span class="o">*</span><span class="n">C</span> <span class="o">/</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">output</span> <span class="n">ParameterEstimates</span><span class="o">=</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="nb">print</span> <span class="n">data</span><span class="o">=</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">title</span> <span class="s2">"Regression model for predicting tool life (in hours) based on factors A B C and AC"</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">data</span><span class="o">=</span><span class="n">toolLife</span> <span class="n">plot</span><span class="p">(</span><span class="n">unpack</span><span class="p">)</span><span class="o">=</span><span class="n">diagnostic</span> <span class="p">;</span>
+	<span class="n">model</span> <span class="n">toolLife</span> <span class="o">=</span> <span class="n">A</span><span class="o">|</span><span class="n">B</span><span class="o">|</span><span class="n">C</span><span class="p">;</span>
+	<span class="n">output</span> <span class="n">out</span><span class="o">=</span><span class="n">out</span> <span class="n">p</span><span class="o">=</span><span class="n">yhat</span> <span class="n">r</span><span class="o">=</span><span class="n">resid</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+<span class="n">quit</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">off</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">close</span><span class="p">;</span>
+
+
+
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">on</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">file</span> <span class="o">=</span><span class="s2">"C:\Users\ju849482\Desktop\q3all3.pdf"</span> <span class="p">;</span>
+
+
+<span class="n">data</span> <span class="n">toolLife</span><span class="p">;</span>
+<span class="nb">input</span> <span class="n">A</span> <span class="n">B</span> <span class="n">C</span> <span class="n">toolLife</span> <span class="p">;</span>
+<span class="n">datalines</span><span class="p">;</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">22</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">32</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">25</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">32</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">43</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">29</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">35</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">34</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">50</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">55</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">47</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">46</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">44</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">45</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">38</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">40</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">37</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">36</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">60</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">50</span>
+<span class="o">-</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">54</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">39</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">41</span>
+<span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="o">+</span><span class="mi">1</span> <span class="mi">47</span>
+<span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">data</span><span class="o">=</span><span class="n">toolLife</span><span class="p">;</span>
+<span class="n">model</span> <span class="n">toolLife</span> <span class="o">=</span> <span class="n">A</span><span class="o">|</span><span class="n">B</span><span class="o">|</span><span class="n">C</span> <span class="o">/</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">output</span> <span class="n">ParameterEstimates</span><span class="o">=</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">data</span><span class="o">=</span><span class="n">toolLife</span><span class="p">;</span>
+<span class="n">model</span> <span class="n">toolLife</span> <span class="o">=</span> <span class="n">B</span> <span class="n">C</span> <span class="n">A</span><span class="o">*</span><span class="n">C</span> <span class="o">/</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">output</span> <span class="n">ParameterEstimates</span><span class="o">=</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="nb">print</span> <span class="n">data</span><span class="o">=</span><span class="n">solution</span><span class="p">;</span>
+<span class="n">title</span> <span class="s2">"Regression model for predicting tool life (in hours) based on factors B C and AC"</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">glm</span> <span class="n">data</span><span class="o">=</span><span class="n">toolLife</span> <span class="n">plot</span><span class="p">(</span><span class="n">unpack</span><span class="p">)</span><span class="o">=</span><span class="n">diagnostic</span> <span class="p">;</span>
+	<span class="n">model</span> <span class="n">toolLife</span> <span class="o">=</span> <span class="n">A</span><span class="o">|</span><span class="n">B</span><span class="o">|</span><span class="n">C</span><span class="p">;</span>
+	<span class="n">output</span> <span class="n">out</span><span class="o">=</span><span class="n">out</span> <span class="n">p</span><span class="o">=</span><span class="n">yhat</span> <span class="n">r</span><span class="o">=</span><span class="n">resid</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">sort</span> <span class="n">data</span><span class="o">=</span><span class="n">out</span><span class="p">;</span> <span class="n">by</span> <span class="n">resid</span><span class="p">;</span>
+<span class="n">data</span> <span class="n">out</span><span class="p">;</span> <span class="nb">set</span> <span class="n">out</span><span class="p">;</span>
+<span class="n">n</span><span class="o">=</span><span class="n">_n_</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">data</span> <span class="n">_null_</span><span class="p">;</span>
+<span class="n">call</span> <span class="n">symput</span><span class="p">(</span><span class="s1">'obs'</span><span class="p">),</span> <span class="n">put</span><span class="p">(</span><span class="n">lastobs</span><span class="p">,</span> <span class="n">best</span><span class="o">.</span><span class="p">));</span>
+<span class="nb">set</span> <span class="n">out</span> <span class="n">nobs</span><span class="o">=</span><span class="n">lastobs</span><span class="p">;</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">data</span> <span class="n">out</span><span class="p">;</span> <span class="nb">set</span> <span class="n">out</span><span class="p">;</span>
+	<span class="n">nQuant</span><span class="o">=</span><span class="n">probit</span><span class="p">(</span>  <span class="p">(</span> <span class="n">n</span><span class="o">-</span><span class="mf">0.375</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="o">&amp;</span><span class="n">nobs</span><span class="o">+</span><span class="mf">0.25</span><span class="p">)</span> <span class="p">);</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">proc</span> <span class="n">rank</span> <span class="n">data</span><span class="o">=</span><span class="n">out</span> <span class="n">normal</span><span class="o">=</span> <span class="n">blom</span> <span class="n">out</span><span class="o">=</span> <span class="n">out1</span><span class="p">;</span>
+	<span class="n">var</span> <span class="n">resid</span><span class="p">;</span>
+	<span class="n">ranks</span> <span class="n">resid_Quant</span>
+<span class="n">run</span><span class="p">;</span>
+
+<span class="n">title</span> <span class="s1">'Q-Q plot for residuals in toolLife Data'</span><span class="p">;</span>
+	<span class="n">proc</span> <span class="n">sgplot</span> <span class="n">data</span><span class="o">=</span><span class="n">out1</span><span class="p">;</span>
+		<span class="n">scatter</span> <span class="n">y</span><span class="o">=</span><span class="n">resid_Quant</span> <span class="n">x</span><span class="o">=</span><span class="n">nQuant</span><span class="p">;</span>
+		<span class="n">reg</span> <span class="n">y</span><span class="o">=</span><span class="n">resid_Quant</span> <span class="n">x</span><span class="o">=</span><span class="n">nQuant</span><span class="p">;</span>
+		<span class="n">xaxis</span> <span class="n">label</span><span class="o">=</span><span class="s2">"Normal Quantiles"</span><span class="p">;</span>
+		<span class="n">yaxis</span> <span class="n">label</span><span class="o">=</span><span class="s2">"Residual"</span><span class="p">;</span>
+	<span class="n">run</span><span class="p">;</span>
+
+
+<span class="n">quit</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">graphics</span> <span class="n">off</span><span class="p">;</span>
+<span class="n">ods</span> <span class="n">pdf</span> <span class="n">close</span><span class="p">;</span>
+</pre></div>
+</div>
 </div>
 </div>
 <div class="highlight-default notranslate">

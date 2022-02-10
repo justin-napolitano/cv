@@ -29,9 +29,9 @@ A general purpose web scraping application that can be addapted to most use case
 :::{toctree}
 :caption: Web Scraping Application
 
-/autoapi/scraping-main/index
-/autoapi/scraping-skeleton/index
-/autoapi/scrape_oad_vars/index
+/autoapi/scrapingmain/index
+/autoapi/scrapingskeleton/index
+/autoapi/scrape_load_vars/index
 /autoapi/scrape_log/index
 /autoapi/scrape_creds/index
 /autoapi/scrape_batch/index
