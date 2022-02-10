@@ -23,7 +23,6 @@ A collection of Python reference programs
 /autoapi/escapeMaze/index
 /autoapi/heapq_py/index
 /autoapi/insertionSort/index
-/autoapi/lawOfRecursion/index
 /autoapi/listsum/index
 /autoapi/mergeSort/index
 /autoapi/min_coin_cache/index
