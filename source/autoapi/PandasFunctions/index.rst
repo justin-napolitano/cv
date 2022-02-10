@@ -19,7 +19,11 @@ Classes
 
 .. py:class:: PandasFunctions
 
+   load class with a few loading functions that are modified to my preferences
+
    .. py:class:: Load
+
+      converts a csv to df from file
 
       .. py:method:: csv_to_df(filepath_or_buffer)
 

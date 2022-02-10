@@ -20,7 +20,11 @@ Functions
 
 .. py:function:: df_toCsv(dataframe, dictionary)
 
+   writes a df to csv
+
 
 .. py:function:: df_toJson(dataframe, dictionary)
+
+   writes a df to json
 
 

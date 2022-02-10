@@ -6,8 +6,7 @@ def sequentialSearch(alist, item):
         if alist[pos] == item:
             found = True
         else:
-
-    return found
+            return found
 
 testlist = [1, 2, 32, 8, 17, 19, 42, 13, 0]
 print(sequentialSearch(testlist, 3))

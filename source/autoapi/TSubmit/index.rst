@@ -71,4 +71,6 @@ Functions
 
 .. py:function:: main()
 
+   Adds vertices to a df that are then uploaded to janus graph via transactions asynchronously.
+
 

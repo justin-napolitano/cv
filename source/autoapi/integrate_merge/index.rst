@@ -21,10 +21,16 @@ Functions
 
 .. py:function:: batch_merge(dictionary: dict)
 
+   merges in batches
+
 
 .. py:function:: dumb_merge(dictionary: dict)
 
+   Merges en masse.  Memory inefficient
+
 
 .. py:function:: load_json_files(dictionary: dict)
+
+   Json files to merge
 
 

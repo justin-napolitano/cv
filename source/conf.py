@@ -75,7 +75,7 @@ extensions = [
 
 #Cautodoc Setup 
 
-cautodoc_root = os.path.abspath(/codebase/project-c-reference)
+cautodoc_root = os.path.abspath("codebase/project-c-reference")
 
 #jupyter latex setup
 

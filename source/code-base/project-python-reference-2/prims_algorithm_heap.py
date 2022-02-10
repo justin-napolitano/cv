@@ -111,8 +111,9 @@ class Heap():
 
 
 def printArr(parent, n):
-	for i in range(1, n):
-		print "% d - % d" % (parent[i], i)
+	
+    for i in range(1, n):
+        print("% d - % d" % (parent[i], i))
 
 
 class Graph():

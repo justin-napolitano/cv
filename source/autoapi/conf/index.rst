@@ -32,6 +32,11 @@ Module Contents
 
    
 
+.. py:data:: cautodoc_root
+   
+
+   
+
 .. py:data:: jb_load_imgconverter
    :annotation: = True
 

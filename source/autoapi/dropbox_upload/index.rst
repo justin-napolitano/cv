@@ -55,7 +55,7 @@ Attributes
 .. py:data:: BACKUPPATH
    :annotation: = /DropboxApplications/JanusGraph/realtor_data/test.txt
 
-   
+   Sphinx requries that I give each new assignment a new name.  I have to change this habit in all of my new writing.
 
 .. py:data:: LOCALFILE_JOINED
    

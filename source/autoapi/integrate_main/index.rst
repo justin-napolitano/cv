@@ -19,4 +19,8 @@ Functions
 
 .. py:function:: main()
 
+   loads yaml config values
+   collects the garbage log
+   runs a program skeleton according to the config values.
+
 
