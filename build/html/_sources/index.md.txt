@@ -4,7 +4,7 @@ title: Justin Napolitano
 
 # Curricula Vitae
 
-:::{todo}
+```{todo}
 
 build and look for errrors.  To many commits and no tests
 
@@ -42,22 +42,22 @@ Write the realtor graph
 
 add ide's 
 add resume section.  It will be a 1 pager when we are done.  It wiall also link to another website dedicated to the res. 
-:::
+```
 
 ## Resume Ref this
 Follow the link the one page overview
 
-:::{toctree}
+```{toctree}
 :hidden:
 :caption: Resume
 
 /docs/resume/index.md
-:::
+```
 
 ## Education
 
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: Education
@@ -67,12 +67,12 @@ Follow the link the one page overview
 
 ```
 
-:::
+```
 
 ## Work History
 
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: Work History
@@ -81,12 +81,12 @@ Follow the link the one page overview
 /docs/work-history/btjn.rst
 /docs/work-history/ucf.rst
 ```
-:::
+```
 
 ## Languages
 
 
-:::{card}
+```{card}
 
 
 ```{toctree}
@@ -100,12 +100,12 @@ Follow the link the one page overview
 /docs/languages/msa-language.rst
 /docs/languages/sranan-language.rst
 ```
-:::
+```
 
 ## Political Analysis
 
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: Political Analysis
@@ -116,12 +116,12 @@ Follow the link the one page overview
 /docs/political-analysis/terrorism-conflict/index.md
 /docs/political-analysis/international-law/index.md
 ```
-:::
+```
 
 ## Business Analysis and Reporting
 
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: Business Analysis
@@ -130,12 +130,12 @@ Follow the link the one page overview
 /docs/business-analysis/project-order-forecasting/index.rst
 /docs/business-analysis/project-retail-sales-forecasting/index.rst
 ```
-:::
+```
 
 ## ML and AI
 
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: ML and AI
@@ -144,12 +144,12 @@ Follow the link the one page overview
 /docs/ml-ai/project-supcourt-tensorflow/index.rst
 /docs/ml-ai/project-gender-recognition/gender-recognition.rst
 ```
-:::
+```
 
 ## Python Modules
 
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: Python Modules
@@ -164,37 +164,37 @@ Follow the link the one page overview
 /docs/python-modules/dropbox/index.rst
 /docs/python-modules/project-reference/index.md
 ```
-:::
+```
 
 ## C Reference
 
-:::{card}
+```{card}
 
-:::{toctree}
+```{toctree}
 :caption: C Reference
 :maxdepth: 2
 
 /docs/c-projects/index.md
-:::
-:::
+```
+```
 
 
 ## SAS Reference
 
-:::{card}
+```{card}
 
-:::{toctree}
+```{toctree}
 :caption: SAS Reference
 :maxdepth: 2
 
 /docs/sas/index.md
-:::
-:::
+```
+```
 
 ## Database Development
 
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: Database Development
@@ -203,11 +203,11 @@ Follow the link the one page overview
 /docs/graph-database/index.rst
 /docs/relational-database/index.rst
 ```
-:::
+```
 
 ## Data Integration
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: Data Integration
@@ -215,12 +215,12 @@ Follow the link the one page overview
 
 /docs/data-integration/csv-json-integration.rst
 ```
-:::
+```
 
 
 ## Web Scraping
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: Web Scraping
@@ -228,19 +228,19 @@ Follow the link the one page overview
 
 /docs/web-scraping/index.md
 ```
-:::
+```
 
 ## Automation and Utility Scripts
 
-:::{card}
+```{card}
 
-:::{toctree}
+```{toctree}
 :caption: Automation and Utility Scripts
 :maxdepth: 2
 
 /docs/automation/index.rst
-:::
-:::
+```
+```
 
 ## Contact 
 
@@ -252,17 +252,17 @@ Follow the link the one page overview
 /docs/contact/contact.md
 ```
 
-:::{card} Email
+```{card} Email
 
 ^^^
 {email}`justin@jnapolitano.io`
 
 +++
 
-:::
+```
 
 
-:::{card} Phone
+```{card} Phone
 
 ^^^
 ```{eval-rst}
@@ -270,11 +270,11 @@ Follow the link the one page overview
 ```
 +++
 
-:::
+```
 
 ## Journal 
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: Journal
@@ -282,11 +282,11 @@ Follow the link the one page overview
 
 docs/blog/posts
 ```
-:::
+```
 
 ## Reference
 
-:::{card}
+```{card}
 
 ```{toctree}
 :caption: Reference
@@ -296,4 +296,4 @@ docs/bibliography/bibliography.rst
 py-modindex.rst
 genindex.rst
 ```
-:::
+```
