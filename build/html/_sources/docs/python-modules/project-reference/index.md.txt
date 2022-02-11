@@ -48,5 +48,6 @@ A collection of Python reference programs
 /autoapi/tree_post_order/index
 /autoapi/tree_pre_order/index
 /autoapi/unordered_list/index
+/autoapi/sequential_search/index.rst
 :::
 :::
