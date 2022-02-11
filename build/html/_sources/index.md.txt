@@ -1,6 +1,7 @@
 ---
 title: Justin Napolitano
 ---
+
 # Curricula Vitae
 
 :::{todo}
@@ -162,21 +163,36 @@ Follow the link the one page overview
 /docs/python-modules/project-spark-api/index.rst
 /docs/python-modules/dropbox/index.rst
 /docs/python-modules/project-reference/index.md
+
 ```
+
 :::
 
 ## C Reference
+
 :::{card}
 
 :::{toctree}
 :caption: C Reference
-/docs/c-projects/index.md 
 :maxdepth: 2
 
+/docs/c-projects/index.md
+
+:::
+:::
+
 ## SAS Reference
+
+:::{card}
+
+:::{toctree}
 :caption:SAS Reference
 :maxdepth: 2
+
 /docs/sas/index.md
+
+:::
+:::
 
 ## Database Development
 
@@ -189,6 +205,7 @@ Follow the link the one page overview
 
 /docs/graph-database/index.rst
 /docs/relational-database/index.rst
+
 ```
 :::
 
@@ -212,12 +229,13 @@ Follow the link the one page overview
 :::{card}
 
 :::{toctree}
+:caption: Automation and Utility Scripts
+:maxdepth: 2
 
-    :caption: Automation and Utility Scripts
-    :maxdepth: 2
+/docs/automation/index.rst
 
-    /docs/automation/index.rst
-
+:::
+:::
 
 ## Contact 
 

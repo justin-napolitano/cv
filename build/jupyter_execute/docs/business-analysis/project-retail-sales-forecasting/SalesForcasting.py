@@ -20,7 +20,7 @@ from math import sqrt
 from statsmodels.tsa.api import ExponentialSmoothing, SimpleExpSmoothing, Holt
 
 
-# In[147]:
+# In[2]:
 
 
 def mape_vectorized_v2(a, b): 
@@ -28,7 +28,7 @@ def mape_vectorized_v2(a, b):
     return (np.fabs(a - b)/a)[mask].mean() 
 
 
-# In[148]:
+# In[3]:
 
 
 #Creating the initial Data Frame from the potLog6 csv.  Data from 1/1/2020 to 3/31/2020
