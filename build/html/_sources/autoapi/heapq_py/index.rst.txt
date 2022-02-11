@@ -65,8 +65,8 @@ Functions
    more appropriate when using a fixed-size heap.  Note that the value
    returned may be larger than item!  That constrains reasonable uses of
    this routine unless written as part of a conditional replacement:
-       if item > heap[0]:
-           item = heapreplace(heap, item)
+   if item > heap[0]:
+   item = heapreplace(heap, item)
 
 
 .. py:function:: heappushpop(heap, item)

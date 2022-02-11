@@ -2126,17 +2126,9 @@ maintains the heap invariant!</p>
 This is more efficient than heappop() followed by heappush(), and can be
 more appropriate when using a fixed-size heap.  Note that the value
 returned may be larger than item!  That constrains reasonable uses of
-this routine unless written as part of a conditional replacement:</p>
-<blockquote>
-<div>
-<dl class="simple">
-<dt>if item &gt; heap[0]:</dt>
-<dd>
-<p>item = heapreplace(heap, item)</p>
-</dd>
-</dl>
-</div>
-</blockquote>
+this routine unless written as part of a conditional replacement:
+if item &gt; heap[0]:
+item = heapreplace(heap, item)</p>
 </dd>
 </dl>
 
