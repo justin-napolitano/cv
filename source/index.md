@@ -143,7 +143,6 @@ Follow the link the one page overview
 
 /docs/ml-ai/project-supcourt-tensorflow/index.rst
 /docs/ml-ai/project-gender-recognition/gender-recognition.rst
-
 ```
 :::
 
@@ -164,9 +163,7 @@ Follow the link the one page overview
 /docs/python-modules/project-spark-api/index.rst
 /docs/python-modules/dropbox/index.rst
 /docs/python-modules/project-reference/index.md
-
 ```
-
 :::
 
 ## C Reference
@@ -178,7 +175,6 @@ Follow the link the one page overview
 :maxdepth: 2
 
 /docs/c-projects/index.md
-
 :::
 :::
 
@@ -191,7 +187,6 @@ Follow the link the one page overview
 :maxdepth: 2
 
 /docs/sas/index.md
-
 :::
 :::
 
@@ -206,7 +201,6 @@ Follow the link the one page overview
 
 /docs/graph-database/index.rst
 /docs/relational-database/index.rst
-
 ```
 :::
 
@@ -219,9 +213,7 @@ Follow the link the one page overview
 :maxdepth: 2
 
 /docs/data-integration/csv-json-integration.rst
-
 ```
-
 :::
 
 
@@ -234,9 +226,7 @@ Follow the link the one page overview
 :maxdepth: 2
 
 /docs/web-scraping/index.md
-
 ```
-
 :::
 
 ## Automation and Utility Scripts
@@ -248,7 +238,6 @@ Follow the link the one page overview
 :maxdepth: 2
 
 /docs/automation/index.rst
-
 :::
 :::
 
@@ -260,10 +249,7 @@ Follow the link the one page overview
 :hidden:
 
 /docs/contact/contact.md
-
 ```
-
-
 
 :::{card} Email
 
@@ -292,6 +278,7 @@ Follow the link the one page overview
 ```{toctree}
 :caption: Journal
 :maxdepth: 2
+
 docs/blog/posts
 ```
 :::
@@ -303,9 +290,9 @@ docs/blog/posts
 ```{toctree}
 :caption: Reference
 :maxdepth: 2
+
 docs/bibliography/bibliography.rst
 py-modindex.rst
 genindex.rst
 ```
-
 :::
