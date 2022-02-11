@@ -50,6 +50,7 @@ Follow the link the one page overview
 :::{toctree}
 :hidden:
 :caption: Resume
+
 /docs/resume/index.md
 :::
 
@@ -189,7 +190,7 @@ Follow the link the one page overview
 :caption:SAS Reference
 :maxdepth: 2
 
-/docs/sas/index
+/docs/sas/index.md
 
 :::
 :::

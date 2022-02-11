@@ -189,7 +189,7 @@ Follow the link the one page overview
 :caption:SAS Reference
 :maxdepth: 2
 
-/docs/sas/index
+/docs/sas/index.md
 
 :::
 :::
