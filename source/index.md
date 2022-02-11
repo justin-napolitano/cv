@@ -189,7 +189,7 @@ Follow the link the one page overview
 :caption:SAS Reference
 :maxdepth: 2
 
-/docs/sas/index.md
+/docs/sas/index
 
 :::
 :::
@@ -223,6 +223,20 @@ Follow the link the one page overview
 
 :::
 
+
+## Web Scraping
+
+:::{card}
+
+```{toctree}
+:caption: Web Scraping
+:maxdepth: 2
+
+/docs/web-scraping/index.md
+
+```
+
+:::
 
 ## Automation and Utility Scripts
 
