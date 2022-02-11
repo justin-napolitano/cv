@@ -4,6 +4,7 @@ title: Justin Napolitano
 
 # Curricula Vitae
 
+
 ```{todo}
 
 build and look for errrors.  To many commits and no tests
@@ -48,6 +49,8 @@ add resume section.  It will be a 1 pager when we are done.  It wiall also link 
 
 Follow the link the one page overview
 
+:::{card}
+
 ```{toctree}
 :hidden:
 :caption: Resume
@@ -55,8 +58,10 @@ Follow the link the one page overview
 /docs/resume/index.md
 ```
 
+:::
 ## Education
 
+:::{card}
 
 ```{toctree}
 :caption: Education
@@ -64,8 +69,11 @@ Follow the link the one page overview
 
 /docs/education/ucf.rst
 ```
+:::
 
 ## Work History
+
+:::{card}
 
 ```{toctree}
 :caption: Work History
@@ -75,7 +83,11 @@ Follow the link the one page overview
 /docs/work-history/ucf.rst
 ```
 
+:::
+
 ## Languages
+
+:::{card}
 
 ```{toctree}
 :caption: Languages
@@ -89,7 +101,11 @@ Follow the link the one page overview
 /docs/languages/sranan-language.rst
 ```
 
+:::
+
 ## Political Analysis
+
+:::{card}
 
 ```{toctree}
 :caption: Political Analysis
@@ -100,8 +116,11 @@ Follow the link the one page overview
 /docs/political-analysis/terrorism-conflict/index.md
 /docs/political-analysis/international-law/index.md
 ```
+:::
 
 ## Business Analysis and Reporting
+
+:::{card}
 
 ```{toctree}
 :caption: Business Analysis
@@ -111,8 +130,13 @@ Follow the link the one page overview
 /docs/business-analysis/project-retail-sales-forecasting/index.rst
 ```
 
+:::
 
 ## ML and AI
+
+
+:::{card}
+
 
 ```{toctree}
 :caption: ML and AI
@@ -122,8 +146,11 @@ Follow the link the one page overview
 /docs/ml-ai/project-gender-recognition/gender-recognition.rst
 ```
 
+:::
 
 ## Python Modules
+
+:::{card}
 
 ```{toctree}
 :caption: Python Modules
@@ -138,9 +165,11 @@ Follow the link the one page overview
 /docs/python-modules/dropbox/index.rst
 /docs/python-modules/project-reference/index.md
 ```
-
+:::
 
 ## C Reference
+
+:::{card}
 
 ```{toctree}
 :caption: C Reference
@@ -148,8 +177,11 @@ Follow the link the one page overview
 
 /docs/c-projects/index.md
 ```
+:::
 
 ## SAS Reference
+
+:::{card}
 
 
 ```{toctree}
@@ -159,8 +191,11 @@ Follow the link the one page overview
 /docs/sas/index.md
 ```
 
+:::
 
 ## Database Development
+
+:::{card}
 
 ```{toctree}
 :caption: Database Development
@@ -170,8 +205,11 @@ Follow the link the one page overview
 /docs/relational-database/index.rst
 ```
 
+:::
 
 ## Data Integration
+
+:::{card}
 
 ```{toctree}
 :caption: Data Integration
@@ -180,18 +218,26 @@ Follow the link the one page overview
 /docs/data-integration/csv-json-integration.rst
 ```
 
-
+:::
 
 ## Web Scraping
+
+:::{card}
 
 ```{toctree}
 :caption: Web Scraping
 :maxdepth: 2
 
-/docs/web-scraping/index.md
+/docs/web-scraping/general-purpose.md
+/docs/web-scraping/misc-scraping.md
+
 ```
 
+:::
+
 ## Automation and Utility Scripts
+
+:::{card}
 
 ```{toctree}
 :caption: Automation and Utility Scripts
@@ -199,6 +245,8 @@ Follow the link the one page overview
 
 /docs/automation/index.rst
 ```
+
+:::
 
 ## Contact 
 
@@ -230,6 +278,7 @@ Follow the link the one page overview
 
 ## Journal 
 
+:::{card}
 
 ```{toctree}
 :caption: Journal
@@ -238,10 +287,11 @@ Follow the link the one page overview
 docs/blog/posts
 ```
 
+:::
 
 ## Reference
 
-
+:::{card}
 
 ```{toctree}
 :caption: Reference
@@ -252,3 +302,4 @@ py-modindex.rst
 genindex.rst
 ```
 
+:::

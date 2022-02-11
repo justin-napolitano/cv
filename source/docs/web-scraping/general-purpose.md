@@ -1,4 +1,4 @@
-# Web Scraping Applications
+# General Scraping Application
 
 :::{topic} Introduction
 The web scraping application is a general purpose python application that can be modified to scrape data from nearly any website.  
@@ -48,21 +48,6 @@ A general purpose web scraping application that can be addapted to most use case
 /autoapi/scrape_merge/index
 /autoapi/scrape_readwrite/index
 /autoapi/scrape_load_df/index
-
-```
-:::
-
-## Google Image Crawler
-
-A google crawler that will search and download for a requested category of images.  
-
-:::{card}
-
-```{toctree}
-:caption: Google Image Crawler
-
-/autoapi/googlecrawler/index
-/autoapi/seleniumCrawler/index
 
 ```
 :::
