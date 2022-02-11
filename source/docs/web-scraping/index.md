@@ -24,7 +24,6 @@ It could also be modified to save data locally.  Currently, it downloads search 
 
 A general purpose web scraping application that can be addapted to most use cases.  
 
-:::{card}
 
 :::{toctree}
 :caption: Web Scraping Application
@@ -48,18 +47,17 @@ A general purpose web scraping application that can be addapted to most use case
 /autoapi/scrape_merge/index
 /autoapi/scrape_readwrite/index
 /autoapi/scrape_load_df/index
-
-:::
 :::
 
 ## Google Image Crawler
 
 A google crawler that will search and download for a requested category of images.  
 
-:::{card}
 
 :::{toctree}
 :caption: Google Image Crawler
 
 /autoapi/googlecrawler.py
 /autoapi/seleniumCrawler.py
+
+:::
