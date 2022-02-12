@@ -2,7 +2,8 @@
 =====================
 
 .. py:module:: backup_html
-
+   :noindex:
+   
 .. autoapi-nested-parse::
 
    "
