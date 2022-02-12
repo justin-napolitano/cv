@@ -251,6 +251,7 @@ Follow the link the one page overview
 
 /docs/automation/shells/index
 /docs/automation/sphinx/index
+/docs/automation/dropbox/index
 ```
 
 :::

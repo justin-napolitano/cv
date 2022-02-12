@@ -1850,24 +1850,24 @@
 <span class="kn">from</span> <span class="nn">dropbox.files</span> <span class="kn">import</span> <span class="n">WriteMode</span>
 <span class="kn">from</span> <span class="nn">dropbox.exceptions</span> <span class="kn">import</span> <span class="n">ApiError</span><span class="p">,</span> <span class="n">AuthError</span>
 
-<div class="viewcode-block" id="SEP"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.SEP">[docs]</a><span class="n">SEP</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">sep</span></div>
-<div class="viewcode-block" id="CWD"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.CWD">[docs]</a><span class="n">CWD</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span></div>
+<div class="viewcode-block" id="SEP"><a class="viewcode-back" href="../docs/automation/dropbox/include/dropbox_backup.html#dropbox_upload.SEP">[docs]</a><span class="n">SEP</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">sep</span></div>
+<div class="viewcode-block" id="CWD"><a class="viewcode-back" href="../docs/automation/dropbox/include/dropbox_backup.html#dropbox_upload.CWD">[docs]</a><span class="n">CWD</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span></div>
 
 <span class="c1"># Access token</span>
-<div class="viewcode-block" id="TOKEN"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.TOKEN">[docs]</a><span class="n">TOKEN</span> <span class="o">=</span> <span class="s1">&#39;&lt;insert your token here&gt;&#39;</span></div>
+<div class="viewcode-block" id="TOKEN"><a class="viewcode-back" href="../docs/automation/dropbox/include/dropbox_backup.html#dropbox_upload.TOKEN">[docs]</a><span class="n">TOKEN</span> <span class="o">=</span> <span class="s1">&#39;&lt;insert your token here&gt;&#39;</span></div>
 
-<div class="viewcode-block" id="LOCALFILE"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.LOCALFILE">[docs]</a><span class="n">LOCALFILE</span> <span class="o">=</span> <span class="s1">&#39;test.txt&#39;</span></div>
-<div class="viewcode-block" id="BACKUPPATH"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.BACKUPPATH">[docs]</a><span class="n">BACKUPPATH</span> <span class="o">=</span> <span class="s1">&#39;/DropboxApplications/JanusGraph/realtor_data/test.txt&#39;</span> <span class="c1"># Keep the forward slash before destination filename</span></div>
+<div class="viewcode-block" id="LOCALFILE"><a class="viewcode-back" href="../docs/automation/dropbox/include/dropbox_backup.html#dropbox_upload.LOCALFILE">[docs]</a><span class="n">LOCALFILE</span> <span class="o">=</span> <span class="s1">&#39;test.txt&#39;</span></div>
+<div class="viewcode-block" id="BACKUPPATH"><a class="viewcode-back" href="../docs/automation/dropbox/include/dropbox_backup.html#dropbox_upload.BACKUPPATH">[docs]</a><span class="n">BACKUPPATH</span> <span class="o">=</span> <span class="s1">&#39;/DropboxApplications/JanusGraph/realtor_data/test.txt&#39;</span> <span class="c1"># Keep the forward slash before destination filename</span></div>
 
 
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">Sphinx requries that I give each new assignment a new name.  I have to change this habit in all of my new writing.  </span>
 <span class="sd">&quot;&quot;&quot;</span>
-<div class="viewcode-block" id="LOCALFILE_JOINED"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.LOCALFILE_JOINED">[docs]</a><span class="n">LOCALFILE_JOINED</span> <span class="o">=</span> <span class="n">SEP</span><span class="o">.</span><span class="n">join</span><span class="p">((</span><span class="n">CWD</span><span class="p">,</span><span class="n">LOCALFILE</span><span class="p">))</span></div>
+<div class="viewcode-block" id="LOCALFILE_JOINED"><a class="viewcode-back" href="../docs/automation/dropbox/include/dropbox_backup.html#dropbox_upload.LOCALFILE_JOINED">[docs]</a><span class="n">LOCALFILE_JOINED</span> <span class="o">=</span> <span class="n">SEP</span><span class="o">.</span><span class="n">join</span><span class="p">((</span><span class="n">CWD</span><span class="p">,</span><span class="n">LOCALFILE</span><span class="p">))</span></div>
 <span class="nb">print</span><span class="p">(</span><span class="n">LOCALFILE_JOINED</span><span class="p">)</span>
 
 <span class="c1"># Uploads contents of LOCALFILE to Dropbox</span>
-<div class="viewcode-block" id="backup"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.backup">[docs]</a><span class="k">def</span> <span class="nf">backup</span><span class="p">():</span>
+<div class="viewcode-block" id="backup"><a class="viewcode-back" href="../docs/automation/dropbox/include/dropbox_backup.html#dropbox_upload.backup">[docs]</a><span class="k">def</span> <span class="nf">backup</span><span class="p">():</span>
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">LOCALFILE_JOINED</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="c1"># We use WriteMode=overwrite to make sure that the settings in the file</span>
         <span class="c1"># are changed on upload</span>
@@ -1889,7 +1889,7 @@
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">Adding few functions to check file details</span>
 <span class="sd">&quot;&quot;&quot;</span>
-<div class="viewcode-block" id="checkFileDetails"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.checkFileDetails">[docs]</a><span class="k">def</span> <span class="nf">checkFileDetails</span><span class="p">():</span>
+<div class="viewcode-block" id="checkFileDetails"><a class="viewcode-back" href="../docs/automation/dropbox/include/dropbox_backup.html#dropbox_upload.checkFileDetails">[docs]</a><span class="k">def</span> <span class="nf">checkFileDetails</span><span class="p">():</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Checking file details&quot;</span><span class="p">)</span>
 
     <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">dbx</span><span class="o">.</span><span class="n">files_list_folder</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">entries</span><span class="p">:</span>
@@ -1905,7 +1905,7 @@
 
     <span class="c1"># Create an instance of a Dropbox class, which can make requests to the API.</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Creating a Dropbox object...&quot;</span><span class="p">)</span>
-<div class="viewcode-block" id="dbx"><a class="viewcode-back" href="../autoapi/dropbox_upload/index.html#dropbox_upload.dbx">[docs]</a>    <span class="n">dbx</span> <span class="o">=</span> <span class="n">dropbox</span><span class="o">.</span><span class="n">Dropbox</span><span class="p">(</span><span class="n">TOKEN</span><span class="p">)</span></div>
+<div class="viewcode-block" id="dbx"><a class="viewcode-back" href="../docs/automation/dropbox/include/dropbox_backup.html#dropbox_upload.dbx">[docs]</a>    <span class="n">dbx</span> <span class="o">=</span> <span class="n">dropbox</span><span class="o">.</span><span class="n">Dropbox</span><span class="p">(</span><span class="n">TOKEN</span><span class="p">)</span></div>
 
     <span class="c1"># Check that the access token is valid</span>
     <span class="k">try</span><span class="p">:</span>
