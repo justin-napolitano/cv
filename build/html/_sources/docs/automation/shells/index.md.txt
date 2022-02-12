@@ -16,5 +16,5 @@ My config setup for my terminal shells
 :glob:
 
 include/*
-:::
 ```
+:::
