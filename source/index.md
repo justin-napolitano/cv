@@ -241,7 +241,7 @@ Follow the link the one page overview
 
 :::
 
-## Automation and Utility Scripts
+## Shell and Utility Scripts
 
 :::{card}
 
@@ -249,7 +249,8 @@ Follow the link the one page overview
 :caption: Automation and Utility Scripts
 :maxdepth: 2
 
-/docs/automation/index.rst
+/docs/automation/shells/index
+/docs/automation/sphinx/index
 ```
 
 :::

@@ -1707,60 +1707,15 @@
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../automation/index.html">
-   Automation and Utility Scripts
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../automation/shells/index.html">
+   Shell Configuration
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" type="checkbox"/>
-  <label for="toctree-checkbox-31">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../autoapi/label_list/index.html">
-     <code class="xref py py-mod docutils literal notranslate">
-      <span class="pre">
-       label_list
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../autoapi/backup_html/index.html">
-     <code class="xref py py-mod docutils literal notranslate">
-      <span class="pre">
-       backup_html
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../automation/pullit.html">
-     Pullit.sh
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../automation/pushit.html">
-     Pushit.sh
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../automation/doit.html">
-     doit.sh
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../automation/acp.html">
-     acp.sh
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../automation/chtml.html">
-     chtml.sh
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../automation/sphinx/index.html">
+   Sphinx Scripts
+  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -2365,17 +2320,17 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output stderr highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_15996/4124950064.py:7: SettingWithCopyWarning: 
+<div class="highlight"><pre><span></span>/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_25187/4124950064.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg['moving_avg_forecast'][0] = allData['sales'][0].copy()
-/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_15996/4124950064.py:8: SettingWithCopyWarning: 
+/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_25187/4124950064.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg['moving_avg_forecast'][1] = allData['sales'][1].copy()
-/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_15996/4124950064.py:9: SettingWithCopyWarning: 
+/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_25187/4124950064.py:9: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -2873,14 +2828,6 @@ Machine precision = 2.220D-16
 At X0         0 variables are exactly at the bounds
 
 At iterate    0    f=  2.66232D+00    |proj g|=  6.54170D-02
-
-At iterate    5    f=  2.58627D+00    |proj g|=  2.26160D-02
-
-At iterate   10    f=  2.57546D+00    |proj g|=  7.34175D-03
-
-At iterate   15    f=  2.56850D+00    |proj g|=  4.46710D-02
-
-At iterate   20    f=  2.56359D+00    |proj g|=  5.60203D-03
 </pre></div>
 </div>
 <div class="output stderr highlight-myst-ansi notranslate">
@@ -2888,19 +2835,27 @@ At iterate   20    f=  2.56359D+00    |proj g|=  5.60203D-03
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>At iterate   25    f=  2.56037D+00    |proj g|=  6.74341D-02
+<div class="highlight"><pre><span></span>At iterate    5    f=  2.58627D+00    |proj g|=  2.26160D-02
+
+At iterate   10    f=  2.57546D+00    |proj g|=  7.34175D-03
+
+At iterate   15    f=  2.56850D+00    |proj g|=  4.46710D-02
+
+At iterate   20    f=  2.56359D+00    |proj g|=  5.60203D-03
+
+At iterate   25    f=  2.56037D+00    |proj g|=  6.74341D-02
 
 At iterate   30    f=  2.55763D+00    |proj g|=  3.09889D-03
-
-At iterate   35    f=  2.55685D+00    |proj g|=  5.02555D-03
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate">
+<div class="highlight"><pre><span></span>At iterate   35    f=  2.55685D+00    |proj g|=  5.02555D-03
 
 At iterate   40    f=  2.55577D+00    |proj g|=  3.55934D-03
 
 At iterate   45    f=  2.55562D+00    |proj g|=  2.80591D-03
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>At iterate   50    f=  2.55560D+00    |proj g|=  3.17208D-03
+
+At iterate   50    f=  2.55560D+00    |proj g|=  3.17208D-03
 
            * * *
 
