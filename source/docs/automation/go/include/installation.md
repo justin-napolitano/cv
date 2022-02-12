@@ -5,7 +5,7 @@
 If you run home brew just copy/paste the following code. 
 
 
-:::{code_block} Bash
+:::{code-block} Bash
 
 brew install go
 :::
