@@ -65,6 +65,7 @@ Follow the link the one page overview
 ```
 
 :::
+
 ## Education
 
 :::{card}
@@ -214,7 +215,6 @@ Follow the link the one page overview
 :::
 
 ## Data Integration
-
 :::{card}
 
 ```{toctree}
@@ -241,19 +241,35 @@ Follow the link the one page overview
 
 :::
 
-## Shell and Utility Scripts
+## System Configuration and Installation
 
 :::{card}
 
 ```{toctree}
-:caption: Automation and Utility Scripts
+:caption: Automations, Utilities, Extensions
 :maxdepth: 2
 
 /docs/automation/shells/index
 /docs/automation/sphinx/index
 /docs/automation/dropbox/index
-```
+/docs/automations/spotify/index
+/docs/automation/go/index
 
+```
+:::
+
+## Automation and Utility Scripts
+
+:::{card}
+
+```{toctree}
+:caption: Automations, Utilities, Extensions
+:maxdepth: 2
+
+/docs/automation/sphinx/index
+/docs/automation/dropbox/index
+
+```
 :::
 
 ## Contact 
