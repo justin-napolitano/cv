@@ -1,9 +1,10 @@
 :py:mod:`backup_html`
 =====================
 
+
+:noindex:
 .. py:module:: backup_html
-   :noindex:
-   
+
 .. autoapi-nested-parse::
 
    "
