@@ -8,17 +8,18 @@ title: Justin Napolitano
 ```{todo}
 
 build and look for errrors.  To many commits and no tests
-
+    fixedmost of the errors
 
 Review References
 
 Clean up the code 
     add descriptions
+    look for code with funny comments
         
 confirm your indices
 	reorder according to preference and need
-	c and python and experimental design
-	everything you did yesterday
+
+fix the c reference category
 
 Write the resume section next.  
     ***top priority***:
@@ -42,6 +43,11 @@ Write the realtor graph
     add the startup scripts
 
 add ide's 
+add an environmental and system config section.  
+    Brew
+    zsh 
+    vim
+
 add resume section.  It will be a 1 pager when we are done.  It wiall also link to another website dedicated to the res. 
 ```
 
