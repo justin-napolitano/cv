@@ -8,11 +8,13 @@ My config setup for my terminal shells
 
 # Contents
 
-:::{toctree}
+
+:::{card}
+
+```{toctree}
 :caption: Shell Config
-:maxdepth: 3
 :glob:
 
 include/*
 :::
-
+```
