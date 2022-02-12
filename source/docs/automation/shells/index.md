@@ -10,6 +10,7 @@ My config setup for my terminal shells
 
 :::{toctree}
 :caption: Shell Config
+:maxdepth: 3
 :glob:
 
 include/*

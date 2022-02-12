@@ -10,6 +10,7 @@ Some scripts I import into my sphinx/github projects to make builds a little qui
 
 :::{toctree}
 :caption: Sphinx Scripts
+:maxdepth: 3
 :glob:
 
 include/*

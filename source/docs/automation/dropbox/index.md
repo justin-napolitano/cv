@@ -10,6 +10,7 @@ Dropbox Backup Scripts for various projects
 
 :::{toctree}
 :caption: Dropbox Scripts
+:maxdepth: 3
 :glob:
 
 include/*
