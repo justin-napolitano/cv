@@ -26,19 +26,10 @@ United States Supreme Court
 
    .. toctree::
       :maxdepth: 2
-      :caption: Python Projects:
+      :caption: Projects
       
       project-sup-court-meta-data-graph/index.rst
       project-supcourt-tensorflow/index.rst
- 
-        
-
-.. card:: 
-   
-   .. toctree::
-      :maxdepth: 2
-      :caption: Papers:
-
       project-supcourt-legalmodel/legal-model.md
       project-supcourt-attitudinal-model/attitudinal-model.md
       project-supcourt-masterpiececake/masterpiece-cake.md
