@@ -7,7 +7,7 @@
 :::
 
 
-# Political Analyses
+# Political Analysiss
 
 :::{topic} Introduction
 
@@ -20,6 +20,7 @@ I specialized in studying the United States Supreme Court and Terrorism and Conf
 :::{card}
 
 ```{toctree}
+
 sup-court/index
 terrorism-conflict/index
 human-rights-law/index

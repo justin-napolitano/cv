@@ -11,6 +11,8 @@ I studied the major sales forecasting  methods to predict sales and inventory fo
 :::{card}
 
 ```{toctree}
+:maxdepth: 2
+
 project-cli-program/index
 project-order-forecasting/index
 project-retail-sales-forecasting/index
