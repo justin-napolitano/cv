@@ -1,0 +1,10 @@
+:::{card}
+
+```{toctree}
+:hidden:
+:caption: Resume
+
+*/index
+```
+
+:::

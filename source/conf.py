@@ -92,7 +92,6 @@ email_automode = True
 #AUTOAPI CONFIG
 autoapi_type = 'python'
 autoapi_dirs = ['../source']
-autoapi_generate_api_docs = True
 autoapi_keep_files = True
 autoapi_add_toctree_entry = False
 autoapi_generate_api_docs = False
@@ -204,7 +203,7 @@ html_static_path = ['_static']
 # html_sidebars = {}
 
 html_sidebars = {
-    "docs/blog/posts/*": [
+    "parts/blog/posts/*": [
         "sidebar-logo.html",
         "search-field.html",
         "postcard.html",
@@ -256,8 +255,8 @@ htmlhelp_basename = 'jnapolitano.io'
 
 
 # -- ABlog config -------------------------------------------------
-blog_path = "docs/blog/posts"
-blog_post_pattern = ["docs/blog/*.md", "docs/blog/posts/*.md", "docs/blog/posts/*.rst"]
+blog_path = "parts/blog/posts"
+blog_post_pattern = ["parts/blog/*.md", "parts/blog/posts/*.md", "parts/blog/posts/*.rst"]
 blog_baseurl = "cv.jnapolitano.io"
 fontawesome_included = True
 post_auto_image = 1
