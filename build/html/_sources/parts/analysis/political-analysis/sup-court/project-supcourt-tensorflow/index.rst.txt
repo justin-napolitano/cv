@@ -1,3 +1,10 @@
+.. post:: 
+   :tags: tensorflow, python, behavioral-science, supreme-court, political-analyses
+   :category: political-analyses
+   :author: Justin Napolitano
+   :location: TX
+   :language: en
+
 TensorFlow Voting Behavior Predictions
 =======================================================
 
@@ -38,7 +45,7 @@ Training Features
       :maxdepth: 2
       :caption: Training Features:
 
-      training-features.rst
+      docs/training-features.rst
 
 Python Modules
 ---------------
@@ -49,6 +56,6 @@ Python Modules
       :maxdepth: 2
       :caption: Modules:
       
-      /autoapi/SupremeCourtPredictionsCase/index.rst
-      /autoapi/SupremeCourtPredictionsJustice/index.rst
+      docs/SupremeCourtPredictionsCase/index.rst
+      docs/SupremeCourtPredictionsJustice/index.rst
   

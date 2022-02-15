@@ -92,7 +92,9 @@ email_automode = True
 #AUTOAPI CONFIG
 autoapi_type = 'python'
 autoapi_dirs = ['../source']
-autoapi_keep_files = True
+
+autoapi_root= '../source/parts/analysis/political-analysis/sup-court/project-supcourt-tensorflow/docs'
+autoapi_keep_files = False
 autoapi_add_toctree_entry = False
 autoapi_generate_api_docs = False
 

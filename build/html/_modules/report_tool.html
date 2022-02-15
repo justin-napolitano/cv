@@ -142,7 +142,7 @@
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../parts/resume/education/docs/ucf.html">
-     The University of Central Florida
+     University of Central Florida
     </a>
    </li>
   </ul>
@@ -210,6 +210,82 @@
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../parts/resume/contact/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Analysis
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../parts/analysis/business-analysis/index.html">
+   Business Analysis
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../parts/analysis/business-analysis/project-cli-program/index.html">
+     Sales Reporting CLI Program
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         report_tool
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../parts/analysis/business-analysis/project-order-forecasting/index.html">
+     Cigarette Sales Forecasting and Order Prediction
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../parts/analysis/business-analysis/project-order-forecasting/docs/cigarette_sales_order_form/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         cigarette_sales_order_form
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../parts/analysis/business-analysis/project-retail-sales-forecasting/index.html">
+     Retail Sales Forecasting
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../parts/analysis/political-analysis/index.html">
+   Political Analyses
+  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -344,7 +420,7 @@
 
 <span class="c1">#This class creates the sales report.  Others classes can be added</span>
 <span class="c1">#later to build other types of reports.</span>
-<div class="viewcode-block" id="sales_report"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.sales_report">[docs]</a><span class="k">class</span> <span class="nc">sales_report</span><span class="p">():</span>
+<div class="viewcode-block" id="sales_report"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.sales_report">[docs]</a><span class="k">class</span> <span class="nc">sales_report</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    A class that creates a sales report object.</span>
 <span class="sd">    initial_parameteres will contain one initial parameters dataframe for each of the product, organization, and calendar tables</span>
@@ -358,7 +434,7 @@
 <span class="c1">#The Selection Levels Class can be used with any report.  IT is </span>
 <span class="c1">#dynamically created.  It will build tables with user selected levels</span>
 <span class="c1">#to create custom reports from</span>
-<div class="viewcode-block" id="create_custom_dataframe"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.create_custom_dataframe">[docs]</a><span class="k">class</span> <span class="nc">create_custom_dataframe</span><span class="p">():</span>
+<div class="viewcode-block" id="create_custom_dataframe"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.create_custom_dataframe">[docs]</a><span class="k">class</span> <span class="nc">create_custom_dataframe</span><span class="p">():</span>
 
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    A class that modifies the dataframe by grouping and adding useful columns.</span>
@@ -374,7 +450,7 @@
         <span class="c1">#self.modified_transaction_table = self.group_transaction_table(group_by_selection, transaction_dataframe) </span>
         <span class="c1">#self.modified_transaction_table = self.modify_transaction_table(transaction_dataframe)</span>
 
-<div class="viewcode-block" id="create_custom_dataframe.select_transaction_data"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.create_custom_dataframe.select_transaction_data">[docs]</a>    <span class="k">def</span> <span class="nf">select_transaction_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">group_by_selection</span><span class="p">,</span><span class="n">transaction_dataframe</span><span class="p">):</span>
+<div class="viewcode-block" id="create_custom_dataframe.select_transaction_data"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.create_custom_dataframe.select_transaction_data">[docs]</a>    <span class="k">def</span> <span class="nf">select_transaction_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">group_by_selection</span><span class="p">,</span><span class="n">transaction_dataframe</span><span class="p">):</span>
         
         <span class="k">if</span> <span class="n">group_by_selection</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span><span class="c1">##State</span>
             <span class="n">modified_dataframe</span> <span class="o">=</span> <span class="n">transaction_dataframe</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -715,7 +791,7 @@
 
         <span class="k">return</span> <span class="n">modified_dataframe</span></div>
             
-<div class="viewcode-block" id="create_custom_dataframe.select_group_by"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.create_custom_dataframe.select_group_by">[docs]</a>    <span class="k">def</span> <span class="nf">select_group_by</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">transaction_datframe</span><span class="p">):</span>
+<div class="viewcode-block" id="create_custom_dataframe.select_group_by"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.create_custom_dataframe.select_group_by">[docs]</a>    <span class="k">def</span> <span class="nf">select_group_by</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">transaction_datframe</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;User is selecting report&#39;</span><span class="p">)</span>
         <span class="n">available_reports_dict</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span> <span class="p">:</span><span class="s2">&quot;State&quot;</span><span class="p">,</span> 
         <span class="mi">1</span> <span class="p">:</span><span class="s2">&quot;Pizza Brand&quot;</span><span class="p">,</span> 
@@ -758,7 +834,7 @@
         
 
 
-<div class="viewcode-block" id="create_transaction_dataframe"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.create_transaction_dataframe">[docs]</a><span class="k">class</span> <span class="nc">create_transaction_dataframe</span><span class="p">():</span>
+<div class="viewcode-block" id="create_transaction_dataframe"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.create_transaction_dataframe">[docs]</a><span class="k">class</span> <span class="nc">create_transaction_dataframe</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    A class that will create a dataframe object of transactions as defined by the get_initial_parameters dataframe objects</span>
 
@@ -772,7 +848,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">isf_table</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_isf_table_dataframe</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">,</span> <span class="n">initial_parameters</span><span class="o">.</span><span class="n">sql_connection</span><span class="o">.</span><span class="n">connection</span><span class="p">)</span>
         
 
-<div class="viewcode-block" id="create_transaction_dataframe.create_organization_table_query"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.create_transaction_dataframe.create_organization_table_query">[docs]</a>    <span class="k">def</span> <span class="nf">create_organization_table_query</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">organization_table_lookup</span><span class="p">):</span>
+<div class="viewcode-block" id="create_transaction_dataframe.create_organization_table_query"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.create_transaction_dataframe.create_organization_table_query">[docs]</a>    <span class="k">def</span> <span class="nf">create_organization_table_query</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">organization_table_lookup</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Creating organization table query&#39;</span><span class="p">)</span>
         <span class="n">select_list</span><span class="p">:</span> <span class="nb">list</span> <span class="o">=</span> <span class="n">organization_table_lookup</span><span class="p">[</span><span class="s1">&#39;level_str&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">to_list</span><span class="p">()</span>
         <span class="n">select_list_str</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;O.&#39;</span> <span class="o">+</span> <span class="n">item</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">select_list</span><span class="p">]</span>
@@ -789,7 +865,7 @@
         <span class="k">return</span><span class="p">(</span><span class="n">select_condition</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="create_transaction_dataframe.create_product_table_query"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.create_transaction_dataframe.create_product_table_query">[docs]</a>    <span class="k">def</span> <span class="nf">create_product_table_query</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">product_table_lookup</span><span class="p">):</span>
+<div class="viewcode-block" id="create_transaction_dataframe.create_product_table_query"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.create_transaction_dataframe.create_product_table_query">[docs]</a>    <span class="k">def</span> <span class="nf">create_product_table_query</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">product_table_lookup</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;creating product table query&#39;</span><span class="p">)</span>
         <span class="n">select_list</span><span class="p">:</span> <span class="nb">list</span> <span class="o">=</span> <span class="n">product_table_lookup</span><span class="p">[</span><span class="s1">&#39;level_str&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">to_list</span><span class="p">()</span>
         <span class="n">select_list_str</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;P.&#39;</span> <span class="o">+</span> <span class="n">item</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">select_list</span><span class="p">]</span>
@@ -806,7 +882,7 @@
         <span class="k">return</span><span class="p">(</span><span class="n">select_condition</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="create_transaction_dataframe.create_calendar_table_query"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.create_transaction_dataframe.create_calendar_table_query">[docs]</a>    <span class="k">def</span> <span class="nf">create_calendar_table_query</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">calendar_table_lookup</span><span class="p">,</span> <span class="n">sql_connection</span><span class="p">):</span>
+<div class="viewcode-block" id="create_transaction_dataframe.create_calendar_table_query"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.create_transaction_dataframe.create_calendar_table_query">[docs]</a>    <span class="k">def</span> <span class="nf">create_calendar_table_query</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">calendar_table_lookup</span><span class="p">,</span> <span class="n">sql_connection</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;creating calendar table query&#39;</span><span class="p">)</span>
         <span class="n">column_query</span> <span class="o">=</span> <span class="s2">&quot;SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS  WHERE TABLE_NAME = &#39;Calendar&#39; &quot;</span>
         <span class="n">level_str_list</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql_query</span><span class="p">(</span><span class="n">column_query</span><span class="p">,</span> <span class="n">sql_connection</span><span class="p">)</span>
@@ -824,7 +900,7 @@
         <span class="k">return</span> <span class="n">select_condition</span></div>
         
 
-<div class="viewcode-block" id="create_transaction_dataframe.create_isf_table_query"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.create_transaction_dataframe.create_isf_table_query">[docs]</a>    <span class="k">def</span> <span class="nf">create_isf_table_query</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="create_transaction_dataframe.create_isf_table_query"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.create_transaction_dataframe.create_isf_table_query">[docs]</a>    <span class="k">def</span> <span class="nf">create_isf_table_query</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;creating the isf table&#39;</span><span class="p">)</span>
         <span class="n">isf_table_select</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;ISF.Qty_Sold, ISF.Extended_Cost,ISF. Extended_Sales&#39;</span><span class="p">)</span>
         <span class="c1">#print(self.organization_table_query[0])</span>
@@ -835,7 +911,7 @@
         <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;query for isf table is </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">query</span><span class="p">))</span>
         <span class="k">return</span> <span class="n">query</span></div>
 
-<div class="viewcode-block" id="create_transaction_dataframe.create_isf_table_dataframe"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.create_transaction_dataframe.create_isf_table_dataframe">[docs]</a>    <span class="k">def</span> <span class="nf">create_isf_table_dataframe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">query</span><span class="p">,</span><span class="n">sql_connection</span><span class="p">):</span>    
+<div class="viewcode-block" id="create_transaction_dataframe.create_isf_table_dataframe"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.create_transaction_dataframe.create_isf_table_dataframe">[docs]</a>    <span class="k">def</span> <span class="nf">create_isf_table_dataframe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">query</span><span class="p">,</span><span class="n">sql_connection</span><span class="p">):</span>    
         <span class="c1">#print(query)</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;********************************************************&#39;</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Creating your report.  This could take a little while.</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
@@ -846,7 +922,7 @@
         <span class="k">return</span> <span class="n">isf_table_df</span></div></div>
 
 
-<div class="viewcode-block" id="get_initial_parameters"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters">[docs]</a><span class="k">class</span> <span class="nc">get_initial_parameters</span><span class="p">():</span>
+<div class="viewcode-block" id="get_initial_parameters"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters">[docs]</a><span class="k">class</span> <span class="nc">get_initial_parameters</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    A class that gets the initial parameters from the user</span>
 <span class="sd">    to use in constructing a dataframe of transactions</span>
@@ -869,7 +945,7 @@
     
     <span class="c1">#Creates the connection object to use for all queries in the program </span>
     <span class="c1">#NOt in use in  current iteration. The sql_connection class is called instead</span>
-<div class="viewcode-block" id="get_initial_parameters.connect"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters.connect">[docs]</a>    <span class="k">def</span> <span class="nf">connect</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="get_initial_parameters.connect"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters.connect">[docs]</a>    <span class="k">def</span> <span class="nf">connect</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">server</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span> 
         <span class="n">database</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span> 
         <span class="n">username</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span> 
@@ -878,7 +954,7 @@
  
     
 
-<div class="viewcode-block" id="get_initial_parameters.create_organization_table_lookup"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters.create_organization_table_lookup">[docs]</a>    <span class="k">def</span> <span class="nf">create_organization_table_lookup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="get_initial_parameters.create_organization_table_lookup"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters.create_organization_table_lookup">[docs]</a>    <span class="k">def</span> <span class="nf">create_organization_table_lookup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Creating organization table lookup&#39;</span><span class="p">)</span>
         <span class="n">level_str</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="s1">&#39;Location_ID&#39;</span><span class="p">,</span> <span class="s1">&#39;Organization_Key&#39;</span><span class="p">,</span> <span class="s1">&#39;Location_Desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Last_Tank_Reading_Date&#39;</span><span class="p">,</span> <span class="s1">&#39;First_Transaction_Date&#39;</span><span class="p">,</span> <span class="s1">&#39;Closing_Date&#39;</span><span class="p">,</span> <span class="s1">&#39;GPS_Latitude&#39;</span><span class="p">,</span><span class="s1">&#39;GPS_Longitude&#39;</span><span class="p">,</span> <span class="s1">&#39;GPS_Address1&#39;</span><span class="p">,</span><span class="s1">&#39;GPS_State&#39;</span><span class="p">,</span><span class="s1">&#39;GPS_City&#39;</span><span class="p">,</span><span class="s1">&#39;GPS_Zip&#39;</span><span class="p">,</span> <span class="s1">&#39;Corp_Site&#39;</span><span class="p">,</span> <span class="s1">&#39;Time_Zone_ID&#39;</span><span class="p">,</span> <span class="s1">&#39;Site_ID_Formatted&#39;</span><span class="p">,</span> <span class="s1">&#39;Business_Entity_desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Business_Entity_id&#39;</span><span class="p">,</span> <span class="s1">&#39;Corporate_desc&#39;</span><span class="p">,</span><span class="s1">&#39;Corporate_id&#39;</span><span class="p">,</span> <span class="s1">&#39;Supervisor_desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Supervisor_id&#39;</span><span class="p">,</span> <span class="s1">&#39;Site_desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Site_id&#39;</span><span class="p">,</span> <span class="s1">&#39;T_Supervisor_desc&#39;</span><span class="p">,</span> <span class="s1">&#39;T_Supervisor_id&#39;</span><span class="p">,</span> <span class="s1">&#39;State_desc&#39;</span><span class="p">,</span> <span class="s1">&#39;State_id&#39;</span><span class="p">,</span> <span class="s1">&#39;PB_Cigs_Zone_desc&#39;</span><span class="p">,</span> <span class="s1">&#39;PB_Cigs_Zone_id&#39;</span><span class="p">,</span> <span class="s1">&#39;Pizza_Brand_desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Pizza_Brand_id&#39;</span><span class="p">,</span> <span class="s1">&#39;Coke_Union_City_desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Coke_Union_City_id&#39;</span> <span class="p">])</span>
         <span class="n">select_order</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
@@ -908,7 +984,7 @@
         <span class="k">return</span> <span class="n">organization_table_lookup_df</span></div>
 
 
-<div class="viewcode-block" id="get_initial_parameters.create_product_table_lookup"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters.create_product_table_lookup">[docs]</a>    <span class="k">def</span> <span class="nf">create_product_table_lookup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="get_initial_parameters.create_product_table_lookup"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters.create_product_table_lookup">[docs]</a>    <span class="k">def</span> <span class="nf">create_product_table_lookup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;creating product table lookup&#39;</span><span class="p">)</span>
         <span class="n">level_str</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="s1">&#39;Product_Key&#39;</span><span class="p">,</span> <span class="s1">&#39;UPC_Sell_Unit_Desc&#39;</span><span class="p">,</span> <span class="s1">&#39;UPC&#39;</span><span class="p">,</span> <span class="s1">&#39;Sell_Unit_Desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Sell_Unit_Qty&#39;</span><span class="p">,</span> <span class="s1">&#39;Item_ID&#39;</span><span class="p">,</span> <span class="s1">&#39;Item_Desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Sub_Category_ID&#39;</span><span class="p">,</span> <span class="s1">&#39;Sub_Category_Desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Category_ID&#39;</span><span class="p">,</span> <span class="s1">&#39;Category_Desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Department_ID&#39;</span><span class="p">,</span><span class="s1">&#39;Department_Desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Size_Desc&#39;</span><span class="p">,</span> <span class="s1">&#39;Item_Type&#39;</span><span class="p">,</span> <span class="s1">&#39;Create_Date&#39;</span><span class="p">,</span> <span class="s1">&#39;Ent_Item_Number&#39;</span><span class="p">,</span> <span class="s1">&#39;UPC_Discontinue_Date&#39;</span><span class="p">,</span> <span class="s1">&#39;Scan_Modifier&#39;</span><span class="p">,</span> <span class="s1">&#39;IsPurchasable&#39;</span><span class="p">,</span> <span class="s1">&#39;Purchase_Discontinue_Date&#39;</span><span class="p">,</span> <span class="s1">&#39;IsSellable&#39;</span><span class="p">,</span> <span class="s1">&#39;Sales_Discontinue_Date&#39;</span><span class="p">,</span> <span class="s1">&#39;Audit_Flag&#39;</span><span class="p">])</span>
         <span class="n">select_order</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
@@ -937,7 +1013,7 @@
         <span class="k">return</span> <span class="n">product_table_df</span></div>
 
 
-<div class="viewcode-block" id="get_initial_parameters.create_calendar_table_lookup"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters.create_calendar_table_lookup">[docs]</a>    <span class="k">def</span> <span class="nf">create_calendar_table_lookup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="get_initial_parameters.create_calendar_table_lookup"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters.create_calendar_table_lookup">[docs]</a>    <span class="k">def</span> <span class="nf">create_calendar_table_lookup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;creating calendar table lookup&#39;</span><span class="p">)</span>
         <span class="n">prompt</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span>
             <span class="p">[</span>
@@ -963,7 +1039,7 @@
         <span class="k">return</span> <span class="n">calendar_lookup_table_df</span></div>
 
    
-<div class="viewcode-block" id="get_initial_parameters.select_date_range"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters.select_date_range">[docs]</a>    <span class="k">def</span> <span class="nf">select_date_range</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">calendar_lookup_table_df</span><span class="p">):</span>
+<div class="viewcode-block" id="get_initial_parameters.select_date_range"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters.select_date_range">[docs]</a>    <span class="k">def</span> <span class="nf">select_date_range</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">calendar_lookup_table_df</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;User Selecting desired date range&#39;</span><span class="p">)</span>
         <span class="n">user_selected</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span>
             <span class="p">[</span>
@@ -1025,7 +1101,7 @@
                     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your Value is not a character or&quot;</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="get_initial_parameters.input_date_range"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters.input_date_range">[docs]</a>    <span class="k">def</span> <span class="nf">input_date_range</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">calendar_lookup_table_df</span><span class="p">):</span>
+<div class="viewcode-block" id="get_initial_parameters.input_date_range"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters.input_date_range">[docs]</a>    <span class="k">def</span> <span class="nf">input_date_range</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">calendar_lookup_table_df</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;creating user_input column of calendar_lookup&#39;</span><span class="p">)</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;User inputing date range if possible&#39;</span><span class="p">)</span>
         <span class="n">user_input</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="kc">False</span><span class="p">,</span> <span class="kc">False</span> <span class="p">,</span> <span class="p">(</span><span class="kc">False</span><span class="p">,</span><span class="kc">False</span><span class="p">),</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">])</span>
@@ -1082,7 +1158,7 @@
             <span class="c1">#print(calendar_lookup_table_df)</span>
         
 
-<div class="viewcode-block" id="get_initial_parameters.sql_date_range"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters.sql_date_range">[docs]</a>    <span class="k">def</span> <span class="nf">sql_date_range</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">calendar_lookup_table_df</span><span class="p">):</span>
+<div class="viewcode-block" id="get_initial_parameters.sql_date_range"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters.sql_date_range">[docs]</a>    <span class="k">def</span> <span class="nf">sql_date_range</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">calendar_lookup_table_df</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Creating date_range column of calendar table lookup&#39;</span><span class="p">)</span>
         <span class="n">date_range</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span>
             <span class="p">[</span>
@@ -1132,7 +1208,7 @@
         <span class="k">return</span> <span class="n">date_range</span> </div>
 
        
-<div class="viewcode-block" id="get_initial_parameters.select_sub_levels"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters.select_sub_levels">[docs]</a>    <span class="k">def</span> <span class="nf">select_sub_levels</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">working_table</span><span class="p">):</span>
+<div class="viewcode-block" id="get_initial_parameters.select_sub_levels"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters.select_sub_levels">[docs]</a>    <span class="k">def</span> <span class="nf">select_sub_levels</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">working_table</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;selecting sub levels&#39;</span><span class="p">)</span>
         <span class="n">i</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span> 
         <span class="n">j</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span>
@@ -1155,7 +1231,7 @@
                     <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Key Error&#39;</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="get_initial_parameters.select_sub_level"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters.select_sub_level">[docs]</a>    <span class="k">def</span> <span class="nf">select_sub_level</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">working_lst</span><span class="p">,</span> <span class="n">current_table_row</span><span class="p">,</span> <span class="n">i</span><span class="p">):</span>
+<div class="viewcode-block" id="get_initial_parameters.select_sub_level"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters.select_sub_level">[docs]</a>    <span class="k">def</span> <span class="nf">select_sub_level</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">working_lst</span><span class="p">,</span> <span class="n">current_table_row</span><span class="p">,</span> <span class="n">i</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;User Selecting individual sub-level&#39;</span><span class="p">)</span>
         <span class="n">selected_values_lst</span> <span class="p">:</span> <span class="nb">list</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">query</span> <span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
@@ -1237,7 +1313,7 @@
                     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your Value is not a character or&quot;</span><span class="p">)</span>
                     <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Value Error&#39;</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="get_initial_parameters.display_current_table"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.get_initial_parameters.display_current_table">[docs]</a>    <span class="k">def</span> <span class="nf">display_current_table</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">working_table</span><span class="p">,</span><span class="n">i</span><span class="p">,</span><span class="n">j</span> <span class="p">):</span>
+<div class="viewcode-block" id="get_initial_parameters.display_current_table"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.get_initial_parameters.display_current_table">[docs]</a>    <span class="k">def</span> <span class="nf">display_current_table</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">working_table</span><span class="p">,</span><span class="n">i</span><span class="p">,</span><span class="n">j</span> <span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Displaying the current table to the user&#39;</span><span class="p">)</span>
         <span class="n">query</span> <span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
         <span class="n">k</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
@@ -1278,7 +1354,7 @@
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n\n\n\n\n</span><span class="s2">&quot;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="report"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.report">[docs]</a><span class="k">class</span> <span class="nc">report</span><span class="p">():</span>
+<div class="viewcode-block" id="report"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.report">[docs]</a><span class="k">class</span> <span class="nc">report</span><span class="p">():</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Initiating Report Class&#39;</span><span class="p">)</span>
@@ -1286,7 +1362,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">report_sorted</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">report_sorter</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">report_selection</span><span class="p">)</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Report Class Initiated&#39;</span><span class="p">)</span>
       
-<div class="viewcode-block" id="report.report_sorter"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.report.report_sorter">[docs]</a>    <span class="k">def</span> <span class="nf">report_sorter</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">report_selection</span><span class="p">):</span>
+<div class="viewcode-block" id="report.report_sorter"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.report.report_sorter">[docs]</a>    <span class="k">def</span> <span class="nf">report_sorter</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">report_selection</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Report Sorter Called&#39;</span><span class="p">)</span>
         <span class="n">test</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">report_selection</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">test</span><span class="p">)</span>
@@ -1307,7 +1383,7 @@
             <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Report_Sorter will return True&#39;</span><span class="p">)</span>
             <span class="k">return</span> <span class="kc">True</span></div>
 
-<div class="viewcode-block" id="report.select_report"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.report.select_report">[docs]</a>    <span class="k">def</span> <span class="nf">select_report</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">report_selection</span><span class="p">):</span>
+<div class="viewcode-block" id="report.select_report"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.report.select_report">[docs]</a>    <span class="k">def</span> <span class="nf">select_report</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">report_selection</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;User is selecting report&#39;</span><span class="p">)</span>
         <span class="n">available_reports_dict</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span> <span class="p">:</span><span class="s2">&quot;Sales&quot;</span><span class="p">,</span> <span class="mi">1</span> <span class="p">:</span><span class="s2">&quot;some other report&quot;</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span> <span class="s2">&quot;Run Last Report&quot;</span><span class="p">}</span>
         <span class="n">available_reports_list</span> <span class="o">=</span> <span class="p">[]</span>
@@ -1338,7 +1414,7 @@
                         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;-----------------------------------------------------------------------------&quot;</span><span class="p">)</span>  
                         <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Value Error&#39;</span><span class="p">)</span></div></div>
 
-<div class="viewcode-block" id="last_report"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.last_report">[docs]</a><span class="k">class</span> <span class="nc">last_report</span><span class="p">():</span>
+<div class="viewcode-block" id="last_report"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.last_report">[docs]</a><span class="k">class</span> <span class="nc">last_report</span><span class="p">():</span>
     
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">sql_connection</span> <span class="o">=</span> <span class="n">sql_connection</span><span class="p">()</span>
@@ -1346,7 +1422,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">isf_table</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_isf_table</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">,</span><span class="bp">self</span><span class="o">.</span><span class="n">sql_connection</span><span class="o">.</span><span class="n">connection</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">custom_dataframe</span> <span class="o">=</span> <span class="n">create_custom_dataframe</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">isf_table</span><span class="p">)</span>
 
-<div class="viewcode-block" id="last_report.get_last_query"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.last_report.get_last_query">[docs]</a>    <span class="k">def</span> <span class="nf">get_last_query</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="last_report.get_last_query"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.last_report.get_last_query">[docs]</a>    <span class="k">def</span> <span class="nf">get_last_query</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
         <span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">/queries.csv&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">cwd</span><span class="p">)</span>
         <span class="c1">#fieldnames = [&#39;DateTime&#39;, &#39;User&#39;, &#39;Query&#39;]</span>
@@ -1360,7 +1436,7 @@
             <span class="c1">#print(last_row[1])</span>
             <span class="k">return</span> <span class="n">last_row</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span></div>
 
-<div class="viewcode-block" id="last_report.create_isf_table"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.last_report.create_isf_table">[docs]</a>    <span class="k">def</span> <span class="nf">create_isf_table</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query</span><span class="p">,</span><span class="n">sql_connection</span><span class="p">):</span>
+<div class="viewcode-block" id="last_report.create_isf_table"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.last_report.create_isf_table">[docs]</a>    <span class="k">def</span> <span class="nf">create_isf_table</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query</span><span class="p">,</span><span class="n">sql_connection</span><span class="p">):</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;********************************************************&#39;</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Creating your report.  This could take a little while.</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;********************************************************&#39;</span><span class="p">)</span>
@@ -1369,7 +1445,7 @@
         <span class="c1">#print(isf_table_df)</span>
         <span class="k">return</span> <span class="n">isf_table_df</span></div></div>
 
-<div class="viewcode-block" id="universal_settings"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.universal_settings">[docs]</a><span class="k">class</span> <span class="nc">universal_settings</span><span class="p">():</span>
+<div class="viewcode-block" id="universal_settings"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.universal_settings">[docs]</a><span class="k">class</span> <span class="nc">universal_settings</span><span class="p">():</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">cwd</span> <span class="o">=</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)))</span>
@@ -1384,16 +1460,16 @@
 
 
 
-<div class="viewcode-block" id="universal_settings.set_pandas_options"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.universal_settings.set_pandas_options">[docs]</a>    <span class="k">def</span> <span class="nf">set_pandas_options</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">cwd</span><span class="p">):</span>
+<div class="viewcode-block" id="universal_settings.set_pandas_options"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.universal_settings.set_pandas_options">[docs]</a>    <span class="k">def</span> <span class="nf">set_pandas_options</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">cwd</span><span class="p">):</span>
         <span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span></div>
-<div class="viewcode-block" id="universal_settings.set_logging_options"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.universal_settings.set_logging_options">[docs]</a>    <span class="k">def</span> <span class="nf">set_logging_options</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">user</span><span class="p">):</span>
+<div class="viewcode-block" id="universal_settings.set_logging_options"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.universal_settings.set_logging_options">[docs]</a>    <span class="k">def</span> <span class="nf">set_logging_options</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">user</span><span class="p">):</span>
         <span class="n">FORMAT</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">%(asctime)-15s</span><span class="s1"> </span><span class="si">%(levelname)s</span><span class="s1">: </span><span class="si">%(funcName)s</span><span class="s1"> </span><span class="si">%(message)s</span><span class="s1">&#39;</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">/log.log&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cwd</span><span class="p">),</span><span class="nb">format</span><span class="o">=</span><span class="n">FORMAT</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span></div></div>
   
     
-<div class="viewcode-block" id="write_to_file"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.write_to_file">[docs]</a><span class="k">class</span> <span class="nc">write_to_file</span><span class="p">():</span>
+<div class="viewcode-block" id="write_to_file"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.write_to_file">[docs]</a><span class="k">class</span> <span class="nc">write_to_file</span><span class="p">():</span>
     
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">final_report</span><span class="p">,</span><span class="n">cwd</span><span class="p">):</span> 
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Writing to Excel&#39;</span><span class="p">)</span>
@@ -1414,7 +1490,7 @@
         <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
             <span class="k">pass</span>
 
-<div class="viewcode-block" id="write_to_file.lookup_to_excel"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.write_to_file.lookup_to_excel">[docs]</a>    <span class="k">def</span> <span class="nf">lookup_to_excel</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">final_report</span><span class="p">,</span> <span class="n">cwd</span><span class="p">):</span>
+<div class="viewcode-block" id="write_to_file.lookup_to_excel"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.write_to_file.lookup_to_excel">[docs]</a>    <span class="k">def</span> <span class="nf">lookup_to_excel</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">final_report</span><span class="p">,</span> <span class="n">cwd</span><span class="p">):</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Exporting to Excel&#39;</span><span class="p">)</span>
         <span class="c1">#writer = ExcelWriter(path)</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;********************************************************&#39;</span><span class="p">)</span>
@@ -1441,7 +1517,7 @@
         <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
             <span class="k">pass</span>
         <span class="k">return</span> <span class="kc">True</span></div>
-<div class="viewcode-block" id="write_to_file.ISF_to_Excel"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.write_to_file.ISF_to_Excel">[docs]</a>    <span class="k">def</span> <span class="nf">ISF_to_Excel</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">final_report</span><span class="p">,</span><span class="n">cwd</span><span class="p">):</span>
+<div class="viewcode-block" id="write_to_file.ISF_to_Excel"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.write_to_file.ISF_to_Excel">[docs]</a>    <span class="k">def</span> <span class="nf">ISF_to_Excel</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">final_report</span><span class="p">,</span><span class="n">cwd</span><span class="p">):</span>
 
         <span class="k">try</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;writing items_sales_Fact&#39;</span><span class="p">)</span>
@@ -1468,14 +1544,14 @@
         <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Exported to Excel&#39;</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span></div>
     
-<div class="viewcode-block" id="write_to_file.export_to_csv"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.write_to_file.export_to_csv">[docs]</a>    <span class="k">def</span> <span class="nf">export_to_csv</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">query_path</span><span class="p">,</span><span class="n">datetime</span><span class="p">,</span> <span class="n">login</span><span class="p">,</span><span class="n">query</span><span class="p">):</span>
+<div class="viewcode-block" id="write_to_file.export_to_csv"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.write_to_file.export_to_csv">[docs]</a>    <span class="k">def</span> <span class="nf">export_to_csv</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">query_path</span><span class="p">,</span><span class="n">datetime</span><span class="p">,</span> <span class="n">login</span><span class="p">,</span><span class="n">query</span><span class="p">):</span>
 
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">query_path</span><span class="p">,</span> <span class="s1">&#39;a+&#39;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">csvfile</span><span class="p">:</span>
             <span class="n">query_writer</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">writer</span><span class="p">(</span><span class="n">csvfile</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
             <span class="n">query_writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">([</span><span class="n">datetime</span><span class="p">,</span><span class="n">login</span><span class="p">,</span><span class="n">query</span><span class="p">])</span>
         <span class="k">return</span> <span class="kc">True</span></div></div>
 
-<div class="viewcode-block" id="sql_connection"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.sql_connection">[docs]</a><span class="k">class</span> <span class="nc">sql_connection</span><span class="p">():</span>
+<div class="viewcode-block" id="sql_connection"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.sql_connection">[docs]</a><span class="k">class</span> <span class="nc">sql_connection</span><span class="p">():</span>
 
     <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 
@@ -1502,7 +1578,7 @@
 
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span><span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
     <span class="c1">#changed universal setting to just settings.  It&#39;s bad practice to name it twice.  </span>
-<div class="viewcode-block" id="settings"><a class="viewcode-back" href="../autoapi/report_tool/index.html#report_tool.settings">[docs]</a>    <span class="n">settings</span> <span class="o">=</span> <span class="n">universal_settings</span><span class="p">()</span></div>
+<div class="viewcode-block" id="settings"><a class="viewcode-back" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html#report_tool.settings">[docs]</a>    <span class="n">settings</span> <span class="o">=</span> <span class="n">universal_settings</span><span class="p">()</span></div>
     <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Testing_Main Function&#39;</span><span class="p">)</span>
     <span class="c1">#onnection = sql_connection</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;******************************************&quot;</span><span class="p">)</span>
@@ -1535,7 +1611,7 @@
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
-      Last updated on Feb 14, 2022.<br/>
+      Last updated on Feb 15, 2022.<br/>
   </p>
 </footer>
 </main>

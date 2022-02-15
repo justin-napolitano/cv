@@ -1,3 +1,11 @@
+:::{post}
+:tags: contact, resume
+:category: contact
+:author: Justin Napolitano
+:location: TX
+:language: en
+:::
+
 # Contact
 
 ## Email

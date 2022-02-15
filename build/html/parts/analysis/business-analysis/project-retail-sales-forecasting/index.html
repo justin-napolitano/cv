@@ -57,7 +57,9 @@
     <script async="async" src="../../../../_static/sphinx-thebe.js"></script>
     <link rel="shortcut icon" href="../../../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../../../genindex.html" />
-    <link rel="search" title="Search" href="../../../../search.html" /> 
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Retail Sales Analysis Jupyter Notebook" href="code-base/SalesForcasting.html" />
+    <link rel="prev" title="cigarette_sales_order_form" href="../project-order-forecasting/docs/cigarette_sales_order_form/index.html" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -154,7 +156,7 @@
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../../../resume/education/docs/ucf.html">
-     The University of Central Florida
+     University of Central Florida
     </a>
    </li>
   </ul>
@@ -222,6 +224,82 @@
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../resume/contact/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Analysis
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../index.html">
+   Business Analysis
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../project-cli-program/index.html">
+     Sales Reporting CLI Program
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../project-cli-program/docs/report-tool/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         report_tool
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../project-order-forecasting/index.html">
+     Cigarette Sales Forecasting and Order Prediction
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../project-order-forecasting/docs/cigarette_sales_order_form/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         cigarette_sales_order_form
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Retail Sales Forecasting
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../political-analysis/index.html">
+   Political Analyses
+  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -298,9 +376,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../../../_sources/parts/analysis/business-analysis/project-retail-sales-forecasting/index.rst.txt"><button type="button"
+        <a class="dropdown-buttons" href="../../../../_sources/parts/analysis/business-analysis/project-retail-sales-forecasting/index.md.txt"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.rst</button></a>
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
                 onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -341,29 +419,36 @@
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#description">
-   Description
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Retail Sales Forecasting
   </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#description">
+     Description
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#models-tested">
+     Models Tested
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-to-improve">
+     How to Improve
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#links">
+     Links
+    </a>
+   </li>
+  </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#models-tested">
-   Models Tested
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-to-improve">
-   How to Improve
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#links">
-   Links
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#code-documentation">
-   Code Documentation
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#retail-sales-analysis-notebook">
+   Retail Sales Analysis Notebook
   </a>
  </li>
 </ul>
@@ -386,29 +471,36 @@
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#description">
-   Description
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Retail Sales Forecasting
   </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#description">
+     Description
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#models-tested">
+     Models Tested
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-to-improve">
+     How to Improve
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#links">
+     Links
+    </a>
+   </li>
+  </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#models-tested">
-   Models Tested
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-to-improve">
-   How to Improve
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#links">
-   Links
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#code-documentation">
-   Code Documentation
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#retail-sales-analysis-notebook">
+   Retail Sales Analysis Notebook
   </a>
  </li>
 </ul>
@@ -419,7 +511,7 @@
             </div>
             
               <div>
-                 <div class="section" id="retail-sales-forecasting">
+                 <div class="tex2jax_ignore mathjax_ignore section" id="retail-sales-forecasting">
 <h1>Retail Sales Forecasting<a class="headerlink" href="#retail-sales-forecasting" title="Permalink to this headline">¶</a>
 </h1>
 <div class="section" id="description">
@@ -453,21 +545,19 @@
 <h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a>
 </h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/justin-napolitano/sales-forecasting">GitHub</a></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">GitHub</span> <span class="pre">&lt;https://github.com/justin-napolitano/sales-forecasting&gt;</span></code>_</p></li>
 </ul>
 </div>
-<div class="section" id="code-documentation">
-<h2>Code Documentation<a class="headerlink" href="#code-documentation" title="Permalink to this headline">¶</a>
-</h2>
-<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
+</div>
+
+<div class="tex2jax_ignore mathjax_ignore section" id="retail-sales-analysis-notebook">
+<h1>Retail Sales Analysis Notebook<a class="headerlink" href="#retail-sales-analysis-notebook" title="Permalink to this headline">¶</a>
+</h1>
 <div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Notebook</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="SalesForcasting.html">Retail Sales Analysis Jupyter Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code-base/SalesForcasting.html">Retail Sales Analysis Jupyter Notebook</a></li>
 </ul>
-</div>
-</div>
-</div>
 </div>
 </div>
 
@@ -494,14 +584,29 @@
 <script>kernelName = 'python3'</script>
 
 <div class="section">
-   
+    
+  
 </div>
 
               </div>
               
             
                 <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="../project-order-forecasting/docs/cigarette_sales_order_form/index.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title"><code class="xref py py-mod docutils literal notranslate"><span class="pre">cigarette_sales_order_form</span></code></p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="code-base/SalesForcasting.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Retail Sales Analysis Jupyter Notebook</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             
         </div>
@@ -512,7 +617,7 @@
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
-      Last updated on Feb 14, 2022.<br/>
+      Last updated on Feb 15, 2022.<br/>
   </p>
 </footer>
 </main>

@@ -142,7 +142,7 @@
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../parts/resume/education/docs/ucf.html">
-     The University of Central Florida
+     University of Central Florida
     </a>
    </li>
   </ul>
@@ -210,6 +210,82 @@
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../parts/resume/contact/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Analysis
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../parts/analysis/business-analysis/index.html">
+   Business Analysis
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../parts/analysis/business-analysis/project-cli-program/index.html">
+     Sales Reporting CLI Program
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../parts/analysis/business-analysis/project-cli-program/docs/report-tool/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         report_tool
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../parts/analysis/business-analysis/project-order-forecasting/index.html">
+     Cigarette Sales Forecasting and Order Prediction
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../parts/analysis/business-analysis/project-order-forecasting/docs/cigarette_sales_order_form/index.html">
+       <code class="xref py py-mod docutils literal notranslate">
+        <span class="pre">
+         cigarette_sales_order_form
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../parts/analysis/business-analysis/project-retail-sales-forecasting/index.html">
+     Retail Sales Forecasting
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../parts/analysis/political-analysis/index.html">
+   Political Analyses
+  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -337,12 +413,12 @@
 <span class="c1">#from active_code_base.loc_scraper import get_search_collection_response</span>
 
 
-<div class="viewcode-block" id="test_create_google_credentials_object"><a class="viewcode-back" href="../autoapi/loc_scraper_test/index.html#loc_scraper_test.test_create_google_credentials_object">[docs]</a><span class="k">def</span> <span class="nf">test_create_google_credentials_object</span><span class="p">():</span>
+<div class="viewcode-block" id="test_create_google_credentials_object"><a class="viewcode-back" href="../parts/analysis/political-analysis/sup-court/project-sup-court-meta-data-graph/docs/loc_scraper_test/index.html#loc_scraper_test.test_create_google_credentials_object">[docs]</a><span class="k">def</span> <span class="nf">test_create_google_credentials_object</span><span class="p">():</span>
     <span class="n">file_path</span> <span class="o">=</span> <span class="s1">&#39;/Users/justinnapolitano/Dropbox/python/Projects/webscraping/supreme_court_cases/active_code_base/credentials.json&#39;</span>
     <span class="n">google_credentials_object</span> <span class="o">=</span> <span class="n">create_google_credentials_object</span><span class="p">(</span><span class="n">creds_path</span><span class="o">=</span><span class="n">file_path</span><span class="p">)</span>
     <span class="k">assert</span> <span class="n">google_credentials_object</span> <span class="o">!=</span> <span class="kc">None</span></div>
 
-<div class="viewcode-block" id="test_load_config_file"><a class="viewcode-back" href="../autoapi/loc_scraper_test/index.html#loc_scraper_test.test_load_config_file">[docs]</a><span class="k">def</span> <span class="nf">test_load_config_file</span><span class="p">():</span>
+<div class="viewcode-block" id="test_load_config_file"><a class="viewcode-back" href="../parts/analysis/political-analysis/sup-court/project-sup-court-meta-data-graph/docs/loc_scraper_test/index.html#loc_scraper_test.test_load_config_file">[docs]</a><span class="k">def</span> <span class="nf">test_load_config_file</span><span class="p">():</span>
 
     <span class="n">file_path</span> <span class="o">=</span> <span class="s1">&#39;/Users/justinnapolitano/Dropbox/python/Projects/webscraping/supreme_court_cases/active_code_base/config.yaml&#39;</span>
     <span class="n">stream</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span>
@@ -354,7 +430,7 @@
     <span class="k">assert</span> <span class="n">config_object</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="n">test_data</span> </div>
 
 
-<div class="viewcode-block" id="test_create_search_collection_object"><a class="viewcode-back" href="../autoapi/loc_scraper_test/index.html#loc_scraper_test.test_create_search_collection_object">[docs]</a><span class="k">def</span> <span class="nf">test_create_search_collection_object</span><span class="p">():</span>
+<div class="viewcode-block" id="test_create_search_collection_object"><a class="viewcode-back" href="../parts/analysis/political-analysis/sup-court/project-sup-court-meta-data-graph/docs/loc_scraper_test/index.html#loc_scraper_test.test_create_search_collection_object">[docs]</a><span class="k">def</span> <span class="nf">test_create_search_collection_object</span><span class="p">():</span>
     <span class="c1">#for item in yielded by generator:</span>
     <span class="c1">#    Check the below</span>
     <span class="n">search_result_object</span> <span class="o">=</span> <span class="n">create_search_result_object</span><span class="p">()</span>
@@ -366,7 +442,7 @@
     <span class="k">assert</span> <span class="n">search_result_object</span><span class="o">.</span><span class="n">response_json</span> <span class="o">!=</span> <span class="kc">None</span></div>
         <span class="c1">#assert search_collection_obj.soup_html !=None</span>
 
-<div class="viewcode-block" id="test_search_result_generator"><a class="viewcode-back" href="../autoapi/loc_scraper_test/index.html#loc_scraper_test.test_search_result_generator">[docs]</a><span class="k">def</span> <span class="nf">test_search_result_generator</span><span class="p">():</span>
+<div class="viewcode-block" id="test_search_result_generator"><a class="viewcode-back" href="../parts/analysis/political-analysis/sup-court/project-sup-court-meta-data-graph/docs/loc_scraper_test/index.html#loc_scraper_test.test_search_result_generator">[docs]</a><span class="k">def</span> <span class="nf">test_search_result_generator</span><span class="p">():</span>
     <span class="k">for</span> <span class="n">search_result_object</span> <span class="ow">in</span> <span class="n">search_result_generator</span><span class="p">(</span><span class="n">page_num</span> <span class="o">=</span> <span class="mi">244</span><span class="p">):</span>
         <span class="n">expected_url</span> <span class="o">=</span> <span class="s1">&#39;https://www.loc.gov/collections/united-states-reports/?fo=json&amp;c=150&amp;sp=</span><span class="si">{page_num}</span><span class="s1">&#39;</span>
         <span class="n">expected_url</span> <span class="o">=</span> <span class="n">expected_url</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">page_num</span> <span class="o">=</span> <span class="n">search_result_object</span><span class="o">.</span><span class="n">page_num</span><span class="p">)</span>
@@ -405,7 +481,7 @@
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
-      Last updated on Feb 14, 2022.<br/>
+      Last updated on Feb 15, 2022.<br/>
   </p>
 </footer>
 </main>

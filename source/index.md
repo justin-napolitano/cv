@@ -23,19 +23,23 @@ Follow the link the one page overview
 /parts/resume/education/index
 /parts/resume/work-history/index
 /parts/resume/languages/index
-/parts/resume/contact/*
+/parts/resume/contact/contact
 ```
-
 :::
 
-::{card}
+## Analysis
+
+:::{card}
 
 ```{toctree}
 :caption: Analysis
+:maxdepth: 2
 
 /parts/analysis/business-analysis/index
 /parts/analysis/political-analysis/index
+```
 
+:::
 
 ## Journal 
 
@@ -58,9 +62,9 @@ parts/journal/posts
 :caption: Reference
 :maxdepth: 2
 
-parts/bibliography/bibliography.rst
-py-modindex.rst
-genindex.rst
+parts/bibliography/bibliography
+py-modindex
+genindex
 ```
 
 :::

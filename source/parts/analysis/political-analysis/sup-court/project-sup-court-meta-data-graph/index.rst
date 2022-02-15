@@ -1,3 +1,11 @@
+.. post:: 
+   :tags: python, supreme-court, political-analysis
+   :category: political analysis, supreme court
+   :author: Justin Napolitano
+   :location: TX
+   :language: en
+
+
 MetaData Graph
 ===================================
 
@@ -37,8 +45,8 @@ Module Documentation
       :maxdepth: 2
 
 
-      /autoapi/lok_scraper_1/index.rst
-      /autoapi/loc_scraper_test/index.rst
+      docs/lok_scraper_1/index.rst
+      docs/loc_scraper_test/index.rst
 
 
 

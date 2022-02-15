@@ -1,3 +1,10 @@
+.. post:: 
+   :tags: political-analysis, supreme-court
+   :category: political analysis
+   :author: Justin Napolitano
+   :location: TX
+   :language: en
+
 **************************************
 United States Supreme Court
 **************************************
