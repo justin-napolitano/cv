@@ -1,3 +1,5 @@
+```{eval-rst}
+
 .. post:: 
    :tags: political-analysis, supreme-court
    :category: political analysis
@@ -41,14 +43,4 @@ United States Supreme Court
       project-supcourt-attitudinal-model/attitudinal-model.md
       project-supcourt-masterpiececake/masterpiece-cake.md
 
-
-
-
-
-
-
-
-
-
-
-
+```
