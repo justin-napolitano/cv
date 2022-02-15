@@ -15,7 +15,6 @@ I specialized in studying the United States Supreme Court and Terrorism and Conf
 
 :::
 
-# Contents
 
 :::{card}
 
