@@ -2008,13 +2008,12 @@
 <span class="sd">item = heappop(heap) # pops the smallest item from the heap</span>
 <span class="sd">item = heap[0]       # smallest item on the heap without popping it</span>
 <span class="sd">heapify(x)           # transforms list into a heap, in-place, in linear time</span>
-<span class="sd">item = heapreplace(heap, item) # pops and returns smallest item, and adds</span>
-<span class="sd">                               # new item; the heap size is unchanged</span>
+<span class="sd">item = heapreplace(heap, item) # pops and returns smallest item, and adds new item; the heap size is unchanged</span>
 <span class="sd">Our API differs from textbook heap algorithms as follows:</span>
-<span class="sd">- We use 0-based indexing.  This makes the relationship between the</span>
-<span class="sd">  index for a node and the indexes for its children slightly less</span>
-<span class="sd">  obvious, but is more suitable since Python uses 0-based indexing.</span>
-<span class="sd">- Our heappop() method returns the smallest item, not the largest.</span>
+<span class="sd">-We use 0-based indexing.  This makes the relationship between the</span>
+<span class="sd">index for a node and the indexes for its children slightly less</span>
+<span class="sd">obvious, but is more suitable since Python uses 0-based indexing.</span>
+<span class="sd">Our heappop() method returns the smallest item, not the largest.</span>
 <span class="sd">These two make it possible to view the heap as a regular Python list</span>
 <span class="sd">without surprises: heap[0] is the smallest item, and heap.sort()</span>
 <span class="sd">maintains the heap invariant!</span>
