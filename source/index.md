@@ -19,6 +19,7 @@ Follow the link the one page overview
 
 ```{toctree}
 :caption: Resume
+:maxdepth: 2
 
 /parts/resume/education/index
 /parts/resume/work-history/index
