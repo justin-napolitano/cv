@@ -47,7 +47,7 @@ Follow the link the one page overview
 
 ```{toctree}
 :caption: Python Development
-:maxdepth: 2
+:maxdepth: 1
 
 
 /parts/python-development/google/index
