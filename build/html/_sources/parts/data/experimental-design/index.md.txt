@@ -8,7 +8,7 @@
 
 
 
-# Experimental Desing Reference
+# Experimental Design Reference
 
 :::{card}
 
