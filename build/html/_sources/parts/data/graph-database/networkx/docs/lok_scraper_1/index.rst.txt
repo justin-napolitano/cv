@@ -85,6 +85,7 @@ Functions
 
 .. py:class:: google_sheet(creds)
    :noindex:
+
    .. py:method:: get_sheet_service(self, creds)
       :noindex:
 
