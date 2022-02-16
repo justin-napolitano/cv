@@ -80,8 +80,11 @@ Follow the link the one page overview
 ```{toctree}
 :caption: Data 
 :maxdepth: 1
+/parts/data/data-integration/index.md
+/parts/data/graph-database/index.md
+/parts/data/relational-database/index.md
+/parts/data/web-scraping/index.md
 
-/parts/data/index
 
 ```
 :::
