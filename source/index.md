@@ -61,6 +61,18 @@ Follow the link the one page overview
 ```
 :::
 
+## Machine Learning and Artificial Intelligence
+
+:::{card}
+
+```{toctree}
+:caption: Machine Learning
+:maxdepth: 2
+
+/parts/ml-ai/index
+```
+:::
+
 ## Journal 
 
 :::{card}
