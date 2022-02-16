@@ -84,6 +84,7 @@ Follow the link the one page overview
 /parts/data/graph-database/index.md
 /parts/data/relational-database/index.md
 /parts/data/web-scraping/index.md
+/parts/data/experimental-design/index.mc
 
 
 ```
@@ -97,9 +98,8 @@ Follow the link the one page overview
 :caption: Reference
 :maxdepth: 2
 
-parts/reference/automation-scripts/index
-parts/reference/configuration/index
-parts/reference/experimental-design/index
+/parts/reference/automation-scripts/index
+/parts/reference/configuration/index
 ```
 
 :::
