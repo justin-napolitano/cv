@@ -2,7 +2,7 @@
 ========================================
 
 .. py:module:: SupremeCourtPredictionsJustice
-
+   :noindex:
 
 Module Contents
 ---------------
@@ -35,37 +35,37 @@ Attributes
 
 
 .. py:function:: get_environmental_variables()
-
+   :noindex:
 
 .. py:function:: load_data(cwd)
-
+   :noindex:
 
 .. py:function:: split_datframe(dataframe)
-
+   :noindex:
 
 .. py:function:: df_to_dataset(dataframe, shuffle=True, batch_size=32)
-
+   :noindex:
 
 .. py:function:: get_input_pipeline(train, test, val, batch_size=32, shuffle=True)
-
+   :noindex:
 
 .. py:function:: get_feature_layer(cwd)
-
+   :noindex:
 
 .. py:function:: understand_input_pipeline(train_ds)
-
+   :noindex:
 
 .. py:function:: create_model(log_dir, feature_layer, train_ds, val_ds, epochs=8)
-
+   :noindex:
 
 .. py:function:: plot_history(history)
-
+   :noindex:
 
 .. py:function:: explain_kernal(model, train_ds)
-
+   :noindex:
 
 .. py:data:: df
-   
+   :noindex:   
 
    
 

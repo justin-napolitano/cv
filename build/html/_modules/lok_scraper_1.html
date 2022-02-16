@@ -2152,13 +2152,13 @@
 
         <span class="k">return</span> <span class="n">res</span></div></div>
 
-<div class="viewcode-block" id="google_sheet"><a class="viewcode-back" href="../parts/data/graph-database/networkx/docs/lok_scraper_1/index.html#lok_scraper_1.google_sheet">[docs]</a><span class="k">class</span> <span class="nc">google_sheet</span><span class="p">():</span>
+<div class="viewcode-block" id="google_sheet"><a class="viewcode-back" href="../parts/analysis/political-analysis/sup-court/project-sup-court-meta-data-graph/docs/lok_scraper_1/index.html#lok_scraper_1.google_sheet">[docs]</a><span class="k">class</span> <span class="nc">google_sheet</span><span class="p">():</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">creds</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">service</span> <span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">get_sheet_service</span><span class="p">(</span><span class="n">creds</span><span class="p">)</span>
 
 
-<div class="viewcode-block" id="google_sheet.get_sheet_service"><a class="viewcode-back" href="../parts/data/graph-database/networkx/docs/lok_scraper_1/index.html#lok_scraper_1.google_sheet.get_sheet_service">[docs]</a>    <span class="k">def</span> <span class="nf">get_sheet_service</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">creds</span><span class="p">):</span>
+<div class="viewcode-block" id="google_sheet.get_sheet_service"><a class="viewcode-back" href="../parts/analysis/political-analysis/sup-court/project-sup-court-meta-data-graph/docs/lok_scraper_1/index.html#lok_scraper_1.google_sheet.get_sheet_service">[docs]</a>    <span class="k">def</span> <span class="nf">get_sheet_service</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">creds</span><span class="p">):</span>
         <span class="n">service</span> <span class="o">=</span> <span class="n">build</span><span class="p">(</span><span class="s1">&#39;sheets&#39;</span><span class="p">,</span> <span class="s1">&#39;v4&#39;</span><span class="p">,</span> <span class="n">credentials</span><span class="o">=</span><span class="n">creds</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">service</span><span class="o">.</span><span class="n">spreadsheets</span><span class="p">()</span></div></div>
 
