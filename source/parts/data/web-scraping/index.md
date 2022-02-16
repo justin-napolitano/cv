@@ -1,5 +1,5 @@
 :::{post}
-:tags: python, networkx, graph-database, database
+:tags: python, Scraping
 :category: Data
 :author: Justin Napolitano
 :location: TX
@@ -8,7 +8,7 @@
 
 ```{eval-rst}
 **************************************
-Networkx
+Web Scraping
 **************************************
 
 
@@ -22,7 +22,7 @@ Networkx
 
    .. toctree::
       :maxdepth: 4
-      :caption: Networkx:
+      :caption: Web Scraping:
       
       general-purpose/index
       misc-scraping/index 
