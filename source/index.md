@@ -49,8 +49,14 @@ Follow the link the one page overview
 :caption: Python Development
 :maxdepth: 2
 
-/parts/python-development/dropbox/index
+
+/parts/python-development/google/index
+/parts/python-development/janus-graph/index
+/parts/python-development/neo4j/index
 /parts/python-development/pandas/index
+/parts/python-development/spark/index
+/parts/python-development/flask/index
+/parts/python-development/dropbox/index
 ```
 :::
 
