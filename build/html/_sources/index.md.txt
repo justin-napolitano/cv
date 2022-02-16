@@ -89,6 +89,22 @@ Follow the link the one page overview
 ```
 :::
 
+## Reference 
+
+:::{card}
+
+```{toctree}
+:caption: Reference
+:maxdepth: 2
+
+parts/reference/automation-scripts/index
+parts/reference/configuration/index
+parts/reference/experimental-design/index
+```
+
+:::
+
+
 ## Journal 
 
 :::{card}
@@ -107,7 +123,7 @@ parts/journal/posts
 :::{card}
 
 ```{toctree}
-:caption: Reference
+:caption: Tables and Indices
 :maxdepth: 2
 
 parts/bibliography/bibliography
