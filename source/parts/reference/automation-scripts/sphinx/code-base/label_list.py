@@ -6,39 +6,42 @@ try:
 except:
   import pickle
 
-"""
-A simple program that lists all of the labels that sphinx creates during a build.   It reads a pickle filen and prints the relevent dictionary.  
-"""
 
 
 def main():
 
-    """"
-    the pickle filen using this build as an example
-    """
-    PICKLE_FILE = "/Users/jnapolitano/Dropbox/python/Projects/websites/jnapolitano.io/build/doctrees/environment.pickle"
 
-    #dat = pickle.load(PICKLE_FILE)
+  """
+  A simple program that lists all of the labels that sphinx creates during a build.   It reads a pickle filen and prints the relevent dictionary.  
+  """
 
-    #print(dat.domaindata['std']['labels'].keys())
+  """"
+  the pickle file using this build as an example
+  """
+  PICKLE_FILE = "/Users/jnapolitano/Dropbox/python/Projects/websites/jnapolitano.io/build/doctrees/environment.pickle"
 
-    """"
-    prints the laels from the domain data labels dictionary
-    """
-    for item in read_from_pickle(PICKLE_FILE):
-        print(item.domaindata['std']['labels'].keys())
-        print('/n')
+  #dat = pickle.load(PICKLE_FILE)
 
-""""
-yields from pickle and passes it back to the print function.  Stops when eof is hit.
-"""
+  #print(dat.domaindata['std']['labels'].keys())
+
+  """"
+  prints the laels from the domain data labels dictionary
+  """
+  for item in read_from_pickle(PICKLE_FILE):
+      print(item.domaindata['std']['labels'].keys())
+      print('/n')
+
+
 def read_from_pickle(path):
-    with open(path, 'rb') as file:
-        try:
-            while True:
-                yield pickle.load(file)
-        except EOFError:
-            pass
+  """"
+  yields from pickle and passes it back to the print function.  Stops when eof is hit.
+  """
+  with open(path, 'rb') as file:
+      try:
+          while True:
+              yield pickle.load(file)
+      except EOFError:
+          pass
 
 
 

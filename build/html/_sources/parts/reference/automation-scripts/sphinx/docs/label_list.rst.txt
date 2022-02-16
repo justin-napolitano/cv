@@ -1,7 +1,7 @@
 :py:mod:`label_list`
 ====================
 
-:noindex:
+
 .. py:module:: label_list
    
 
