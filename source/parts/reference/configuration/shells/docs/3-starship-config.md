@@ -11,7 +11,7 @@ touch ~/config/starship.toml
 
 ## Update the File to your preferences.  My current config is below.
 
-:::{literalinclude} code-base/starship.toml
+:::{literalinclude} /parts/reference/configuration/shells/code-base/starship.toml
 :language: toml
 
 :::

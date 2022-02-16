@@ -8,7 +8,7 @@ A project that I completed while studying computational statistics
 
 :::{card}
 
-:::{literalinclude} code-base/project-experimental-design/FinalProject.sas
+:::{literalinclude} /parts/data/experimental-design/sas/code-base/project-experimental-design/FinalProject.txt
 
 :::
 :::

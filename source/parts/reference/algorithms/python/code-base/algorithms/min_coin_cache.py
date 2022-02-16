@@ -1,9 +1,9 @@
- def recDC(coinValueList,change,knownResults):
+def recDC(coinValueList,change,knownResults):
     minCoins = change
     if change in coinValueList:
        knownResults[change] = 1
        return 1
-    elif knownResults[change] > 0:
+    elif knownResults[change] > 0:#can modify to be if in known_results
        return knownResults[change]
     else:
         for i in [c for c in coinValueList if c <= change]:
@@ -12,6 +12,6 @@
           if numCoins < minCoins:
              minCoins = numCoins
              knownResults[change] = minCoins
-    return minCoins
+             return minCoins
 
- print(recDC([1,5,10,25],63,[0]*64))
+print(recDC([1,5,10,25],63,[0]*64))

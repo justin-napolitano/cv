@@ -92,8 +92,7 @@ email_automode = True
 #AUTOAPI CONFIG
 autoapi_type = 'python'
 autoapi_dirs = ['../source']
-
-autoapi_root= '../source/parts/data/autoapi'
+autoapi_root= '../source/output-docs'
 autoapi_keep_files = False
 autoapi_add_toctree_entry = False
 autoapi_generate_api_docs = False

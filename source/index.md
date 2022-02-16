@@ -100,6 +100,8 @@ Follow the link the one page overview
 
 /parts/reference/automation-scripts/index
 /parts/reference/configuration/index
+/parts/reference/algorithms/index
+/parts/reference/data-structures/index
 ```
 
 :::
