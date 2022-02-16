@@ -73,6 +73,19 @@ Follow the link the one page overview
 ```
 :::
 
+## Data
+
+:::{card}
+
+```{toctree}
+:caption: Data 
+:maxdepth: 1
+
+/parts/data/index
+
+```
+:::
+
 ## Journal 
 
 :::{card}
