@@ -41,6 +41,19 @@ Follow the link the one page overview
 
 :::
 
+## Python Development
+
+:::{card}
+
+```{toctree}
+:caption: Python Development
+:maxdepth: 2
+
+/parts/python-development/dropbox/index
+/parts/python-development/pandas/index
+```
+:::
+
 ## Journal 
 
 :::{card}
