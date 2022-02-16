@@ -12,6 +12,8 @@
 
 This section is dedicated to data integration projects.
 
+:::
+
 :::{card}
 
 ```{toctree}
