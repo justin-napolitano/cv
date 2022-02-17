@@ -42,19 +42,19 @@ clean () {
 }
 
 html () {
-    printf "\nMaking your h-h-h-tml files... p-p-Wease be pazient wif me ${PWEASE}"
+    printf "\nMaking your h-h-h-tml files... p-p-Wease be pazients wif me ${PWEASE}"
     command make html &> /dev/null
     printf "\n  I hope the files are to your liking senpai ${HOPE}"
 }
 add () {
-    printf "\nAdding changes to git ${happy}"
-    command git add . > /dev/null
+    printf "\nAdding changes to git ${HAPPY}"
+    command git add . &>/dev/null
     printf "\n  git changed"
 }
 
 commit () {
     printf "\nCommiting those changes boss ${ANGEL}"
-    command git commit -m "awtocommit on $(timestamp)"
+    command git commit -m "awtocommit on $(timestamp)" &>/dev/null
     printf "\n  Committed ${BOSS}"
 }
 
