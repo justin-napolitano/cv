@@ -9,7 +9,7 @@
 
 
 
-# Python Algorithms
+# Algorithms
 
 
 :::{card}

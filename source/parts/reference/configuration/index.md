@@ -11,10 +11,6 @@
 # Configuration Reference
 
 
-
-
-
-
 :::{card}
 
 ```{toctree}
