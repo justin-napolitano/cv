@@ -131,26 +131,17 @@ I've also included the files below to enable quicker builds and pushes to your g
 
 ### Bash Scripts
 
-* doit.sh
-    * Cleans the build directory.
-    * Makes the html
-    * Pushes to github
-* pushit.sh
-    * Adds changes
-    * Pushes to github. 
-* chtml.sh
-    * Cleans the build 
-    * Creates Html
-* pullit.sh
-    * Pulls changes from Github
-    * Cleans the build directory
-    * Builds html
-* installit.sh
-    * Creates a virtualenvironment called sphinx-site
-    * activates the environment
-    * Installs the requirements
-* deploy.sh
-    * deploys to gh-pages
+```{card}
+
+:::{toctree}
+:caption: Bash Scripts included in this repository.
+:glob:
+
+docs/bash/*
+
+:::
+
+```
 
 # Pushing to Gh Pages
 
@@ -172,7 +163,7 @@ sudo chmod u+x deploy.sh
 
 ## GH Workflows
 
-Gh workflow support is coming soon.  Just have to figure out why my current flow isn't cooperating.  
+Gh workflow support is coming soon.  Just have to figure out why my current flow isn't cooperating. 
 
 
 
