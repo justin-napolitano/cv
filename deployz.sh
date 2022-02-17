@@ -60,14 +60,14 @@ commit () {
 
 push () {
     printf "\nPushing them files sir ${KISSY}"
-    command git push  > /dev/null 
+    command git push  &>/dev/null 
     printf "\n  pushed them good 4 u ${DEVIL}"
 }
 
 deploy () {
     printf "\nmakey a website now ${MAKEY}"
-    command ghp-import -n -p -f -c $cname build/html > /dev/null 
-    printf "\n  mmm site is live at $cname ${MMM}"
+    command ghp-import -n -p -f -c $cname build/html &>/dev/null 
+    printf "\n  mmm ${MMM} site is live at $cname"
 }
 
 progress () {
