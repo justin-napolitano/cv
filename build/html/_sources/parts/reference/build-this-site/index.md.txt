@@ -10,9 +10,22 @@
 
 # Build this Website
 
+## Install Brew to make life easier for yourself
+
+Review my tutorial [here](brew_install)
+
+
 ## Git and Gh CLI
 
-If you have not installed git and gh on your system I would recommend starting [here](gh_install)
+If you have not installed git and gh on your system I would recommend starting [here](gh_install)...
+
+...or just run the following if you have brew installed:
+
+:::{code-block} Bash
+
+brew install gh
+
+:::
 
 ## Clone the Repository
 
