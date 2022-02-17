@@ -1,9 +1,9 @@
-# Go Stuff
+# Rust Stuff
 
 :::{card}
 
 ```{toctree}
-:caption: Go Stuff
+:caption: Rust STuff
 :glob:
 
 docs/*
