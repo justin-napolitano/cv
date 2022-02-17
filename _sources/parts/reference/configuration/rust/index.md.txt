@@ -1,0 +1,12 @@
+# Go Stuff
+
+:::{card}
+
+```{toctree}
+:caption: Go Stuff
+:glob:
+
+docs/*
+
+```
+:::
