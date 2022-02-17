@@ -35,7 +35,7 @@ timestamp() {
 
 
 clean () {
-    printf "${PURPLE}Cleaning your dirty build OnIChan $HEART"
+    printf "${PURPLE}Cleaning your dirty dirty build OnIChan $HEART"
     command make clean > /dev/null
     printf "\n  All cween ${CWEEN}"
 
@@ -43,13 +43,13 @@ clean () {
 
 html () {
     printf "\nMaking your h-h-h-tml files... p-p-Wease be pazients wif me ${PWEASE}"
-    command make html &> /dev/null
+    command make html > /dev/null
     printf "\n  I hope the files are to your liking senpai ${HOPE}"
 }
 add () {
-    printf "\nAdding changes to git ${HAPPY}"
+    printf "\nAdding dose changes ${HAPPY}"
     command git add . &>/dev/null
-    printf "\n  git changed"
+    printf "\n  I changed ${BHEART} 4 u"
 }
 
 commit () {
@@ -65,7 +65,7 @@ push () {
 }
 
 deploy () {
-    printf "\nmakey a website now ${MAKEY}"
+    printf "\n me makey website now ${MAKEY}"
     command ghp-import -n -p -f -c $cname build/html &>/dev/null 
     printf "\n  mmm ${MMM} site is live at $cname"
 }
