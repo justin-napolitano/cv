@@ -26,6 +26,7 @@ spotify-cli/index
 rust/index
 brew/index
 gh/index
+python/index
 ```
 
 :::
