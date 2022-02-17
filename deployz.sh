@@ -44,7 +44,7 @@ clean () {
 html () {
     printf "\nMaking your h-h-h-tml files... p-p-Wease be pazients wif me ${PWEASE}"
     command make html > /dev/null
-    printf "\n  I hope the files are to your liking senpai ${HOPE}"
+    printf "\n  Hope you likey seNpai ${HOPE}"
 }
 add () {
     printf "\nAdding dose changes ${HAPPY}"

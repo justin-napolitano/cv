@@ -23,5 +23,7 @@
 go/index
 shells/index
 spotify-cli/index
+rust/index
 ```
+
 :::
