@@ -151,8 +151,11 @@ I've also included the files below to enable quicker builds and pushes to your g
     * Installs the requirements
 * deploy.sh
     * deploys to gh-pages
+
 # Pushing to Gh Pages
-I've included a script that will create a branch named github pages and push it to github to publish.  
+
+## ./deployit.sh
+I've included a script that will push your build the project and push the changes to the current branch and github pages/ .   
 
 
 Just make it executable by running. 
@@ -167,11 +170,11 @@ sudo chmod u+x deploy.sh
 ./deploy.sh
 :::
 
+## GH Workflows
 
-Gh Pages workflow support is coming next
+Gh workflow support is coming soon.  Just have to figure out why my current flow isn't cooperating.  
 
 
-I don't know why the build isn't working.  I guess i'll jus write a script for fun.  Python or rust.. Lets try rust for fun.  
 
 
 
