@@ -1,4 +1,4 @@
-{ref}`gh_install`_
+(gh_install)=
 # Gh CLi Install
 
 ## Brew Installation
