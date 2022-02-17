@@ -1,9 +1,9 @@
-# Rust Stuff
+# Brew Stuff
 
 :::{card}
 
 ```{toctree}
-:caption: Rust STuff
+:caption: Brew Stuff
 :glob:
 
 docs/*
