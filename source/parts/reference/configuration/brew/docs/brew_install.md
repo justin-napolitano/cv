@@ -1,4 +1,4 @@
-(header_target)=brew_install
+(brew_install)=
 # Brew Install
 
 ## Installing Command Line Tools for Mac.
