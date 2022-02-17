@@ -24,6 +24,8 @@ go/index
 shells/index
 spotify-cli/index
 rust/index
+brew/index
+gh/index
 ```
 
 :::
