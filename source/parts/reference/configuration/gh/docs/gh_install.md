@@ -1,4 +1,4 @@
-(header_target)=gh_install
+{ref}`gh_install`_
 # Gh CLi Install
 
 ## Brew Installation
