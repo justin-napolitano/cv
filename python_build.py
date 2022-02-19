@@ -177,7 +177,8 @@ def add(color):
  
 def timestamp():
     dt = datetime.now()
-    return dt
+    ts = datetime.timestamp(dt)
+    return ts
 
 def commit(color):
     current_color = color.PURPLE
