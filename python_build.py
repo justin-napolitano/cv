@@ -178,6 +178,7 @@ def add(color):
 def timestamp():
     dt = datetime.now()
     ts = datetime.timestamp(dt)
+    ts = str(ts)
     return ts
 
 def commit(color):
@@ -186,7 +187,7 @@ def commit(color):
     thinking(current_color)
     current_color = color.PINK
     #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
-    result = subprocess.run(['git', 'commit', '-m', 'awtocommit on' + str(timestamp())], capture_output=True, text=True)
+    result = subprocess.run(['git', 'commit', '-m', 'awtocommit on' + timestamp()], capture_output=True, text=True)
     print(current_color + pyfiglet.figlet_format("Output", font = 'big'))
     thinking(current_color)
     print(current_color + result.stdout)
