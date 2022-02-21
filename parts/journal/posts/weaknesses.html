@@ -5,7 +5,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Categories &#8212; Justin Napolitano</title>
+  <meta property="og:title" content="Identifying My Weaknesses" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="parts/journal/posts/weaknesses.html" />
+  <meta property="og:description" content="Creating a CV: Writing a cv in an honest way is frightening. It requires one to confront their professional identity directly. Doing so, has left me painfully aware of the fact that I have much to ..." />
+  
+    <title>Identifying My Weaknesses &#8212; Justin Napolitano</title>
     
   <link href="../../../_static/css/theme.css" rel="stylesheet">
   <link href="../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -43,6 +48,13 @@
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../../_static/design-tabs.js"></script>
     <script src="../../../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
     <link rel="shortcut icon" href="../../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" /> 
@@ -122,7 +134,7 @@
 <ul>
    
   <li>
-    <a href="../../journal/posts/test-post.html"
+    <a href="test-post.html"
       >15 April - Post 1</a
     >
   </li>
@@ -178,7 +190,7 @@
 </ul>
 
 <h3>
-  <a href="#">Categories</a>
+  <a href="category.html">Categories</a>
 </h3>
 <ul>
                                      
@@ -2084,7 +2096,7 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../journal/posts.html">
+  <a class="reference internal" href="../posts.html">
    Posts
   </a>
  </li>
@@ -2143,6 +2155,23 @@
                 
             </div>
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../../_sources/parts/journal/posts/weaknesses.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -2172,6 +2201,41 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creating-a-cv">
+   Creating a CV
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#data-science-and-ml">
+     Data Science and ML
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#database">
+     Database
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#programming">
+     Programming
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#statistical-analysis">
+     Statistical Analysis
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -2179,36 +2243,107 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1></h1>
+                <h1>Identifying My Weaknesses</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creating-a-cv">
+   Creating a CV
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#data-science-and-ml">
+     Data Science and ML
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#database">
+     Database
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#programming">
+     Programming
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#statistical-analysis">
+     Statistical Analysis
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
             
               <div>
-                                                    
-<div class="section">
-  <h2>
-    Posts in
-    <a href="category/python.html">python</a>
-  </h2>
-  
-  <div class="section">
-    <p>
-        15 April 2014 
-      -
-      <a href="../../journal/posts/test-post.html"
-        >Post 1</a
-      >
-    </p>
-    
-  </div>
-  
+                 <div class="tex2jax_ignore mathjax_ignore section" id="identifying-my-weaknesses">
+<h1>Identifying My Weaknesses<a class="headerlink" href="#identifying-my-weaknesses" title="Permalink to this headline">¶</a>
+</h1>
+<div class="section" id="creating-a-cv">
+<h2>Creating a CV<a class="headerlink" href="#creating-a-cv" title="Permalink to this headline">¶</a>
+</h2>
+<p>Writing a cv in an honest way is frightening.  It requires one to confront their professional identity directly. Doing so, has left me painfully aware of the fact that I have much to learn.</p>
+<div class="section" id="data-science-and-ml">
+<h3>Data Science and ML<a class="headerlink" href="#data-science-and-ml" title="Permalink to this headline">¶</a>
+</h3>
+<p>Prior to writing the cv I thought that I had a solid understanding of the field.  I know now that I need to study in depth the mathematics and the applications used to drive ml models.  I can hack togethor a TensorFlow project, but actually explaining my results is more difficult than I thought it would be.</p>
 </div>
-        
+<div class="section" id="database">
+<h3>Database<a class="headerlink" href="#database" title="Permalink to this headline">¶</a>
+</h3>
+<p>I can query a SQL database, but I don’t have experience in developing enterprise scale systems.  For instance, in one interview I was requested to design a third normal database.  While, I eventually hobbled an answer together, I found myself stumped by a simple question that would have been easy to anyone that had taken an introductory database course.  I on the otherhand, had studied database design on the job and had not learned the theory, nor the standard diction that would have enabled me to communicate effectively to my team of interviewers.</p>
+</div>
+<div class="section" id="programming">
+<h3>Programming<a class="headerlink" href="#programming" title="Permalink to this headline">¶</a>
+</h3>
+<p>I love to program, that however does not make me a software engineer.  Python, my language of choice is a great tool for analysis and wrapping services into pipeline, but I find that I am not an expert on the data structures and algorithms that computer scientists study.  While, I have implemented most of these in c and python for that matter, I struggle to recall them from memory. Hence, the large reference section.</p>
+</div>
+<div class="section" id="statistical-analysis">
+<h3>Statistical Analysis<a class="headerlink" href="#statistical-analysis" title="Permalink to this headline">¶</a>
+</h3>
+<p>Most of my work has only required exploratory analytics.  In depth analysis and hypothesis testing, which I have studied and completed in SAS, are still somewhat abstract to me.  It is a skillset that I in theory know, but must further develop and apply.</p>
+</div>
+</div>
+</div>
+
+    
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./parts/journal/posts"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    
+<script>kernelName = 'python3'</script>
+
+<div class="section">
+   
+</div>
+
               </div>
               
             
@@ -2224,7 +2359,7 @@
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
-      Last updated on Feb 19, 2022.<br/>
+      Last updated on Feb 21, 2022.<br/>
   </p>
 </footer>
 </main>
