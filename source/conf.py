@@ -73,7 +73,7 @@ extensions = [
     "hawkmoth",
 ]
 
-#Cautodoc Setup 
+#Cautodoc Setup
 
 cautodoc_root = os.path.abspath("codebase/project-c-reference")
 
@@ -204,7 +204,7 @@ html_static_path = ['_static']
 # html_sidebars = {}
 
 html_sidebars = {
-    "parts/blog/posts/*": [
+    "parts/journal/posts/*": [
         "sidebar-logo.html",
         "search-field.html",
         "postcard.html",
@@ -256,14 +256,13 @@ htmlhelp_basename = 'jnapolitano.io'
 
 
 # -- ABlog config -------------------------------------------------
-blog_path = "parts/blog/posts"
-blog_post_pattern = ["parts/blog/*.md", "parts/blog/posts/*.md", "parts/blog/posts/*.rst"]
+blog_path = "parts/journal/posts"
+blog_post_pattern = ["parts/journal/*.md", "parts/journal/posts/*.md", "parts/journal/posts/*.rst"]
 blog_baseurl = "cv.jnapolitano.io"
 fontawesome_included = True
 post_auto_image = 1
 post_auto_excerpt = 2
 execution_show_tb = "READTHEDOCS" in os.environ
-
 
 
 # Bibtex Config
