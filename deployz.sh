@@ -103,12 +103,21 @@ endspin() {
    printf "\r%s\n" "$@"
 }
 
+checkout () {
+    command git checkout gh-pages
+}
+
+remove_all () {
+    command sudo rm -r *
+}
+
+checkout_main () {
+    command git checkout main
+}
+
 clean-gh-pages () {
     printf "\n Cleaning gh-pages now"
-    command git checkout gh-pages
-    command sudo rm -r *
-    add && commit && push
-    command git checkout main
+    checkout && remove_all && add && commit && push && checkout_main
 }
 clean && html && add && commit && push && clean-gh-pages && deploy
 
