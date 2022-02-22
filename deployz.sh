@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #build and deploy script
 pid=$!
 cname=cv.jnapolitano.io
