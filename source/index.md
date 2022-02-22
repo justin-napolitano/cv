@@ -21,10 +21,10 @@ Follow the link the one page overview
 :maxdepth: 2
 
 /parts/resume/index
-/parts/resume/education/index
-/parts/resume/work-history/index
-/parts/resume/languages/index
-/parts/resume/contact/contact
+[comment]: # /parts/resume/education/index
+[comment]: # /parts/resume/work-history/index
+[comment]: # /parts/resume/languages/index
+[comment]: # /parts/resume/contact/contact
 ```
 :::
 
