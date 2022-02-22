@@ -10,7 +10,7 @@ Confirm links
 
 ```
 
-## Resume Ref this
+## [Resume](resume_header)
 
 Follow the link the one page overview
 
@@ -18,7 +18,7 @@ Follow the link the one page overview
 
 ```{toctree}
 :caption: Resume
-:maxdepth: 2
+:maxdepth: 3
 
 /parts/resume/index
 [comment]: # /parts/resume/education/index
