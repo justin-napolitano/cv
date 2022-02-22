@@ -9,9 +9,6 @@ Sranan Tongo
     I speak a modified version of the language everyday at home to communicate that is heavily influenced by English and Cantonese.  
 
 
-Proficiency
-#############
-
 Beginner Level Reading Proficiency
 -----------------------------------
 

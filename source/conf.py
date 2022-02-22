@@ -71,6 +71,7 @@ extensions = [
     'sphinxcontrib.email',
     "sphinx_jupyterbook_latex",
     "hawkmoth",
+    "sphinx_panels"
 ]
 
 #Cautodoc Setup
@@ -207,11 +208,7 @@ html_sidebars = {
     "parts/journal/posts/*": [
         "sidebar-logo.html",
         "search-field.html",
-        "postcard.html",
-        "recentposts.html",
-        "tagcloud.html",
         "categories.html",
-        "archives.html",
         "sbt-sidebar-nav.html",
         "sbt-sidebar-footer.html",
     ]

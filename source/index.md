@@ -6,8 +6,7 @@ title: Justin Napolitano
 
 
 ```{todo}
-fix the file structure 
-add posts to every file
+Confirm links
 
 ```
 
@@ -21,6 +20,7 @@ Follow the link the one page overview
 :caption: Resume
 :maxdepth: 2
 
+/parts/resume/index
 /parts/resume/education/index
 /parts/resume/work-history/index
 /parts/resume/languages/index

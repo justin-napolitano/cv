@@ -8,9 +8,6 @@ French
     I studied French for four years at University.  I continue to read the French papers and the occasional novel. I do not speak frequently. 
 
 
-Proficiency
-#############
-
 Business Level Reading Proficiency
 -----------------------------------
 
