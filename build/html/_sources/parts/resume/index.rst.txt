@@ -170,32 +170,28 @@ Projects
 Programming Languages
 #####################
 
-C
-====
+- C
 
-Python
-=======
+- Python
 
-Bash
-=====
+- Bash
+
 
 Spoken Languages
 ####################
 
 Cantonese
 =============
+-   Reading :
+    Beginnner. I can read a few characters relating to food items and basic actions.  
 
 
--   Beginnner Level Reading Proficiency
-    I can read a few characters relating to food items and basic actions.  
+-   Listening:
+    Beginner. I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
 
 
--   Beginner Level Listening Proficiency
-    I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
-
-
--   Beginner Level Speaking Proficiency
-    I can order food and interact with merchants.  
+-   Speaking: 
+    Beginner. I can order food and interact with merchants.  
 
 Contact
 #########
