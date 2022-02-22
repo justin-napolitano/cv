@@ -83,10 +83,7 @@ CRM Database and Python Management Scripting
 
 The University of Central Florida 
 =================================
-
-.. topic:: UCF
-
-    As a student and post graduation I worked as a research professional for Dr. Demet Mousseau and Dr. Tom Dolan of the University of Central Florida.   
+ 
 
 :ref:`The Turkish Kurdish Event Database <turkish_kurdish>`
 ------------------------------------------------------------
@@ -124,7 +121,7 @@ Emotional Decision Making
 
 .. topic:: Emotions and Decision Making
 
-    Dr. Tom Dolan focuses on how emotions/emotional intelligence dictate the behaviors of political agents.  In this project, I was hired to code the sentiment of sentences collected during a parliamentary debate to determine the emotional states of parliamentarians prior to the invasion of Iraq.  
+    Dr. Tom Dolan focuses on how emotions/emotional intelligence dictate the behaviors of political agents.  My role was to code the sentiment of sentences collected during a parliamentary debate to determine the emotional states of parliamentarians prior to the invasion of Iraq.  
 
 Data Coding:
     * I was intially hired to work as a data coder for the project that encoded the perceived emotional score of the transcripts of a Uk Parliamentarion debate regarding the prospect of invading Iraq.
@@ -182,16 +179,16 @@ Spoken Languages
 
 Cantonese
 =============
-Reading:
-    * Beginnner. I can read a few characters relating to food items and basic actions.  
+    Reading:
+        * Beginnner. I can read a few characters relating to food items and basic actions.  
 
 
-Listening:
-    * Beginner. I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
+    Listening:
+        * Beginner. I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
 
 
-Speaking: 
-    * Beginner. I can order food and interact with merchants.  
+    Speaking: 
+        * Beginner. I can order food and interact with merchants.  
 
 Mandarin
 ===================
@@ -201,16 +198,16 @@ Mandarin
     I am currently preparing for the HSK 1 and HSK 2 exams.  Daily, I write and read the Chinese script but I do not often speak nor listen to the language. 
 
 
-Reading:
-    * Beginnner. I can read a few characters relating to food items and basic actions.  
+    Reading:
+        * Beginnner. I can read a few characters relating to food items and basic actions.  
 
 
-Listening:
-    * Beginner. I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
+    Listening:
+        * Beginner. I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
 
 
-Speaking: 
-    * Beginner. I can order food and interact with merchants.  
+    Speaking: 
+        * Beginner. I can order food and interact with merchants.  
 
 French
 ==========
@@ -221,16 +218,16 @@ French
     I studied French for four years at University.  I continue to read the French papers and the occasional novel. I do not speak frequently. 
 
 
-Reading:
-    * Intermediate-Advanced.  I can read newspapers, memos, and novels. 
+    Reading:
+        * Intermediate-Advanced.  I can read newspapers, memos, and novels. 
 
 
-Listening:
-    * Intermediate-Advanced. I can understand about 75% of what I hear in normal conversation.  I often have to request for clarfication when discussing advanced topics concerning abstract ideas and subjunctive cases.  
+    Listening:
+        * Intermediate-Advanced. I can understand about 75% of what I hear in normal conversation.  I often have to request for clarfication when discussing advanced topics concerning abstract ideas and subjunctive cases.  
 
 
-Speaking: 
-   * Intermediate. I can discuss day to to events and issue directives.  I can not discuss abstract and subjective ideas to a high level of proficiency.
+    Speaking: 
+    * Intermediate. I can discuss day to to events and issue directives.  I can not discuss abstract and subjective ideas to a high level of proficiency.
 
 Spanish
 ==================
@@ -241,16 +238,16 @@ Spanish
 
 
 
-Reading:
-    * Intermediate-Advanced.  I can read newspapers, memos, and novels. 
+    Reading:
+        * Intermediate-Advanced.  I can read newspapers, memos, and novels. 
 
 
-Listening:
-    * Intermediate. I can understand about 50% of what I hear in normal conversation.  I often have to request for clarfication when discussing advanced topics concerning abstract ideas and subjunctive cases.  
+    Listening:
+        * Intermediate. I can understand about 50% of what I hear in normal conversation.  I often have to request for clarfication when discussing advanced topics concerning abstract ideas and subjunctive cases.  
 
 
-Speaking: 
-   * Beginner-Intermediate. I can discuss day to to events and issue directives in the present tense.  I can not discuss abstract and subjective ideas fluently.
+    Speaking: 
+    * Beginner-Intermediate. I can discuss day to to events and issue directives in the present tense.  I can not discuss abstract and subjective ideas fluently.
 
 
 Sranan Tongo
@@ -263,22 +260,22 @@ Sranan Tongo
     I speak a modified version of the language everyday at home to communicate that is heavily influenced by English and Cantonese.  
 
 
-Reading:
-    * The written version of this language is not standardized; therefore,  I can not accurately rate my level of proficiency. 
+    Reading:
+        * The written version of this language is not standardized; therefore,  I can not accurately rate my level of proficiency. 
 
 
-Listening:
-   * Intermediate-Advanced level proficiency. I can understand about 50% to 75% of what I hear in normal conversation. 
+    Listening:
+    * Intermediate-Advanced level proficiency. I can understand about 50% to 75% of what I hear in normal conversation. 
 
 
-Speaking: 
-    * Intermediate-Advanced level proficiency.  I can discuss day to to events and issue directives.  I can al
+    Speaking: 
+        * Intermediate-Advanced level proficiency.  I can discuss day to to events and issue directives.  I can al
 
 Contact
 #########
 
 Email:
-    :email:`justin@jnapolitano.io`
+    * :email:`justin@jnapolitano.io`
 
 Phone
-   `+1(832) 299-0372 <tel:+1-832-299-0372>`_ 
+   * `+1(832) 299-0372 <tel:+1-832-299-0372>`_ 
