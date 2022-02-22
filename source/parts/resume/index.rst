@@ -182,15 +182,15 @@ Spoken Languages
 
 Cantonese
 =============
-Reading:
+* Reading:
     Beginnner. I can read a few characters relating to food items and basic actions.  
 
 
-Listening:
+* Listening:
     Beginner. I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
 
 
-Speaking: 
+* Speaking: 
     Beginner. I can order food and interact with merchants.  
 
 Contact
