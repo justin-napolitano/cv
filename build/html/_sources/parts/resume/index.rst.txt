@@ -1,5 +1,6 @@
 
-(resume_header)=
+.. _resume_header: 
+
 *********************
 Resume
 *********************

@@ -60,19 +60,19 @@ commit () {
 
 push () {
     printf "\nPushing them files sir ${KISSY}"
-    command git push  &>/dev/null 
+    command git push  &>/dev/null
     printf "\n  pushed them good 4 u ${DEVIL}"
 }
 
 deploy () {
     printf "\n me makey website now ${MAKEY}"
-    command ghp-import -n -p -f -c $cname build/html &>/dev/null 
+    command ghp-import -n -p -f -c $cname build/html &>/dev/null
     printf "\n  mmm ${MMM} site is live at $cname"
 }
 
 progress () {
     i=0
-    while kill -0 $pid 
+    while kill -0 $pid
     do
         i=$(( (i+1) %2 ))
         printf "${spin{$i}}"
@@ -81,15 +81,15 @@ progress () {
 }
 fakeProgress () {
     i=0
-    j=0 
+    j=0
     while [ $j -le 5 ]
     do
         ((j++))
         i=$(( (i+1) %2 ))
         printf "${sp[$i]}"
-        
+
         sleep .5
-    done 
+    done
 }
 getpid () {
     pid=$!
@@ -103,5 +103,12 @@ endspin() {
    printf "\r%s\n" "$@"
 }
 
-clean && html && add && commit && push && deploy
+clean-gh-pages () {
+    printf "\n Cleaning gh-pages now"
+    command git checkout gh-pages
+    command sudo rm -r *
+    add && commit && push
+    command git checkout main
+}
+clean && html && add && commit && push && clean-gh-pages && deploy
 
