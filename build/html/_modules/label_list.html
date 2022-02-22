@@ -30,8 +30,8 @@
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
   <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
@@ -2037,42 +2037,39 @@
 <span class="k">except</span><span class="p">:</span>
   <span class="kn">import</span> <span class="nn">pickle</span>
 
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">A simple program that lists all of the labels that sphinx creates during a build.   It reads a pickle filen and prints the relevent dictionary.  </span>
+<span class="sd">&quot;&quot;&quot;</span>
 
 
 <div class="viewcode-block" id="main"><a class="viewcode-back" href="../parts/reference/automation-scripts/sphinx/docs/label_list.html#label_list.main">[docs]</a><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
 
+    <span class="sd">&quot;&quot;&quot;&quot;</span>
+<span class="sd">    the pickle filen using this build as an example</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">PICKLE_FILE</span> <span class="o">=</span> <span class="s2">&quot;/Users/jnapolitano/Dropbox/python/Projects/websites/jnapolitano.io/build/doctrees/environment.pickle&quot;</span>
 
-  <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">  A simple program that lists all of the labels that sphinx creates during a build.   It reads a pickle filen and prints the relevent dictionary.  </span>
-<span class="sd">  &quot;&quot;&quot;</span>
+    <span class="c1">#dat = pickle.load(PICKLE_FILE)</span>
 
-  <span class="sd">&quot;&quot;&quot;&quot;</span>
-<span class="sd">  the pickle file using this build as an example</span>
-<span class="sd">  &quot;&quot;&quot;</span>
-  <span class="n">PICKLE_FILE</span> <span class="o">=</span> <span class="s2">&quot;/Users/jnapolitano/Dropbox/python/Projects/websites/jnapolitano.io/build/doctrees/environment.pickle&quot;</span>
+    <span class="c1">#print(dat.domaindata[&#39;std&#39;][&#39;labels&#39;].keys())</span>
 
-  <span class="c1">#dat = pickle.load(PICKLE_FILE)</span>
+    <span class="sd">&quot;&quot;&quot;&quot;</span>
+<span class="sd">    prints the laels from the domain data labels dictionary</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">read_from_pickle</span><span class="p">(</span><span class="n">PICKLE_FILE</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">item</span><span class="o">.</span><span class="n">domaindata</span><span class="p">[</span><span class="s1">&#39;std&#39;</span><span class="p">][</span><span class="s1">&#39;labels&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;/n&#39;</span><span class="p">)</span></div>
 
-  <span class="c1">#print(dat.domaindata[&#39;std&#39;][&#39;labels&#39;].keys())</span>
-
-  <span class="sd">&quot;&quot;&quot;&quot;</span>
-<span class="sd">  prints the laels from the domain data labels dictionary</span>
-<span class="sd">  &quot;&quot;&quot;</span>
-  <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">read_from_pickle</span><span class="p">(</span><span class="n">PICKLE_FILE</span><span class="p">):</span>
-      <span class="nb">print</span><span class="p">(</span><span class="n">item</span><span class="o">.</span><span class="n">domaindata</span><span class="p">[</span><span class="s1">&#39;std&#39;</span><span class="p">][</span><span class="s1">&#39;labels&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
-      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;/n&#39;</span><span class="p">)</span></div>
-
-
+<span class="sd">&quot;&quot;&quot;&quot;</span>
+<span class="sd">yields from pickle and passes it back to the print function.  Stops when eof is hit.</span>
+<span class="sd">&quot;&quot;&quot;</span>
 <div class="viewcode-block" id="read_from_pickle"><a class="viewcode-back" href="../parts/reference/automation-scripts/sphinx/docs/label_list.html#label_list.read_from_pickle">[docs]</a><span class="k">def</span> <span class="nf">read_from_pickle</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-  <span class="sd">&quot;&quot;&quot;&quot;</span>
-<span class="sd">  yields from pickle and passes it back to the print function.  Stops when eof is hit.</span>
-<span class="sd">  &quot;&quot;&quot;</span>
-  <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-      <span class="k">try</span><span class="p">:</span>
-          <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-              <span class="k">yield</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
-      <span class="k">except</span> <span class="ne">EOFError</span><span class="p">:</span>
-          <span class="k">pass</span></div>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+                <span class="k">yield</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">EOFError</span><span class="p">:</span>
+            <span class="k">pass</span></div>
 
 
 
