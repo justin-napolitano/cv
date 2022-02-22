@@ -23,8 +23,6 @@ MAKEY='\xF0\x9F\x98\xAE'
 MMM='\xF0\x9F\x98\x9B'
 TASKS=6
 
-sp[0]="${HEART}"
-sp[1]="${BHEART}"
 
 
 # Define a timestamp function
