@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>cv.jnapolitano.io</id>
+  <title>Blog</title>
+  <updated>2022-02-22T19:39:04.055894+00:00</updated>
+  <link href="cv.jnapolitano.io"/>
+  <link href="cv.jnapolitano.io/parts/journal/posts/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.23">ABlog</generator>
+  <entry>
+    <id>cv.jnapolitano.io/parts/journal/posts/weaknesses.html</id>
+    <title>Identifying My Weaknesses</title>
+    <updated>2022-02-21T00:00:00-06:00</updated>
+    <author>
+      <name>Justin Napolitano</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Writing a cv in an honest way is frightening.  It requires one to confront their professional identity directly. Doing so, has left me painfully aware of the fact that I have much to learn.&lt;/p&gt;
+&lt;p&gt;Prior to writing the cv I thought that I had a solid understanding of the field.  I know now that I need to study in depth the mathematics and the applications used to drive ml models.  I can hack together a TensorFlow project, but actually explaining my results is more difficult than I thought it would be.&lt;/p&gt;
+&lt;/div&gt;
+
+    &lt;script type="text/x-thebe-config"&gt;
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./parts/journal"
+        },
+        predefinedOutput: true
+    }
+    &lt;/script&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</content>
+    <link href="cv.jnapolitano.io/parts/journal/posts/weaknesses.html" rel="alternate"/>
+    <summary>Writing a cv in an honest way is frightening.  It requires one to confront their professional identity directly. Doing so, has left me painfully aware of the fact that I have much to learn.Prior to writing the cv I thought that I had a solid understanding of the field.  I know now that I need to study in depth the mathematics and the applications used to drive ml models.  I can hack together a TensorFlow project, but actually explaining my results is more difficult than I thought it would be.</summary>
+    <category term="reflection" label="reflection"/>
+    <published>2022-02-21T00:00:00-06:00</published>
+  </entry>
+</feed>
