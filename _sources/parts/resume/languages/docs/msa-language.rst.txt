@@ -8,8 +8,7 @@ Modern Standard Arabic
 
 
 
-Proficiency
-#############    
+
 
 Beginnner Level Reading Proficiency
 ---------------------------------------

@@ -8,8 +8,6 @@ Spanish
 
 
 
-Proficiency
-#############
 
 Business Level Reading Proficiency
 -----------------------------------
