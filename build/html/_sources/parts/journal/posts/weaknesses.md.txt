@@ -1,6 +1,6 @@
 ```{post} Feb 21, 2022
 :tags: reflection
-:category: Justin
+:category: Self Reflection
 :author: Justin Napolitano
 :location: Houston, Texas
 :language: en
