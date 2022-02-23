@@ -2,7 +2,7 @@ try:
   import cPickle as pickle
 except:
   import pickle
-
+from pprint import  pprint
 
 def main():
 
@@ -14,7 +14,7 @@ def main():
 
 
     for item in read_from_pickle(PICKLE_FILE):
-        print(item.domaindata['std']['labels'].keys())
+        pprint(item.domaindata['std']['labels'].keys())
         print('/n')
 
 
@@ -31,4 +31,4 @@ def read_from_pickle(path):
 if __name__ == "__main__":
     main()
 
-    
+

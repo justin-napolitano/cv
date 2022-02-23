@@ -71,7 +71,7 @@ extensions = [
     'sphinxcontrib.email',
     "sphinx_jupyterbook_latex",
     "hawkmoth",
-    "sphinx_panels"
+#    "sphinx_panels"
 ]
 
 #Cautodoc Setup
