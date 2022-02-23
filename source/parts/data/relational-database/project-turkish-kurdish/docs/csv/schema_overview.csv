@@ -1,34 +1,32 @@
 Variable Name,Data Type
-:ref:`projects/project-turkish-kurdish/database_schema:Year`,Integer
-:ref:`projects/project-turkish-kurdish/database_schema:Aggressor_Id`,Categorical Integer
-:ref:`projects/project-turkish-kurdish/database_schema:Aggressor_Name`,String
-:ref:`projects/project-turkish-kurdish/database_schema:Victim_ID`,Categorical Integer
-:ref:`projects/project-turkish-kurdish/database_schema:Victim_Name`,String
-:ref:`projects/project-turkish-kurdish/database_schema:Source_Article`,String
-:ref:`projects/project-turkish-kurdish/database_schema:Source_Date`,DateString
-:ref:`projects/project-turkish-kurdish/database_schema:Source_Headline`,String
-:ref:`projects/project-turkish-kurdish/database_schema:Region_Name`,String
-:ref:`projects/project-turkish-kurdish/database_schema:Kurdish_Region`,Boolean
-:ref:`projects/project-turkish-kurdish/database_schema:Region_Code`,Categorical
-:ref:`projects/project-turkish-kurdish/database_schema:Province_Name`,"String"
-:ref:`projects/project-turkish-kurdish/database_schema:Province_Code`,"Categorical"
-:ref:`projects/project-turkish-kurdish/database_schema:Country`,String
-:ref:`projects/project-turkish-kurdish/database_schema:Date_Start`,String
-:ref:`projects/project-turkish-kurdish/database_schema:Date_End`,String
-:ref:`projects/project-turkish-kurdish/database_schema:Women_Killed`,Integer
-:ref:`projects/project-turkish-kurdish/database_schema:Children_Killed`,Integer
-:ref:`projects/project-turkish-kurdish/database_schema:Total_Killed`,Integer
-:ref:`projects/project-turkish-kurdish/database_schema:Women_Raped`,Integer
-:ref:`projects/project-turkish-kurdish/database_schema:Illegal_Imprisonments`,Integer
-:ref:`projects/project-turkish-kurdish/database_schema:Illegal_Arrests`,Integer
-:ref:`projects/project-turkish-kurdish/database_schema:Illegal_Detentions`,Integer
-:ref:`projects/project-turkish-kurdish/database_schema:Human_Rights_Category_Code`,Categorical
-:ref:`projects/project-turkish-kurdish/database_schema:Human_Rights_Category_Name`,String
-:ref:`projects/project-turkish-kurdish/database_schema:Human_Rights_Offense_Code`,Categorical
-:ref:`projects/project-turkish-kurdish/database_schema:Human_Rights_Offense_Name`,String
-:ref:`projects/project-turkish-kurdish/database_schema:Is_Women_Event`,Boolean
-:ref:`projects/project-turkish-kurdish/database_schema:Is_Children_Event`,Boolean
-:ref:`projects/project-turkish-kurdish/database_schema:Description`,String
-:ref:`projects/project-turkish-kurdish/database_schema:ID`,Integer
-
-
+`Year <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#year>`_,Integer
+`Aggressor_ID <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#aggressor-Id>`_,Categorical Integer
+`Aggressor_Name <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#aggressor-name>`_,String
+`Victim_ID <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#victim-id>`_,Categorical Integer
+`Victim_Name <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#victim-name>`_,String
+`Source_Article <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#source-article>`_,String
+`Source_Date <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#source-date>`_,DateString
+`Source_Headline <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#source-headline>`_,String
+`Region_name <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#region-name>`_,String
+`Kurdish_Region <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#kurdish-region>`_,Boolean
+`Region_Code <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#region-code>`_,Categorical
+`Province_Name <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#province-name>`_,"String"
+`Province_Code <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#province-code>`_,"Categorical"
+`Country <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#country>`_,String
+`Date_Start <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#date-start>`_,String
+`Date_End <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#date-end>`_,String
+`Women_Killed <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#women-killed>`_,Integer
+`Children_Killed <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#children-killed>`_,Integer
+`Total_Killed <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#total-killed>`_,Integer
+`Women_Raped <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#women_raped>`_,Integer
+`Women_Imprisonments <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#illegal-imprisonments>`_,Integer
+`Illegal_Arrests <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#illegal-arrests>`_,Integer
+`Illegal_Detentions <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#illegal-detentions>_`,Integer
+`Category_Code <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#human-rights-category-code>`_,Categorical
+`Category_Name <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#human-rights-category-name>`_,String
+`Offense_Code <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#human-rights-offense-code>`_,Categorical
+`Offense_Name <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#human-rights-offense-name>`_,String
+`Is_Woman_Event <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#is-women-event>`_,Boolean
+`IS_Children_Event <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#is-children-event>`_,Boolean
+`Desciption <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#description>`_,String
+`ID <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/database_schema.html#id>`_,Integer

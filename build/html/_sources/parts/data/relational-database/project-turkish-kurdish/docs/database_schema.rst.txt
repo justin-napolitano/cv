@@ -23,8 +23,7 @@ Year
         Integer
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
-
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Aggressor_ID
 ============
@@ -39,7 +38,7 @@ Aggressor_ID
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:aggressor table`
+        `Aggressor Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#aggressor-table>`_.
 
 
 Aggressor_Name
@@ -54,7 +53,7 @@ Aggressor_Name
         String.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:aggressor table`
+        `Aggressor Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#aggressor-table>`_.
 
 
 Victim_ID
@@ -69,7 +68,7 @@ Victim_ID
         Categorical integer.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:victim table`.
+        `Victim Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#victim-table>`_.
 
 Victim_Name
 ===========
@@ -84,7 +83,7 @@ Victim_Name
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:victim table`.
+        `Victim Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#victim-table>`_.
 
 Source_Article
 ==============
@@ -99,7 +98,7 @@ Source_Article
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Source_Date
 ===========
@@ -114,7 +113,7 @@ Source_Date
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Source_Headline
 ===============
@@ -128,7 +127,7 @@ Source_Headline
         String.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_`
 
 
 Region_Name
@@ -143,7 +142,7 @@ Region_Name
         String.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:region table`
+        `Region Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#region-table>`_.
 
 
 Region_Code
@@ -159,7 +158,7 @@ Region_Code
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:region table`
+        `Region Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#region-table>`_.
 
 Kurdish_Region
 ==============
@@ -173,7 +172,7 @@ Kurdish_Region
         Boolean.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Province_Name
 =============
@@ -187,7 +186,7 @@ Province_Name
         String.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:province table`
+        `Province Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#province-table>`_.
     
 
 
@@ -204,7 +203,7 @@ Province_Code
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:province table`
+        `Province Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#province-table>`_.
 
 
 Country
@@ -219,7 +218,7 @@ Country
         Integer.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_
 
 
 
@@ -236,7 +235,7 @@ Date_Start
         DateStamp DD/MM/YYYY.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Date_End
 ========
@@ -251,7 +250,7 @@ Date_End
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Women_Killed
 =============
@@ -265,7 +264,7 @@ Women_Killed
         Integer.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Children_Killed
 ===============
@@ -279,7 +278,7 @@ Children_Killed
         Integer.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 
 Total_Killed
@@ -295,7 +294,7 @@ Total_Killed
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Women_Raped
 ===============
@@ -309,7 +308,7 @@ Women_Raped
         Integer.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Illegal_Arrests
 =====================
@@ -323,7 +322,7 @@ Illegal_Arrests
         Integer.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Illegal_Detentions
 ==================
@@ -337,7 +336,7 @@ Illegal_Detentions
         Integer
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 Illegal_Imprisonments
 =====================
@@ -351,7 +350,7 @@ Illegal_Imprisonments
         Integer.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 
 Human_Rights_Category_Code
@@ -367,7 +366,7 @@ Human_Rights_Category_Code
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:human rights category table`
+        `Category Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#human-rights-category-table>`_.
         
 
 
@@ -385,7 +384,7 @@ Human_Rights_Category_Name
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:human rights category table`
+        `Category Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#human-rights-category-table>`_.
 
 
 
@@ -403,7 +402,7 @@ Human_Rights_Offense_Code
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:human rights offense table`
+        `Offense Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#human-rights-offense-table>`_.
     
 
 
@@ -421,7 +420,7 @@ Human_Rights_Offense_Name
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:human rights offense table`
+        `Offense Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#human-rights-offense-table>`_.
 
 
 Is_Women_Event
@@ -438,7 +437,7 @@ Is_Women_Event
         Boolean.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 
 Is_Children_Event
@@ -455,7 +454,7 @@ Is_Children_Event
         Boolean.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 
 Description
@@ -472,7 +471,7 @@ Description
 
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
 ID
 ===
@@ -496,5 +495,5 @@ ID
         String.
 
     Reference Table
-        :ref:`projects/project-turkish-kurdish/reference_tables:overview table`
+        `Overview Table <https://cv.jnapolitano.io/parts/data/relational-database/project-turkish-kurdish/docs/reference_tables.html#overview-table>`_.
 
