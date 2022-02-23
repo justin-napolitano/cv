@@ -58,44 +58,44 @@ class colors:
 def make_clean(color):
     current_color = color.PURPLE
     print(current_color + pyfiglet.figlet_format("Now i'm cleaning the old build", font = 'big'))
-    thinking(current_color)
+    
     current_color = color.PINK
     #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
     result = subprocess.run(['make', 'clean'], capture_output=True, text=True)
     print(current_color + result.stdout)
     print(current_color + result.stderr) 
     current_color = color.PURPLE
-    thinking(current_color)
-    print(current_color + pyfiglet.figlet_format("NIce and CWEAN", font = 'big')) 
-    thinking(current_color) 
+    
+    print(current_color + pyfiglet.figlet_format("ClEAN", font = 'big')) 
+     
 
 def make_html(color):
     current_color = color.PURPLE
     print(current_color + pyfiglet.figlet_format("Making dE HTML BUIld", font = 'big'))
-    thinking(current_color)
+    
     current_color = color.PINK
     #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
     result = subprocess.run(['make', 'html'], capture_output=True, text=True)
     print(current_color + result.stdout)
     print(current_color + result.stderr) 
     current_color = color.PURPLE
-    thinking(current_color)
+    
     print(current_color + pyfiglet.figlet_format("i make it", font = 'big')) 
-    thinking(current_color) 
+     
 
 def install_dependencies(color): 
     current_color = color.PURPLE
     print(current_color + pyfiglet.figlet_format("Now we have to install the python dependencies.", font = 'big'))
-    thinking(current_color)
+    
     current_color = color.PINK
     #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
     result = subprocess.run(['pip', 'install', '-r', 'requirements.txt'], capture_output=True, text=True)
     print(current_color + result.stdout)
     print(current_color + result.stderr) 
     current_color = color.PURPLE
-    thinking(current_color)
+    
     print(current_color + pyfiglet.figlet_format("DependenCies INstalled", font = 'big')) 
-    thinking(current_color)
+    
 
 def introduction(color, no_color):
     windows_color()
@@ -104,19 +104,12 @@ def introduction(color, no_color):
     no_color = no_color
     heart = pyfiglet.figlet_format("<3<3<3<3<3", font = 'big')
     print(current_color + heart)
-    print(fig.renderText("seNPai!"))
-    print(fig.renderText("I'm baCK!!!"))
-    print(heart)
-    sleep(5)
+    print(fig.renderText("INstalling Depenedencies"))
     fig = Figlet(font='Standard')
-    print(fig.renderText("UR Python's WOrking weLL Nowz"))
-    thinking(current_color)
-    print(fig.renderText("B4 we beginz"))
-    thinking(current_color)
-    print(fig.renderText("you Should REeeealy read the requirements.txt file"))
-    thinking(current_color)
+    print(fig.renderText("B4 we begin"))
+    print(fig.renderText("you Should read the requirements.txt file"))
     print(fig.renderText("If you don't trust me press ctr-c now to stop this program.   Then, read the file.")) 
-    thinking(current_color)
+    thinking(current_color) 
 
 def test():
     print(emoji.emojize(":purple_heart:"))
@@ -133,20 +126,20 @@ def command():
 def deploy(color):
     current_color = color.PURPLE
     print(current_color + pyfiglet.figlet_format("DEPLOYING!!!", font = 'big'))
-    thinking(current_color)
+    
     current_color = color.PINK
     #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
     result = subprocess.run(['ghp-import', '-n', '-p', '-f', '-c','cv.jnapolitano.io', 'build/html' ], capture_output=True, text=True)
     print(current_color + pyfiglet.figlet_format("Output", font = 'big'))
-    thinking(current_color)
+    
     print(current_color + result.stdout)
     print(current_color + pyfiglet.figlet_format("Errors", font = 'big'))
-    thinking(current_color)
+    
     print(current_color + result.stderr) 
     current_color = color.PURPLE
-    thinking(current_color)
+    
     print(current_color + pyfiglet.figlet_format("i deployz it", font = 'big')) 
-    thinking(current_color)  
+      
 
 def thinking(color):
     think = '-------------'
@@ -160,20 +153,20 @@ def thinking(color):
 def add(color):
     current_color = color.PURPLE
     print(current_color + pyfiglet.figlet_format("Adding CHanges!!!", font = 'big'))
-    thinking(current_color)
+    
     current_color = color.PINK
     #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
     result = subprocess.run(['git', 'add', '.'], capture_output=True, text=True)
     print(current_color + pyfiglet.figlet_format("Output", font = 'big'))
-    thinking(current_color)
+    
     print(current_color + result.stdout)
     print(current_color + pyfiglet.figlet_format("Errors", font = 'big'))
-    thinking(current_color)
+    
     print(current_color + result.stderr) 
     current_color = color.PURPLE
-    thinking(current_color)
+    
     print(current_color + pyfiglet.figlet_format("changes added", font = 'big')) 
-    thinking(current_color)  
+      
  
 def timestamp():
     dt = datetime.now()
@@ -184,39 +177,39 @@ def timestamp():
 def commit(color):
     current_color = color.PURPLE
     print(current_color + pyfiglet.figlet_format("commiting !!!", font = 'big'))
-    thinking(current_color)
+    
     current_color = color.PINK
     #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
-    result = subprocess.run(['git', 'commit', '-m', 'awtocommit on' + timestamp()], capture_output=True, text=True)
+    result = subprocess.run(['git', 'commit', '-m', 'autocommit on' + timestamp()], capture_output=True, text=True)
     print(current_color + pyfiglet.figlet_format("Output", font = 'big'))
-    thinking(current_color)
+    
     print(current_color + result.stdout)
     print(current_color + pyfiglet.figlet_format("Errors", font = 'big'))
-    thinking(current_color)
+    
     print(current_color + result.stderr) 
     current_color = color.PURPLE
-    thinking(current_color)
+    
     print(current_color + pyfiglet.figlet_format("committed", font = 'big')) 
-    thinking(current_color) 
+     
 
 
 def push(color):
     current_color = color.PURPLE
     print(current_color + pyfiglet.figlet_format("PUshing", font = 'big'))
-    thinking(current_color)
+    
     current_color = color.PINK
     #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
     result = subprocess.run(['git', 'push' + timestamp()], capture_output=True, text=True)
     print(current_color + pyfiglet.figlet_format("Output", font = 'big'))
-    thinking(current_color)
+    
     print(current_color + result.stdout)
     print(current_color + pyfiglet.figlet_format("Errors", font = 'big'))
-    thinking(current_color)
+    
     print(current_color + result.stderr) 
     current_color = color.PURPLE
-    thinking(current_color)
-    print(current_color + pyfiglet.figlet_format("pushed it Good", font = 'big')) 
-    thinking(current_color) 
+    
+    print(current_color + pyfiglet.figlet_format("pushed it", font = 'big')) 
+     
 
 
 def main():

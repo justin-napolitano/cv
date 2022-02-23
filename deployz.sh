@@ -33,39 +33,39 @@ timestamp() {
 
 
 clean () {
-    printf "${PURPLE}Cleaning your dirty dirty build OnIChan $HEART"
+    printf "${PURPLE}Cleaning the Least Build"
     command make clean > /dev/null
-    printf "\n  All cween ${CWEEN}"
+    printf "\n  All clean"
 
 }
 
 html () {
-    printf "\nMaking your h-h-h-tml files... p-p-Wease be pazients wif me ${PWEASE}"
+    printf "\nMaking your html Files"
     command make html > /dev/null
-    printf "\n  Hope you likey seNpai ${HOPE}"
+    printf "\n  Html Complete"
 }
 add () {
-    printf "\nAdding dose changes ${HAPPY}"
+    printf "\nAdding changes"
     command git add . &>/dev/null
-    printf "\n  I changed ${BHEART} 4 u"
+    printf "\nAdded Changes"
 }
 
 commit () {
-    printf "\nCommiting those changes boss ${ANGEL}"
-    command git commit -m "awtocommit on $(timestamp)" &>/dev/null
-    printf "\n  Committed ${BOSS}"
+    printf "\nCommiting those changes"
+    command git commit -m "autocommit on $(timestamp)" &>/dev/null
+    printf "\n  Committed "
 }
 
 push () {
-    printf "\nPushing them files sir ${KISSY}"
+    printf "\nPushing files."
     command git push  &>/dev/null
-    printf "\n  pushed them good 4 u ${DEVIL}"
+    printf "\n Pushed"
 }
 
 deploy () {
-    printf "\n me makey website now ${MAKEY}"
+    printf "\n Making website now ${MAKEY}"
     command ghp-import -n -p -f -c $cname build/html &>/dev/null
-    printf "\n  mmm ${MMM} site is live at $cname"
+    printf "\n Site is live at $cname"
 }
 
 progress () {

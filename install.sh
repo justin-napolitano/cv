@@ -58,65 +58,29 @@ timestamp() {
   date +"%T-%m-%d-%Y" # current time
 }
 
-uWu_think () {
-    i=0
-    j=0 
-    end=3
-    while [ $j -le $end ]
-    do
-        ((j++))
-        i=$(( (i+1) %3 ))
-        printf "${uWu[$i]}"
-        
-        sleep .5
-    done 
-}
-
-thinking () {
-    i=0
-    j=0 
-    end=$(( RANDOM % 5 + 1 ))
-    while [ $j -le $end ]
-    do
-        ((j++))
-        i=$(( (i+1) %3 ))
-        printf "${think[$i]}"
-        
-        sleep .5
-    done 
-}
 
 introduction () {
-    printf "${PURPLE}Hi ${FLUSH} seNpai!! ${PEACE} "
-    thinking
-    printf "\nI'm your waifu ${TWO_HEARTS} assistant"
-    thinking
-    printf "\nI'm going ${FEAR}"
-    thinking
-    printf "to install some dependencies for you"
-    thinking
-    printf "YAY!"
-    thinking
-    printf "\nLet's gooooooo ${TOUNGEY}"
+    printf "${PURPLE}Hi ${FLUSH} I'm going to install some dependencies! ${PEACE} "
+
 }
 
 
 check_git () {
     printf "\n Second:"
-    thinking
+    
     printf "\n  we have to check for git."
-    thinking
+    
     if ! command -v git &> /dev/null
     then
         printf "${PURPLE}\n     oh nooooo! ${BIGCRY} I couldn't find git" 
-        thinking
+        
         printf "Time to install it ${TOUNGEY}" 
-        thinking
+        
         install_git
 
     else
-        printf "${PURPLE}'\n    Yay! ${YAY} I found Git"
-        thinking
+        printf "${PURPLE}'\nYay! ${YAY} I found Git"
+        
         printf "Nothing to install ${THUMBS}"
     fi
 
@@ -130,20 +94,20 @@ install_git () {
 }
 check_brew () {
     printf "\n First:"
-    thinking
+    
     printf "\n  let's check for brew ${BEER}."
-    thinking
+    
     if ! command -v brew &> /dev/null
     then
         printf "${PURPLE}\n     oh nooooo! ${BIGCRY} I couldn't find brew" 
-        thinking
+        
         printf "Time to install it ${TOUNGEY}" 
         install-x-code
         printf "\n  Okay ${OKAY}, now we should be good"
 
     else
         printf "${PURPLE}'\n    Yay! ${YAY} I found brew ${CHEERS}"
-        thinking
+        
         printf "Nothing to install ${THUMBS}"
     fi
 }
@@ -152,9 +116,9 @@ install-x-code () {
     local check=$((xcode-\select --install) 2>&1)
     local str="xcode-select: note: install requested for command line developer tools"
     printf "Since you don't have brew"
-    thinking
+    
     printf "Now I've gotta check for x-code"
-    thinking
+    
 
     echo $check
     while [[ "$check" == "$str" ]];
@@ -164,36 +128,29 @@ install-x-code () {
     done
     
     printf "\n  X-code is installed.  You're cool ${BOSS} now"
-    thinking
+    
     install-brew
     
 }
 
 install-brew () {
-    printf "but now I have to run a download script for Brew.  Follow their prompts plwease ${PWEASE}"
-    thinking
+    printf "but now I have to run a download script for Brew.  Follow their prompts please ${PWEASE}"
+    
     command /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 }
 
 check_python () {
     printf "\n Third:"
-    thinking
-    printf "\n  let's make sure you've got a big "
-    thinking
-    uWu_think
-    thinking
+    
+    printf "\nChecking for python "
     printf "python  ${PYTHON}."
     if ! command -v python3 &> /dev/null
     then
-        printf "${PURPLE}\  noh nooooo! ${BIGCRY} Its too small ${SHRIMP}" 
-        thinking
-        printf "Time to make it bigger ${EGGPLANT}" 
         install_python
 
     else
-        printf "${PURPLE}'\n    Yay! ${YAY} you've got a nice python ${MMM}"
-        thinking
+
         printf "Nothing to install ${THUMBS}"
     fi
 }
@@ -209,20 +166,20 @@ install_python () {
 
 check_virtualenv () {
     printf "\n Fourth:"
-    thinking
+    
     printf "\n  We need to go to"
-    thinking
+    
     printf "an isolated environment ${MOON}."
-    thinking
+    
     if ! command -v virtualenv &> /dev/null
     then
         printf "${PURPLE}\noh nooooo ${BIGCRY} I can't make us a private environment ${GRIMACE}" 
-        thinking
+        
         printf "Guess I've gotta make one ${STRONG}" 
 
     else
         printf "${PURPLE}'\n    Yay! ${YAY} We can make virtual environments ${OK}"
-        thinking
+        
         printf "Nothing to install ${THUMBS}"
     fi
 }
@@ -233,39 +190,39 @@ install_virtualenv () {
     printf "\n  All good ${EXHALE}"
 }
 clean () {
-    printf "${PURPLE}Cleaning your dirty dirty build OnIChan $HEART"
+    printf "${PURPLE}Cleaning old build  $HEART"
     command make clean > /dev/null
     printf "\n  All cween ${CWEEN}"
 
 }
 
 html () {
-    printf "\nMaking your h-h-h-tml files... p-p-Wease be pazients wif me ${PWEASE}"
+    printf "\nMaking your html files ${PWEASE}"
     command make html &> /dev/null
-    printf "\n  I hope the files are to your liking senpai ${HOPE}"
+    printf "\n  Files Made ${HOPE}"
 }
 add () {
-    printf "\nAdding dose changes ${HAPPY}"
+    printf "\nAdding changes ${HAPPY}"
     command git add . &>/dev/null
-    printf "\n  I changed ${BHEART} 4 u"
+    printf "\n  Changes added"
 }
 
 commit () {
-    printf "\nCommiting those changes boss ${ANGEL}"
-    command git commit -m "awtocommit on $(timestamp)" &>/dev/null
+    printf "\nCommiting Changes ${ANGEL}"
+    command git commit -m "autocommit on $(timestamp)" &>/dev/null
     printf "\n  Committed ${BOSS}"
 }
 
 push () {
     printf "\nPushing them files sir ${KISSY}"
     command git push  &>/dev/null 
-    printf "\n  pushed them good 4 u ${DEVIL}"
+    printf "\n  pushed the files${DEVIL}"
 }
 
 deploy () {
-    printf "\n me makey website now ${MAKEY}"
+    printf "\n Making Website now ${MAKEY}"
     command ghp-import -n -p -f -c $cname build/html &>/dev/null 
-    printf "\n  mmm ${MMM} site is live at $cname"
+    printf "\n Site is live at $cname"
 }
 
 progress () {

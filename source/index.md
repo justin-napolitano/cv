@@ -5,10 +5,6 @@ title: Justin Napolitano
 # Curricula Vitae
 
 
-```{todo}
-Confirm links
-
-```
 
 ## [Resume](resume_header)
 
