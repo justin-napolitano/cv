@@ -292,3 +292,13 @@ Email:
 
 Phone
    * `+1(832) 299-0372 <tel:+1-832-299-0372>`_ 
+
+PDF
+####
+
+.. topic:: Print Me
+
+    Please print the linked pdf below.  It is a properly formatted latex pdf.  Printing this page to pdf will only render the html. 
+
+PDF Download Link:
+    * :download:`RESUME PDF <pdf/justin_napolitano_resume.pdf>`
