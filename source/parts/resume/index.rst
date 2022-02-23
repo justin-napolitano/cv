@@ -85,7 +85,7 @@ BTJN, LLC
 `Sales Lead Generation Application: <https://cv.jnapolitano.io/parts/resume/work-history/docs/btjn.html##data-stream-management-application>`_
     * Produce 10,000 weekly sales leads for a marketing firm.
     * Mined data with `Python webscraping application. <https://cv.jnapolitano.io/parts/data/web-scraping/index.html>`_ 
-    * Integrated data to `Neo4j <https://cv.jnapolitano.io/parts/python-development/neo4j/index.html>`_ and `JanusGraph <https://cv.jnapolitano.io/parts/python-development/janus-graph/index.html>` backends.
+    * Integrated data to `Neo4j <https://cv.jnapolitano.io/parts/python-development/neo4j/index.html>`_ and `JanusGraph <https://cv.jnapolitano.io/parts/python-development/janus-graph/index.html>`_ backends.
     * Migrated data to Google Sheets and Drive with a custom `Google API Class <https://cv.jnapolitano.io/parts/python-development/google/index.html>`_ 
 
 
