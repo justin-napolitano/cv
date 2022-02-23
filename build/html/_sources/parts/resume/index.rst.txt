@@ -180,7 +180,7 @@ Programming Skills
 #####################
 
 Languages:
-    Bash, C, LaTeX, Python, SAS, SPSS, SQL
+    Bash, C, LaTeX, Python, SAS, SPSS, SQL.
 
 Technologies:
     Azure, Docker, Git/GH, JanusGraph, Jupyter Notebook, Neo4j, Pandas, Shell, TensorFlow, Sphinx, Vim.
