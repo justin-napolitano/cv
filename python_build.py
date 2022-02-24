@@ -150,6 +150,7 @@ class deploy_pipeline:
 
 
         print(pyfiglet.figlet_format("i deployz it", font = 'big'))
+        print('your site is live at' + cname)
 
         return result
 
