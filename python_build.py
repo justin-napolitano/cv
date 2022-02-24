@@ -1,120 +1,168 @@
 import pyfiglet
 from pyfiglet import Figlet
-from lolpython import lol_py 
+from lolpython import lol_py
 import subprocess
 from time import sleep
 from random import randrange
-
-import colorama
-from colorama import init as windows_color
-from colorama import Fore, Style, Back
-import emoji
-
 from datetime import datetime
 
-class colors: 
+class config:
 
     def __init__(self):
-        self.RED='\033[0;31m'
-        self.PINK='\033[38;5;206m'
-        self.PURPLE='\033[1;95m'
-        self.JUSTIN='\033[38;5;206;48;5;57m'
-        self.HEART='\xF0\x9F\x92\x9C'
-        self.BHEART='\xF0\x9F\x92\x94'
-        self.NC='\033[0m' # No Color
-        self.KISS='\xF0\x9F\x98\x98'
-        self.CWEEN='\xF0\x9F\x98\x8B'
-        self.PWEASE='\xF0\x9F\x98\xB3'
-        self.HOPE='\xF0\x9F\x98\x85'
-        self.HAPPY='\xF0\x9F\x98\x81'
-        self.ANGEL='\xF0\x9F\x98\x87'
-        self.BOSS='\xF0\x9F\x98\x8E'
-        self.KISSY='\xF0\x9F\x98\x99'
-        self.DEVIL='\xF0\x9F\x98\x88'
-        self.MAKEY='\xF0\x9F\x98\xAE'
-        self.MMM='\xF0\x9F\x98\x9B'
-        self.BIGCRY='\xF0\x9F\x98\xA2'
-        self.YAY='\xF0\x9F\x98\x81'
-        self.TWO_HEARTS='\xF0\x9F\x92\x95'
-        self.TOUNGEY='\xF0\x9F\x98\x9C'
-        self.PEACE='\xE2\x9C\x8C'
-        self.SHY='\xF0\x9F\x98\x93'
-        self.FEAR='\xF0\x9F\x98\xA8'
-        self.FLUSH='\xF0\x9F\x98\xB3'
-        self.THUMBS='\xF0\x9F\x91\x8D'
-        self.BEER='\xF0\x9F\x8D\xBA'
-        self.CHEERS='\xF0\x9F\x8D\xBB'
-        self.PYTHON='\xF0\x9F\x90\x8D'
-        self.EGGPLANT='\xF0\x9F\x8D\x86'
-        self.SHRIMP='\xF0\x9F\x8D\xA4'
-        self.MOON='\xF0\x9F\x8C\x9A'
-        self.GRIMACE='\xF0\x9F\x98\xAC'
-        self.STRONG='\xF0\x9F\x92\xAA'
-        self.OK='\xF0\x9F\x91\x8C'
-        self.CIGGI='\xF0\x9F\x9A\xAC'
-        self.EXHALE='\xF0\x9F\x92\xA8'
+        self.cname = self.cname_init()
 
 
-def make_clean(color):
-    current_color = color.PURPLE
-    print(current_color + pyfiglet.figlet_format("Now i'm cleaning the old build", font = 'big'))
-    
-    current_color = color.PINK
-    #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
-    result = subprocess.run(['make', 'clean'], capture_output=True, text=True)
-    print(current_color + result.stdout)
-    print(current_color + result.stderr) 
-    current_color = color.PURPLE
-    
-    print(current_color + pyfiglet.figlet_format("ClEAN", font = 'big')) 
-     
+    def cname_init(self):
+        cname = "cv.jnapolitano.io"
+        return cname
 
-def make_html(color):
-    current_color = color.PURPLE
-    print(current_color + pyfiglet.figlet_format("Making dE HTML BUIld", font = 'big'))
-    
-    current_color = color.PINK
-    #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
-    result = subprocess.run(['make', 'html'], capture_output=True, text=True)
-    print(current_color + result.stdout)
-    print(current_color + result.stderr) 
-    current_color = color.PURPLE
-    
-    print(current_color + pyfiglet.figlet_format("i make it", font = 'big')) 
-     
 
-def install_dependencies(color): 
-    current_color = color.PURPLE
-    print(current_color + pyfiglet.figlet_format("Now we have to install the python dependencies.", font = 'big'))
-    
-    current_color = color.PINK
-    #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
-    result = subprocess.run(['pip', 'install', '-r', 'requirements.txt'], capture_output=True, text=True)
-    print(current_color + result.stdout)
-    print(current_color + result.stderr) 
-    current_color = color.PURPLE
-    
-    print(current_color + pyfiglet.figlet_format("DependenCies INstalled", font = 'big')) 
-    
 
-def introduction(color, no_color):
-    windows_color()
+class dependency_pipeline:
+
+    def __init__(self):
+        self.dependencies_log = self.install_dependencies()
+
+    def install_dependencies(self):
+        print(pyfiglet.figlet_format("Dependency Check", font = 'big'))
+        utility_functions.seperator()
+        #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
+        result = subprocess.run(['pip', 'install', '-r', 'requirements.txt'], capture_output=True, text=True)
+        print(result.stdout)
+
+        print(result.stderr)
+
+        print(pyfiglet.figlet_format("DependenCies INstalled", font = 'big'))
+        utility_functions.seperator()
+
+        return(result)
+
+class build_pipeline:
+
+    def __init__(self):
+
+        self.clean_log=self.make_clean()
+        self.make_log=self.make_html()
+        self.add_log=self.add()
+        self.commit_log=self.commit()
+        self.push_log=self.push()
+
+    def make_clean(self):
+
+        print(pyfiglet.figlet_format("Now i'm cleaning the old build", font = 'big'))
+
+
+        #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
+        result = subprocess.run(['make', 'clean'], capture_output=True, text=True)
+        print(result.stdout)
+        print(result.stderr)
+
+        print(pyfiglet.figlet_format("ClEAN", font = 'big'))
+
+        return result
+
+
+    def make_html(self):
+        print(pyfiglet.figlet_format("Making dE HTML BUIld", font = 'big'))
+        #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
+        result = subprocess.run(['make', 'html'], capture_output=True, text=True)
+        print(result.stdout)
+        print(result.stderr)
+        print(pyfiglet.figlet_format("i make it", font = 'big'))
+
+        return result
+
+    def commit(self):
+        time_stamp=utility_functions.timestamp()
+        print(pyfiglet.figlet_format("commiting !!!", font = 'big'))
+
+
+        #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
+        result = subprocess.run(['git', 'commit', '-m', 'autocommit on' + time_stamp], capture_output=True, text=True)
+        print(pyfiglet.figlet_format("Output", font = 'big'))
+
+        print(result.stdout)
+        print(pyfiglet.figlet_format("Errors", font = 'big'))
+
+        print(result.stderr)
+
+
+        print(pyfiglet.figlet_format("committed", font = 'big'))
+        return result
+
+
+    def push(self):
+        time_stamp=utility_functions.timestamp()
+        print(pyfiglet.figlet_format("PUshing", font = 'big'))
+        #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
+        result = subprocess.run(['git', 'push'], capture_output=True, text=True)
+        print(pyfiglet.figlet_format("Output", font = 'big'))
+
+        print(result.stdout)
+        print(pyfiglet.figlet_format("Errors", font = 'big'))
+
+        print(result.stderr)
+
+
+        print(pyfiglet.figlet_format("pushed it", font = 'big'))
+
+        return result
+
+
+    def add(self):
+
+        print(pyfiglet.figlet_format("Adding CHanges!!!", font = 'big'))
+
+
+        #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
+        result = subprocess.run(['git', 'add', '.'], capture_output=True, text=True)
+        print(pyfiglet.figlet_format("Output", font = 'big'))
+
+        print(result.stdout)
+        print(pyfiglet.figlet_format("Errors", font = 'big'))
+
+        print(result.stderr)
+
+
+        print(pyfiglet.figlet_format("changes added", font = 'big'))
+
+        return result
+
+
+class deploy_pipeline:
+
+    def __init__(self,cname):
+        self.deploy_log = self.deploy(cname)
+
+    def deploy(self,cname):
+
+        print(pyfiglet.figlet_format("DEPLOYING!!!", font = 'big'))
+
+
+        #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
+        result = subprocess.run(['ghp-import', '-n', '-p', '-f', '-c', cname, 'build/html' ], capture_output=True, text=True)
+        print(pyfiglet.figlet_format("Output", font = 'big'))
+
+        print(result.stdout)
+        print(pyfiglet.figlet_format("Errors", font = 'big'))
+
+        print(result.stderr)
+
+
+        print(pyfiglet.figlet_format("i deployz it", font = 'big'))
+
+        return result
+
+
+
+def introduction():
     fig = Figlet(font='standard')
-    current_color = color
-    no_color = no_color
-    heart = pyfiglet.figlet_format("<3<3<3<3<3", font = 'big')
-    print(current_color + heart)
     print(fig.renderText("INstalling Depenedencies"))
     fig = Figlet(font='Standard')
     print(fig.renderText("B4 we begin"))
     print(fig.renderText("you Should read the requirements.txt file"))
-    print(fig.renderText("If you don't trust me press ctr-c now to stop this program.   Then, read the file.")) 
-    thinking(current_color) 
+    print(fig.renderText("If you don't trust me press ctr-c now to stop this program.   Then, read the file."))
 
-def test():
-    print(emoji.emojize(":purple_heart:"))
-    print(emoji.emojize(":winking_face_with_tongue:"))
-    print(emoji.emojize(":zipper-mouth_face:"))    
 
 def command():
     result = subprocess.run(['ls', '-l'], capture_output=True, text=True)
@@ -123,105 +171,40 @@ def command():
 
 
 
-def deploy(color):
-    current_color = color.PURPLE
-    print(current_color + pyfiglet.figlet_format("DEPLOYING!!!", font = 'big'))
-    
-    current_color = color.PINK
-    #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
-    result = subprocess.run(['ghp-import', '-n', '-p', '-f', '-c','cv.jnapolitano.io', 'build/html' ], capture_output=True, text=True)
-    print(current_color + pyfiglet.figlet_format("Output", font = 'big'))
-    
-    print(current_color + result.stdout)
-    print(current_color + pyfiglet.figlet_format("Errors", font = 'big'))
-    
-    print(current_color + result.stderr) 
-    current_color = color.PURPLE
-    
-    print(current_color + pyfiglet.figlet_format("i deployz it", font = 'big')) 
-      
+class utility_functions:
 
-def thinking(color):
-    think = '-------------'
-    i=0
-    j=0 
-    end=randrange(3,9)
-    think = pyfiglet.figlet_format(think, font = 'standard')
-    #sleep(10)
-    print(color + think)
-
-def add(color):
-    current_color = color.PURPLE
-    print(current_color + pyfiglet.figlet_format("Adding CHanges!!!", font = 'big'))
-    
-    current_color = color.PINK
-    #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
-    result = subprocess.run(['git', 'add', '.'], capture_output=True, text=True)
-    print(current_color + pyfiglet.figlet_format("Output", font = 'big'))
-    
-    print(current_color + result.stdout)
-    print(current_color + pyfiglet.figlet_format("Errors", font = 'big'))
-    
-    print(current_color + result.stderr) 
-    current_color = color.PURPLE
-    
-    print(current_color + pyfiglet.figlet_format("changes added", font = 'big')) 
-      
- 
-def timestamp():
-    dt = datetime.now()
-    ts = datetime.timestamp(dt)
-    ts = str(ts)
-    return ts
-
-def commit(color):
-    current_color = color.PURPLE
-    print(current_color + pyfiglet.figlet_format("commiting !!!", font = 'big'))
-    
-    current_color = color.PINK
-    #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
-    result = subprocess.run(['git', 'commit', '-m', 'autocommit on' + timestamp()], capture_output=True, text=True)
-    print(current_color + pyfiglet.figlet_format("Output", font = 'big'))
-    
-    print(current_color + result.stdout)
-    print(current_color + pyfiglet.figlet_format("Errors", font = 'big'))
-    
-    print(current_color + result.stderr) 
-    current_color = color.PURPLE
-    
-    print(current_color + pyfiglet.figlet_format("committed", font = 'big')) 
-     
+    def thinking():
+        think = '-------------'
+        i=0
+        j=0
+        end=randrange(3,9)
+        think = pyfiglet.figlet_format(think, font = 'standard')
+        #sleep(10)
+        print(think)
 
 
-def push(color):
-    current_color = color.PURPLE
-    print(current_color + pyfiglet.figlet_format("PUshing", font = 'big'))
-    
-    current_color = color.PINK
-    #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
-    result = subprocess.run(['git', 'push' + timestamp()], capture_output=True, text=True)
-    print(current_color + pyfiglet.figlet_format("Output", font = 'big'))
-    
-    print(current_color + result.stdout)
-    print(current_color + pyfiglet.figlet_format("Errors", font = 'big'))
-    
-    print(current_color + result.stderr) 
-    current_color = color.PURPLE
-    
-    print(current_color + pyfiglet.figlet_format("pushed it", font = 'big')) 
-     
+    def timestamp():
+        dt = datetime.now()
+        ts = datetime.timestamp(dt)
+        ts = str(ts)
+        return ts
+
+    def seperator():
+        seperator = '-------------'
+        sep = pyfiglet.figlet_format(seperator, font = 'standard')
+        #sleep(10)
+        print(sep)
+
+
 
 
 def main():
-    color= colors()
-    introduction(color.PURPLE, color.NC)
-    install_dependencies(color)
-    make_clean(color)
-    make_html(color)
-    add(color)
-    commit(color)
-    push(color)
-    deploy(color)
+    conf = config()
+    introduction()
+    #install_dependencies()
+    dependency_log = dependency_pipeline()
+    build_log = build_pipeline()
+    deploy_log = deploy_pipeline(conf.cname)
 
 
 if __name__ == "__main__":
