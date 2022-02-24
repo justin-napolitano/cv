@@ -80,7 +80,7 @@ BTJN, LLC
 
 
 `Sales Lead Generation Application: <https://cv.jnapolitano.io/parts/resume/work-history/docs/btjn.html##data-stream-management-application>`_
-    * Produce 10,000 weekly sales leads for a marketing firm.
+    * Produced 10,000 weekly sales leads for a marketing firm.
     * Mined data with `Python webscraping application. <https://cv.jnapolitano.io/parts/data/web-scraping/index.html>`_ 
     * Integrated data to `Neo4j <https://cv.jnapolitano.io/parts/python-development/neo4j/index.html>`_ and `JanusGraph <https://cv.jnapolitano.io/parts/python-development/janus-graph/index.html>`_ backends.
     * Migrated data to Google Sheets and Drive with a custom `Google API Class <https://cv.jnapolitano.io/parts/python-development/google/index.html>`_ 
@@ -137,7 +137,7 @@ Emotional Decision Making and Warfare
 
 .. topic:: Emotions and Decision Making
 
-    Dr. Tom Dolan focuses on how emotions/emotional intelligence dictate the behaviors of political agents.  My role was to code the sentiment of sentences collected during a parliamentary debate to determine the emotional states of parliamentarians prior to the invasion of Iraq.  
+    Dr. Tom Dolan focuses on how emotions/emotional intelligence dictate the behaviors of political agents.  My role in this project was to code the sentiment of sentences collected during a parliamentary debate to determine the emotional states of parliamentarians prior to the invasion of Iraq.  
 
 Sentiment Analysis:
     * Coded data according to sentiment of sentences of UK parliamentarians prior to the invasion of Iraq.
