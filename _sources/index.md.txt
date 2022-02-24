@@ -8,7 +8,6 @@ title: Justin Napolitano
 
 ## [Resume](resume_header)
 
-Follow the link the one page overview
 
 :::{card}
 
