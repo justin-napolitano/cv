@@ -23,7 +23,7 @@ Phone:
    * `+1(832) 299-0372 <tel:+1-832-299-0372>`_
 
 Web:
-    * `cv.jnapolitano.io <cv.jnapolitano.io>`_
+    * `cv.jnapolitano.io <https://cv.jnapolitano.io>`_
 
 .. _education_overview:
 
