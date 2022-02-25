@@ -8,9 +8,9 @@ Justin Napolitano's Resume
 .. topic:: Introduction
 
 
-    The links included in this document will direct to you the documentation of a referenced project.
+    The links included in this document will direct to you the project documentation.
 
-    Please note that there is a pdf download link at the end of this page that will redirect you to my formal resume. I also include a link at the end of this introduction. Please print the linked document if you would like a physical copy. 
+    Please note that there is a pdf download link at the end of this page that will redirect you to my formal resume. I also include a link at the end of this introduction.
 
     :download:`RESUME PDF DOWNLOAD <pdf/justin_napolitano_resume.pdf>`
 
@@ -49,7 +49,7 @@ Focuses:
     * `US Supreme Court Jurisprudence. <https://cv.jnapolitano.io/parts/analysis/political-analysis/sup-court/index.html>`_
     * `Behavioral Analysis of Supreme Court Voting Behavior. <https://cv.jnapolitano.io/parts/analysis/political-analysis/sup-court/project-supcourt-tensorflow/index.html>`_
     * `International Relations Theory and Analysis. <https://cv.jnapolitano.io/parts/analysis/political-analysis/international-organizations/index.html>`_
-    * `Analysis of Socio-Political Structures in Anatolia. <https://cv.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/index.html>`_
+    * `Analysis of Conflict and Terrorism in Anatolia. <https://cv.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/index.html>`_
 
 .. _statistics_master:
 
@@ -58,9 +58,9 @@ Statistics
 
 
 Notable Coursework:
-    * `Experimental Design in SAS <file:///Users/jnapolitano/Projects/cv/build/html/parts/data/experimental-design/index.html>`_
-    * `Political Analysis with SPSS <file:///Users/jnapolitano/Projects/cv/build/html/parts/analysis/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.html>`_
-    * Statistical Analysis with MiniTab
+    * `Experimental Design in SAS. <https://cv.jnapolitano.io/parts/data/experimental-design/sas/index.html>`_
+    * `Political Analysis with SPSS. <https://cv.jnapolitano.io/parts/analysis/political-analysis/sup-court/project-supcourt-masterpiececake/masterpiece-cake.html>`_
+    * Statistical Analysis with MiniTab.
 
 
 
@@ -81,16 +81,18 @@ BTJN, LLC
 
 `Sales Lead Generation Application: <https://cv.jnapolitano.io/parts/resume/work-history/docs/btjn.html##data-stream-management-application>`_
     * Produced 10,000 weekly sales leads for a marketing firm.
-    * Mined data with `Python webscraping application. <https://cv.jnapolitano.io/parts/data/web-scraping/index.html>`_ 
+    * Mined data with a my `Python webscraping application. <https://cv.jnapolitano.io/parts/data/web-scraping/index.html>`_ 
     * Integrated data to `Neo4j <https://cv.jnapolitano.io/parts/python-development/neo4j/index.html>`_ and `JanusGraph <https://cv.jnapolitano.io/parts/python-development/janus-graph/index.html>`_ backends.
     * Migrated data to Google Sheets and Drive with a custom `Google API Class <https://cv.jnapolitano.io/parts/python-development/google/index.html>`_ 
-
 
 `CRM Application and Integration: <https://cv.jnapolitano.io/parts/data/data-integration/index.html>`_
     * Created a custom CRM solution with an Azure SQL Server for a public health startup. 
     * `Locally transformed data <https://cv.jnapolitano.io/parts/data/data-integration/index.html>`_ with Python to increase value for clients.  
     * Effectively managed the CRM with workflows and data pipelines.
 
+`Business Reporting and Sales Predictions <https://cv.jnapolitano.io/parts/analysis/business-analysis/index.html>`__
+    * Modeled retail sales with the SARINA, Holt-Winter, and Exponential Smoothing models in Python and Jupyter Notebooks. 
+    * Identified model of greatest predictive power. 
 
 .. _university_work_overview:
 
@@ -105,30 +107,30 @@ The University of Central Florida
 
     The Turkish-Kurdish Conflict is an ongoing armed struggle taking place in Anatolia. The Turkish Government and armed groups terrorize each other and civilians. Our work aims to detail the atrocities committed by any group or individual that maims or harms another.
     
-    I was hired as a student to collect data for Dr. Demet Mousseau.  She later promoted to research lead and first author in return for creating the research methodology and managing the project.  
 
 `Research Design: <https://cv.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/pdf.html>`_
-    * Created the data collection methodology to ensure rigor.  
+    * Ensured rigor of data collection methodology by exceeding industry standards.   
+    * Procured primary and secondary data sources.
 
 `Database Design: <https://cv.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/database_schema.html>`_
     * Designed a third normal database to maintain logical consistancy and variable independence of data points.
-    * Refined the schema to facillatate porting to a graph database.
+    * Refined schema to facilitate easy porting to Person, Object, Location and Events (POLE) Schema.
 
 `Data Integration: <https://cv.jnapolitano.io/parts/data/data-integration/index.html>`_
-    * Ensured the integrity of files generated by research assistants.
-    * Wrote python scripts to integrate data into the database.
+    * Standardized integration procedures to verify integrity of files generated by research assistants.
+    * Transformed data frome excel and csv sources into json format to index into a nosql database.  
 
 `Data Analysis: <https://cv.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/analysis.html>`_
-    * Analyzed data with excel and Pandas. 
-    * Prepared presenation that was peer reviewed at the Peace Science Conference at the Hague in Switzerland by Dr. Demet Mousseau.
+    * Analyzed conflict data with Excel and Python Pandas. 
+    * Visualized data trends with MatPlotLib.  
+    * Prepared presentation for peer review at the Peace Science Conference at the Hague in Switzerland by Dr. Demet Mousseau.
 
 `Project Management: <https://cv.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/pdf.html>`_
-    * Developed the training tools and manuals to allow for inexperienced research assistants to query primary sources and code data points. 
-    * Trained team of inexperienced research assistants to code data points.
-    * Led team to achieve all project goals.   
+    * Developed manuals to train inexperienced research assistants to query primary sources and code data points.
+    * Led team to achieve project goals prior to strict deadlines defined in our research grant. 
 
 `Human Rights Abuse Framework: <https://cv.jnapolitano.io/parts/analysis/political-analysis/human-rights-law/index.html>`_
-    *  A collection of Human Rights abuses as defined by international treaty used by research assistants to define crimes in conflict zones.
+    * Aggregated corpus of international human rights law into a searchable frame work.
   
 .. _emotional_dec_making_overview: 
 
@@ -137,44 +139,41 @@ Emotional Decision Making and Warfare
 
 .. topic:: Emotions and Decision Making
 
-    Dr. Tom Dolan focuses on how emotions/emotional intelligence dictate the behaviors of political agents.  My role in this project was to code the sentiment of sentences collected during a parliamentary debate to determine the emotional states of parliamentarians prior to the invasion of Iraq.  
+    Dr. Tom Dolan focuses the interaction between emotions and the behavior of political agents.  My role in this project was to code the sentiment of sentences collected during a parliamentary debate to determine the emotional states of parliamentarians prior to the invasion of Iraq.  
 
 Sentiment Analysis:
     * Coded data according to sentiment of sentences of UK parliamentarians prior to the invasion of Iraq.
-    * Wrote corresponding python scripts identify human errors. 
+    * Wrote corresponding python scripts to identify human errors. 
 
 `Data Integration: <https://cv.jnapolitano.io/parts/data/data-integration/index.html>`_
-    * Wrote Python scripts to verify accuracy of coding and aggregate data points into json files. 
-    * Converted json files to excel spreadsheets to permit nontechnical users to manipulate data. 
+    * Verified accuracy of coding and aggregated data points into json files. 
+    * Converted json files to excel spreadsheets to permit nonspecialized research assistants to interact with data.  
 
 
 
 Projects
 #########
 
-`Business Reporting and Sales Predictions <https://cv.jnapolitano.io/parts/analysis/business-analysis/index.html>`__
-    * Reporting and Prediction projects I completed for retail chain of 57 locations.  
-
-`Sphinx CV Template <https://cv.jnapolitano.io/parts/reference/build-this-site/index.html>`__
-    * A sphinx project that enables non-programmers to create a static website of their cv with sphinx and MarkDown.
+`Supreme Court Metadata Graph <https://cv.jnapolitano.io/parts/analysis/political-analysis/sup-court/project-sup-court-meta-data-graph/index.html>`__
+    * A graph of the metadata of every United States Supreme Court Case.
 
 `Real Estate Professional Graph <https://cv.jnapolitano.io/parts/data/graph-database/index.html>`__
     * Graph of real estate professionals in the United States.
-
-`Development Setup Scripts <https://cv.jnapolitano.io/parts/reference/configuration/index.html>`__
-    * Scripts and instructions that setup macs and \*nix systems for software development.
-
-`Google API <https://cv.jnapolitano.io/parts/python-development/google/index.html>`__
-    * A google api application that streamlines data pipelines for teams using the google productivity suite.
-
-`Supreme Court Metadata Graph <https://cv.jnapolitano.io/parts/analysis/political-analysis/sup-court/project-sup-court-meta-data-graph/index.html>`__
-    * A graph of the metadata of every United States Supreme Court Case.
 
 `Supreme Court Voting Behavior Prediction in TensorFlow <https://cv.jnapolitano.io/parts/ml-ai/tensorflow/project-supcourt-tensorflow/index.html>`__
     * Predicting voting behavior of Supreme Court justices with TensorFlow.
 
 `Gender Recognition in TensorFlow <https://cv.jnapolitano.io/parts/ml-ai/tensorflow/project-gender-recognition/index.html>`__
-    * Identifying gender with TensorFlow
+    * Identifying gender with TensorFlow.
+
+`Google API <https://cv.jnapolitano.io/parts/python-development/google/index.html>`__
+    * A Google API application that streamlines data pipeline transformation for teams using the Google Productivity Suite.
+
+`Sphinx CV Template <https://cv.jnapolitano.io/parts/reference/build-this-site/index.html>`__
+    * A Sphinx project that enables non-programmers to create a static website of their cv with Sphinx and MarkDown.
+
+`Development Setup Scripts <https://cv.jnapolitano.io/parts/reference/configuration/index.html>`__
+    * Scripts and instructions that setup Macs and \*nix systems for software development.
 
 
 Programming Skills
@@ -186,104 +185,21 @@ Languages:
 Technologies:
     Azure, Docker, Git/GH, JanusGraph, Jupyter Notebook, Neo4j, Pandas, Shell, TensorFlow, Sphinx, Vim.
 
-
 Spoken Languages
-####################
+#################
 
-Cantonese
-=============
+Latin languages: 
+    French, Spanish.
 
-Reading:
-    * Beginnner. I can read a few characters relating to food items and basic actions.  
+Asian Languages: 
+    Cantonese.
 
+Semitic Langauges:
+    Modern Standard Arabic, Egyptian Arabic.
 
-Listening:
-    * Beginner. I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
+Creole Langues:
+    Sranan Tongo.
 
-
-Speaking: 
-    * Beginner. I can order food and interact with merchants.  
-
-Mandarin
-===================
-
-.. topic:: Background
-
-    I am currently preparing for the HSK 1 and HSK 2 exams.  Daily, I write and read the Chinese script but I do not often speak nor listen to the language. 
-
-
-Reading:
-    * Beginnner. I can read a few characters relating to food items and basic actions.  
-
-
-Listening:
-    * Beginner. I can understand about 25% of what I hear in normal conversation.  I understand basic questions involving food and commands.  
-
-
-Speaking: 
-    * Beginner. I can order food and interact with merchants.  
-
-French
-==========
-
-
-.. topic:: Background
-
-    I studied French for four years at University.  I continue to read the French papers and the occasional novel. I do not speak frequently. 
-
-
-Reading:
-    * Intermediate-Advanced.  I can read newspapers, memos, and novels. 
-
-
-Listening:
-    * Intermediate-Advanced. I can understand about 75% of what I hear in normal conversation.  I often have to request for clarfication when discussing advanced topics concerning abstract ideas and subjunctive cases.  
-
-
-Speaking: 
-    * Intermediate. I can discuss day to to events and issue directives.  I can not discuss abstract and subjective ideas proficiently.
-
-Spanish
-==================
-
-.. topic:: Background
-
-    I read newspapers written in spanish occasionally and I can with a degree of difficulty speak with native speakers.  
-
-
-
-Reading:
-    * Intermediate-Advanced.  I can read newspapers, memos, and novels. 
-
-
-Listening:
-    * Intermediate. I can understand about 50% of what I hear in normal conversation.  I often have to request for clarfication when discussing advanced topics concerning abstract ideas and subjunctive cases.  
-
-
-Speaking: 
-    * Beginner-Intermediate. I can discuss day to to events and issue directives in the present tense.  I can not discuss abstract and subjective ideas fluently.
-
-
-Sranan Tongo
-============
-
-.. topic:: Background
-
-    Sranan is a creole language derived from West African languages, English, Dutch, and Portuguese.  
-
-    I speak a modified version of the language everyday at home to communicate that is heavily influenced by English and Cantonese.  
-
-
-Reading:
-    * The written version of this language is not standardized; therefore,  I can not accurately rate my level of proficiency. 
-
-
-Listening:
-    * Intermediate-Advanced level proficiency. I can understand about 50% to 75% of what I hear in normal conversation. 
-
-
-Speaking: 
-    * Intermediate-Advanced level proficiency.  I can discuss day to to events and issue directives.  
 
 Contact
 #########
@@ -291,7 +207,7 @@ Contact
 Email:
     * :email:`justin@jnapolitano.io`
 
-Phone
+Phone:
    * `+1(832) 299-0372 <tel:+1-832-299-0372>`_ 
 
 PDF
@@ -299,7 +215,7 @@ PDF
 
 .. topic:: Print Me
 
-    Please print the linked pdf below.  It is a properly formatted latex pdf.  Printing this page to pdf will only render the html. 
+    Please print the linked pdf below.  It is a properly formatted LaTeX pdf.
 
 PDF Download Link:
     * :download:`RESUME PDF <pdf/justin_napolitano_resume.pdf>`
