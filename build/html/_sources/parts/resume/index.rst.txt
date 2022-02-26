@@ -6,7 +6,7 @@ Justin Napolitano's Resume
 
 .. raw:: html
 
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
 
 
 .. topic:: Introduction
@@ -41,13 +41,19 @@ University of Central Florida
 =============================
 
 .. raw:: html
-  
-   <hr>
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray"> 
+
 
 .. _poly_sci_major_overview:
 
 Bachelor in Political Science
 -------------------------------
+
+.. raw:: html
+  
+   <hr>
+
 
 Focuses:
     * `US Supreme Court Jurisprudence. <https://cv.jnapolitano.io/parts/analysis/political-analysis/sup-court/index.html>`_
@@ -60,6 +66,9 @@ Focuses:
 Statistics
 ------------------------
 
+.. raw:: html
+  
+   <hr>
 
 Notable Coursework:
     * `Experimental Design in SAS. <https://cv.jnapolitano.io/parts/data/experimental-design/sas/index.html>`_
@@ -82,8 +91,8 @@ BTJN, LLC
 =========
 
 .. raw:: html
-  
-   <hr>
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray"> 
 
 .. _founder_overview:
 
@@ -113,12 +122,16 @@ The University of Central Florida
 =================================
 
 .. raw:: html
-  
-   <hr>
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray"> 
  
 
 `The Turkish Kurdish Event Database <https://cv.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish>`_
-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+.. raw:: html
+  
+   <hr>
 
 .. topic:: Conflict Analysis
 
