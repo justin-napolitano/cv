@@ -187,7 +187,7 @@ Technologies:
    *  Azure, Debian/Ubuntu, Docker, Git, JanusGraph, Jupyter Notebook, Neo4j, Pandas, Rocky Linux, Shell, TensorFlow, Sphinx, Vim.
 
 Human Languages:
-    * Cantonese, French, Mandarin, Modern Standard Arabic, Spanish, Sranan Tongo.
+    * Cantonese, French, Spanish, Sranan Tongo.
 
 
 Contact
