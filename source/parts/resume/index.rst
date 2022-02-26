@@ -16,15 +16,6 @@ Justin Napolitano's Resume
 
 
 
-Email:
-    * :email:`justin@jnapolitano.io`
-
-Phone:
-   * `+1(832) 299-0372 <tel:+1-832-299-0372>`_
-
-Web:
-    * `cv.jnapolitano.io <https://cv.jnapolitano.io>`_
-
 .. _education_overview:
 
 Education
@@ -109,11 +100,11 @@ The University of Central Florida
     
 
 `Research Design: <https://cv.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/pdf.html>`_
-    * Ensured rigor of data collection methodology by exceeding industry standards.   
+    * Ensured rigor of data collection methodology by meeting industry best practices.   
     * Procured primary and secondary data sources.
 
 `Database Design: <https://cv.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/database_schema.html>`_
-    * Designed a third normal database to maintain logical consistancy and variable independence of data points.
+    * Designed a third normal database to maintain logical consistency and variable independence of data points.
     * Refined schema to facilitate easy porting to Person, Object, Location, and Event\ (POLE) Schema.
 
 `Data Integration: <https://cv.jnapolitano.io/parts/data/data-integration/index.html>`_
@@ -154,51 +145,49 @@ Sentiment Analysis:
 Projects
 #########
 
-`Supreme Court Metadata Graph <https://cv.jnapolitano.io/parts/analysis/political-analysis/sup-court/project-sup-court-meta-data-graph/index.html>`__
-    * A graph of the metadata of every United States Supreme Court case.  
+`Business Analysis: <https://cv.jnapolitano.io/parts/analysis/business-analysis/index.html>`__ 
+    * Forecasting and analysis projects.
 
-`Real Estate Professional Graph <https://cv.jnapolitano.io/parts/data/graph-database/index.html>`__
-    * Graph of real estate professionals in the United States.
+`Political Analysis: <https://cv.jnapolitano.io/parts/analysis/political-analysis/index.html>`__   
+    * Conflict, behavioral, and political analysis.
 
-`Supreme Court Voting Behavior Prediction in TensorFlow <https://cv.jnapolitano.io/parts/ml-ai/tensorflow/project-supcourt-tensorflow/index.html>`__
-    * Predicting voting behavior of Supreme Court justices with TensorFlow.
+`TensorFlow Projects: <https://cv.jnapolitano.io/parts/ml-ai/index.html>`__
+    * Machine learning for political analysis. 
 
-`Gender Recognition in TensorFlow <https://cv.jnapolitano.io/parts/ml-ai/tensorflow/project-gender-recognition/index.html>`__
-    * Identifying gender with TensorFlow.
+`Web Scraping: <https://cv.jnapolitano.io/parts/data/web-scraping/index.html>`__
+    * A web scraping application... for educational purposes only.  
 
-`Google API <https://cv.jnapolitano.io/parts/python-development/google/index.html>`__
-    * A Google API application that streamlines data pipeline transformation for teams using the Google Productivity Suite.
+`Python Algorithms: <https://cv.jnapolitano.io/parts/reference/algorithms/index.html>`__
+    * Python Algorithms for learning and reference.
 
-`Sphinx CV Template <https://cv.jnapolitano.io/parts/reference/build-this-site/index.html>`__
-    * A Sphinx project that enables non-programmers to create a static website of their cv with Sphinx and MarkDown.
+`Python Data Structures: <https://cv.jnapolitano.io/parts/reference/data-structures/python/index.html>`__
+    * Python Data Structures for learning and reference.
 
-`Development Setup Scripts <https://cv.jnapolitano.io/parts/reference/configuration/index.html>`__
-    * Scripts and instructions that setup \*nix systems for software development.
+`Google API: <https://cv.jnapolitano.io/parts/python-development/google/index.html>`__
+    * Google API application to transform json data to Google Sheets.
+
+`Court-Behavior.io: <https://court-behavior.io>`_
+    * An open source project to document the behavior of the United States Supreme Court.  
+
+`Sphinx CV Template: <https://cv.jnapolitano.io/parts/reference/build-this-site/index.html>`__
+    * A Sphinx project to create a cv and resume with ReStructuredText and MarkDown.
+
+`Development Setup Scripts: <https://cv.jnapolitano.io/parts/reference/configuration/index.html>`__
+    * Scripts and instructions to setup \*nix systems for software development.
 
 
-Programming Skills
+
+Skills
 #####################
 
-Languages:
-    Bash, C, LaTeX, Python, SAS, SPSS, SQL.
+Programming Languages:
+    * Bash, C, LaTeX, Python, SAS, SPSS, SQL.
 
 Technologies:
-    Azure, Debian/Ubuntu, Docker, Git, JanusGraph, Jupyter Notebook, Neo4j, Pandas, Rocky Linux, Shell, TensorFlow, Sphinx, Vim.
+   *  Azure, Debian/Ubuntu, Docker, Git, JanusGraph, Jupyter Notebook, Neo4j, Pandas, Rocky Linux, Shell, TensorFlow, Sphinx, Vim.
 
-Spoken Languages
-#################
-
-Asian Languages: 
-    Cantonese, Mandarin.
-
-Latin languages: 
-    French, Spanish.
-
-Semitic Langauges:
-    Modern Standard Arabic, Egyptian Arabic.
-
-Carribean Languages:
-    Sranan Tongo.
+Human Languages:
+    * Cantonese, French, Mandarin, Modern Standard Arabic, Spanish, Sranan Tongo.
 
 
 Contact
@@ -208,14 +197,16 @@ Email:
     * :email:`justin@jnapolitano.io`
 
 Phone:
-   * `+1(832) 299-0372 <tel:+1-832-299-0372>`_ 
+    * `+1-(832) 299-0372 <tel:+1-832-299-0372>`_
+
+Web:
+    * `jnapolitano.io <https://jnapolitano.io>`_
+    * `cv.jnapolitano.io <https://cv.jnapolitano.io>`_
+    * `resume.jnapolitano.io <https://resume.jnapolitano.io>`_
+    
 
 PDF
 ####
-
-.. topic:: Print Me
-
-    Please print the linked pdf below.  It is a properly formatted LaTeX pdf.
 
 PDF Download Link:
     * :download:`RESUME PDF <pdf/justin_napolitano_resume.pdf>`
