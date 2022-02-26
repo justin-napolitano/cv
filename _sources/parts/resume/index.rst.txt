@@ -74,7 +74,7 @@ BTJN, LLC
     * Produced 10,000 weekly sales leads for a marketing firm.
     * Mined data with a my `Python webscraping application. <https://cv.jnapolitano.io/parts/data/web-scraping/index.html>`_ 
     * Integrated data to `Neo4j <https://cv.jnapolitano.io/parts/python-development/neo4j/index.html>`_ and `JanusGraph <https://cv.jnapolitano.io/parts/python-development/janus-graph/index.html>`_ backends.
-    * Migrated data to Google Sheets and Drive with a custom `Google API Class <https://cv.jnapolitano.io/parts/python-development/google/index.html>`_ 
+    * Migrated data to Google Sheets and Drive with a custom `Google API Class. <https://cv.jnapolitano.io/parts/python-development/google/index.html>`_ 
 
 `CRM Application and Integration: <https://cv.jnapolitano.io/parts/data/data-integration/index.html>`_
     * Created a custom CRM solution with an Azure SQL Server for a public health startup. 
@@ -138,7 +138,7 @@ Sentiment Analysis:
 
 `Data Integration: <https://cv.jnapolitano.io/parts/data/data-integration/index.html>`_
     * Verified accuracy of coding and aggregated data points into json files. 
-    * Converted json files to excel spreadsheets to permit nonspecialized research assistants to interact with data.  
+    * Converted JSON and CSV files to Excel documents programatically.   
 
 
 
