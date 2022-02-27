@@ -2,28 +2,20 @@
 title: Justin Napolitano
 ---
 
-# Curricula Vitae
+# documentation.jnapolitano.io
 
 
+:::{raw} html
 
-## [Resume](resume_header)
-
-
-:::{card}
-
-```{toctree}
-:caption: Resume
-:maxdepth: 3
-
-/parts/resume/index
-[comment]: # /parts/resume/education/index
-[comment]: # /parts/resume/work-history/index
-[comment]: # /parts/resume/languages/index
-[comment]: # /parts/resume/contact/contact
-```
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 :::
 
 ## Analysis
+
+:::{raw} html
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+:::
 
 :::{card}
 
@@ -38,6 +30,12 @@ title: Justin Napolitano
 :::
 
 ## Python Development
+
+:::{raw} html
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+:::
+
 
 :::{card}
 
@@ -58,6 +56,11 @@ title: Justin Napolitano
 
 ## Machine Learning and Artificial Intelligence
 
+:::{raw} html
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+:::
+
 :::{card}
 
 ```{toctree}
@@ -69,6 +72,11 @@ title: Justin Napolitano
 :::
 
 ## Data
+
+:::{raw} html
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+:::
 
 :::{card}
 
@@ -87,6 +95,11 @@ title: Justin Napolitano
 
 ## Reference 
 
+:::{raw} html
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+:::
+
 :::{card}
 
 ```{toctree}
@@ -104,6 +117,11 @@ title: Justin Napolitano
 
 
 ## Tables and Indices
+
+:::{raw} html
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+:::
 
 :::{card}
 
