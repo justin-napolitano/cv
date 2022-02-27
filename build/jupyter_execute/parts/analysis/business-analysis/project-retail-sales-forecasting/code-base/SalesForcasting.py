@@ -20,7 +20,7 @@ from math import sqrt
 from statsmodels.tsa.api import ExponentialSmoothing, SimpleExpSmoothing, Holt
 
 
-# In[2]:
+# In[ ]:
 
 
 def mape_vectorized_v2(a, b): 
@@ -28,7 +28,7 @@ def mape_vectorized_v2(a, b):
     return (np.fabs(a - b)/a)[mask].mean() 
 
 
-# In[3]:
+# In[ ]:
 
 
 #Creating the initial Data Frame from the potLog6 csv.  Data from 1/1/2020 to 3/31/2020
@@ -42,7 +42,7 @@ rmseDictionary = {}
 mapeDictionary = {}
 
 
-# In[4]:
+# In[ ]:
 
 
 #Rearanging data into two new data frames aggregated by the sums of days
@@ -71,7 +71,7 @@ test = test.drop(columns=['hour', 'week'])
 
 
 
-# In[5]:
+# In[ ]:
 
 
 #Plotting the Historic and Test data on the same plane
@@ -82,7 +82,7 @@ test.sales.plot(figsize=(15,8), title= 'Sales', fontsize=14)
 plt.show()
 
 
-# In[6]:
+# In[ ]:
 
 
 dd= np.asarray(allData.sales)
@@ -107,7 +107,7 @@ for index, row in y_hat_avg.iterrows():
 y_hat_avg.head(10)
 
 
-# In[7]:
+# In[ ]:
 
 
 # The easy or naive forcasting method.  It predicts values according to the value of the previous day 
@@ -134,7 +134,7 @@ mapeDictionary['Naive'] = mape
 y_hat_avg.head(10)
 
 
-# In[8]:
+# In[ ]:
 
 
 #The Simple Average forcasting method forcasts according the overall average of sales
@@ -161,7 +161,7 @@ mapeDictionary['Simple_Average'] = mape
 y_hat_avg.tail()
 
 
-# In[9]:
+# In[ ]:
 
 
 #The moving average forcasting method forcasts according the average of a number of units.  In this case we use 7 days 
@@ -192,7 +192,7 @@ mapeDictionary['Moving Average'] = mape
 y_hat_avg.head()
 
 
-# In[10]:
+# In[ ]:
 
 
 model = SimpleExpSmoothing(np.asarray(allData['sales']))
@@ -211,7 +211,7 @@ y_hat_avg.head()
 #print(fit1.fittedvalues)
 
 
-# In[11]:
+# In[ ]:
 
 
 #The Exponential Smoothing Forcasting  I know that i've implemented it correctly, but i do not understand how it works 
@@ -259,7 +259,7 @@ mapeDictionary['Simple_Exponential_Smoothing_Optimum'] = mape
 #y_hat_avg.head()
 
 
-# In[12]:
+# In[ ]:
 
 
 #Tests Data for trends, seasonality, etc to preprocess for Holt Winter
@@ -269,7 +269,7 @@ result = sm.tsa.stattools.adfuller(allData.sales)
 plt.show()
 
 
-# In[13]:
+# In[ ]:
 
 
 #The Holt Winter method forcasts according to trend, season, and means.  The data under consideration does not have a
@@ -331,7 +331,7 @@ mapeDictionary['Holt_Winter_.3'] = mape
 y_hat_avg.head()
 
 
-# In[14]:
+# In[ ]:
 
 
 #the Sarina Model is another seasonal model. I don't know how it works exactly.  I need to review the math and the
@@ -357,7 +357,7 @@ mapeDictionary['SARIMA'] = mape
    
 
 
-# In[15]:
+# In[ ]:
 
 
 print(rmseDictionary)
@@ -366,7 +366,7 @@ mn = min(rmseDictionary.items(), key=operator.itemgetter(1))[0]
 print("The Best Model is {}".format(mn))
 
 
-# In[16]:
+# In[ ]:
 
 
 print (mapeDictionary)

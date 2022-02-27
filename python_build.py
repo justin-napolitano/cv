@@ -1,6 +1,6 @@
-import pyfiglet
-from pyfiglet import Figlet
-from lolpython import lol_py
+#import pyfiglet
+#from pyfiglet import Figlet
+#from lolpython import lol_py
 import subprocess
 from time import sleep
 from random import randrange
@@ -13,7 +13,7 @@ class config:
 
 
     def cname_init(self):
-        cname = "cv.jnapolitano.io"
+        cname = "docs.jnapolitano.io"
         return cname
 
 
@@ -24,7 +24,7 @@ class dependency_pipeline:
         self.dependencies_log = self.install_dependencies()
 
     def install_dependencies(self):
-        print(pyfiglet.figlet_format("Dependency Check", font = 'big'))
+        ##print("Dependency Check")
         utility_functions.seperator()
         #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
         result = subprocess.run(['pip', 'install', '-r', 'requirements.txt'], capture_output=True, text=True)
@@ -32,7 +32,7 @@ class dependency_pipeline:
 
         print(result.stderr)
 
-        print(pyfiglet.figlet_format("DependenCies INstalled", font = 'big'))
+        ##print("DependenCies INstalled")
         utility_functions.seperator()
 
         return(result)
@@ -49,7 +49,7 @@ class build_pipeline:
 
     def make_clean(self):
 
-        print(pyfiglet.figlet_format("Now i'm cleaning the old build", font = 'big'))
+        ##print("Now i'm cleaning the old build")
 
 
         #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
@@ -57,74 +57,74 @@ class build_pipeline:
         print(result.stdout)
         print(result.stderr)
 
-        print(pyfiglet.figlet_format("ClEAN", font = 'big'))
+        ##print("ClEAN")
 
         return result
 
 
     def make_html(self):
-        print(pyfiglet.figlet_format("Making dE HTML BUIld", font = 'big'))
+        ##print("Making dE HTML BUIld")
         #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
         result = subprocess.run(['make', 'html'], capture_output=True, text=True)
         print(result.stdout)
         print(result.stderr)
-        print(pyfiglet.figlet_format("i make it", font = 'big'))
+        ##print("i make it")
 
         return result
 
     def commit(self):
         time_stamp=utility_functions.timestamp()
-        print(pyfiglet.figlet_format("commiting !!!", font = 'big'))
+        ##print("commiting !!!")
 
 
         #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
         result = subprocess.run(['git', 'commit', '-m', 'autocommit on' + time_stamp], capture_output=True, text=True)
-        print(pyfiglet.figlet_format("Output", font = 'big'))
+        ##print("Output")
 
         print(result.stdout)
-        print(pyfiglet.figlet_format("Errors", font = 'big'))
+        ##print("Errors")
 
         print(result.stderr)
 
 
-        print(pyfiglet.figlet_format("committed", font = 'big'))
+        ##print("committed")
         return result
 
 
     def push(self):
         time_stamp=utility_functions.timestamp()
-        print(pyfiglet.figlet_format("PUshing", font = 'big'))
+        ##print("PUshing")
         #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
         result = subprocess.run(['git', 'push'], capture_output=True, text=True)
-        print(pyfiglet.figlet_format("Output", font = 'big'))
+        ##print("Output")
 
         print(result.stdout)
-        print(pyfiglet.figlet_format("Errors", font = 'big'))
+        ##print("Errors")
 
         print(result.stderr)
 
 
-        print(pyfiglet.figlet_format("pushed it", font = 'big'))
+        ##print("pushed it")
 
         return result
 
 
     def add(self):
 
-        print(pyfiglet.figlet_format("Adding CHanges!!!", font = 'big'))
+        ##print("Adding CHanges!!!")
 
 
         #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
         result = subprocess.run(['git', 'add', '.'], capture_output=True, text=True)
-        print(pyfiglet.figlet_format("Output", font = 'big'))
+        ##print("Output")
 
         print(result.stdout)
-        print(pyfiglet.figlet_format("Errors", font = 'big'))
+        ##print("Errors")
 
         print(result.stderr)
 
 
-        print(pyfiglet.figlet_format("changes added", font = 'big'))
+        ##print("changes added")
 
         return result
 
@@ -136,34 +136,32 @@ class deploy_pipeline:
 
     def deploy(self,cname):
 
-        print(pyfiglet.figlet_format("DEPLOYING!!!", font = 'big'))
+        ##print("DEPLOYING!!!")
 
 
         #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
         result = subprocess.run(['ghp-import', '-n', '-p', '-f', '-c', cname, 'build/html' ], capture_output=True, text=True)
-        print(pyfiglet.figlet_format("Output", font = 'big'))
+        ##print("Output")
 
         print(result.stdout)
-        print(pyfiglet.figlet_format("Errors", font = 'big'))
+        ##print("Errors")
 
         print(result.stderr)
 
 
-        print(pyfiglet.figlet_format("i deployz it", font = 'big'))
-        print('your site is live at' + cname)
+        ##print("i deployz it")
+        print('your site is live at ' + cname)
 
         return result
 
 
 
 def introduction():
-    fig = Figlet(font='standard')
-    print(fig.renderText("INstalling Depenedencies"))
-    fig = Figlet(font='Standard')
-    print(fig.renderText("B4 we begin"))
-    print(fig.renderText("you Should read the requirements.txt file"))
-    print(fig.renderText("If you don't trust me press ctr-c now to stop this program.   Then, read the file."))
-
+    print("INstalling Depenedencies")
+    print("B4 we begin")
+    print("you Should read the requirments.txt file")
+    print("If you don't trust me press ctr-c now to stop this program.   Then, read the file. I'm giving you 15 seconds to think this through")
+    sleep(15)
 
 def command():
     result = subprocess.run(['ls', '-l'], capture_output=True, text=True)
@@ -179,9 +177,9 @@ class utility_functions:
         i=0
         j=0
         end=randrange(3,9)
-        think = pyfiglet.figlet_format(think, font = 'standard')
+        think = think
         #sleep(10)
-        print(think)
+        ##print(think)
 
 
     def timestamp():
@@ -192,9 +190,9 @@ class utility_functions:
 
     def seperator():
         seperator = '-------------'
-        sep = pyfiglet.figlet_format(seperator, font = 'standard')
+        sep = seperator
         #sleep(10)
-        print(sep)
+        ##print(sep)
 
 
 
@@ -203,7 +201,7 @@ def main():
     conf = config()
     introduction()
     #install_dependencies()
-    dependency_log = dependency_pipeline()
+    #dependency_log = dependency_pipeline()
     build_log = build_pipeline()
     deploy_log = deploy_pipeline(conf.cname)
 
