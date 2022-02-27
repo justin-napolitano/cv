@@ -112,6 +112,22 @@ title: Justin Napolitano
 
 :::
 
+## Contact
+
+:::{raw} html
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+:::
+
+:::{card}
+
+```{toctree}
+:caption: Contact
+:maxdepth: 2
+
+parts/contact/index
+```
+:::
 
 ## Tables and Indices
 
