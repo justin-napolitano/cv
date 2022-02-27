@@ -108,7 +108,6 @@ title: Justin Napolitano
 
 /parts/reference/algorithms/index
 /parts/reference/data-structures/index
-/parts/reference/build-this-site/index.md
 ```
 
 :::
