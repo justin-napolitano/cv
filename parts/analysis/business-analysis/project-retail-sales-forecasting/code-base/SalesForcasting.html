@@ -5,9 +5,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta property="og:title" content="Retail Sales Analysis Jupyter Notebook" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="parts/analysis/business-analysis/project-retail-sales-forecasting/code-base/SalesForcasting.html" />
+<meta property="og:title" content="Retail Sales Analysis Jupyter Notebook" />
+  
+<meta property="og:type" content="website" />
+  
+<meta property="og:url" content="parts/analysis/business-analysis/project-retail-sales-forecasting/code-base/SalesForcasting.html" />
   
     <title>Retail Sales Analysis Jupyter Notebook &#8212; Justin Napolitano</title>
     
@@ -41,18 +43,20 @@
     <script src="../../../../../_static/jquery.js"></script>
     <script src="../../../../../_static/underscore.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
-    <script src="../../../../../_static/togglebutton.js"></script>
     <script src="../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../../../../_static/design-tabs.js"></script>
     <script src="../../../../../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../../../../../_static/sphinx-thebe.js"></script>
     <link rel="shortcut icon" href="../../../../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
@@ -1928,18 +1932,6 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Journal
- </span>
-</p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../../../../journal/posts.html">
-   Posts
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
   Tables and Indices
  </span>
 </p>
@@ -2080,9 +2072,17 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>/usr/local/lib/python3.9/site-packages/statsmodels/compat/pandas.py:65: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
-  from pandas import Int64Index as NumericIndex
+<div class="output traceback highlight-ipythontb notranslate">
+<div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="nn">Input In [1],</span> in <span class="ni">&lt;cell line: 5&gt;</span><span class="nt">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1">#All Models in this program test the validity of the model at predicting actiual values.  </span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="c1"># I have not yet added prediction/forecasting functionality.  I will do one week's work of prediction at a time.  </span>
+<span class="ne">----&gt; </span><span class="mi">5</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
+<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
+<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> 
+
+<span class="ne">ModuleNotFoundError</span>: No module named 'pandas'
 </pre></div>
 </div>
 </div>
@@ -2155,9 +2155,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../../../_images/SalesForcasting_5_0.png" src="../../../../../_images/SalesForcasting_5_0.png">
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2184,89 +2181,6 @@
 <span class="n">y_hat_avg</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sales</th>
-      <th>naive</th>
-    </tr>
-    <tr>
-      <th>Timestamp</th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2020-01-01</th>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2020-01-02</th>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2020-01-03</th>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2020-01-04</th>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2020-01-05</th>
-      <td>8</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2020-01-06</th>
-      <td>13</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>2020-01-07</th>
-      <td>15</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>2020-01-08</th>
-      <td>14</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>2020-01-09</th>
-      <td>12</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>2020-01-10</th>
-      <td>8</td>
-      <td>12</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
 </div>
 </div>
 <div class="cell docutils container">
@@ -2297,94 +2211,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../../../_images/SalesForcasting_7_0.png" src="../../../../../_images/SalesForcasting_7_0.png">
-<div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>The RMS for the Naive Method is equal to 4.650416500311948
-</pre></div>
-</div>
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sales</th>
-      <th>naive</th>
-    </tr>
-    <tr>
-      <th>Timestamp</th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2020-01-01</th>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2020-01-02</th>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2020-01-03</th>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2020-01-04</th>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2020-01-05</th>
-      <td>8</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2020-01-06</th>
-      <td>13</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>2020-01-07</th>
-      <td>15</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>2020-01-08</th>
-      <td>14</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>2020-01-09</th>
-      <td>12</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>2020-01-10</th>
-      <td>8</td>
-      <td>12</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2413,76 +2239,6 @@
 <span class="n">y_hat_avg</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../../../../_images/SalesForcasting_8_0.png" src="../../../../../_images/SalesForcasting_8_0.png">
-<div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>The RMS for the Simple Average Method is equal to 3.864665029828413
-</pre></div>
-</div>
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sales</th>
-      <th>naive</th>
-      <th>avg_forecast</th>
-    </tr>
-    <tr>
-      <th>Timestamp</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2020-03-27</th>
-      <td>11</td>
-      <td>11</td>
-      <td>9.857143</td>
-    </tr>
-    <tr>
-      <th>2020-03-28</th>
-      <td>10</td>
-      <td>11</td>
-      <td>9.857143</td>
-    </tr>
-    <tr>
-      <th>2020-03-29</th>
-      <td>9</td>
-      <td>10</td>
-      <td>9.857143</td>
-    </tr>
-    <tr>
-      <th>2020-03-30</th>
-      <td>7</td>
-      <td>9</td>
-      <td>9.857143</td>
-    </tr>
-    <tr>
-      <th>2020-03-31</th>
-      <td>15</td>
-      <td>7</td>
-      <td>9.857143</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
 </div>
 </div>
 <div class="cell docutils container">
@@ -2517,101 +2273,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_89280/1537666344.py:7: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  y_hat_avg['moving_avg_forecast'][0] = allData['sales'][0].copy()
-/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_89280/1537666344.py:8: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  y_hat_avg['moving_avg_forecast'][1] = allData['sales'][1].copy()
-/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_89280/1537666344.py:9: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  y_hat_avg['moving_avg_forecast'][2] = allData['sales'][2].copy()
-</pre></div>
-</div>
-<img alt="../../../../../_images/SalesForcasting_9_1.png" src="../../../../../_images/SalesForcasting_9_1.png">
-<div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>The RMSE for the Moving Average Method is equal to 2.850786580399194
-</pre></div>
-</div>
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sales</th>
-      <th>naive</th>
-      <th>avg_forecast</th>
-      <th>moving_avg_forecast</th>
-    </tr>
-    <tr>
-      <th>Timestamp</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2020-01-01</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-    </tr>
-    <tr>
-      <th>2020-01-02</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-    </tr>
-    <tr>
-      <th>2020-01-03</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-    </tr>
-    <tr>
-      <th>2020-01-04</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-    </tr>
-    <tr>
-      <th>2020-01-05</th>
-      <td>8</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>3.333333</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2632,106 +2293,6 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <span class="c1">#print(fit1.fittedvalues)</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sales</th>
-      <th>naive</th>
-      <th>avg_forecast</th>
-      <th>moving_avg_forecast</th>
-      <th>Simple_Exponential_Smoothing_alpha=.3</th>
-      <th>Simple_Exponential_Smoothing_alpha=.2</th>
-      <th>Simple_Exponential_Smoothing_alpha=.5</th>
-      <th>Simple_Exponential_Smoothing_alpha_Optimum</th>
-    </tr>
-    <tr>
-      <th>Timestamp</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2020-01-01</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-      <td>9.857143</td>
-      <td>4.959090</td>
-      <td>1.599929</td>
-      <td>9.857143</td>
-    </tr>
-    <tr>
-      <th>2020-01-02</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-      <td>9.857143</td>
-      <td>4.167272</td>
-      <td>1.299964</td>
-      <td>9.857143</td>
-    </tr>
-    <tr>
-      <th>2020-01-03</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-      <td>9.857143</td>
-      <td>3.533817</td>
-      <td>1.149982</td>
-      <td>9.857143</td>
-    </tr>
-    <tr>
-      <th>2020-01-04</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-      <td>9.857143</td>
-      <td>3.027054</td>
-      <td>1.074991</td>
-      <td>9.857143</td>
-    </tr>
-    <tr>
-      <th>2020-01-05</th>
-      <td>8</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>3.333333</td>
-      <td>9.857142</td>
-      <td>2.621643</td>
-      <td>1.037496</td>
-      <td>9.857142</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
 </div>
 </div>
 <div class="cell docutils container">
@@ -2783,9 +2344,6 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../../../_images/SalesForcasting_11_0.png" src="../../../../../_images/SalesForcasting_11_0.png">
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2797,9 +2355,6 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../../../../_images/SalesForcasting_12_0.png" src="../../../../../_images/SalesForcasting_12_0.png">
 </div>
 </div>
 <div class="cell docutils container">
@@ -2865,128 +2420,6 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../../../_images/SalesForcasting_13_0.png" src="../../../../../_images/SalesForcasting_13_0.png">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sales</th>
-      <th>naive</th>
-      <th>avg_forecast</th>
-      <th>moving_avg_forecast</th>
-      <th>Simple_Exponential_Smoothing_alpha=.3</th>
-      <th>Simple_Exponential_Smoothing_alpha=.2</th>
-      <th>Simple_Exponential_Smoothing_alpha=.5</th>
-      <th>Simple_Exponential_Smoothing_alpha_Optimum</th>
-      <th>Holt_Winter_Optimum</th>
-      <th>Holt_Winter_.5</th>
-      <th>Holt_Winter_.3</th>
-    </tr>
-    <tr>
-      <th>Timestamp</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2020-01-01</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-      <td>9.857143</td>
-      <td>4.959090</td>
-      <td>1.599929</td>
-      <td>9.857143</td>
-      <td>10.932666</td>
-      <td>13.501084</td>
-      <td>12.522079</td>
-    </tr>
-    <tr>
-      <th>2020-01-02</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-      <td>9.857143</td>
-      <td>4.167272</td>
-      <td>1.299964</td>
-      <td>9.857143</td>
-      <td>11.810095</td>
-      <td>11.318897</td>
-      <td>11.941726</td>
-    </tr>
-    <tr>
-      <th>2020-01-03</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-      <td>9.857143</td>
-      <td>3.533817</td>
-      <td>1.149982</td>
-      <td>9.857143</td>
-      <td>11.073389</td>
-      <td>11.110567</td>
-      <td>11.554229</td>
-    </tr>
-    <tr>
-      <th>2020-01-04</th>
-      <td>1</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>1.000000</td>
-      <td>9.857143</td>
-      <td>3.027054</td>
-      <td>1.074991</td>
-      <td>9.857143</td>
-      <td>9.335734</td>
-      <td>10.898330</td>
-      <td>10.552254</td>
-    </tr>
-    <tr>
-      <th>2020-01-05</th>
-      <td>8</td>
-      <td>1</td>
-      <td>9.857143</td>
-      <td>3.333333</td>
-      <td>9.857142</td>
-      <td>2.621643</td>
-      <td>1.037496</td>
-      <td>9.857142</td>
-      <td>8.212906</td>
-      <td>10.680159</td>
-      <td>9.817994</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -3015,71 +2448,6 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>RUNNING THE L-BFGS-B CODE
-
-           * * *
-
-Machine precision = 2.220D-16
- N =            8     M =           10
-
-At X0         0 variables are exactly at the bounds
-
-At iterate    0    f=  2.66232D+00    |proj g|=  6.54170D-02
-
-At iterate    5    f=  2.58627D+00    |proj g|=  2.26160D-02
-
-At iterate   10    f=  2.57546D+00    |proj g|=  7.34175D-03
-
-At iterate   15    f=  2.56850D+00    |proj g|=  4.46710D-02
-
-At iterate   20    f=  2.56359D+00    |proj g|=  5.60203D-03
-
-At iterate   25    f=  2.56037D+00    |proj g|=  6.74341D-02
-
-At iterate   30    f=  2.55763D+00    |proj g|=  3.09889D-03
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span> This problem is unconstrained.
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>At iterate   35    f=  2.55685D+00    |proj g|=  5.02555D-03
-
-At iterate   40    f=  2.55577D+00    |proj g|=  3.55934D-03
-
-At iterate   45    f=  2.55562D+00    |proj g|=  2.80591D-03
-
-At iterate   50    f=  2.55560D+00    |proj g|=  3.17208D-03
-
-           * * *
-
-Tit   = total number of iterations
-Tnf   = total number of function evaluations
-Tnint = total number of segments explored during Cauchy searches
-Skip  = number of BFGS updates skipped
-Nact  = number of active bounds at final generalized Cauchy point
-Projg = norm of the final projected gradient
-F     = final function value
-
-           * * *
-
-   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
-    8     50     60      1     0     0   3.172D-03   2.556D+00
-  F =   2.5555971940349815     
-
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT                 
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>/usr/local/lib/python3.9/site-packages/statsmodels/base/model.py:604: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
-  warnings.warn("Maximum Likelihood optimization failed to "
-</pre></div>
-</div>
-<img alt="../../../../../_images/SalesForcasting_14_4.png" src="../../../../../_images/SalesForcasting_14_4.png">
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -3091,13 +2459,6 @@ STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>{'Naive': 4.650416500311948, 'Simple Average': 3.864665029828413, 'Moving Average': 2.850786580399194, 'Exponential_Smoothing.3': 3.864665058622391, 'Exponential_Smoothing.2': 3.8907287216857633, 'Exponential_Smoothing.5': 4.038706174884183, 'Exponential_Smoothing_Optimum': 3.864665058622391, 'Holt_Winter_Optimum': 3.7255251931824076, 'Holt_Winter_.5': 4.193341923450785, 'Holt_Winter_.3': 4.007981277418963, 'SARIMA': 3.055636192247495}
-The Best Model is Moving Average
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -3106,13 +2467,6 @@ The Best Model is Moving Average
 
 <span class="n">mn</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">mapeDictionary</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="n">operator</span><span class="o">.</span><span class="n">itemgetter</span><span class="p">(</span><span class="mi">1</span><span class="p">))[</span><span class="mi">0</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"The Best Model is </span><span class="si">{}</span><span class="s2">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mn</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>{'Naive': 0.4248514297237633, 'Simple_Average': 0.7014871459995663, 'Moving Average': 0.2589423226705062, 'Simple_Exponential_Smoothing.3': 0.7014871310910847, 'Simple_Exponential_Smoothing.2': 0.4765668392710252, 'Simple_Exponential_Smoothing.5': 0.39056704728123787, 'Simple_Exponential_Smoothing_Optimum': 0.7014871310910847, 'Holt_Winter_Optimum': 0.7394861676289067, 'Holt_Winter_.5': 0.840375675006429, 'Holt_Winter_.3': 0.8120170834920649, 'SARIMA': 0.2633369772552491}
-The Best Model is Moving Average
 </pre></div>
 </div>
 </div>

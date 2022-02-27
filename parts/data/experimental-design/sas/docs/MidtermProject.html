@@ -5,10 +5,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta property="og:title" content="General Modelling in SAS" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="parts/data/experimental-design/sas/docs/MidtermProject.html" />
-  <meta property="og:description" content="Description: A midterm project that I completed while studying computational statistics It contains general modelling questions that can be applied to any use case. Anova’s, F tables, t-tables, etc..." />
+<meta property="og:title" content="General Modelling in SAS" />
+  
+<meta property="og:type" content="website" />
+  
+<meta property="og:url" content="parts/data/experimental-design/sas/docs/MidtermProject.html" />
+  
+<meta property="og:description" content="Description: A midterm project that I completed while studying computational statistics It contains general modelling questions that can be applied to any use case. Anova’s, F tables, t-tables, etc..." />
   
     <title>General Modelling in SAS &#8212; Justin Napolitano</title>
     
@@ -42,18 +45,20 @@
     <script src="../../../../../_static/jquery.js"></script>
     <script src="../../../../../_static/underscore.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
-    <script src="../../../../../_static/togglebutton.js"></script>
     <script src="../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../../../../_static/design-tabs.js"></script>
     <script src="../../../../../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../../../../../_static/sphinx-thebe.js"></script>
     <link rel="shortcut icon" href="../../../../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
@@ -1924,18 +1929,6 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../../../../reference/build-this-site/index.html">
    Build this Website
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Journal
- </span>
-</p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../../../../journal/posts.html">
-   Posts
   </a>
  </li>
 </ul>

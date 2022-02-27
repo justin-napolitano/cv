@@ -37,12 +37,21 @@
     <script src="../../../_static/jquery.js"></script>
     <script src="../../../_static/underscore.js"></script>
     <script src="../../../_static/doctools.js"></script>
-    <script src="../../../_static/togglebutton.js"></script>
     <script src="../../../_static/clipboard.min.js"></script>
     <script src="../../../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../../_static/design-tabs.js"></script>
     <script src="../../../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
     <link rel="shortcut icon" href="../../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" /> 
@@ -115,18 +124,7 @@
 </div><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
-</form>
-<h3>
-  <a href="category.html">Categories</a>
-</h3>
-<ul>
-                 
-  <li>
-    <a href="category/self-reflection.html">Self Reflection (1)</a>
-  </li>
-                               
-</ul>
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
@@ -1926,18 +1924,6 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Journal
- </span>
-</p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../posts.html">
-   Posts
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
   Tables and Indices
  </span>
 </p>
@@ -2059,8 +2045,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2074,8 +2059,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2138,8 +2122,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2153,8 +2136,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2215,8 +2197,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2230,8 +2211,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2292,8 +2272,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2307,8 +2286,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2371,8 +2349,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2386,8 +2363,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2449,8 +2425,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2464,8 +2439,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2528,8 +2502,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2543,8 +2516,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2607,8 +2579,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2622,8 +2593,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2686,8 +2656,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2701,8 +2670,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2765,8 +2733,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2780,8 +2747,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2842,8 +2808,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2857,8 +2822,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -2921,8 +2885,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -2936,8 +2899,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3000,8 +2962,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3015,8 +2976,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3079,8 +3039,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3094,8 +3053,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3158,8 +3116,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3173,8 +3130,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3237,8 +3193,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3252,8 +3207,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3315,8 +3269,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3330,8 +3283,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3392,8 +3344,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3407,8 +3358,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3469,8 +3419,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3484,8 +3433,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3546,8 +3494,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3561,8 +3508,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3624,8 +3570,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3639,8 +3584,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3703,8 +3647,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3718,8 +3661,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3781,8 +3723,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3796,8 +3737,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3860,8 +3800,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3875,8 +3814,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -3938,8 +3876,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -3953,8 +3890,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4017,8 +3953,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4032,8 +3967,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4094,8 +4028,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4109,8 +4042,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4173,8 +4105,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4188,8 +4119,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4268,8 +4198,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4332,8 +4261,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4347,8 +4275,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4411,8 +4338,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4426,8 +4352,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4490,8 +4415,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4505,8 +4429,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4568,8 +4491,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4583,8 +4505,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4647,8 +4568,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4662,8 +4582,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4726,8 +4645,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4741,8 +4659,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4805,8 +4722,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4820,8 +4736,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4882,8 +4797,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4897,8 +4811,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -4959,8 +4872,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -4974,8 +4886,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5038,8 +4949,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5053,8 +4963,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5115,8 +5024,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5130,8 +5038,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5193,8 +5100,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5208,8 +5114,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5271,8 +5176,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5286,8 +5190,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5358,8 +5261,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5373,8 +5275,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5435,8 +5336,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5450,8 +5350,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5514,8 +5413,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5529,8 +5427,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5592,8 +5489,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5607,8 +5503,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5671,8 +5566,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5686,8 +5580,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5748,8 +5641,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5763,8 +5655,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5827,8 +5718,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5842,8 +5732,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
@@ -5904,8 +5793,7 @@
   <span
     ><i class="fa-fw fa fa-user"></i></span
   >
-   
-  <a href="author/justin-napolitano.html">Justin Napolitano</a>  
+   Justin Napolitano 
 </li>
  
 <li id="location">
@@ -5919,8 +5807,7 @@
   <span
     ><i class="fa-fw fa fa-language"></i></span
   >
-   
-  <a href="language/en.html">en</a>  
+   en 
 </li>
  
 <li id="category">
