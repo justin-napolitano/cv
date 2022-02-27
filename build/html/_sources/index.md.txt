@@ -2,7 +2,7 @@
 title: Justin Napolitano
 ---
 
-# documentation.jnapolitano.io
+# docs.jnapolitano.io
 
 
 :::{raw} html
