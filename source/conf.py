@@ -47,7 +47,7 @@ html_title = 'Justin Napolitano'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'ablog',
+#    'ablog',
     'myst_nb',
     'sphinx_copybutton',
     'sphinx_design',
@@ -203,7 +203,7 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
-
+"""
 html_sidebars = {
     "parts/journal/posts/*": [
         "sidebar-logo.html",
@@ -213,6 +213,7 @@ html_sidebars = {
         "sbt-sidebar-footer.html",
     ]
 }
+"""
 
 html_theme_options = {
     "home_page_in_toc": True,
@@ -253,13 +254,13 @@ htmlhelp_basename = 'jnapolitano.io'
 
 
 # -- ABlog config -------------------------------------------------
-blog_path = "parts/journal/posts"
-blog_post_pattern = ["parts/journal/*.md", "parts/journal/posts/*.md", "parts/journal/posts/*.rst"]
-blog_baseurl = "cv.jnapolitano.io"
-fontawesome_included = True
-post_auto_image = 1
-post_auto_excerpt = 2
-execution_show_tb = "READTHEDOCS" in os.environ
+#blog_path = "parts/journal/posts"
+#blog_post_pattern = ["parts/journal/*.md", "parts/journal/posts/*.md", "parts/journal/posts/*.rst"]
+#blog_baseurl = "cv.jnapolitano.io"
+#fontawesome_included = True
+#post_auto_image = 1
+#post_auto_excerpt = 2
+#execution_show_tb = "READTHEDOCS" in os.environ
 
 
 # Bibtex Config
