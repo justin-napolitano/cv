@@ -71,18 +71,18 @@ creates a zip code vertex records that is sent to df
 def add_zip_code_vertex(traversal):
     label = "zip_code"
    
-    properties = {"zip_code": 800,
+    properties = {"zip_code": 901,
      "type": 'standard',
      "primary_city": 'example',
-      "state": 'hickerton',
-      "county":'bitch town',
+      "state": 'middle',
+      "county":'nowhere',
       'timezone': 'middle_of_nowhere', 
       'area_codes':333,
-      'world_region': 'USA FUCK YEAH',
+      'world_region': 'USA',
       "country": 'USA USA USA',
-      'latitude': 'up your',
-      'longitude': 'your butt',
-      'population_2015': 69
+      'latitude': 'over',
+      'longitude': 'there',
+      'population_2015': 72
      }
     vertex = traversal.addV(label).property(properties)
     vertex.next()
