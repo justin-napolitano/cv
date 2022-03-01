@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in Latex
+% Author : Justin Napolitano
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://docs.jnapolitano.io/}{\Large Justin Napolitano}} & Email : \href{mailto:justin@jnapolitano,io}{justin@jnapolitano.io}\\
+  \href{https://jnapolitano.io}{https:jnapolitano.io} & Mobile : +1-832-299-0372 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Central Florida}{Orlando, Fl}
+      {Bachelor of Arts in Political Science}{August 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://docs.jnapolitano.io/parts/data/web-scraping/index.html}{BTJN, LLC}}{Houston, TX}
+      {Software Developer}{May 2021 - Present}
+      \resumeItemListStart
+        \resumeItem{\href{https://docs.jnapolitano.io/parts/data/web-scraping/index.html}{Sales Lead Generation Application}}
+          {\href{https://docs.jnapolitano.io/parts/data/web-scraping/index.html}{Produced 10,000 sales leads weekly on average.  Mined web for data with Python and Bs4.} \href{https://docs.jnapolitano.io/parts/python-development/google/index.html}{Integrated data with custom Google API Class.}  Identified valuable leads with \href{https://docs.jnapolitano.io/parts/python-development/neo4j/index.html}{Neo4j} and \href{https://docs.jnapolitano.io/parts/python-development/janus-graph/index.html}{JanusGraph} backends.}
+        \resumeItem{\href{https://docs.jnapolitano.io/parts/data/data-integration/index.html}{CRM Application and Integration}}
+          {Deployed a custom CRM solution with Microsoft SQL Server in the Azure cloud.  \href{https://docs.jnapolitano.io/parts/data/data-integration/index.html}{Transformed data locally with Python to maximize value for clients.}}
+        \resumeItem{\href{https://docs.jnapolitano.io/parts/analysis/business-analysis/index.html}{Business Reporting and Sales Predictions}}
+          {Modeled retail sales with the SARINA, Holt-Winter, and Exponential Smoothing models in Python and Jupyter Notebooks.  Identified model of greatest predictive power with the Mean Absolute Percentage Error formula.}
+      \resumeItemListEnd
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {\href{https://docs.jnapolitano.io/parts/resume/work-history/docs/ucf.html}{University of Central Florida}}{Orlando, FL}
+      {Research Lead}{Jan 2017 - Aug 2019}
+      \resumeItemListStart
+        \resumeItem{\href{https://docs.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/pdf.htm}{Research Design}}
+          {Ensured rigor of data collection methodology by meeting industry best practices.}
+        \resumeItem{\href{https://docs.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/database_schema.html}{Database Design}}
+          {Defined a third normal database to maintain logical consistency.  Refined schema to facilitate porting to Person, Object, Location and Events (POLE) schema.}
+        \resumeItem{\href{https://docs.jnapolitano.io/parts/data/data-integration/index.html}{Data Integration}}
+          {Standardized integration procedures to verify integrity of files generated by research assistants. Transformed data from Excel and CSV sources into JSON format to index into a noSQL database.}
+        \resumeItem{\href{https://docs.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/analysis.html}{Data Analysis}}
+          {Analyzed conflict data with Pandas and Excel.  Visualized data trends with MatPlotLib.  Prepared presentation for peer review at the Peace Science Conference at the Hague, Switzerland.}
+        \resumeItem{\href{https://docs.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/pdf.html}{Project Management}}
+          {Developed manuals to train inexperienced research assistants to query primary sources and code data points.  Led team to achieve project goals prior to deadlines defined in our research grant.}
+        \resumeItem{\href{https://docs.jnapolitano.io/parts/analysis/political-analysis/human-rights-law/index.html}{Human Rights Abuse Frame Work}}
+          {Aggregated corpus of international human rights law to cross reference with abuse events.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {University of Central Florida}{Orlando, Fl}
+      {Research Assistant}{Jan 2017 - Jan 2018}
+      \resumeItemListStart
+        \resumeItem{Data Integration}
+          {Aggregated data points generated by student research assistants into database with Python.}
+        \resumeItem{Sentiment Analysis}
+          {Analyzed sentiment of sentences to determine speaker's emotional state.}
+        \resumeItem{Automated Sentiment Analysis}
+          {Compared user scored sentences to programmatic scoring to identify errors.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://docs.jnapolitano.io/parts/analysis/business-analysis/index.html}{Business Analysis}}
+      {Forecasting and analysis projects.}
+    \resumeSubItem{\href{https://docs.jnapolitano.io/parts/analysis/political-analysis/index.html}{Political Analysis}}
+      {Conflict, behavioral, and political analysis.}
+    \resumeSubItem{\href{https://docs.jnapolitano.io/parts/ml-ai/index.htmll}{Machine Learning}}
+      {Machine learning for political analysis.}
+    \resumeSubItem{\href{https://docs.jnapolitano.io/parts/data/web-scraping/index.html}{Web Scraping}}
+      {Web scraping projects to procure data.}
+    \resumeSubItem{\href{https://docs.jnapolitano.io/parts/data/data-integration/index.html}{Data Integration}}
+      {Data Integration and transformation scripts.}
+    \resumeSubItem{\href{https://docs.jnapolitano.io/parts/python-development/google/index.html}{Google Drive API}}
+      {Google API application to transform json data to Google Sheets.}
+    \resumeSubItem{\href{https://journal.jnapolitano.io/parts/tutorials/sphinx/docs/build-this-site.html}{Sphinx Documentation Template}}
+      {Tutorials and templates to create Sphinx and Jupyter Book publications}
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Computer Languages}
+      {Bash, C, LaTeX, Python, SAS, SPSS, SQL.}
+    \resumeSubItem{Technologies}
+      {Azure, Docker, Git, JanusGraph, Jupyter Notebook, Neo4j, Pandas, SciPY, Sphinx, TensorFlow.}
+    \resumeSubItem{Data Modelling and Analysis}
+      {\href{https://docs.jnapolitano.io/parts/analysis/business-analysis/project-retail-sales-forecasting/code-base/SalesForcasting.html}{Sales Forecasting,} {\href{https://docs.jnapolitano.io/parts/analysis/political-analysis/index.html}{Political Analysis,}} {\href{https://docs.jnapolitano.io/parts/analysis/business-analysis/index.html}{Business Analysis.}}}
+    \resumeSubItem{Spoken Languages}
+      {Cantonese, French, Spanish.}
+%     \item{
+%      \textbf{Languages}{: Bash, C, LaTeX, Python, SAS, SQL.}
+%      \hfill
+%      \textbf{Technologies}{: Azure, Docker, Git/GH, JanusGraph, Jupyter Notebook, Neo4j, Pandas, TensorFlow, Sphinx, Vim.}
+%    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
