@@ -47,7 +47,7 @@ html_title = 'Justin Napolitano'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-#    'ablog',
+    'ablog',
     'myst_nb',
     'sphinx_copybutton',
     'sphinx_design',
@@ -70,7 +70,7 @@ extensions = [
     'autoapi.extension',
     'sphinxcontrib.email',
     "sphinx_jupyterbook_latex",
-    "hawkmoth",
+#    "hawkmoth",
 #    "sphinx_panels"
 ]
 

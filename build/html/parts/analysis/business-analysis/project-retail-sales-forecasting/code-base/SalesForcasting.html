@@ -62,13 +62,38 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../../search.html" />
     <link rel="next" title="Political Analysis" href="../../../political-analysis/index.html" />
-    <link rel="prev" title="Retail Sales Forecasting" href="../index.html" />
+    <link rel="prev" title="Retail Sales Forecasting" href="../index.html" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
 
     <!-- Google Analytics -->
-    
+      
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
@@ -1799,8 +1824,7 @@ const thebe_selector_output = ".output, .cell_output"
             </div>
             
               <div>
-                
-  <div class="tex2jax_ignore mathjax_ignore section" id="retail-sales-analysis-jupyter-notebook">
+                 <div class="tex2jax_ignore mathjax_ignore section" id="retail-sales-analysis-jupyter-notebook">
 <h1>Retail Sales Analysis Jupyter Notebook<a class="headerlink" href="#retail-sales-analysis-jupyter-notebook" title="Permalink to this headline">¶</a>
 </h1>
 <div class="cell docutils container">
@@ -2254,17 +2278,17 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="cell_output docutils container">
 <div class="output stderr highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>/tmp/ipykernel_375697/1537666344.py:7: SettingWithCopyWarning: 
+<div class="highlight"><pre><span></span>/tmp/ipykernel_376456/1537666344.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg['moving_avg_forecast'][0] = allData['sales'][0].copy()
-/tmp/ipykernel_375697/1537666344.py:8: SettingWithCopyWarning: 
+/tmp/ipykernel_376456/1537666344.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg['moving_avg_forecast'][1] = allData['sales'][1].copy()
-/tmp/ipykernel_375697/1537666344.py:9: SettingWithCopyWarning: 
+/tmp/ipykernel_376456/1537666344.py:9: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -2778,12 +2802,12 @@ At iterate   10    f=  2.57546D+00    |proj g|=  7.34123D-03
 At iterate   20    f=  2.56359D+00    |proj g|=  5.62649D-03
 
 At iterate   25    f=  2.56039D+00    |proj g|=  6.67412D-02
+
+At iterate   30    f=  2.55761D+00    |proj g|=  3.08187D-03
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>At iterate   30    f=  2.55761D+00    |proj g|=  3.08187D-03
-
-At iterate   35    f=  2.55698D+00    |proj g|=  1.34257D-02
+<div class="highlight"><pre><span></span>At iterate   35    f=  2.55698D+00    |proj g|=  1.34257D-02
 
 At iterate   40    f=  2.55574D+00    |proj g|=  9.72859D-03
 
@@ -2878,6 +2902,9 @@ The Best Model is Moving Average
     
 <script>kernelName = 'python3'</script>
 
+<div class="section">
+   
+</div>
 
               </div>
               
