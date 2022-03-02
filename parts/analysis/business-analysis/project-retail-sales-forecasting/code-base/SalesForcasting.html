@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Retail Sales Analysis Jupyter Notebook" />
-  
-<meta property="og:type" content="website" />
-  
-<meta property="og:url" content="parts/analysis/business-analysis/project-retail-sales-forecasting/code-base/SalesForcasting.html" />
+  <meta property="og:title" content="Retail Sales Analysis Jupyter Notebook" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="parts/analysis/business-analysis/project-retail-sales-forecasting/code-base/SalesForcasting.html" />
   
     <title>Retail Sales Analysis Jupyter Notebook &#8212; Justin Napolitano</title>
     
@@ -43,20 +41,18 @@
     <script src="../../../../../_static/jquery.js"></script>
     <script src="../../../../../_static/underscore.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
+    <script src="../../../../../_static/togglebutton.js"></script>
     <script src="../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../_static/copybutton.js"></script>
-    <script>let toggleHintShow = 'Click to show';</script>
-    <script>let toggleHintHide = 'Click to hide';</script>
-    <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../../../../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../../../../_static/design-tabs.js"></script>
     <script src="../../../../../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
     <script async="async" src="../../../../../_static/sphinx-thebe.js"></script>
     <link rel="shortcut icon" href="../../../../../_static/android-chrome-512x512.png"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
@@ -1845,6 +1841,13 @@ const thebe_selector_output = ".output, .cell_output"
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate">
+<div class="highlight"><pre><span></span>/usr/local/lib/python3.9/site-packages/statsmodels/compat/pandas.py:65: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import Int64Index as NumericIndex
+</pre></div>
+</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2278,17 +2281,17 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="cell_output docutils container">
 <div class="output stderr highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>/tmp/ipykernel_376456/1537666344.py:7: SettingWithCopyWarning: 
+<div class="highlight"><pre><span></span>/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_30738/1537666344.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg['moving_avg_forecast'][0] = allData['sales'][0].copy()
-/tmp/ipykernel_376456/1537666344.py:8: SettingWithCopyWarning: 
+/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_30738/1537666344.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   y_hat_avg['moving_avg_forecast'][1] = allData['sales'][1].copy()
-/tmp/ipykernel_376456/1537666344.py:9: SettingWithCopyWarning: 
+/var/folders/kw/lt24g6yd1ml1zznc5n22lbb00000gn/T/ipykernel_30738/1537666344.py:9: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -2791,29 +2794,27 @@ At X0         0 variables are exactly at the bounds
 
 At iterate    0    f=  2.66232D+00    |proj g|=  6.54170D-02
 
-At iterate    5    f=  2.58627D+00    |proj g|=  2.26162D-02
+At iterate    5    f=  2.58627D+00    |proj g|=  2.26160D-02
 
-At iterate   10    f=  2.57546D+00    |proj g|=  7.34123D-03
+At iterate   10    f=  2.57546D+00    |proj g|=  7.34175D-03
+
+At iterate   15    f=  2.56850D+00    |proj g|=  4.46710D-02
+
+At iterate   20    f=  2.56359D+00    |proj g|=  5.60203D-03
+
+At iterate   25    f=  2.56037D+00    |proj g|=  6.74341D-02
+
+At iterate   30    f=  2.55763D+00    |proj g|=  3.09889D-03
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>At iterate   15    f=  2.56850D+00    |proj g|=  4.46988D-02
+<div class="highlight"><pre><span></span>At iterate   35    f=  2.55685D+00    |proj g|=  5.02555D-03
 
-At iterate   20    f=  2.56359D+00    |proj g|=  5.62649D-03
+At iterate   40    f=  2.55577D+00    |proj g|=  3.55934D-03
 
-At iterate   25    f=  2.56039D+00    |proj g|=  6.67412D-02
+At iterate   45    f=  2.55562D+00    |proj g|=  2.80591D-03
 
-At iterate   30    f=  2.55761D+00    |proj g|=  3.08187D-03
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>At iterate   35    f=  2.55698D+00    |proj g|=  1.34257D-02
-
-At iterate   40    f=  2.55574D+00    |proj g|=  9.72859D-03
-
-At iterate   45    f=  2.55562D+00    |proj g|=  2.75953D-03
-
-At iterate   50    f=  2.55559D+00    |proj g|=  1.56106D-03
+At iterate   50    f=  2.55560D+00    |proj g|=  3.17208D-03
 
            * * *
 
@@ -2828,18 +2829,18 @@ F     = final function value
            * * *
 
    N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
-    8     50     61      1     0     0   1.561D-03   2.556D+00
-  F =   2.5555930249702210     
+    8     50     60      1     0     0   3.172D-03   2.556D+00
+  F =   2.5555971940349815     
 
 STOP: TOTAL NO. of ITERATIONS REACHED LIMIT                 
 </pre></div>
 </div>
 <div class="output stderr highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>/home/jnapolitano/venvs/sphinx-build/lib64/python3.9/site-packages/statsmodels/base/model.py:604: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+<div class="highlight"><pre><span></span>/usr/local/lib/python3.9/site-packages/statsmodels/base/model.py:604: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
   warnings.warn("Maximum Likelihood optimization failed to "
 </pre></div>
 </div>
-<img alt="../../../../../_images/SalesForcasting_14_5.png" src="../../../../../_images/SalesForcasting_14_5.png">
+<img alt="../../../../../_images/SalesForcasting_14_4.png" src="../../../../../_images/SalesForcasting_14_4.png">
 </div>
 </div>
 <div class="cell docutils container">
@@ -2854,7 +2855,7 @@ STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>{'Naive': 4.650416500311948, 'Simple Average': 3.864665029828413, 'Moving Average': 2.850786580399194, 'Exponential_Smoothing.3': 3.864665058622391, 'Exponential_Smoothing.2': 3.8907287216857633, 'Exponential_Smoothing.5': 4.038706174884183, 'Exponential_Smoothing_Optimum': 3.864665058622391, 'Holt_Winter_Optimum': 3.7255251931824076, 'Holt_Winter_.5': 4.193341923450785, 'Holt_Winter_.3': 4.007981277418963, 'SARIMA': 3.056354714728084}
+<div class="highlight"><pre><span></span>{'Naive': 4.650416500311948, 'Simple Average': 3.864665029828413, 'Moving Average': 2.850786580399194, 'Exponential_Smoothing.3': 3.864665058622391, 'Exponential_Smoothing.2': 3.8907287216857633, 'Exponential_Smoothing.5': 4.038706174884183, 'Exponential_Smoothing_Optimum': 3.864665058622391, 'Holt_Winter_Optimum': 3.7255251931824076, 'Holt_Winter_.5': 4.193341923450785, 'Holt_Winter_.3': 4.007981277418963, 'SARIMA': 3.055636192247495}
 The Best Model is Moving Average
 </pre></div>
 </div>
@@ -2872,7 +2873,7 @@ The Best Model is Moving Average
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate">
-<div class="highlight"><pre><span></span>{'Naive': 0.4248514297237633, 'Simple_Average': 0.7014871459995663, 'Moving Average': 0.2589423226705062, 'Simple_Exponential_Smoothing.3': 0.7014871310910847, 'Simple_Exponential_Smoothing.2': 0.4765668392710252, 'Simple_Exponential_Smoothing.5': 0.39056704728123787, 'Simple_Exponential_Smoothing_Optimum': 0.7014871310910847, 'Holt_Winter_Optimum': 0.7394861676289067, 'Holt_Winter_.5': 0.840375675006429, 'Holt_Winter_.3': 0.8120170834920649, 'SARIMA': 0.26343012680844485}
+<div class="highlight"><pre><span></span>{'Naive': 0.4248514297237633, 'Simple_Average': 0.7014871459995663, 'Moving Average': 0.2589423226705062, 'Simple_Exponential_Smoothing.3': 0.7014871310910847, 'Simple_Exponential_Smoothing.2': 0.4765668392710252, 'Simple_Exponential_Smoothing.5': 0.39056704728123787, 'Simple_Exponential_Smoothing_Optimum': 0.7014871310910847, 'Holt_Winter_Optimum': 0.7394861676289067, 'Holt_Winter_.5': 0.840375675006429, 'Holt_Winter_.3': 0.8120170834920649, 'SARIMA': 0.2633369772552491}
 The Best Model is Moving Average
 </pre></div>
 </div>
@@ -2935,7 +2936,7 @@ The Best Model is Moving Average
       By Justin Napolitano<br/>
     
         &copy; Copyright 2022, Justin Napolitano.<br/>
-      Last updated on Mar 01, 2022.<br/>
+      Last updated on Mar 02, 2022.<br/>
   </p>
 </footer>
 </main>
