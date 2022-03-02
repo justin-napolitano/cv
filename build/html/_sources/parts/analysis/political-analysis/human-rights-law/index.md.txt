@@ -5,8 +5,8 @@ title: Human Rights Law
 # Human Rights Law
 
 
-:::{admonition} International Law
-Blah blah introduction
+:::{admonition} Human Rights  Law
+Nobody should have to suffer the injustice of human right abuse.  The ends do no justify the means.  
 :::
 
 :::{card}
