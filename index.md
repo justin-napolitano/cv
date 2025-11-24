@@ -1,12 +1,27 @@
 ---
-slug: "github-cv"
-title: "cv"
-repo: "justin-napolitano/cv"
-githubUrl: "https://github.com/justin-napolitano/cv"
-generatedAt: "2025-11-23T08:48:43.170899Z"
-source: "github-auto"
+slug: github-cv
+title: Automated Build and Deployment of a Personal CV with ML Projects
+repo: justin-napolitano/cv
+githubUrl: https://github.com/justin-napolitano/cv
+generatedAt: '2025-11-23T08:48:43.170899Z'
+source: github-auto
+summary: >-
+  Technical overview of a personal CV site repository featuring build automation, deployment
+  scripts, Sphinx documentation, backups, and machine learning experiments.
+tags:
+  - automation
+  - sphinx
+  - github-pages
+  - machine-learning
+  - python
+  - backup
+seoPrimaryKeyword: personal CV automation
+seoSecondaryKeywords:
+  - build automation
+  - deployment scripts
+  - machine learning projects
+seoOptimized: true
 ---
-
 
 # Technical Overview of the CV Repository
 
