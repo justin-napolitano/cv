@@ -21,6 +21,13 @@ seoSecondaryKeywords:
   - deployment scripts
   - machine learning projects
 seoOptimized: true
+topicFamily: automation
+topicFamilyConfidence: 0.95
+topicFamilyNotes: >-
+  The post centers on automation of build, deployment, backup, and integration workflows using
+  scripts and Makefiles, which aligns closely with the 'automation' family description and examples.
+  Although it incorporates elements of documentation and machine learning, the dominant theme is
+  about scripting and automating the deployment and maintenance pipeline.
 ---
 
 # Technical Overview of the CV Repository
@@ -81,3 +88,4 @@ Additionally, the repository serves as a hub for related technical projects, inc
 This repository exemplifies a pragmatic approach to managing a personal CV website and related technical documentation with automation and backup. It integrates machine learning experiments and data projects, providing a centralized platform for professional presentation and technical exploration. The structure supports extensibility and maintainability, with clear separation of concerns between build automation, deployment, backup, and content authoring.
 
 Returning to this project, focus should be placed on refining automation scripts, expanding documentation, and modularizing machine learning components for reuse and clarity.
+
