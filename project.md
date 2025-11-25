@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/cv
 generatedAt: '2025-11-24T21:34:25.895Z'
 source: github-auto
 summary: >-
-  Explore the setup and features of a personal CV website using HTML, Sphinx,
-  and automated deployment scripts.
+  Explore the setup and features of a personal CV website using HTML, Sphinx, and automated
+  deployment scripts.
 tags:
   - sphinx
   - html
@@ -27,8 +27,8 @@ seoSecondaryKeywords:
   - dropbox backup integration
   - tensorflow projects
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: static
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -142,3 +142,4 @@ cv/
 ---
 
 *Note: Some scripts and files are present without explicit documentation. Assumptions were made based on filenames and partial code snippets.*
+
