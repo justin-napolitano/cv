@@ -1,20 +1,32 @@
 ---
 slug: github-cv
 id: github-cv
-title: CV Repository
+title: Automated CV Website with Sphinx and Dropbox Backup
 repo: justin-napolitano/cv
 githubUrl: https://github.com/justin-napolitano/cv
 generatedAt: '2025-11-24T21:34:25.895Z'
 source: github-auto
 summary: >-
-  This repository contains the source and build files for my personal CV website
-  hosted at [cv.jnapolitano.io](https://cv.jnapolitano.io). It is built
-  primarily using HTML and Sphinx documentation tools, with automated deployment
-  and backup scripts.
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  Explore the setup and features of a personal CV website using HTML, Sphinx,
+  and automated deployment scripts.
+tags:
+  - sphinx
+  - html
+  - python
+  - dropbox
+  - makefile
+  - tensorflow
+  - bash
+  - documentation
+seoPrimaryKeyword: automated cv website
+seoSecondaryKeywords:
+  - sphinx documentation
+  - html cv
+  - python automation
+  - dropbox backup
+  - build and deploy scripts
+  - tensorflow projects
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
