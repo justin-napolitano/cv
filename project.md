@@ -18,13 +18,13 @@ tags:
   - tensorflow
   - bash
   - documentation
+  - github pages
 seoPrimaryKeyword: automated cv website
 seoSecondaryKeywords:
   - sphinx documentation
-  - html cv
-  - python automation
-  - dropbox backup
-  - build and deploy scripts
+  - html cv generator
+  - python build automation
+  - dropbox backup integration
   - tensorflow projects
 seoOptimized: true
 topicFamily: null
